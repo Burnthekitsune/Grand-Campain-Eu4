@@ -1,0 +1,47 @@
+muslim = {
+	converted_dynamic_faith_102 = {
+		color = { 88 88 88 }
+		icon =  171
+		country = {
+ 
+		global_missionary_strength = 0.02
+	
+
+		discipline = 0.05
+	
+
+		leader_naval_manuever = 1
+		global_ship_trade_power = 0.1
+	
+
+		heir_chance = 1
+	
+}
+		country_as_secondary = {
+ 
+		global_missionary_strength = 0.01
+	
+
+		discipline = 0.025
+	
+}
+		province = {
+ 
+		local_missionary_strength = -0.02
+	
+
+		local_missionary_strength = -0.02
+	
+
+		local_missionary_strength = 0.01
+	
+}
+		
+		uses_piety = yes
+	
+		
+	heretic = { BEKTASHI AHMADI ZIKRI YAZIDI }
+
+	}
+}
+

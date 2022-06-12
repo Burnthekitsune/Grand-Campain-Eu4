@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = algerian
+capital = 2458
+1444.11.11= {
+	monarch = {
+		name = "Fadl III"
+		dynasty = "Sylla-Kabara"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1405.5.14
+		religion = converted_dynamic_faith_102
+		culture = algerian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Faadumo"
+		dynasty = "Harb-Buri"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = Z3M
+		birth_date = 1397.10.14
+		death_date = 1457.10.14
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = afar
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Musa"
+		monarch_name = "Musa II"
+		dynasty = "Sylla-Kabara"
+		adm = 1
+		dip = 0
+		mil = 2
+		birth_date = 1439.2.7
+		death_date = 1504.2.7
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = berber
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 76
+	add_treasury = 67
+}

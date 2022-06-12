@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 161 126 128 }
+revolutionary_colors = { 14 8 4 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	religious_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Agathos #0" = 0
+	"Akoi #0" = 0
+	"Anghel #1" = 10
+	"Asanet #0" = -1
+	"Asparukh #2" = 10
+	"Balc #1" = 10
+	"Balin #1" = 10
+	"Bashir #0" = 0
+	"Carol #1" = 10
+	"Ekua #0" = -1
+	"Emerik #2" = 10
+	"Euphemia #0" = -1
+	"Gómez #0" = 0
+	"Karlmann #1" = 10
+	"Kresimir #1" = 10
+	"Majka #1" = -1
+	"Mikhael #0" = 0
+	"Mugel #1" = 10
+	"Nadbor #0" = 0
+	"Petar #0" = 0
+	"Roxana #1" = -1
+	"Tinhinan #0" = -1
+	"Zvonimir #0" = 0
+}
+leader_names = {
+	"Basarab"
+	"Brâncoveanu"
+	"Cantacuzino"
+	"Caragea"
+	"Craiovescu"
+	"Dracul"
+	"Duca"
+	"Ghica"
+	"Golescu"
+	"Ilias"
+	"Ipsilanti"
+	"Mavrocordat"
+	"Mircea"
+	"Moruzi"
+	"Racovita"
+	"Sutu"
+	"Tepelus"
+	"Tolmay"
+	"Vacarescu"
+	"Voda"
+}
+ship_names = {
+	"Atacul de noapte"
+	"Calugareni"
+	"Dracul"
+	"Frumuseatsa valurilor"
+	"Litovoi"
+	"Posada"
+	"Putera"
+	"Rovine"
+	"Sirmium"
+	"Sperietoaria"
+	"Viteazul"
+	"mari"
+}
+army_names = {
+	"Oastea de $PROVINCE$"
+}

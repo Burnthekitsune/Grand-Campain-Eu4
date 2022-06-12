@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = muslim
+religion = canaanite
+primary_culture = carthaginian
+capital = 341

@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 240 167 130 }
+revolutionary_colors = { 13 0 8 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	religious_ideas
+	economic_ideas
+	quantity_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adwoa #0" = -1
+	"Akoi #0" = 0
+	"Al'a'addin #0" = 0
+	"Ana #1" = -1
+	"Andrija #0" = 0
+	"Baduwaa #0" = -1
+	"Bannu #0" = 0
+	"Batic #0" = 0
+	"Branimir #1" = 10
+	"Eirene #2" = -1
+	"Evalda #0" = -1
+	"Fissourou #0" = 0
+	"Gane #0" = 0
+	"Helias #1" = 10
+	"Kojo #0" = 0
+	"Kow #0" = 0
+	"Kozma #1" = 10
+	"Kumba #0" = 0
+	"Kwodwo #0" = 0
+	"Lewnis #1" = 10
+	"Maanu #0" = -1
+	"Mihai #1" = 10
+	"Nikolaos #2" = 10
+	"Nkruma #0" = 0
+	"Okyin #0" = 0
+	"Osei #0" = 0
+	"Prohor #2" = 10
+	"Rosa #1" = -1
+	"Siya #1" = -1
+	"Stana #1" = -1
+	"Stelian #1" = 10
+	"Umaya #0" = 0
+	"Vlatko #6" = 10
+	"Yawo #1" = 10
+}
+leader_names = {
+	"Babonic"
+	"Balsic"
+	"Branivojevic"
+	"Dragisic"
+	"Gradascevic"
+	"Hrvatinic"
+	"Isakovic"
+	"Kosaca"
+	"Kotromanic"
+	"Nelipic"
+	"Pavlovic"
+	"Radinovic"
+	"Sankovic"
+	"Santic"
+	"Sokolovic"
+	"Subic"
+	"Tvrtkovic"
+	"Vukasin"
+	"Vukcic"
+	"Vukovic"
+}
+ship_names = {
+	"Bosna"
+	"Bosni"
+	"Dalmacija"
+	"Gazi Husrev-beg"
+	"Kotromanici"
+	"Kulin ban"
+	"Miljacka"
+	"Sarajevo"
+	"Stjepan II"
+	"Tvrtko I"
+}

@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = yemeni_culture
+capital = 2786
+religious_school = hanbali_school
+1444.11.11= {
+	add_prestige = 85
+	add_treasury = 63
+}

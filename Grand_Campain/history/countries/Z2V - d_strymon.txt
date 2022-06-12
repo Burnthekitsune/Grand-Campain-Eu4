@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = converted_dynamic_faith_106
+primary_culture = dynamic-bulgarian-greek-culture-num1
+capital = 4705
+1444.11.11= {
+	monarch = {
+		name = "Konstas"
+		dynasty = "ot Debar"
+		adm = 4
+		dip = 5
+		mil = 4
+		birth_date = 1387.9.11
+		religion = converted_dynamic_faith_106
+		culture = dynamic-bulgarian-greek-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Khadija"
+		dynasty = "Danyalid"
+		adm = 5
+		dip = 3
+		mil = 5
+		country_of_origin = Z2V
+		birth_date = 1381.10.26
+		death_date = 1441.10.26
+		female = yes
+		religion = converted_dynamic_faith_106
+		culture = berber
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Aleksii"
+		monarch_name = "Aleksii"
+		dynasty = "ot Debar"
+		adm = 4
+		dip = 6
+		mil = 6
+		birth_date = 1406.7.26
+		death_date = 1471.7.26
+		claim = 89
+		religion = converted_dynamic_faith_106
+		culture = dynamic-bulgarian-greek-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 73
+	add_treasury = 0
+}

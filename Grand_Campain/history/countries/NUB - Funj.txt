@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = east_african
+religion = coptic
+primary_culture = daju
+capital = 1221
+add_accepted_culture = nubian
+1444.11.11= {
+	monarch = {
+		name = "Chaski"
+		dynasty = "Desta-Sidrah"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 1387.8.12
+		religion = coptic
+		culture = daju
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Apollonia"
+		dynasty = "Haplorabdes"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = NUB
+		birth_date = 1384.3.13
+		death_date = 1444.3.13
+		female = yes
+		religion = orthodox
+		culture = greek
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Ibedou"
+		monarch_name = "Ibedou V"
+		dynasty = "Desta-Sidrah"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1405.7.3
+		death_date = 1470.7.3
+		claim = 89
+		religion = coptic
+		culture = daju
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 68
+	add_treasury = 69
+}

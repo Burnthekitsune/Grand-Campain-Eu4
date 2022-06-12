@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = zoroastrian
+primary_culture = azerbaijani
+capital = 4303
+add_accepted_culture = georgian
+1444.11.11= {
+	monarch = {
+		name = "Mariam"
+		dynasty = "Shahin"
+		adm = 3
+		dip = 5
+		mil = 4
+		birth_date = 1381.8.10
+		female = yes
+		religion = zoroastrian
+		culture = azerbaijani
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Shahbaz"
+		dynasty = "Mikeladze"
+		adm = 3
+		dip = 2
+		mil = 3
+		country_of_origin = SME
+		birth_date = 1383.8.9
+		death_date = 1443.8.9
+		religion = zoroastrian
+		culture = persian
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Manushihr"
+		monarch_name = "Manushihr"
+		dynasty = "Zakari"
+		adm = 5
+		dip = 4
+		mil = 3
+		birth_date = 1401.6.15
+		death_date = 1466.6.15
+		claim = 89
+		religion = zoroastrian
+		culture = dynamic-armenian-persian-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 86
+	add_treasury = 79
+}

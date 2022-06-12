@@ -1,0 +1,124 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 24 50 123 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Abbad #1" = 10
+	"Adfuns #1" = 10
+	"Anatolios #0" = 0
+	"Andronikos #0" = 0
+	"Anna #0" = -1
+	"Arsenios #1" = 10
+	"Bardas #0" = 0
+	"Berbat #3" = 10
+	"Birute #0" = -1
+	"Christine #0" = -1
+	"Climenza #0" = -1
+	"Daniel #1" = 10
+	"Demetrios #1" = 10
+	"Dionysia #0" = -1
+	"Eirenaios #0" = 0
+	"Elaiodora #0" = -1
+	"Eugenios #0" = 0
+	"Eunike #1" = -1
+	"Gabrielia #1" = -1
+	"Gerasimos #0" = 0
+	"Gregoria #1" = -1
+	"Hypatia #0" = -1
+	"Ignatios #0" = 0
+	"Inga #1" = -1
+	"Ioannes #0" = 0
+	"Ioseph #0" = 0
+	"Jovan #1" = 10
+	"Kojo #0" = 0
+	"Kwasi #0" = 0
+	"Kyriakos #0" = 0
+	"Leon #0" = 0
+	"Manuel #0" = 0
+	"Martha #0" = -1
+	"Maurikios #0" = 0
+	"Maximos #1" = 10
+	"Meletios #1" = 10
+	"Michael #0" = 0
+	"Ndoye #0" = -1
+	"Nikephoros #0" = 0
+	"Niketas #4" = 10
+	"Nonna #1" = -1
+	"Pavlina #0" = -1
+	"Polykarpos #0" = 0
+	"Pulcheria #0" = -1
+	"Pyrros #0" = 0
+	"Päivi #0" = -1
+	"Romane #0" = -1
+	"Romanos #1" = 10
+	"Sall #0" = -1
+	"Sati #0" = -1
+	"Sevilay #0" = -1
+	"Sophia #0" = -1
+	"Symeon #0" = 0
+	"Theodoros #1" = 10
+	"Thomais #1" = -1
+	"Thomas #0" = 0
+	"Thuriya #0" = -1
+	"Umay #0" = -1
+	"Vartuk #0" = -1
+	"Yngvar #0" = 0
+	"Álfrhildr #1" = -1
+}
+leader_names = {
+	"Crispo"
+	"Della Carceri"
+	"Gattilusi"
+	"Gavalas"
+	"Ghisi"
+	"Giustiniani"
+	"Loredano"
+	"Morosini"
+	"Pisani"
+	"Sanudo"
+	"Saudos"
+	"Sommarippa"
+	"Zeno"
+	"Zorzi"
+	"d'Anoe"
+}
+ship_names = {
+	"Apollon"
+	"Crispo"
+	"Donoussa"
+	"Francis"
+	"Kastraki"
+	"Keros"
+	"Koufonisi"
+	"Mesaria"
+	"Moutsouna"
+	"Naxos"
+}

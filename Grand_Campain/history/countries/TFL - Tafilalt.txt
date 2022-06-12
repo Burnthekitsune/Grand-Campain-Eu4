@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = dynamic-andalucian-norse-culture-num1
+capital = 2460
+add_accepted_culture = moroccan
+1444.11.11= {
+	monarch = {
+		name = "Vémundr"
+		dynasty = "Riom-Sijilmasa"
+		adm = 3
+		dip = 4
+		mil = 5
+		birth_date = 1377.7.15
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Tarifa"
+		dynasty = "Hæsteining-Sijilmasa"
+		adm = 5
+		dip = 4
+		mil = 5
+		country_of_origin = TFL
+		birth_date = 1375.12.26
+		death_date = 1435.12.26
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = berber
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Kollr"
+		monarch_name = "Kollr"
+		dynasty = "Riom-Sijilmasa"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1395.2.12
+		death_date = 1460.2.12
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 84
+	add_treasury = 57
+}

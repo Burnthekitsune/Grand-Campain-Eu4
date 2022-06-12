@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 228 243 104 }
+revolutionary_colors = { 15 8 10 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abdul-Hakam #1" = 10
+	"Ahu #0" = -1
+	"Alfríðr #0" = -1
+	"Assefa #2" = 10
+	"Balad #0" = 0
+	"Bergþóra #0" = -1
+	"Bárðr #1" = 10
+	"Chaelsoñoja #0" = -1
+	"Dagr #0" = 0
+	"Dahnay #1" = 10
+	"Demissie #1" = 10
+	"Eilífr #0" = 0
+	"Evanthia #0" = -1
+	"Fahriya #1" = -1
+	"Flosi #0" = 0
+	"Gamila #0" = -1
+	"Gebre #1" = 10
+	"Ghada #0" = -1
+	"Huld #0" = -1
+	"Ibrahim #0" = 0
+	"Ingibjörg #0" = -1
+	"Kifle #1" = -1
+	"Magol #0" = -1
+	"Mubashir #0" = 0
+	"Nuraddin #0" = 0
+	"Oddr #0" = 0
+	"Shakira #0" = -1
+	"Snorri #0" = 0
+	"Tahira #0" = -1
+	"Taweckint #0" = -1
+	"Tifilwit #0" = 0
+	"Tryggvi #0" = 0
+	"Umar #0" = 0
+	"Vagn #1" = 10
+	"Walpurga #0" = -1
+	"Yahaff #0" = 0
+	"Zahida #0" = -1
+	"Zosima #1" = 10
+	"Álfr #0" = 0
+	"Álfrhildr #0" = -1
+	"Örvar #0" = 0
+	"Þorgils #0" = 0
+	"Þórunn #0" = -1
+}
+leader_names = {
+	"Amarar"
+	"Balawat"
+	"Banu Amir"
+	"Beni-Amer"
+	"Bisharin"
+	"Hadendowa"
+	"Hallenga"
+	"Hamran"
+	"Hederab"
+	"Nabtab"
+}
+ship_names = {
+	"Asayita"
+	"Aura"
+	"Awash"
+	"Berahle"
+	"Chifra"
+	"Dallol"
+	"Dubti"
+	"Dulecha"
+	"Elidar"
+	"Ewa"
+	"Gewane"
+	"Koneba"
+	"Mille"
+	"Semera"
+	"Simurobi"
+	"Yalo"
+}

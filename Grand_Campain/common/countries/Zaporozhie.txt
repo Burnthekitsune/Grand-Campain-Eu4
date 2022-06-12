@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 117 112 131 }
+revolutionary_colors = { 2 8 2 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alexios #0" = 0
+	"Anatolios #1" = 10
+	"Apollonia #1" = -1
+	"Beata #1" = -1
+	"Bihor #1" = 10
+	"Evangelos #1" = 10
+	"Frujin #0" = 0
+	"Germanos #0" = 0
+	"Ipa #0" = 0
+	"Kale #0" = -1
+	"Khatun #1" = -1
+	"Manuel #1" = 10
+	"Martha #0" = -1
+	"Mihai #0" = 0
+	"Mënümarót #1" = 10
+	"Narses #0" = 0
+	"Phyllis #1" = -1
+	"Pulcheria #0" = -1
+	"Sebastianos #0" = 0
+	"Shoksha #1" = 10
+	"Tabghaç #1" = 10
+	"Traianos #0" = 0
+	"Yildiz #1" = -1
+	"Çorpan #1" = 10
+}
+leader_names = {
+	"Andrukhovych"
+	"Cheremshyna"
+	"Dukhnovych"
+	"Holovatskyi"
+	"Hutsalo"
+	"Khvylovy"
+	"Kobylyanska"
+	"Korniychuk"
+	"Kostomarov"
+	"Kulish"
+	"Kvitka"
+	"Marinina"
+	"Palahniuk"
+	"Pokalchuk"
+	"Shashkevych"
+	"Stefanyk"
+	"Stelmakh"
+	"Tobilevich"
+	"Vovchok"
+	"Vyshnia"
+	"Zabara"
+}
+ship_names = {
+	"Akimivka"
+	"Dnieper"
+	"Energodar"
+	"Guliajpole"
+	"Khortytsia"
+	"Melitopol"
+	"Mikhaylovka"
+	"Orekhov"
+	"Pologi"
+	"Tokmak"
+	"Vesele"
+	"Viliansk"
+	"Zaporizhia Sich"
+	"Zaporozhian Voisko"
+}

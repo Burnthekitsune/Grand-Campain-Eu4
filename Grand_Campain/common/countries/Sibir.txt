@@ -1,0 +1,105 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 139 138 160 }
+revolutionary_colors = { 0 13 10 }
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Abdul #0" = 0
+	"Aepak #0" = 0
+	"Altunopa #0" = 0
+	"Asalup #0" = 0
+	"Ashava #0" = -1
+	"Atrak #0" = 0
+	"Ayten #0" = -1
+	"Baatar #0" = 0
+	"Begluk #0" = 0
+	"Biyar #1" = 10
+	"Bonyak #0" = 0
+	"Chemgura #0" = 0
+	"Gulçiçek #0" = -1
+	"Hulyen #1" = 10
+	"Ipek #0" = -1
+	"Itlar #1" = 10
+	"Ituk #1" = 10
+	"Karacik #0" = -1
+	"Khorijin #0" = -1
+	"Kirdyava #0" = -1
+	"Kitzes #0" = 0
+	"Kopulch #0" = 0
+	"Koza #1" = 10
+	"Könçek #1" = 10
+	"Manas #1" = 10
+	"Nyumina #1" = -1
+	"Otrok #1" = 10
+	"Pakstyan #1" = 10
+	"Sabin #1" = 10
+	"Samur #0" = -1
+	"Seyamka #1" = -1
+	"Sokal #0" = 0
+	"Songul #0" = -1
+	"Tuhan #0" = 0
+	"Usunbike #0" = -1
+	"Viryas #0" = 0
+	"Viryay #1" = 10
+	"Yildiz #0" = -1
+	"Çiltanesi #0" = -1
+}
+leader_names = {
+	"Arinin"
+	"Aven"
+	"Balna"
+	"Kanin"
+	"Maimbava"
+	"Ravna"
+	"Salmiianov"
+	"Taiborey"
+	"Tsoy"
+	"Vylka"
+}
+ship_names = {
+	"Baraq"
+	"Bayan"
+	"Chimtai"
+	"Devlat Berdi"
+	"Ghengis Khan"
+	"Ilbasan"
+	"Jabbar Berdi"
+	"Jalal Ad-Din"
+	"Karim Berdi"
+	"Kebek"
+	"Kochu"
+	"Mubarrak Kwaja"
+	"Orda"
+	"Pulad"
+	"Sasibuga"
+	"Sayyid Ahmad"
+	"Shadi Beg"
+	"Timur Malik"
+	"Timur Qutlugh"
+	"Toqtamish"
+	"Tuqtaqiya"
+	"Ulugh Muhammad"
+	"Urus"
+}

@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = schlesian
+capital = 66
+fixed_capital = 66
+add_accepted_culture = dynamic-franconian-culture-num1
+1444.11.11= {
+	monarch = {
+		name = "Dalimir"
+		dynasty = "Subislawowic"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1406.7.21
+		religion = catholic
+		culture = schlesian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Milena"
+		dynasty = "Welf-Lubsko"
+		adm = 5
+		dip = 3
+		mil = 5
+		country_of_origin = BAM
+		birth_date = 1406.4.26
+		death_date = 1466.4.26
+		female = yes
+		religion = catholic
+		culture = schlesian
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Doman"
+		monarch_name = "Doman"
+		dynasty = "Subislawowic"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1436.8.1
+		death_date = 1501.8.1
+		claim = 89
+		religion = catholic
+		culture = schlesian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 71
+	add_treasury = 60
+}

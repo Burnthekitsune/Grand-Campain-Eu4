@@ -1,0 +1,36 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+technology_group = chinese
+religion = tengri_pagan
+primary_culture = dynamic-mongol-culture-num1
+capital = 480
+fixed_capital = 480
+1444.11.11= {
+	monarch = {
+		name = "(Regency Council)"
+		adm = 0
+		dip = 0
+		mil = 1
+		birth_date = 1.1.1
+		regent = yes
+		religion = tengri_pagan
+		culture = dynamic-mongol-culture-num1
+	}
+	heir = {
+		name = "Liknyirhya"
+		dynasty = "Chuktshang"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1439.9.20
+		death_date = 1504.9.20
+		claim = 89
+		religion = tengri_pagan
+		culture = dynamic-mongol-culture-num1
+	}
+}
+1444.11.11= {
+	add_prestige = 59
+	add_treasury = 65
+}

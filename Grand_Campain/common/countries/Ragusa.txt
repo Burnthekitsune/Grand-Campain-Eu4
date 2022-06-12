@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 160 82 128 }
+revolutionary_colors = { 5 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aio #2" = 10
+	"Antiochos #1" = 10
+	"Badeea #0" = -1
+	"Berbat #1" = 10
+	"Bonifacio #1" = 10
+	"Dabiša #0" = 0
+	"Daniel #1" = 10
+	"Demetrios #1" = 10
+	"Goran #2" = 10
+	"Gregorios #1" = 10
+	"Helchen #1" = -1
+	"Helene #1" = -1
+	"Hval #0" = 0
+	"Ioulianos #1" = 10
+	"Konstantinos #2" = 10
+	"Kozma #1" = 10
+	"Mansur #0" = 0
+	"Martha #0" = -1
+	"Mateja #0" = -1
+	"Miroslav #0" = 0
+	"Narses #1" = 10
+	"Nikola #0" = 0
+	"Ninoslav #0" = 0
+	"Nonna #1" = -1
+	"Pantoleon #1" = 10
+	"Pavica #0" = -1
+	"Polykarpos #1" = 10
+	"Radislav #0" = 0
+	"Resa #0" = -1
+	"Samuel #2" = 10
+	"Theophilos #1" = 10
+	"Ursus #1" = 10
+	"Vitaca #1" = -1
+	"Vlatko #0" = 0
+	"Vuk #0" = 0
+}
+leader_names = {
+	"Bona"
+	"Bosdari"
+	"Boshko"
+	"Caboga"
+	"Cerva"
+	"Ghetaldi"
+	"Giorgi"
+	"Gondola"
+	"Gozze"
+	"Gradic"
+	"Gundulic"
+	"Luccari"
+	"Pozza"
+	"Reesti"
+	"Saraca"
+	"Sorgo"
+	"Tudisi"
+	"Vucic"
+	"Zamagna"
+	"Zlataric"
+}
+ship_names = {
+	"Dubac"
+	"Gromaca"
+	"Kolocap"
+	"Komlac"
+	"Kupari"
+	"Mokosica"
+	"Orasac"
+	"Ragusa"
+	"Rozat"
+	"Trsteno"
+	"Zanton"
+}

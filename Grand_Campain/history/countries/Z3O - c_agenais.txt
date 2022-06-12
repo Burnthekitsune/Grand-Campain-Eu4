@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_106
+primary_culture = khazar
+capital = 4549
+fixed_capital = 4549
+1444.11.11= {
+	add_prestige = 66
+	add_treasury = 55
+}

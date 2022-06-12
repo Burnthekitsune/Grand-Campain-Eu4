@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = converted_dynamic_faith_106
+primary_culture = greek
+capital = 4753
+1444.11.11= {
+	monarch = {
+		name = "Titi"
+		dynasty = "Danyalid"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1368.7.3
+		female = yes
+		religion = converted_dynamic_faith_106
+		culture = greek
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Sekla"
+		monarch_name = "Sekla"
+		dynasty = "Angoures"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1419.6.12
+		death_date = 1484.6.12
+		claim = 89
+		religion = converted_dynamic_faith_106
+		culture = greek
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 87
+	add_treasury = 72
+}

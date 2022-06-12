@@ -1,0 +1,170 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 117 127 174 }
+revolutionary_colors = { 0 5 10 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+	offensive_ideas
+	defensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_longbow
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Aeron #0" = 0
+	"Aled #0" = 0
+	"Aneirin #0" = 0
+	"Arvel #0" = 0
+	"Berwyn #0" = 0
+	"Brynmor #0" = 0
+	"Cadfael #0" = 0
+	"Cadoc #0" = 0
+	"Cadwaladr #3" = 5
+	"Cadwgawn #0" = 0
+	"Celyn #0" = 0
+	"Ceridwen #0" = -1
+	"Cledwyn #0" = 0
+	"Colwyn #0" = 0
+	"Cynan #1" = 10
+	"Dafydd #3" = 10
+	"Dai #0" = 0
+	"Dilwyn #0" = 0
+	"Einion #1" = 5
+	"Elain #0" = -1
+	"Emyr #0" = 0
+	"Gawain #0" = 0
+	"Glynn #0" = 0
+	"Gruffydd #3" = 10
+	"Gwenyth #0" = -1
+	"Gwyn #0" = 0
+	"Heddwyn #0" = 0
+	"Heilyn #0" = 0
+	"Hywel #0" = 0
+	"Iago #3" = 5
+	"Idwal #2" = 5
+	"Iorwerth #1" = 5
+	"Llewelyn #3" = 10
+	"Maelgwyn #2" = 5
+	"Maredudd #2" = 10
+	"Megan #0" = -1
+	"Owain #3" = 20
+	"Rhian #0" = 0
+	"Rhodri #3" = 10
+	"Trahaearn #1" = 5
+	"Tristan #0" = 0
+	"Tudor #0" = 0
+	"Urien #0" = 0
+	"Vaughan #0" = 0
+}
+leader_names = {
+	"Bennett"
+	"Bevan"
+	"Bowen"
+	"Cadell"
+	"Cadwallader"
+	"Daniels"
+	"Davies"
+	"Davis"
+	"Edwards"
+	"Ellis"
+	"Evans"
+	"Gough"
+	"Griffiths"
+	"Gwyn"
+	"Harris"
+	"Hopkins"
+	"Howells"
+	"Hughes"
+	"Humphries"
+	"James"
+	"Jenkins"
+	"John"
+	"Jones"
+	"Lewis"
+	"Llewellyn"
+	"Lloyd"
+	"Madog"
+	"Matthews"
+	"Meredith"
+	"Merrick"
+	"Morgan"
+	"Morris"
+	"Mostyn"
+	"Owen"
+	"Parry"
+	"Phillips"
+	"Powell"
+	"Prees"
+	"Price"
+	"Pritchard"
+	"Protheroe"
+	"Pugh"
+	"Rees"
+	"Richards"
+	"Roberts"
+	"Rogers"
+	"Thomas"
+	"Vaughan"
+	"Watkins"
+	"Williams"
+}
+ship_names = {
+	"Bedwyr"
+	"Brycheiniog"
+	"Cadwaladr"
+	"Caerdydd"
+	"Caernarfon"
+	"Caradoc"
+	"Ceredigion"
+	"Conwy"
+	"Culhwch"
+	"Deheubarth"
+	"Dewi Sant"
+	"Dolbadarn"
+	"Dolwyddelan"
+	"Dyfed"
+	"Eryri"
+	"Glywysing"
+	"Gwalchmei"
+	"Gwenan Gorn"
+	"Gwydion"
+	"Gwyn"
+	"Gwynedd"
+	"Lleu"
+	"Llewellyn Fawr"
+	"Mabinogi"
+	"Math"
+	"Meirionydd"
+	"Morgannwg"
+	"Olwen"
+	"Owain Glyndwr"
+	"Penfro"
+	"Powys"
+	"Preiddeu Annwn"
+	"Pryderi"
+	"Pwyll"
+	"Rhiannon"
+	"Taff"
+	"Teifi"
+	"Teirnon"
+	"Tywi"
+	"Ynys Môn"
+}

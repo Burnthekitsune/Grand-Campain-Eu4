@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 2
+technology_group = indian
+religion = mahayana
+primary_culture = dynamic-bengali-burmese-culture-num1
+capital = 2399
+mercantilism = 15
+1444.11.11= {
+	monarch = {
+		name = "Virajdendranarayan"
+		dynasty = "Pyusawhti"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 1384.10.31
+		religion = mahayana
+		culture = dynamic-bengali-burmese-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Inzali"
+		dynasty = "Hajo"
+		adm = 6
+		dip = 4
+		mil = 5
+		country_of_origin = AVA
+		birth_date = 1384.7.11
+		death_date = 1444.7.11
+		female = yes
+		religion = mahayana
+		culture = dynamic-bengali-burmese-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Rameshwar"
+		monarch_name = "Rameshwar"
+		dynasty = "Pyusawhti"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1403.2.11
+		death_date = 1468.2.11
+		claim = 89
+		religion = mahayana
+		culture = dynamic-bengali-burmese-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 88
+	add_treasury = 73
+}

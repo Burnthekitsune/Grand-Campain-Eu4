@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = east_african
+religion = sunni
+primary_culture = harari
+capital = 1211
+fixed_capital = 1211
+religious_school = hanbali_school
+1444.11.11= {
+	add_prestige = 55
+	add_treasury = 68
+}

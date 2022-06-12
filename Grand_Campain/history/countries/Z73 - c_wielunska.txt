@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dynamic-polish-culture-num1
+capital = 264
+fixed_capital = 264
+1444.11.11= {
+	monarch = {
+		name = "Wawrzyniec"
+		dynasty = "Kocelid"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1406.10.28
+		religion = catholic
+		culture = dynamic-polish-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Anastazja"
+		dynasty = "Piast-Wielun"
+		adm = 3
+		dip = 4
+		mil = 3
+		country_of_origin = Z73
+		birth_date = 1406.10.17
+		death_date = 1466.10.17
+		female = yes
+		religion = catholic
+		culture = dynamic-polish-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Prelimír"
+		monarch_name = "Prelimír"
+		dynasty = "Kocelid"
+		adm = 5
+		dip = 6
+		mil = 4
+		birth_date = 1425.7.30
+		death_date = 1490.7.30
+		claim = 89
+		religion = catholic
+		culture = dynamic-polish-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 75
+	add_treasury = 51
+}

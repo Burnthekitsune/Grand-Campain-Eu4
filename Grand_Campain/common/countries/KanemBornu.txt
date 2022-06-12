@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 30 131 162 }
+revolutionary_colors = { 13 8 16 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_dragoon
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	bantu_plains_warfare
+	niger_kongolese_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"Abdul-Kareem #0" = 0
+	"Araslan #0" = 0
+	"Awa #0" = -1
+	"Awo #0" = -1
+	"Ayasun #0" = -1
+	"Ayt'ere #1" = 10
+	"Azubuike #1" = 10
+	"Barsbek #0" = 0
+	"Bihor #0" = 0
+	"Bozçin #0" = -1
+	"Bulçan #0" = 0
+	"Daurama #1" = -1
+	"Doye #0" = -1
+	"Esin #0" = -1
+	"Fune #1" = 10
+	"Gajideni #1" = 10
+	"Gunes #0" = -1
+	"Hanukkah #0" = 0
+	"Hezekiah #0" = 0
+	"Hinda #0" = -1
+	"Itakh #0" = 0
+	"Ixzi #0" = 0
+	"Jibril #0" = 0
+	"Khatun #0" = -1
+	"Kisa #0" = 0
+	"Kyriakos #1" = 10
+	"Maane #0" = 0
+	"Maha #2" = 10
+	"Ning #0" = -1
+	"Niokhobaye #0" = 0
+	"Okyin #0" = 0
+	"R'uza #0" = -1
+	"Sall #0" = -1
+	"Sarantay #0" = -1
+	"Sati #0" = -1
+	"Savintik #0" = -1
+	"Shadia #0" = -1
+	"Sisso #0" = 0
+	"Songul #0" = -1
+	"Tarkhan #0" = 0
+	"Triya #0" = -1
+	"Tuzniq #0" = 0
+	"Tähtani #0" = -1
+	"Yabghu #0" = 0
+	"Yartilek #0" = -1
+	"Çeçtilet #0" = -1
+}
+leader_names = {
+	"Ahmat"
+	"Ardoum"
+	"Deby"
+	"Djammous"
+	"Kabadi"
+	"Malloum"
+	"Nahor"
+	"Oueddai"
+	"Terap"
+	"Yorassem"
+}
+ship_names = {
+	"Abd al-Djel Selma"
+	"Aritso"
+	"Arki"
+	"Ayoma"
+	"Bad al-Djel"
+	"Biri"
+	"Birkoru"
+	"Bulu"
+	"Dari"
+	"Djil"
+	"Dugu"
+	"Dunama"
+	"Dunama Dibbalem"
+	"Fune"
+	"Hume"
+	"Kachim Biri"
+	"Kade"
+	"Kature"
+	"Kure Gana"
+	"Kure Kura"
+	"Shu"
+}

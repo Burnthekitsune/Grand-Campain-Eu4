@@ -1,0 +1,197 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 246 223 15 }
+revolutionary_colors = { 16 0 16 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	trade_ideas
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #0" = 0
+	"Albrecht #0" = 20
+	"Alexandra #0" = -1
+	"Alfred #0" = 0
+	"Armand #0" = 40
+	"Balduin #1" = 5
+	"Baldur #0" = 0
+	"Berthold #2" = 10
+	"Bruno #1" = 5
+	"Burkhard #2" = 10
+	"Christiane #0" = -1
+	"Eberhard #1" = 5
+	"Emma #0" = -1
+	"Erasmus #0" = 20
+	"Erich #0" = 0
+	"Ferdinand #0" = 0
+	"Franz #0" = 0
+	"Franz Egon #0" = 20
+	"Friedrich #2" = 10
+	"Gebhard #1" = 5
+	"Gottfried #1" = 5
+	"G0nther #0" = 0
+	"Heinrich #4" = 5
+	"Johann #3" = 20
+	"Johann Georg #0" = 20
+	"Karl #0" = 20
+	"Konrad #3" = 20
+	"Kuno #1" = 5
+	"Lambert #1" = 5
+	"Leopold #0" = 20
+	"Leopold Wilhelm #0" = 20
+	"Louis Constantine #0" = 20
+	"Louis Ren0 #0" = 20
+	"Ludwig #1" = 10
+	"Otto #1" = 5
+	"Rainer #0" = 0
+	"Rudolf #2" = 10
+	"Rupprecht #0" = 20
+	"Stefan #0" = 0
+	"Walter #1" = 5
+	"Werner #2" = 5
+	"Wilhelm #1" = 40
+	"Wilhelm Egon #0" = 20
+}
+leader_names = {
+	"Bock de Blasheim"
+	"Bock de Erlenburg"
+	"Gailing d'Altheim"
+	"Linange-Westerburg"
+	"Wolff"
+	"d'Andleau"
+	"d'Arnsberg"
+	"d'Uttenheim"
+	"de Bainville"
+	"de Baltis"
+	"de Berckheim"
+	"de Berenfelz"
+	"de Beroldingen"
+	"de Bocklinsau"
+	"de Béonholdt"
+	"de Dalberg"
+	"de Deux-Ponts-Bitche"
+	"de Dornach"
+	"de Falkenstein"
+	"de Fleckenstein"
+	"de Furstenberg"
+	"de Gielsberg"
+	"de Hagenbach"
+	"de Hanau-Lichtenberg"
+	"de Hohenstein"
+	"de Hungerstein"
+	"de Kippenheim"
+	"de Kircheim"
+	"de Landeck"
+	"de Landenberg"
+	"de Lupfen"
+	"de Lutzelburg"
+	"de Morimont"
+	"de Mullenheim"
+	"de Munck"
+	"de Pfasttatt"
+	"de Ramstein"
+	"de Rathsamhausen"
+	"de Reichenstein"
+	"de Rheinfeld"
+	"de Ribeaupierre"
+	"de Réguisheim"
+	"de Schaunburg"
+	"de Schmitzbourg"
+	"de Schoenau"
+	"de Sickingen"
+	"de Thierstein"
+	"de Turckheim"
+	"de Wasselnheim"
+	"de Weitersheim"
+	"de Wildsberg"
+	"de Winterbescher"
+	"de Wormser"
+	"de Zurlauben"
+	"zu Rhein"
+}
+ship_names = {
+	"Altkirch"
+	"Ammerschwihr"
+	"Andolsheim"
+	"Barr"
+	"Benfeld"
+	"Bischwiller"
+	"Bitche"
+	"Bollwiller"
+	"Brumath"
+	"Cernay"
+	"Colmar"
+	"Dieffenthal"
+	"Ensisheim"
+	"Erstein"
+	"Guebwiller"
+	"Haguenau"
+	"Honwald"
+	"Horbourg-Wihr"
+	"Hunspach"
+	"Kanterbrau"
+	"Kaysersberg"
+	"Lautenbach"
+	"Lauterburg"
+	"Lembach"
+	"Marckolsheim"
+	"Molsheim"
+	"Mulhausen"
+	"Munster"
+	"Mutzig"
+	"Neuf-Brisach"
+	"Oberhaslach"
+	"Obernai"
+	"Olsheim"
+	"Orbey"
+	"Reichshoffen"
+	"Riquewihr"
+	"Rouffach"
+	"Saverne"
+	"Scherwiller"
+	"Schirmeck"
+	"Souffelweyer"
+	"Soufflenheim"
+	"Soultzmatt"
+	"Strassburg"
+	"Sélestat"
+	"Thann"
+	"Turckheim"
+	"Vendenheim"
+	"Wissemburg"
+	"Wittelsheim"
+}
+army_names = {
+	"Armée d'Alsace"
+	"Armée de $PROVINCE$"
+	"Armée de Strasbourg"
+	"Armée de l'Ochsenfeld"
+	"Armée de la Décapole"
+	"Armée de la Hardt"
+	"Armée des Vosges"
+	"Armée du Jura"
+	"Armée du Rhin"
+	"Armée du Sundgau"
+}

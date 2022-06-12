@@ -1,0 +1,122 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 227 211 34 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	administrative_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbrand #0" = 0
+	"Adalgar #1" = 10
+	"Alisia #1" = -1
+	"Altfrid #1" = 10
+	"Bartolomeus #2" = 10
+	"Bertha #1" = -1
+	"Brigida #0" = -1
+	"Cecilía #1" = -1
+	"Cissa #1" = 10
+	"Dieter #1" = 10
+	"Giselher #0" = 0
+	"Glismod #1" = -1
+	"Gunzelin #1" = 10
+	"Hadwig #1" = -1
+	"Hamelin #1" = 10
+	"Henneke #1" = 10
+	"Krystyn #1" = 10
+	"Ludolf #1" = 10
+	"Luitgard #0" = -1
+	"Meinwerk #0" = 0
+	"Nikodemos #1" = 10
+	"Obizzo #1" = 10
+	"Prisnec #0" = 0
+	"Richenza #0" = -1
+	"Richfrid #1" = 10
+	"Rimbert #1" = 10
+	"Rudigar #1" = 10
+	"Suanhilde #1" = -1
+	"Theoderic #0" = 0
+	"Swietoslaw #0" = 0
+}
+leader_names = {
+	"Adler"
+	"Alers"
+	"Bake"
+	"Beckröge"
+	"Bergius"
+	"Berninghausen"
+	"Boelken"
+	"Bollheim"
+	"Brill"
+	"Delius"
+	"Drewers"
+	"Engels"
+	"Ficke"
+	"Foukhard"
+	"Geffken"
+	"Gildemeister"
+	"Grovermann"
+	"Happach"
+	"Heimbruch"
+	"Hinke"
+	"Kindt"
+	"Krefting"
+	"Köhne"
+	"Laporte"
+	"Löning"
+	"Meyer"
+	"Oelrichs"
+	"Ordemann"
+	"Reiners"
+	"Rohde"
+	"Sanders"
+	"Schulken"
+	"Steinwachs"
+	"Stucken"
+	"Truernitt"
+	"von Bobert"
+	"von Cappeln"
+	"von Holten"
+	"von Horn"
+	"von Meinertzhagen"
+}
+ship_names = {
+	"Bremer Schlüssel"
+	"Bremer Stolz"
+	"Geelbeen"
+	"Honorius"
+	"Jever"
+	"Johann Dove"
+	"Roland"
+	"Tagenbare"
+	"Wappen von Bremen"
+	"Weserwelle"
+	"Willehad"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Erzbischofliche Garde"
+}
+preferred_religion = protestant

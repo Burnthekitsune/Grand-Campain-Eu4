@@ -1,0 +1,140 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 163 5 77 }
+revolutionary_colors = { 5 8 9 }
+historical_idea_groups = {
+	defensive_ideas
+	quantity_ideas
+	trade_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	economic_ideas
+	offensive_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Arathi #1" = 10
+	"Asvapala #1" = 10
+	"Atakmo #0" = -1
+	"Balavarman #3" = 10
+	"Bhaskaravarman #1" = 10
+	"Bhavashankari #0" = -1
+	"Bhikhari #1" = 10
+	"Bhutivarman #1" = 10
+	"Bibibai #0" = -1
+	"Bijjama #0" = 0
+	"Brahmapala #1" = 10
+	"Chandaladevi #0" = -1
+	"Chandramukhavarman #1" = 10
+	"Devakhadga #1" = 10
+	"Devavati #0" = -1
+	"Droza #0" = -1
+	"Dungkar #1" = 10
+	"Eisow #0" = 0
+	"Ganapatidev #0" = 0
+	"Ganapativarman #1" = 10
+	"Gandharavati #0" = -1
+	"Hajo #0" = 0
+	"Harjjaravarman #2" = 10
+	"Harshadeva #1" = 10
+	"Hemant Sen #0" = 0
+	"Himadrija #0" = -1
+	"Hira #0" = -1
+	"Indranarayan #1" = 10
+	"Jagaddipendranarayan #0" = 0
+	"Jayamala #1" = 10
+	"Jayanarayan #1" = 10
+	"Kalyanavarman #1" = 10
+	"Kamaladevi #0" = -1
+	"Kanchani #0" = -1
+	"Kumarastambha #1" = 10
+	"Kyukma #0" = -1
+	"Könchok #0" = -1
+	"Lumo #0" = -1
+	"Mahendravarman #1" = 10
+	"Malavyadevi #0" = -1
+	"Maurayadhwaj #0" = 0
+	"Muda Hang #1" = 10
+	"Myintzu #0" = -1
+	"Nambin #4" = 10
+	"Narayanavarman #1" = 10
+	"Palakastambha #1" = 10
+	"Pratapnarayan #0" = 0
+	"Purandelapala #1" = 10
+	"Pushyavarman #1" = 10
+	"Ratnadevi #0" = -1
+	"Ratnadhwajpala #2" = 10
+	"Salambha #1" = 10
+	"Salasthamba #1" = 10
+	"Samudravarman #1" = 10
+	"Sovideva #0" = 0
+	"Sthitavarman #1" = 10
+	"Supratisthitavarman #1" = 10
+	"Susthitavarman #1" = 10
+	"Tandin #1" = 10
+	"Traillokyachandra #0" = 0
+	"Tshering #1" = 10
+	"Vajradeva #1" = 10
+	"Vanamalavarmadeva #1" = 10
+	"Vijayasthamba #1" = 10
+	"Vijnanavati #0" = -1
+	"Vijnayavati #0" = -1
+	"Zangmo #0" = -1
+}
+leader_names = {
+	"Baruah"
+	"Borphukan"
+	"Chandra"
+	"Das"
+	"Deka"
+	"Kalita"
+	"Mahanta"
+	"Narayan"
+	"Prithu"
+	"Roy"
+}
+ship_names = {
+	"Brahmaputra"
+	"Chingri Mach"
+	"Darrang"
+	"Devi"
+	"Dibang"
+	"Durga Ma"
+	"Ganga"
+	"Hilsa Mach"
+	"Ilish Mach"
+	"Kali Ma"
+	"Kali Meghana"
+	"Kali Nauk"
+	"Kamrup"
+	"Lakimpur"
+	"Lal Nauk"
+	"Loki Devi"
+	"Luhit"
+	"Machli"
+	"Manasa Devi"
+	"Manjuli"
+	"Meghna"
+	"Nil Nauk"
+	"Nil Sagor"
+	"Parvati Devi"
+	"Rui Mach"
+	"Sagorer Bahini"
+	"Saraswoti"
+	"Shakti"
+	"Shaktir Nauk"
+	"Shasti Ma"
+	"Sibsagar"
+	"Trishool"
+	"Uma Devi"
+}

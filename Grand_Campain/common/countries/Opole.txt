@@ -1,0 +1,114 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 117 140 36 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #1" = 10
+	"Aelle #1" = 10
+	"Beata #0" = -1
+	"Boleslav #0" = 0
+	"Bratrica #0" = -1
+	"Budivoj #0" = 0
+	"Bálint #1" = 10
+	"Béla #0" = 0
+	"Chrysogone #0" = -1
+	"Dalibor #1" = 10
+	"Drahoslav #1" = 10
+	"Dušan #1" = 10
+	"Edyta #0" = -1
+	"Gazsi #0" = 0
+	"Ivan #0" = 0
+	"Jaroslav #0" = 0
+	"Jutrogost #1" = 10
+	"Katalin #0" = -1
+	"Katharina #1" = -1
+	"Koloman #1" = 10
+	"Krzesimir #1" = 10
+	"Kálmán #0" = 0
+	"Ladislav #1" = 10
+	"Ladomír #1" = 10
+	"Ludmila #1" = -1
+	"Ludomil #2" = 10
+	"Majoran #0" = 0
+	"Malej #0" = 0
+	"Milena #0" = -1
+	"Miloboj #1" = 10
+	"Miloslava #0" = -1
+	"Miroslav #2" = 10
+	"Márton #0" = 0
+	"Neda #0" = -1
+	"Novica #0" = -1
+	"Ostromír #1" = 10
+	"Piskla #1" = 10
+	"Pribislav #0" = 0
+	"Salamon #0" = 0
+	"Sarolt #0" = -1
+	"Seneslav #0" = 0
+	"Slavomír #1" = 10
+	"Svorad #1" = 10
+	"Tovtivilas #1" = 10
+	"Vidojko #0" = 0
+	"Virág #0" = -1
+	"Visvaldis #1" = 10
+	"Wit #0" = 0
+	"Witosz #2" = 10
+	"Wratyslaw #1" = 10
+	"Cestmír #1" = 10
+	"Živoslava #0" = -1
+}
+leader_names = {
+	"Abeln"
+	"Greve"
+	"Gronau"
+	"Heintzel"
+	"Hergesell"
+	"Hoppe"
+	"Jauernik"
+	"Kahl"
+	"Liegnitz"
+	"Schwarz"
+	"Sterner"
+	"Tilch"
+	"Wiehle"
+}
+ship_names = {
+	"Breslau"
+	"Cosel-Beuthen"
+	"Falkenberg"
+	"Glogau"
+	"Liegnitz-Brieg"
+	"Münsterberg"
+	"Neisse-Ottmachau"
+	"Oels"
+	"Oppeln"
+	"Ratibor"
+	"Sagan"
+	"Schweidnitz-Jauer"
+	"Steinau"
+	"Teschen"
+}

@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 153 240 182 }
+revolutionary_colors = { 9 5 8 }
+historical_idea_groups = {
+	administrative_ideas
+	plutocracy_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	expansion_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #2" = 10
+	"Alberich #1" = 10
+	"Amalie #1" = -1
+	"Amalrich #0" = 0
+	"Berchte #1" = -1
+	"Boncza #0" = 0
+	"Dietrich #1" = 10
+	"Draga #1" = -1
+	"Emund #1" = 10
+	"Ermenulfo #1" = 10
+	"Franz #1" = 10
+	"Gerberga #1" = -1
+	"Guij #1" = 10
+	"Hedwig #1" = -1
+	"Henrike #1" = -1
+	"Hunfrid #3" = 10
+	"Iwo #0" = 0
+	"Liupolt #1" = 10
+	"Lothar #1" = 10
+	"Ludolf #1" = 10
+	"Olivier #1" = 10
+	"Otto #3" = 10
+	"Rudolf #0" = 0
+	"Sedziej #0" = 0
+	"Theodôros #0" = 0
+	"Usciech #0" = 0
+	"Walpurga #0" = -1
+	"Wido #0" = 0
+	"Zbyszko #0" = 0
+	"Zofia #0" = -1
+}
+leader_names = {
+	"Aebi"
+	"Amman"
+	"Bischofberger"
+	"Blank"
+	"Blies"
+	"Brugger"
+	"Combe"
+	"Eugster"
+	"Frei"
+	"Frisch"
+	"Gasenzer"
+	"Grüneisen"
+	"Heberlin"
+	"Helberingen"
+	"Hertzler"
+	"Hiltbrand"
+	"Honegger"
+	"Luz"
+	"Miller"
+	"Munzinger"
+	"Oberholzer"
+	"Schwendimann"
+	"Spörri"
+	"Vogt"
+	"Wächter"
+	"Zumbach"
+	"von Baltharsar"
+	"von Hasseln"
+}
+ship_names = {
+	"Berne"
+	"Dufour"
+	"Glarus"
+	"Inn"
+	"Lucerne"
+	"Rhein"
+	"Rhöne"
+	"Schwyz"
+	"Ticino"
+	"Unterwalden"
+	"Uri"
+	"Wilhelm Tell"
+	"Zug"
+	"Zürich"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+preferred_religion = reformed

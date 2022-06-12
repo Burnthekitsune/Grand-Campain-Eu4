@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 130 77 119 }
+revolutionary_colors = { 10 0 10 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+	spy_ideas
+	quality_ideas
+	trade_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adam #0" = 0
+	"Ademar #1" = 10
+	"Agathe #1" = -1
+	"Alberade #1" = -1
+	"Amadeus #1" = 10
+	"Archembald #0" = 0
+	"Balázs #0" = 0
+	"Christine #1" = -1
+	"Dieter #0" = 0
+	"Eberhard #1" = 10
+	"Ellenhard #1" = 10
+	"Gautselin #0" = 0
+	"Hedwig #0" = -1
+	"Heribert #1" = 10
+	"Jürgen #2" = 10
+	"Ludwig #1" = 10
+	"Magdalena #0" = -1
+	"Pawel #0" = 0
+	"Philipp #0" = 0
+	"Ratold #1" = 10
+	"Sieghard #4" = 10
+	"Skarbimir #0" = 0
+	"Trude #1" = -1
+	"Ute #1" = -1
+	"Valdrada #1" = -1
+	"Walter #0" = 0
+	"Wilbert #3" = 10
+	"Zlata #1" = -1
+}
+leader_names = {
+	"Dick"
+	"Dietsch"
+	"Däumler"
+	"Ernst"
+	"Fichtelmann"
+	"Fischer"
+	"Franck"
+	"Födisch"
+	"Grimm"
+	"Hofmann"
+	"Höhrer"
+	"Knörnschild"
+	"Langheinrich"
+	"Maier"
+	"Narr"
+	"Ott"
+	"Ranck"
+	"Rudl"
+	"Sack"
+	"Schmidt"
+	"Schwager"
+	"Seel"
+	"Sell"
+	"Söll"
+	"Teichmann"
+	"Weinrich"
+}
+ship_names = {
+	"Albrecht Achilles"
+	"Bayreuth"
+	"Friedrich V"
+	"Friedrich von Ansbach"
+	"Georg"
+	"Georg Friedrich"
+	"Hohenzollern"
+	"Kulmbach"
+	"Onoldsbach"
+	"Rezat"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

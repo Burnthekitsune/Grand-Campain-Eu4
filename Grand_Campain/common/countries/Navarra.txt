@@ -1,0 +1,174 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 252 233 58 }
+revolutionary_colors = { 5 8 5 }
+historical_idea_groups = {
+	maritime_ideas
+	religious_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	french_caracolle
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abu #0" = 0
+	"Abu-Bakr #0" = 0
+	"Agathe #0" = -1
+	"Ahmad #0" = 0
+	"Ahu #0" = -1
+	"Alfríðr #0" = -1
+	"Andrés #0" = 0
+	"Assalhida #0" = -1
+	"Aznar #1" = 10
+	"Belasko #2" = 10
+	"Bergþóra #0" = -1
+	"Bernart #0" = 0
+	"Bersi #0" = 0
+	"Bodil #1" = -1
+	"Dinah #0" = -1
+	"Egill #0" = 0
+	"Fadl #0" = 0
+	"Fahra #0" = -1
+	"Galindo #1" = 10
+	"Helgi #0" = 0
+	"Hróðgeirr #0" = 0
+	"Hörðaknútr #0" = 0
+	"Hörðr #0" = 0
+	"Iliana #0" = -1
+	"Ingiríðr #0" = -1
+	"Ingjaldr #0" = 0
+	"Karima #0" = -1
+	"Khadija #0" = -1
+	"Konstantia #0" = -1
+	"Lubb #0" = 0
+	"Ma'n #1" = 10
+	"Manuel #1" = 10
+	"Maria #1" = -1
+	"Muyahid #0" = 0
+	"Mær #0" = -1
+	"Oddr #0" = 0
+	"Oneca #0" = -1
+	"Ordoño #1" = 10
+	"Raf #1" = 10
+	"Rafiqa #0" = -1
+	"Ragnhildr #0" = -1
+	"Richènda #0" = -1
+	"Rögnfríðr #0" = -1
+	"Rögnvaldr #0" = 0
+	"Sa'd #1" = 10
+	"Signý #0" = -1
+	"Tahira #0" = -1
+	"Tariq #0" = 0
+	"Teresa #1" = -1
+	"Tyke #0" = 0
+	"Umar #1" = 10
+	"Ximeno #1" = 10
+	"Yasmin #0" = -1
+	"Zahra #0" = -1
+	"Áki #0" = 0
+	"Ölvir #0" = 0
+	"Þorbjörn #0" = 0
+	"Þóra #0" = -1
+}
+leader_names = {
+	"Bergera"
+	"Elizalde"
+	"Goyeneche"
+	"Jimeno"
+	"Jiménez de Rada"
+	"Navarro"
+	"Palafox"
+	"Pérez de Zabalza"
+	"de Aguirre"
+	"de Albret"
+	"de Antillón"
+	"de Aranda"
+	"de Armendariz"
+	"de Azagra"
+	"de Azpilcueta"
+	"de Beaumont"
+	"de Beortegui"
+	"de Borbón"
+	"de Carranza"
+	"de Garay"
+	"de Goñi"
+	"de Heredia"
+	"de Hijar"
+	"de Jaso"
+	"de Landívar"
+	"de Salazar"
+	"de Uribe"
+	"de Ursúa"
+	"de Yanguas"
+	"de Zárate"
+}
+ship_names = {
+	"Atlántida"
+	"Conde de Evreux"
+	"Conde de Foix"
+	"Conde de Guenduláin"
+	"Conde de Lerín"
+	"Don Jimeno"
+	"Duque de Armagnac"
+	"Duque de Champaña"
+	"El Agramontés"
+	"El Beaomontés"
+	"El Bearnés"
+	"El Cruzado Navarro"
+	"El Montañés"
+	"El Navarro"
+	"El Salvador"
+	"El Trobador"
+	"El Viñador"
+	"Emperador Hispánico"
+	"Europa"
+	"Mar de Navarra"
+	"Nuestra Sra de Leyre"
+	"Príncipe de Viana"
+	"Reina Juana"
+	"Rey Enrique"
+	"Rey García"
+	"Rey Sancho"
+	"Reyno de Navarra"
+	"Reyno de Pamplona"
+	"San Agustín"
+	"San Andrés"
+	"San Antonio"
+	"San Carlos"
+	"San Enrique"
+	"San Esteban"
+	"San Fermín"
+	"San Francisco"
+	"San Francisco Xabier"
+	"San Gregorio"
+	"San Juan"
+	"San León"
+	"San Miguel Arcángel"
+	"San Raimundo"
+	"San Virila"
+	"Santa Ana"
+	"Santa Catalina"
+	"Santa Juana"
+	"Santa Leonor"
+	"Santísima Trinidad"
+	"Señor de Tudela"
+	"Vasconia"
+}

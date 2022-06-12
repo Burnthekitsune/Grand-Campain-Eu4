@@ -1,0 +1,94 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 189 115 99 }
+revolutionary_colors = { 10 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalgod #1" = 10
+	"Addila #0" = -1
+	"Arnulf #1" = 10
+	"Bertram #1" = 10
+	"Boguchwal #0" = 0
+	"Bruno #2" = 10
+	"Eadwig #1" = 10
+	"Gerberga #1" = -1
+	"Inga #1" = -1
+	"Jacob #0" = 0
+	"Jindrich #1" = 10
+	"Kemaladdin #0" = 0
+	"Magnus #1" = 10
+	"Malika #1" = -1
+	"Martin #2" = 10
+	"Michael #2" = 10
+	"Rudigar #0" = 0
+	"Shakira #1" = -1
+	"Simon #1" = 10
+	"Skjöldr #1" = 10
+	"Snorri #1" = 10
+	"Wanko #0" = 0
+	"Ximena #1" = -1
+}
+leader_names = {
+	"Ahrendt"
+	"Ahrenkiel"
+	"Bastel"
+	"Bause"
+	"Bollers"
+	"Burghoff"
+	"Bärwald"
+	"Herms"
+	"Meyer"
+	"Schlehenstein"
+	"Schulz"
+	"Schönebeck"
+	"Wahrenholz"
+	"Winter"
+	"Wäger"
+	"Zimmerhäckel"
+}
+ship_names = {
+	"Barleber See"
+	"Buckau"
+	"Diesdorf"
+	"Friedrichstadt"
+	"Kreuzhorst"
+	"Lemsdorf"
+	"Olvenstedt"
+	"Pechau"
+	"Prester"
+	"Randau"
+	"Rothensee"
+	"Salbke"
+	"Silberberg"
+	"Sudenburg"
+	"Westerhüsen"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}
+preferred_religion = protestant

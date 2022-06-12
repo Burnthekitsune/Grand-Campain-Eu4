@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 34 131 193 }
+revolutionary_colors = { 0 15 16 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	religious_ideas
+	spy_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	germanized_pike
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	slavic_stradioti
+}
+monarch_names = {
+	"Bystrík #0" = 0
+	"Ctiboh #1" = 10
+	"Danute #0" = -1
+	"Dezsõ #0" = 0
+	"Dobromila #0" = -1
+	"Dušan #1" = 10
+	"Gorazd #1" = 10
+	"Gunes #0" = -1
+	"Horislav #1" = 10
+	"Horislava #0" = -1
+	"Hromislav #0" = 0
+	"Hviezdoslav #1" = 10
+	"Jalil #0" = 0
+	"Jaropluk #1" = 10
+	"Jaroslav #0" = 0
+	"Krasomil #1" = 10
+	"Ludomil #1" = 10
+	"Milomíra #0" = -1
+	"Miloslav #1" = 10
+	"Miloš #1" = 10
+	"Miroslav #1" = 10
+	"Mislava #0" = -1
+	"Mojmír #1" = 10
+	"Polan #1" = 10
+	"Pravdomila #0" = -1
+	"Pravoslav #1" = 10
+	"Pribina #2" = 10
+	"Prisnec #1" = 10
+	"Slavena #0" = -1
+	"Slavoj #0" = 0
+	"Slavomíra #0" = -1
+	"Slávka #0" = -1
+	"Svatopluk #1" = 10
+	"Svatoslav #1" = 10
+	"Svietlana #1" = -1
+	"Svetimír #1" = 10
+	"Tvrdomil #1" = 10
+	"Vitemir #1" = 10
+	"Vladan #1" = 10
+	"Vlastimila #0" = -1
+	"Vlastislav #2" = 10
+	"Vyšebor #1" = 10
+	"Zubrivoj #0" = 0
+}
+leader_names = {
+	"Balaša"
+	"Beckovský"
+	"Bel"
+	"Benyovszky"
+	"Bosniak"
+	"Elefánthy"
+	"Hatnanský"
+	"Jesenský"
+	"Kollar"
+	"Podmanický"
+	"Pongrac"
+	"Pongrácz"
+	"Stibor"
+	"Veseléni"
+	"Wesselényi"
+}
+ship_names = {
+	"Bebrava"
+	"Belá"
+	"Blava"
+	"Bodrog"
+	"Bodva"
+	"Cierna voda"
+	"Dunajec"
+	"Hornád"
+	"Ipel"
+	"Latorica"
+	"Morava"
+	"Ondava"
+	"Poprad"
+	"Rimava"
+	"Slaná"
+	"Torysa"
+	"Žitava"
+}

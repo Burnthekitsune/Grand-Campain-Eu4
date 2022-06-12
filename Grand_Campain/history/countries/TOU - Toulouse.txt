@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = dynamic-andalucian-norse-culture-num1
+capital = 196
+add_accepted_culture = aquitaine
+1444.11.11= {
+	monarch = {
+		name = "Tarifa"
+		dynasty = "Hæsteining"
+		adm = 3
+		dip = 5
+		mil = 4
+		birth_date = 1395.10.4
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Mundir"
+		dynasty = "Zuhr"
+		adm = 1
+		dip = 0
+		mil = 0
+		country_of_origin = TOU
+		birth_date = 1387.1.31
+		death_date = 1447.1.31
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Einar"
+		monarch_name = "Einar"
+		dynasty = "Zuhr"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1413.8.9
+		death_date = 1478.8.9
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = cosmopolitan_french
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 74
+	add_treasury = 71
+}

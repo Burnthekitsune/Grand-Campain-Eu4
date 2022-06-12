@@ -1,0 +1,133 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 124 183 151 }
+revolutionary_colors = { 5 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	quantity_ideas
+	religious_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Abdul-Aziz #0" = 0
+	"Adelaida #0" = -1
+	"Alexios #1" = 10
+	"Anthimos #0" = 0
+	"Bashtwa #1" = 10
+	"Boyana #0" = -1
+	"Davyd #0" = 0
+	"Gintare #0" = -1
+	"Kale #0" = -1
+	"Kestutis #0" = 0
+	"Kibar #0" = 0
+	"Simeon #0" = 0
+	"Tuzniq #1" = 10
+	"Wulfrun #0" = -1
+}
+leader_names = {
+	"Antonovych"
+	"Avramenko"
+	"Babko"
+	"Bogolyubov"
+	"Bunyakovskii"
+	"Chebotaryov"
+	"Cholesky"
+	"Chuperchuk"
+	"Davydova"
+	"Dmytrenko"
+	"Doroshenko"
+	"Drahomanov"
+	"Filitov"
+	"Fomenko"
+	"Hlushkov"
+	"Hnedenko"
+	"Horbachov"
+	"Kondratyuk"
+	"Korolyuk"
+	"Kravchuk"
+	"Krivokhyzha"
+	"Lysenko"
+	"Maksymovych"
+	"Mytropolsky"
+	"Ohloblyn"
+	"Oleinik"
+	"Ostrogradsky"
+	"Petryshyn"
+	"Pogorelov"
+	"Poretsky"
+	"Potapow"
+	"Pryma"
+	"Samoilenko"
+	"Shafarevich"
+	"Sharkovsky"
+	"Shatunovsky"
+	"Shchukarev"
+	"Shekera"
+	"Shtokalo"
+	"Skorokhod"
+	"Sleszynski"
+	"Stojko"
+	"Sydorenko"
+	"Trfimenko"
+	"Tyutyunnikov"
+	"Urysohn"
+	"Vantukh"
+	"Vashchenko"
+	"Vasylenko"
+	"Verkhovynets"
+	"Voronoy"
+	"Yavornytsky"
+}
+ship_names = {
+	"Alchevsk"
+	"Balta"
+	"Bug"
+	"Ghernigiv"
+	"Hmelnieckiy"
+	"Izyaslav"
+	"Kahovka"
+	"Kherson"
+	"Khersones"
+	"Kiev"
+	"Kolomiya"
+	"Korets"
+	"Kovel"
+	"Kremenchuk"
+	"Kremenets"
+	"Kriviy Rig"
+	"Lutsk"
+	"Mariupol"
+	"Melitopol"
+	"Noviy"
+	"Pryluky"
+	"Shostka"
+	"Slavutych"
+	"Sudak"
+	"Svitlovods'k"
+	"Tovaristsch"
+	"Tsyurupynsk"
+	"Uman"
+	"Vinnitsya"
+}

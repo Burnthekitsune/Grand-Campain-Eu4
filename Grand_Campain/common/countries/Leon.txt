@@ -1,0 +1,246 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 99 14 87 }
+revolutionary_colors = { 0 2 0 }
+historical_idea_groups = {
+	exploration_ideas
+	religious_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	maritime_ideas
+	quality_ideas
+	defensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abbad #0" = 0
+	"Abbas #0" = 0
+	"Abdul-Hazm #2" = 10
+	"Alfonsina #0" = -1
+	"Anundr #0" = 0
+	"Arngrímr #1" = 10
+	"Baldr #0" = 0
+	"Dalla #0" = -1
+	"Dima #0" = -1
+	"Drífa #0" = -1
+	"Einarr #0" = 0
+	"Esclarmonde #0" = -1
+	"Fatoumata #0" = -1
+	"Freyr #1" = 10
+	"Fruela #1" = 10
+	"Galind #0" = 0
+	"Garsiya #1" = 10
+	"Gui #1" = 10
+	"Gunnhildr #0" = -1
+	"Gutierre #0" = 0
+	"Guðmundr #0" = 0
+	"Hallsteinn #0" = 0
+	"Haukr #1" = 10
+	"Helgi #0" = 0
+	"Huda #0" = -1
+	"Hólmfríðr #0" = -1
+	"Hörðr #0" = 0
+	"Húnþjófr #0" = 0
+	"Ingiríðr #0" = -1
+	"Jimeno #0" = 0
+	"Jórunn #0" = -1
+	"Khadija #0" = -1
+	"Layla #1" = -1
+	"Ma'n #0" = 0
+	"Maha #0" = -1
+	"Mahaut #0" = -1
+	"Marina #0" = -1
+	"Mubashir #0" = 0
+	"Nur #1" = -1
+	"Ovecu #1" = 10
+	"Rahat #0" = -1
+	"Safiya #0" = -1
+	"Sanyo #1" = 10
+	"Savaricu #1" = 10
+	"Signý #0" = -1
+	"Skjöldr #0" = 0
+	"Tyke #0" = 0
+	"Umar #0" = 0
+	"Umm #1" = -1
+	"Ya'far #0" = 0
+	"Yasmin #0" = -1
+	"Ylva #0" = -1
+	"Yolande #0" = -1
+	"Yrsa #0" = -1
+	"Yusuf #0" = 0
+	"Zahida #0" = -1
+	"Álfrhildr #0" = -1
+	"Ásta #0" = -1
+	"Ýr #1" = -1
+	"Þórdís #1" = -1
+}
+leader_names = {
+	"Campomanes"
+	"Cienfuegos"
+	"Colón"
+	"Coronado"
+	"Cortés"
+	"Fonseca"
+	"Gálvez"
+	"Gómez"
+	"Jiménez de Cisneros"
+	"López de Haro"
+	"Narváez"
+	"Nuñez de Balboa"
+	"Orellana"
+	"Osorio"
+	"Pimentel"
+	"Pinzón"
+	"Pizarro"
+	"Ponce de León"
+	"Portocarrero"
+	"Tellez-Girón"
+	"de Aguirre"
+	"de Alarcón"
+	"de Andrade"
+	"de Ayala"
+	"de Bazán"
+	"de Benavides"
+	"de Castilla"
+	"de Córdoba"
+	"de Figueroa"
+	"de Guzmán"
+	"de Lara"
+	"de Leiva"
+	"de Luna"
+	"de Mendoza"
+	"de Nebrija"
+	"de Ojeda"
+	"de Rojas"
+	"de Toledo"
+	"de Velasco"
+	"de Villena"
+	"de Zúñiga"
+	"de la Cerda"
+	"de la Cueva"
+	"de la Vega"
+}
+ship_names = {
+	"Argonauta"
+	"Asturias"
+	"Asunción"
+	"Atrevido"
+	"Azor"
+	"Cartagonova"
+	"Castilla"
+	"Castillo Negro"
+	"Castor"
+	"Ciervo Volante"
+	"Doncella"
+	"Dragón"
+	"El Gran Grin"
+	"El Retiro"
+	"Eneas"
+	"Eolo"
+	"Esperanza"
+	"Espíritu Santo"
+	"Extremadura"
+	"Furor"
+	"Galicia"
+	"Gran Grifón"
+	"Halcón"
+	"Hércules"
+	"Isabela"
+	"Júpiter"
+	"La Concepción"
+	"La Magdalena"
+	"La Manuela"
+	"León"
+	"Ligera"
+	"Lobo Marino"
+	"Marte"
+	"Mercurio"
+	"Neptuno"
+	"Niña"
+	"Orión"
+	"Paloma Blanca"
+	"Pegaso"
+	"Perro Marino"
+	"Pinta"
+	"Plutón"
+	"Pollux"
+	"Príncipe de Asturias"
+	"Rayo"
+	"Real Alfonso"
+	"Real Enrique"
+	"Real Juan"
+	"Rey Pelayo"
+	"Rey Rodrigo"
+	"San Andrés"
+	"San Antonio"
+	"San Bartolomé"
+	"San Bernabé"
+	"San Cristobal"
+	"San Enrique"
+	"San Esteban"
+	"San Fernando"
+	"San Francisco"
+	"San Gabriel"
+	"San Isidoro"
+	"San Jerónimo"
+	"San José"
+	"San Juan"
+	"San Juan Bautista"
+	"San Leandro"
+	"San Miguel"
+	"San Pedro"
+	"San Rafael"
+	"San Salvador"
+	"San Sebastian"
+	"Santa Ana"
+	"Santa Beatriz"
+	"Santa Bárbara"
+	"Santa Catalina"
+	"Santa Cruz"
+	"Santa Fe"
+	"Santa Isabel"
+	"Santa Justa"
+	"Santa Marta"
+	"Santa María"
+	"Santa Rita"
+	"Santa Teresa"
+	"Santiago"
+	"Santo Domingo"
+	"Santísima Trinidad"
+	"Sirena"
+	"Terror"
+	"Toledo"
+	"Trinidad"
+	"Tritón"
+	"Unicornio"
+	"Vencedora"
+	"Ventura"
+	"Victoria"
+	"Vigilante"
+	"Vizcaya"
+	"Vulcano"
+	"Zúñiga"
+}
+army_names = {
+	"Ejército de $PROVINCE$"
+	"Guardia Real"
+}
+fleet_names = {
+	"Armada Real"
+	"Flota de $PROVINCE$"
+}

@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 53 191 176 }
+historical_idea_groups = {
+	trade_ideas
+	quality_ideas
+	religious_ideas
+	maritime_ideas
+	economic_ideas
+	quantity_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abdul-Wahab #1" = 10
+	"Aghlab #0" = 0
+	"Alim #1" = 10
+	"Asiya #0" = -1
+	"Deeqa #0" = -1
+	"Faruk #1" = 10
+	"Ghalib #1" = 10
+	"Hasan #1" = 10
+	"Husam #1" = 10
+	"Imamaddin #0" = 0
+	"Khudayar #0" = 0
+	"Mirza #0" = 0
+	"Murad #1" = 10
+	"Musa #1" = 10
+	"Muzaffaraddin #1" = 10
+	"Nizam #3" = 10
+	"Qawurd #1" = 10
+	"Ramadan #1" = 10
+	"Sa'daddin #3" = 10
+	"Sa'di #1" = 10
+	"Samir #1" = 10
+	"Shaiban #1" = 10
+	"Shamir #1" = 10
+	"Sheeftah #0" = -1
+	"Shola #0" = -1
+	"Talib #1" = 10
+	"Taliba #0" = -1
+}
+leader_names = {
+	"Balhaf"
+	"Bannu Zanna"
+	"Barafit"
+	"Harawiz"
+	"Kalshat"
+	"Kamsit"
+	"Riyam"
+	"Samudat"
+	"Thuwar"
+	"Zabanat"
+	"Ziyad"
+}
+ship_names = {
+	"Al-Akhdar"
+	"Al-Batinah"
+	"Al-Gharbi"
+	"Al-Hadd"
+	"Al-Hajar"
+	"Al-Huqf"
+	"Al-Jabal"
+	"Al-Khaburah"
+	"As-Sib"
+	"Ash-Sharqi"
+	"Dank"
+	"Fins"
+	"Ibrä"
+	"Jabal ash-Shäm"
+	"Masirah"
+	"Maskin"
+	"Masqat"
+	"Matrah"
+	"Nizwä"
+	"Quraqqät"
+	"Ra's Abu Daud"
+	"Ra's Al-Hadd"
+	"Ramlat al Wahibah"
+	"Sarür"
+	"Shinas"
+	"Suhar"
+	"Sür"
+	"Tan'am"
+	"Tiwi"
+	"Tur at Masirah"
+	"Umm As-Samim"
+	"Wadi Andam"
+	"Wadi Aswad"
+	"Wadi al-Bahta"
+}

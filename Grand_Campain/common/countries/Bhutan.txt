@@ -1,0 +1,87 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 93 180 76 }
+revolutionary_colors = { 8 0 6 }
+historical_idea_groups = {
+	religious_ideas
+	economic_ideas
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	trade_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Adek #1" = 10
+	"Chakhren #0" = 0
+	"Chogyal #0" = 0
+	"Choje #0" = 0
+	"Choki #0" = -1
+	"Chukpo #0" = -1
+	"Dattadevi #1" = -1
+	"Domchu #0" = 0
+	"Donyi #1" = -1
+	"Ghaden #0" = -1
+	"Jangcchub #1" = 10
+	"Jestun #0" = -1
+	"Karma #1" = 10
+	"Kuladevi #0" = -1
+	"Lokpai #0" = 0
+	"Nambin #1" = 10
+	"Narapati #0" = 0
+	"Narayanavarman #0" = 0
+	"Pelmo #0" = -1
+	"Pralambha #0" = 0
+	"Ratnadevi #0" = -1
+	"Salasthamba #0" = 0
+	"Selden #0" = -1
+	"Thekung #2" = 10
+	"Tshering #0" = -1
+	"Ugyen #0" = -1
+	"Vijnayavati #0" = -1
+	"Vir #0" = 0
+	"Virabahu #1" = 10
+	"Wangzob #0" = 0
+	"Yajiyavati #0" = -1
+	"Yajnavati #1" = -1
+	"Yangchen #0" = -1
+	"Yeshey #2" = 10
+	"Yumchenmo #0" = -1
+}
+leader_names = {
+	"Chomphel"
+	"Gyaltshen"
+	"Gyamtsho"
+	"Lhopi"
+	"Peljor"
+	"Phuntsho"
+	"Rabgye"
+	"Tshering"
+	"Wangchuk"
+	"Wangpo"
+}
+ship_names = {
+	"Chhu"
+	"Dng Chu"
+	"Manas Chu"
+	"Mangde Chu"
+	"Mo Chu"
+	"Pa Chu"
+	"Pho Chu"
+	"Punaka"
+	"Sangkosh"
+	"Thimbu"
+	"Tongsa Chu"
+	"Towang Chu"
+}

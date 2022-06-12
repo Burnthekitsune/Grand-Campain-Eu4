@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 42 107 17 }
+revolutionary_colors = { 15 2 10 }
+historical_idea_groups = {
+	defensive_ideas
+	maritime_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	humanist_ideas
+	quantity_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alexios #1" = 10
+	"Aspar #1" = 10
+	"Bagha #0" = 0
+	"Balsag #1" = 10
+	"Bashtwa #2" = 10
+	"Bazuk #1" = 10
+	"Buriberdi #1" = 10
+	"Chelakhsartag #1" = 10
+	"Gregoras #2" = 10
+	"Gulçiçäk #0" = -1
+	"Isaac #1" = 10
+	"Itakh #0" = 0
+	"Itaz #3" = 10
+	"Kamaj #0" = 0
+	"Karacik #0" = -1
+	"Kayghalagh #0" = 0
+	"Khuterkin #0" = 0
+	"Konstantinos #1" = 10
+	"Kundaç #0" = 0
+	"Levan #1" = 10
+	"Mutlu #0" = -1
+	"Nisi #0" = 0
+	"Papaçyz #0" = 0
+	"Puyantay #0" = -1
+	"Sarikel #0" = -1
+	"Sarä #0" = -1
+	"Simsam #0" = 0
+	"Sirin #0" = -1
+	"Sirma #0" = -1
+	"Taus #2" = 10
+	"Yabghu #0" = 0
+	"Yerneslu #0" = 0
+	"Zohreh #0" = -1
+	"Çilen #0" = -1
+	"Çiltanesi #0" = -1
+}
+leader_names = {
+	"Abzakh"
+	"Adamiy"
+	"Beslenei"
+	"Cöbein"
+	"Guaye"
+	"Hatuqwai"
+	"Khegaik"
+	"Khetuk"
+	"Mamkhegh"
+	"Mokhosh"
+	"Natukhai"
+	"Okhlov"
+	"Shapsug"
+	"Tazryt"
+	"Temirgoy"
+	"Ubykh"
+	"Zhaney"
+}
+ship_names = {
+	"Adyghe"
+	"Anapa"
+	"Beslenei"
+	"Cöbein"
+	"Kabardia"
+	"Mamkhegh"
+	"Nalchik"
+	"Natukhay"
+	"Ossetia"
+	"Petrezok"
+	"Tuapse"
+	"Zichia"
+}

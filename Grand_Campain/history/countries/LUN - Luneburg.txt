@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = schlesian
+capital = 53
+fixed_capital = 53
+add_accepted_culture = lower_saxon
+1444.11.11= {
+	monarch = {
+		name = "Witosz"
+		dynasty = "Pólkozic"
+		adm = 4
+		dip = 3
+		mil = 6
+		birth_date = 1399.4.18
+		religion = catholic
+		culture = schlesian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Kenna"
+		dynasty = "Nowina"
+		adm = 3
+		dip = 3
+		mil = 2
+		country_of_origin = LUN
+		birth_date = 1400.11.10
+		death_date = 1460.11.10
+		female = yes
+		religion = catholic
+		culture = schlesian
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Stefan"
+		monarch_name = "Stefan"
+		dynasty = "Pólkozic"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1432.1.24
+		death_date = 1497.1.24
+		claim = 89
+		religion = catholic
+		culture = schlesian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 55
+	add_treasury = 58
+}

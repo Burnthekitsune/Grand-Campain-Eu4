@@ -1,0 +1,17 @@
+owner = Z4R
+controller = Z4R
+capital = "Foggia"
+is_city = yes
+culture = beneventine
+religion = converted_dynamic_faith_106
+trade_goods = livestock
+base_tax = 2
+base_production = 3
+base_manpower = 2
+add_core = Z4R
+discovered_by = eastern
+discovered_by = indian
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = western

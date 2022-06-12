@@ -1,0 +1,134 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 39 108 140 }
+revolutionary_colors = { 5 14 0 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	maritime_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aaqila #0" = -1
+	"Abidin #0" = 0
+	"Adergazuz #0" = 0
+	"Alexandra #0" = -1
+	"Amessan #0" = 0
+	"Anthousa #1" = -1
+	"Az'regh #0" = 0
+	"Badda #0" = 0
+	"Bghnat #0" = -1
+	"Blaz #0" = 0
+	"Bälgiçi #1" = 10
+	"Cissi #0" = 0
+	"Desislava #0" = -1
+	"Doroteja #0" = -1
+	"Ecgberht #0" = 0
+	"Eugenios #1" = 10
+	"Euphrosine #0" = -1
+	"Fath #0" = 0
+	"Gedduda #0" = -1
+	"Guðrún #0" = -1
+	"Gyða #0" = -1
+	"H'emmu #0" = 0
+	"Hinda #0" = -1
+	"Ikalay #0" = -1
+	"Ingfríðr #0" = -1
+	"Ioustina #1" = -1
+	"Ipekel #1" = -1
+	"Iskra #0" = -1
+	"Ixzi #0" = 0
+	"Jovan #1" = 10
+	"Jovanka #1" = -1
+	"Jàpicu #0" = 0
+	"Kulla #0" = -1
+	"Leon #3" = 10
+	"Mahmud #1" = 10
+	"Mariam #0" = -1
+	"Markos #0" = 0
+	"Medeni #1" = -1
+	"Menna #0" = -1
+	"Mennad #0" = 0
+	"Mikail #1" = 10
+	"Musa #0" = 0
+	"N'Guna #0" = 0
+	"Ndoung #0" = -1
+	"Nevena #0" = -1
+	"Porin #0" = 0
+	"Porphyrios #1" = 10
+	"Rafiqa #0" = -1
+	"Sifaks #0" = 0
+	"Sina #1" = 10
+	"Stefania #0" = -1
+	"Tafsut #0" = -1
+	"Taljat #1" = -1
+	"Tament #0" = -1
+	"Tanefzawit #0" = -1
+	"Tariq #0" = 0
+	"Tariwelt #0" = -1
+	"Taszellayt #0" = -1
+	"Theophanes #0" = 0
+	"Theophano #0" = -1
+	"Torfu #0" = 0
+	"Youssef #0" = 0
+	"Yuba #0" = 0
+	"Zilgum #0" = -1
+	"Zunagha #0" = -1
+	"Áslaug #0" = -1
+	"Þórdís #0" = -1
+}
+leader_names = {
+	"Balsic"
+	"Baulica"
+	"Berici"
+	"Bivolici"
+	"Boljevic"
+	"Buca"
+	"Crnojevic"
+	"Drago"
+	"Grblji"
+	"Komanin"
+	"Kornecanin"
+	"Kosaca"
+	"Lukovici"
+	"Martinovitci"
+	"Njegos"
+	"Pastrovici"
+	"Petrovici"
+	"Radari"
+	"Srdjici"
+	"Sundecic"
+}
+ship_names = {
+	"Balsa I"
+	"Cetinje"
+	"Crna Gora"
+	"Duklja"
+	"Jadransko more"
+	"Jovan Vladimir"
+	"Mihajlo I"
+	"Podgorica"
+	"Vojislavljevic"
+	"Zeta"
+}

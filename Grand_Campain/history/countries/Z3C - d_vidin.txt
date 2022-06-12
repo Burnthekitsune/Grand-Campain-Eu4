@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = converted_dynamic_faith_106
+primary_culture = romanian
+capital = 2746
+add_accepted_culture = serbian
+1444.11.11= {
+	monarch = {
+		name = "Ieremia"
+		dynasty = "Karling-Petrus"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1411.7.20
+		religion = converted_dynamic_faith_106
+		culture = romanian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Ivet"
+		dynasty = "Svetoslav"
+		adm = 3
+		dip = 2
+		mil = 4
+		country_of_origin = Z3C
+		birth_date = 1409.8.27
+		death_date = 1469.8.27
+		female = yes
+		religion = converted_dynamic_faith_106
+		culture = dynamic-bulgarian-greek-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Natalia"
+		monarch_name = "Natalia"
+		dynasty = "Karling-Petrus"
+		adm = 3
+		dip = 4
+		mil = 6
+		birth_date = 1428.8.13
+		death_date = 1493.8.13
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_106
+		culture = romanian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 76
+	add_treasury = 73
+}

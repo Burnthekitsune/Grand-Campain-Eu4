@@ -1,0 +1,184 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 220 220 220 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	influence_ideas
+	diplomatic_ideas
+	economic_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Azzo #1" = 10
+	"Bystrík #0" = 0
+	"Danute #0" = -1
+	"Dezsõ #0" = 0
+	"Dobromila #0" = -1
+	"Gunes #0" = -1
+	"Horislav #0" = 0
+	"Horislava #0" = -1
+	"Hromislav #0" = 0
+	"Hviezdoslav #1" = 10
+	"Jalil #0" = 0
+	"Jaroslav #0" = 0
+	"Milomíra #0" = -1
+	"Mislava #0" = -1
+	"Pravdomila #0" = -1
+	"Slavena #0" = -1
+	"Slavoj #0" = 0
+	"Slavomíra #0" = -1
+	"Slávka #0" = -1
+	"Svatoslav #1" = 10
+	"Vlastimila #0" = -1
+	"Zubrivoj #0" = 0
+}
+leader_names = {
+	"Alvintzky"
+	"Arenberg"
+	"Bethmann"
+	"Boroewitsch"
+	"Buseck"
+	"Byszynski"
+	"Casper"
+	"Erlmayr"
+	"Frantsits"
+	"Freystadt"
+	"Haemrich"
+	"Hagedorn"
+	"Heinrich"
+	"Ketterer"
+	"Kolin"
+	"Lobkowitz"
+	"Meinl"
+	"Minucci"
+	"Mittelbach"
+	"Poll"
+	"Sauerzapff"
+	"Schrüder"
+	"Seyssel"
+	"Steiger"
+	"Stichsenstein"
+	"Sulerzycki"
+	"Tegethoff"
+	"Zakrzewsky"
+	"Zwerger"
+	"von Esterhazy"
+	"von Guttenberg"
+	"von Habsburg"
+	"von Hatzfeldt"
+	"von Hohenberg"
+	"von Ihering"
+	"von Kapfenberg"
+	"von Laudon"
+	"von Neippberg"
+	"von Oberg"
+	"von Quadt"
+	"von Riedesel"
+	"von Schwarzenberg"
+	"von Schönbrunn"
+	"von Schönburg"
+	"von Stark"
+	"von Stauffenberg"
+	"von Stubenrauch"
+	"von Waldstein"
+}
+ship_names = {
+	"Albatros"
+	"Arpad"
+	"Aurora"
+	"Austria"
+	"Austria Imperare"
+	"Babenberg"
+	"Baron Bruck"
+	"Baron Call"
+	"Belvedre"
+	"Donau"
+	"Doppeladler"
+	"Emenentius"
+	"Erzherzog Ferdinand"
+	"Felix"
+	"Fides et Spes"
+	"Fiume"
+	"Fortitas"
+	"Goliath"
+	"Habsburg"
+	"Herkules"
+	"Imperator"
+	"Inexhaustus"
+	"Inn"
+	"Invulnerabilis"
+	"Kaiserin Maria Theresia"
+	"Lachs"
+	"Lacroma"
+	"Leitha"
+	"Leopard"
+	"Lindwurm"
+	"Möwe"
+	"Natter"
+	"Nixe"
+	"Novara"
+	"Nymphe"
+	"Pannonia"
+	"Panther"
+	"Pavidarus"
+	"Plus Ultra"
+	"Pola"
+	"Pustazer"
+	"Saida"
+	"Salzach"
+	"Samson"
+	"Sankt Stephan"
+	"Sankt Wolfgang"
+	"Satellit"
+	"Taurus"
+	"Theresia"
+	"Tiger"
+	"Tirol"
+	"Trabant"
+	"Traisen"
+	"Triest"
+	"Trinitas"
+	"Vigilatia"
+	"Vindobona"
+	"Viribus Unitis"
+	"Wachau"
+	"Wien"
+	"Zara"
+	"Zenta"
+	"Zrinyi"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Armee von Böhmen"
+	"Armee von Italien"
+	"Armee von Schlesien"
+	"Armee von Ungarn"
+	"Habsburgische Armee"
+	"K.u.K Armee"
+	"Kaiserliche Armee"
+}
+fleet_names = {
+	"Adriatik Flotte"
+	"Habsburgische Flotte"
+	"Kaiserliche Flotte"
+}

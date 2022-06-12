@@ -1,0 +1,84 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 84 166 93 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Bezprym #1" = 10
+	"Borzyslaw #0" = 0
+	"Dalibor #1" = 10
+	"Drahoslav #1" = 10
+	"Kazimiera #0" = -1
+	"Koloman #1" = 10
+	"Krzesimir #1" = 10
+	"Ladomír #1" = 10
+	"Ludomil #2" = 10
+	"Miloboj #1" = 10
+	"Miroslav #2" = 10
+	"Slavomír #1" = 10
+	"Slezaslaw #1" = 10
+	"Svorad #1" = 10
+	"Trojden #2" = 10
+	"Vainius #0" = 0
+	"Viacslav #1" = 10
+	"Vseslav #0" = 0
+	"Witosz #2" = 10
+	"Wratyslaw #1" = 10
+	"Cestmír #1" = 10
+}
+leader_names = {
+	"Abeln"
+	"Greve"
+	"Gronau"
+	"Heintzel"
+	"Hergesell"
+	"Hoppe"
+	"Jauernik"
+	"Kahl"
+	"Liegnitz"
+	"Schwarz"
+	"Sterner"
+	"Tilch"
+	"Wiehle"
+}
+ship_names = {
+	"Breslau"
+	"Cosel-Beuthen"
+	"Falkenberg"
+	"Glogau"
+	"Liegnitz-Brieg"
+	"Münsterberg"
+	"Neisse-Ottmachau"
+	"Oels"
+	"Oppeln"
+	"Ratibor"
+	"Sagan"
+	"Schweidnitz-Jauer"
+	"Steinau"
+	"Teschen"
+}

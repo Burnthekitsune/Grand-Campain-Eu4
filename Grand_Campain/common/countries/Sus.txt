@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 255 240 }
+revolutionary_colors = { 0 8 0 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abu-Bakr #3" = 10
+	"Ali #1" = 10
+	"Aliyah #0" = -1
+	"Amr #0" = 0
+	"Bóthildr #0" = -1
+	"Cecilía #1" = -1
+	"Drífa #0" = -1
+	"Einar #0" = 0
+	"Freyja #1" = -1
+	"Gamila #1" = -1
+	"Glóð #0" = -1
+	"Ingiríðr #1" = -1
+	"Itber #0" = 0
+	"Kamala #1" = -1
+	"Kera #0" = -1
+	"Lubb #0" = 0
+	"Malika #0" = -1
+	"Maram #0" = -1
+	"Mariam #0" = -1
+	"Matiya #0" = 0
+	"Nur #1" = -1
+	"Rorgon #1" = 10
+	"Shakira #0" = -1
+	"Skjaldvör #0" = -1
+	"Starkaðr #0" = 0
+	"Sturla #1" = 10
+	"Suni #1" = 10
+	"Suraya #2" = -1
+	"Tariq #0" = 0
+	"Valþjófr #0" = 0
+	"Yasmin #1" = -1
+	"Zahida #0" = -1
+	"Álfgeir #0" = 0
+	"Álvör #1" = -1
+	"Ástríðr #1" = -1
+	"Þyri #0" = -1
+	"Þórólfr #0" = 0
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

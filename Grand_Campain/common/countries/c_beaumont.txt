@@ -1,0 +1,27 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 35 65 230 }
+monarch_names = {
+	"Alain #1" = 10
+	"Boudewijn #1" = 10
+	"Charles #1" = 10
+	"Fólki #1" = 10
+	"Gao #1" = 10
+	"Gerhard #1" = 10
+	"Gerulf #1" = 10
+	"Grifo #1" = 10
+	"Guij #1" = 10
+	"Guilhem #3" = 10
+	"Héloïse #1" = -1
+	"Isma'il #1" = 10
+	"Jan #1" = 10
+	"Karl #1" = 10
+	"Konrad #1" = 10
+	"Liuthard #1" = 10
+	"Louis #1" = 10
+	"Mélisende #1" = -1
+	"Pepin #1" = 10
+	"Savary #1" = 10
+	"Ástríðr #2" = -1
+	"Þóra #0" = -1
+}

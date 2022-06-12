@@ -1,0 +1,105 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 200 219 195 }
+revolutionary_colors = { 5 13 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ado #1" = 10
+	"Alberade #1" = -1
+	"Amadeus #0" = 0
+	"Beorhtric #1" = 10
+	"Dietmar #1" = 10
+	"Doman #0" = 0
+	"Ernst #0" = 0
+	"Gebhard #0" = 0
+	"Godescalc #1" = 10
+	"Gottfried #1" = 10
+	"Gotthard #0" = 0
+	"Gozbert #1" = 10
+	"Guillaume #1" = 10
+	"Heinrich #1" = 10
+	"Heribert #1" = 10
+	"Hetan #2" = 10
+	"Hruodis #1" = 10
+	"Ibrahim #0" = 0
+	"Irmele #1" = -1
+	"Jaspert #1" = 10
+	"Matthias #1" = 10
+	"Meinhard #1" = 10
+	"Milena #0" = -1
+	"Pandoff #1" = 10
+	"Richara #0" = -1
+	"Sancha #1" = -1
+	"Stanislaw #0" = 0
+	"Thaculf #1" = 10
+	"Thomas #1" = 10
+	"Thuringus #1" = 10
+	"Waclaw #0" = 0
+	"Wilhelm #0" = 0
+	"Zofia #0" = -1
+	"Æthelweard #1" = 10
+}
+leader_names = {
+	"Blochberger"
+	"Bär"
+	"Degen"
+	"Dick"
+	"Egelkraut"
+	"Fichtelmann"
+	"Färber"
+	"Födisch"
+	"Gäbelein"
+	"Hager"
+	"Hofmann"
+	"Höhrer"
+	"Rank"
+	"Sack"
+	"Schwager"
+	"Sell"
+	"Simon"
+	"Söll"
+	"Wirth"
+}
+ship_names = {
+	"Bergtheim"
+	"Biebelried"
+	"Eigelstadt"
+	"Gramschatz"
+	"Höchberg"
+	"Julius Echter"
+	"Kietzingen"
+	"Main"
+	"Marienberg"
+	"Ochsenfurth"
+	"Rimpar"
+	"Uettingen"
+	"Wern"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

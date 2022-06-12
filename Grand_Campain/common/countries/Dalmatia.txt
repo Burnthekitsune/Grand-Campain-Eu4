@@ -1,0 +1,195 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 46 128 188 }
+revolutionary_colors = { 12 15 13 }
+historical_idea_groups = {
+	trade_ideas
+	plutocracy_ideas
+	humanist_ideas
+	exploration_ideas
+	defensive_ideas
+	economic_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Agdun #0" = 0
+	"Aksel #0" = 0
+	"Amphilochios #2" = 10
+	"Andrija #0" = 0
+	"Anthousa #1" = -1
+	"Azenkwed #0" = 0
+	"Azim #0" = 0
+	"Badeea #0" = -1
+	"Bahac #0" = -1
+	"Basimah #0" = -1
+	"Bugha #0" = 0
+	"Böri #0" = 0
+	"Daniel #0" = 0
+	"Danilo #1" = 10
+	"Danyal #1" = 10
+	"Dragija #1" = 10
+	"Dusica #1" = -1
+	"Ezzo #0" = 0
+	"Gordana #1" = -1
+	"Grgur #0" = 0
+	"Helene #0" = -1
+	"Ibiza #0" = 0
+	"Irgen #0" = 0
+	"Itakh #0" = 0
+	"Jeddjiga #0" = -1
+	"Khatir #0" = 0
+	"Kosmas #1" = 10
+	"Leodegundia #0" = -1
+	"Lewnis #0" = 0
+	"Ljubica #1" = -1
+	"Mansa #0" = -1
+	"Matija #2" = 10
+	"Mbooj #0" = 0
+	"Miroslav #1" = 10
+	"Musa #0" = 0
+	"Ninoslav #1" = 10
+	"Pavlos #2" = 10
+	"Romane #0" = -1
+	"Seghada #0" = 0
+	"Sekla #0" = 0
+	"Sergios #1" = 10
+	"Tadla #0" = -1
+	"Tafsut #0" = -1
+	"Tariq #0" = 0
+	"Theognosia #1" = -1
+	"Tiberios #1" = 10
+	"Timmi #0" = -1
+	"Titi #1" = -1
+	"Visarion #1" = 10
+	"Yabdas #0" = 0
+	"Yavantey #0" = 0
+	"Yuva #0" = 0
+	"Zunagha #0" = -1
+	"Çiçäk #0" = -1
+}
+leader_names = {
+	"Alapic"
+	"Alvise"
+	"Babonic"
+	"Barbarigo"
+	"Bardolino"
+	"Barilla"
+	"Bassano"
+	"Bembo"
+	"Blagaj"
+	"Casanova"
+	"Cassandro"
+	"Cesnegic"
+	"Chiogga"
+	"Commachio"
+	"Contarini"
+	"Cornaro"
+	"Crnkovic"
+	"Dolfin"
+	"Donato"
+	"Drashkovic"
+	"Emo"
+	"Erizzo"
+	"Ermelli"
+	"Flangini"
+	"Foscarini"
+	"Foscolo"
+	"Frankapan"
+	"Garda"
+	"Giustinani"
+	"Gorjanski"
+	"Grimani"
+	"Gritti"
+	"Horvat"
+	"Hrvatinic"
+	"Ilocki"
+	"Jelacic"
+	"Kacic"
+	"Kaniski"
+	"Keglevic"
+	"Knezevic"
+	"Krbavski"
+	"Kruzic"
+	"Kurjakovic"
+	"Labia"
+	"Lackovic"
+	"Lando"
+	"Lomellini"
+	"Loredan"
+	"Magno"
+	"Marcello"
+	"Memmo"
+	"Mestre"
+	"Mihalovic"
+	"Moceningo"
+	"Modigliano"
+	"Molin"
+	"Moro"
+	"Morosini"
+	"Nelipcic"
+	"Ozegovic"
+	"Pejacevic"
+	"Pesaro"
+	"Pezzini"
+	"Pisani"
+	"Polani"
+	"Pordenone"
+	"Priuli"
+	"Quirini"
+	"Radic"
+	"Riva"
+	"Rovereto"
+	"Rovigo"
+	"Rukavina"
+	"Ruzzini"
+	"San Paulo"
+	"Schio"
+	"Subic"
+	"Sugaina"
+	"Talovac"
+	"Toscani"
+	"Trevisano"
+	"Valieri"
+	"Veniero"
+	"Vittorio"
+	"Vrancic"
+	"Zeno"
+	"Zrinski"
+	"Zustiniani"
+	"d'Alviano"
+	"de Blazio"
+}
+ship_names = {
+	"Cres"
+	"Dugi Otok"
+	"Goli"
+	"Krl"
+	"Pag"
+	"Plavnik"
+	"Susak"
+	"Sveti Grgur"
+	"Tijat"
+	"Unije"
+	"Vele Srankane"
+	"Zlarin"
+	"Zmajan"
+}
+army_names = {
+	"Vojska $PROVINCE$"
+}

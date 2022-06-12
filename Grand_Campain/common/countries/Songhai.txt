@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 62 175 151 }
+revolutionary_colors = { 0 1 0 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	niger_kongolese_gunpowder_warfare
+	songhai_tribal_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Amar #0" = 0
+	"Ame #0" = -1
+	"Aoua #0" = -1
+	"Awo #0" = -1
+	"Biram #0" = 0
+	"Boukar #0" = 0
+	"Brak #0" = 0
+	"Demba #0" = -1
+	"Doye #0" = -1
+	"Faaduma #0" = -1
+	"Fanaan #0" = 0
+	"Fatoumata #0" = -1
+	"Kella #1" = -1
+	"Kersiami #0" = -1
+	"Kyra #0" = -1
+	"Maane #0" = 0
+	"Malado #0" = -1
+	"Maram #0" = -1
+	"Mbanyik #0" = 0
+	"Mbar #0" = 0
+	"Mbouna #0" = 0
+	"Namiss #0" = -1
+	"Ndate #0" = -1
+	"Ndieumbeutt #0" = -1
+	"Ndoffene #0" = 0
+	"Ndoung #0" = -1
+	"Ndoye #0" = -1
+	"Niokhobaye #0" = 0
+	"Njekeh #0" = 0
+	"Sanjan #0" = 0
+	"Seku #0" = 0
+	"Semou #1" = 10
+	"Tening #0" = 0
+	"Thema #0" = -1
+	"Waagaan #0" = 0
+	"Yalla #0" = -1
+	"Yuma #1" = 10
+	"Yumeyga #0" = -1
+	"Þyri #0" = -1
+}
+leader_names = {
+	"Amadou"
+	"Compaore"
+	"Diallo"
+	"Diarra"
+	"Keita"
+	"Lamizana"
+	"Modibo"
+	"Ouedraogo"
+	"Toure"
+	"Zerbo"
+}
+ship_names = {
+	"Akoi"
+	"Alayaman"
+	"Ali-Fay"
+	"Biyo-Kumoy"
+	"Biyu"
+	"Kinkin"
+	"Ku"
+	"Kukuray"
+	"Nintasanay"
+	"Takoi"
+	"Yama-Karaway"
+	"Za Kuroy"
+	"Zakoi"
+}

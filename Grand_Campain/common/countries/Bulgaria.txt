@@ -1,0 +1,87 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 116 107 140 }
+revolutionary_colors = { 0 10 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adriane #0" = -1
+	"Anthousa #1" = -1
+	"Bogoris #1" = 10
+	"Boyana #1" = -1
+	"Chrysanthos #0" = 0
+	"Dan #1" = 10
+	"Eudoxios #1" = 10
+	"Ioulia #1" = -1
+	"Janos #1" = 10
+	"Konstantine #1" = -1
+	"Markia #0" = -1
+	"Matthaios #1" = 10
+	"Mihail #1" = 10
+	"Moise #1" = 10
+	"Ognen #1" = 10
+	"Petar #2" = 10
+	"Roman #1" = 10
+	"Romanos #1" = 10
+	"Shoksha #0" = 0
+	"Staurakios #0" = 0
+	"Svetislav #1" = 10
+	"Tamrust #1" = -1
+	"Vasilii #1" = 10
+	"Victor #1" = 10
+	"Vladimir-Rasate #1" = 10
+	"Zhivka #1" = -1
+}
+leader_names = {
+	"Balina"
+	"Djordjic"
+	"Dobrovski"
+	"Frujin"
+	"Karposh"
+	"Konstantin"
+	"Marinov"
+	"Peyachevich"
+	"Radic"
+	"Rali"
+	"Shishman"
+	"Sorkochovich"
+	"Strahil"
+	"Stratimirovich"
+}
+ship_names = {
+	"Alhtpolo"
+	"Kiten"
+	"Kraymorie"
+	"Lozenets"
+	"Promorsko"
+	"Rezovo"
+	"Sarafovo"
+	"Sinemorets"
+	"Sozopol"
+	"Varara"
+}

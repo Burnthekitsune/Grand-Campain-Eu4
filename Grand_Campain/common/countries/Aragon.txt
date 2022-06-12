@@ -1,0 +1,156 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 166 68 72 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	maritime_ideas
+	quantity_ideas
+	religious_ideas
+	trade_ideas
+	naval_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	french_caracolle
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	spanish_tercio
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abdallah #0" = 0
+	"Abdul #0" = 0
+	"Abdul-Rahman #0" = 0
+	"Abu #0" = 0
+	"Abu-Bakr #0" = 0
+	"Ahmad #1" = 10
+	"Ahu #0" = -1
+	"Ali #1" = 10
+	"Amelie #1" = -1
+	"Aznar #2" = 10
+	"Björg #0" = -1
+	"Einar #0" = 0
+	"Eðla #0" = -1
+	"Fahriya #0" = -1
+	"Galindo #2" = 10
+	"Gartzia #1" = 10
+	"Grettir #0" = 0
+	"Grýla #1" = -1
+	"Gunnhildr #1" = -1
+	"Khadija #0" = -1
+	"Layla #0" = -1
+	"Nadia #1" = -1
+	"Raf #1" = 10
+	"Roger #1" = 10
+	"Siddray #0" = 0
+	"Styrbjörn #0" = 0
+	"Síg #0" = -1
+	"Umar #6" = 10
+	"Vigdís #0" = -1
+	"Vémundr #0" = 0
+	"Yusuf #0" = 0
+	"Álfgeir #0" = 0
+	"Álfrhildr #0" = -1
+	"Álvör #0" = -1
+	"Þyri #0" = -1
+}
+leader_names = {
+	"Amic"
+	"Arbués"
+	"Balaguer"
+	"Barceló"
+	"Berguedà"
+	"Bielsa"
+	"Cajal"
+	"Colom"
+	"Domènec"
+	"Fernández de Hijar"
+	"Ferrer"
+	"Folc de Cardona"
+	"Franco"
+	"Galindo"
+	"Gil de Biedma"
+	"Gisbert"
+	"Loaisa"
+	"Martorell"
+	"Monteagudo"
+	"Muntaner"
+	"Oliva"
+	"Ordovás"
+	"Peña"
+	"Piquer"
+	"Pérez de Coloma"
+	"Ripoll"
+	"Sastre"
+	"Vallès"
+	"Veldrán"
+	"Vilamarí"
+	"Villarroya"
+	"d'Aragó"
+	"d'Empúries"
+	"d'Ixer"
+	"d'Ors"
+	"d'Urgell"
+	"d'Àustria"
+	"de Alagón"
+	"de Ayerbe"
+	"de Belchite"
+	"de Borja"
+	"de Cabrera"
+	"de Gotor"
+	"de Guimerà"
+	"de Gurrea"
+	"de Luna"
+	"de Montcada"
+	"de Requesens"
+	"de Ripperdá"
+	"de Zaporta"
+	"de la Riba"
+}
+ship_names = {
+	"Blanca Aurora"
+	"Falcó"
+	"Flama"
+	"La Bonaventura"
+	"La Garsa"
+	"La Gasela"
+	"La Reial"
+	"Lleona"
+	"Magnana"
+	"Sant Ambrós"
+	"Sant Antoni"
+	"Sant Bernat"
+	"Sant Climent"
+	"Sant Francesc"
+	"Sant Gabriel"
+	"Sant Jacob"
+	"Sant Joan Evangelista"
+	"Sant Jordi"
+	"Sant Miquel"
+	"Sant Pere de Roma"
+	"Sant Víctor"
+	"Santa Bàrbara"
+	"Santa Caterina"
+	"Santa Coloma"
+	"Santa Creu"
+	"Santa Eulàlia"
+	"Santa Magdalena"
+	"Santa Maria"
+	"Santa Ventura"
+	"Santa Ágata"
+	"Trinitat"
+}
+army_names = {
+	"Terç de $PROVINCE$"
+}

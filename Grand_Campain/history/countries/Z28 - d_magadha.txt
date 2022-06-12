@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = indian
+religion = jain
+primary_culture = dynamic-kannada-marathi-culture-num1
+capital = 2044
+mercantilism = 15
+1444.11.11= {
+	monarch = {
+		name = "Sakavaarbai"
+		dynasty = "Yodkhsetakid"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1384.4.7
+		female = yes
+		religion = jain
+		culture = dynamic-kannada-marathi-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Gyeltore"
+		dynasty = "Chakhar-Cozhêdangma"
+		adm = 2
+		dip = 4
+		mil = 4
+		country_of_origin = Z28
+		birth_date = 1384.5.25
+		death_date = 1444.5.25
+		religion = jain
+		culture = tibetan
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Lha"
+		monarch_name = "Lha"
+		dynasty = "Chakhar-Cozhêdangma"
+		adm = 5
+		dip = 6
+		mil = 6
+		birth_date = 1401.6.29
+		death_date = 1466.6.29
+		claim = 89
+		religion = vajrayana
+		culture = tibetan
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 85
+	add_treasury = 0
+}

@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = muslim
+religion = zoroastrian
+primary_culture = dynamic-khazar-culture-num1
+capital = 2474
+add_accepted_culture = dynamic-berber-fulani-culture-num1
+1444.11.11= {
+	monarch = {
+		name = "Maha II"
+		dynasty = "Murzukid"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1377.5.11
+		religion = zoroastrian
+		culture = dynamic-khazar-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "R'uza"
+		dynasty = "Silla-Fachi"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = Z0I
+		birth_date = 1373.7.31
+		death_date = 1433.7.31
+		female = yes
+		religion = zoroastrian
+		culture = dynamic-berber-fulani-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Barjik"
+		monarch_name = "Barjik"
+		dynasty = "Murzukid"
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 1402.1.28
+		death_date = 1467.1.28
+		claim = 89
+		religion = zoroastrian
+		culture = fon
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 102
+	add_treasury = 0
+}

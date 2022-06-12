@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = dynamic-andalucian-norse-culture-num1
+capital = 4695
+add_accepted_culture = occitain
+1444.11.11= {
+	monarch = {
+		name = "Gunnarr"
+		dynasty = "Snjalli"
+		adm = 5
+		dip = 5
+		mil = 4
+		birth_date = 1389.12.15
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Rahat"
+		dynasty = "Zuhr"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = Z20
+		birth_date = 1427.10.9
+		death_date = 1487.10.9
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Örvar"
+		monarch_name = "Örvar"
+		dynasty = "Snjalli"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1420.6.12
+		death_date = 1485.6.12
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 83
+	add_treasury = 68
+}

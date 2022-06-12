@@ -1,0 +1,7 @@
+capital = "Zhanibek"
+culture = ostyaki
+religion = tengri_pagan
+trade_goods = iron
+base_tax = 1
+base_production = 1
+base_manpower = 1

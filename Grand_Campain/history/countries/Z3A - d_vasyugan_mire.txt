@@ -1,0 +1,55 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+technology_group = nomad_group
+religion = tengri_pagan
+primary_culture = dynamic-kirgiz-culture-num1
+capital = 2429
+1444.11.11= {
+	monarch = {
+		name = "Ituk"
+		dynasty = "Karakhanid"
+		adm = 5
+		dip = 5
+		mil = 5
+		birth_date = 1411.5.29
+		religion = tengri_pagan
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Cholpon"
+		dynasty = "Tutuq"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = Z3A
+		birth_date = 1408.3.3
+		death_date = 1468.3.3
+		female = yes
+		religion = tengri_pagan
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Manas"
+		monarch_name = "Manas"
+		dynasty = "Karakhanid"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1428.8.11
+		death_date = 1493.8.11
+		claim = 89
+		religion = tengri_pagan
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 70
+}

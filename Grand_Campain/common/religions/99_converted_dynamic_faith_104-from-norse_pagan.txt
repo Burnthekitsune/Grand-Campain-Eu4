@@ -1,0 +1,41 @@
+pagan = {
+	converted_dynamic_faith_104 = {
+		color = { 49 45 49 }
+		icon =  173
+		country = {
+ 
+		leader_naval_manuever = 1
+		global_ship_trade_power = 0.1
+	
+
+		liberty_desire_from_subject_development = -0.2
+	
+
+		heir_chance = 0.5
+	
+
+		female_advisor_chance = 0.5
+	
+}
+		country_as_secondary = {
+ 
+		raze_power_gain = 0.15
+	
+
+		global_trade_power = 0.1
+	
+}
+		province = {
+ 
+		local_missionary_strength = 0.01
+	
+}
+		
+		personal_deity = yes
+	
+		
+	heretic = { OLD_NORSE }
+
+	}
+}
+

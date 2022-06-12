@@ -1,0 +1,17 @@
+owner = Z38
+controller = Z38
+capital = "Nowy Sacz"
+is_city = yes
+culture = slovak
+religion = catholic
+trade_goods = iron
+base_tax = 6
+base_production = 6
+base_manpower = 2
+add_core = Z38
+discovered_by = eastern
+discovered_by = indian
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = western

@@ -1,0 +1,27 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 195 75 75 }
+monarch_names = {
+	"Algot #1" = 10
+	"Arnbjörn #1" = 10
+	"Balashk #0" = 0
+	"Gríma #1" = -1
+	"Gunnhildr #0" = -1
+	"Guðmundr #1" = 10
+	"Hallsteinn #1" = 10
+	"Helge #0" = 0
+	"Hólmgeirr #1" = 10
+	"Järpulf #1" = 10
+	"Kettilmund #1" = 10
+	"Nils #1" = 10
+	"Ragnhildr #0" = -1
+	"Randa #0" = -1
+	"Signý #1" = -1
+	"Sága #0" = -1
+	"Thashim #0" = -1
+	"Tryggvi #1" = 10
+	"Tyke #0" = 0
+	"Viggu #1" = 10
+	"Ása #1" = -1
+	"Þórdís #0" = -1
+}

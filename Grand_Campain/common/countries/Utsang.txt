@@ -1,0 +1,126 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 38 101 255 }
+revolutionary_colors = { 16 8 13 }
+historical_idea_groups = {
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	east_asian_spearmen
+	eastern_bow
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+}
+monarch_names = {
+	"Anantadevi #0" = -1
+	"Bahram #0" = 0
+	"Chidétsen #1" = 10
+	"Chöying #1" = -1
+	"Daktri #0" = 0
+	"Dorjee #1" = 10
+	"Ebrahim #0" = 0
+	"Elham #0" = -1
+	"Estaa #0" = -1
+	"Gongru #1" = 10
+	"Gundes #0" = -1
+	"Gyeltsen #0" = -1
+	"Göngyel #2" = 10
+	"Jagdev #1" = 10
+	"Jinpa #0" = -1
+	"Ju #0" = 0
+	"Khadrobum #2" = -1
+	"Khurshid #0" = 0
+	"Luga #0" = 0
+	"Méaktsom #0" = 0
+	"Nakpo #1" = 10
+	"Namdé Ösung #1" = 10
+	"Rinchen #1" = -1
+	"Sangye #0" = -1
+	"Seba #1" = -1
+	"Senggetram #0" = 0
+	"Skamar #1" = -1
+	"Taknang #0" = 0
+	"Tromo #1" = -1
+	"Tsangmo #1" = -1
+	"Tsephel #0" = -1
+	"Vigrahapala #0" = 0
+	"Vijayasakti #0" = 0
+	"Wanggyel #1" = 10
+	"Xonçe #0" = -1
+	"Yongten #1" = -1
+	"Yélekmo #1" = -1
+	"Zarrindokht #0" = -1
+	"Zohreh #0" = -1
+	"Ösung #0" = 0
+}
+leader_names = {
+	"Bal"
+	"Bri"
+	"Bro"
+	"Chespong"
+	"Cogro"
+	"Dbas"
+	"Dbra"
+	"Dru"
+	"Gnon"
+	"Gnyags"
+	"Khjungpo"
+	"Khu"
+	"Khun"
+	"Lang"
+	"Ldong"
+	"Lig"
+	"Mchims"
+	"Mgar"
+	"Mgus"
+	"Mjang"
+	"Mkar"
+	"Mnyammed"
+	"Mong"
+	"Nganlam"
+	"Nyang"
+	"Phjongsrgjas"
+	"Rinspungs"
+	"Rlangs"
+	"Rma"
+	"Rmu"
+	"Sba"
+	"Sbas"
+	"Se"
+	"Sgro"
+	"Shudpu"
+	"Snang"
+	"Snyiba"
+	"Stong"
+	"Thonmi"
+	"Zhang"
+	"Zhingshag"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

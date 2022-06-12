@@ -1,0 +1,44 @@
+pagan = {
+	converted_dynamic_faith_105 = {
+		color = { 109 42 74 }
+		icon =  174
+		country = {
+ 
+		discipline = 0.05
+	
+
+		legitimacy = 1
+		horde_unity = 1
+		devotion = 1
+		meritocracy = 0.5
+		republican_tradition = 0.5
+	
+
+		diplomatic_reputation = 1
+	
+
+		heir_chance = 0.5
+	
+}
+		country_as_secondary = {
+ 
+		discipline = 0.025
+	
+
+		raze_power_gain = 0.15
+	
+}
+		province = {
+ 
+		local_missionary_strength = -0.02
+	
+
+		local_missionary_strength = 0.01
+	
+}
+		
+	heretic = { GOAT_SKULL }
+
+	}
+}
+

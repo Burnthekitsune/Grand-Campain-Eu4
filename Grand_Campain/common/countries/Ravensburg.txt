@@ -1,0 +1,99 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 108 139 228 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalhard #1" = 10
+	"Benedetto #1" = 10
+	"Cecilie #0" = -1
+	"Elisabeth #1" = -1
+	"Emich #1" = 10
+	"Engelbert #2" = 10
+	"Erbio #1" = 10
+	"Gerhild #0" = -1
+	"Gotfrid #1" = 10
+	"Gottschalk #0" = 0
+	"Guntpolt #0" = 0
+	"Helene #1" = -1
+	"Hereswind #1" = 10
+	"Hnabi #1" = 10
+	"Ida #1" = -1
+	"Kadalhoh #2" = 10
+	"Lantfrid #2" = 10
+	"Manegold #0" = 0
+	"Margarete #0" = -1
+	"Negomir #1" = 10
+	"Rambaldo #1" = 10
+	"Roberto #1" = 10
+	"Ruprecht #0" = 0
+	"Theobald #1" = 10
+	"Tisent #0" = -1
+	"Udo #1" = 10
+	"Vojnomir #1" = 10
+	"Wenzel #2" = 10
+	"Úna #0" = -1
+}
+leader_names = {
+	"Beich"
+	"Buchner"
+	"Börner"
+	"Börrner"
+	"Hummelberger"
+	"Humpis"
+	"Merkel"
+	"Ortlieb"
+	"Pfeilsticker"
+	"Susenbrot"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Andechs"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Kempten"
+	"König Arnulf"
+	"Lindau"
+	"Memmingen"
+	"Mindel"
+	"Oettingen"
+	"Otto"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Straubing"
+	"Tassilo III"
+	"Wittelsbach"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

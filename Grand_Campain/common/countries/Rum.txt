@@ -1,0 +1,143 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 30 160 203 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Ahmed #0" = 10
+	"Ali #0" = 10
+	"Dervis #0" = 10
+	"Gamze #0" = -1
+	"Hanife #0" = -1
+	"Havva #0" = -1
+	"Ibrahim #0" = 10
+	"Ishak #0" = 10
+	"Izzeddin #0" = 10
+	"Kasim #0" = 10
+	"Kaykaus  #2" = 20
+	"Kaykhusraw #3" = 40
+	"Kayqubad  #3" = 40
+	"Kilij #3" = 40
+	"Mahmud #0" = 10
+	"Masud #3" = 40
+	"Melis #0" = -1
+	"Muhammed #0" = 10
+	"Mustafa #0" = 10
+	"Qutalmish #1" = 20
+	"Rabia #0" = -1
+	"Safiye #0" = -1
+	"Suleiman #2" = 30
+	"Taceddin #0" = 10
+	"Umut #0" = -1
+	"Ziynet #0" = -1
+	"Z0beyde #0" = -1
+}
+leader_names = {
+	"Alemdar"
+	"Amasyali"
+	"Ayas"
+	"Bali"
+	"Barbaros"
+	"Bayram"
+	"Cerrah"
+	"Cezzar"
+	"Civan"
+	"Damad"
+	"Defterdar"
+	"Dervis"
+	"Gazi"
+	"Gedik"
+	"Gümülcineli"
+	"Gürcü"
+	"Hadim"
+	"Hekimoglu"
+	"Hersekli"
+	"Ishak"
+	"Izzed"
+	"Kanijeli"
+	"Kara"
+	"Karamanli"
+	"Kavalali"
+	"Kaymak"
+	"Kemal"
+	"Kemankes"
+	"Koca"
+	"Köprülü"
+	"Köse"
+	"Küçük"
+	"Lala"
+	"Lefkeli"
+	"Malkoç"
+	"Müezzinzade"
+	"Nevsehirli"
+	"Nisanci"
+	"Oflu"
+	"Ohrili"
+	"Oruç"
+	"Osmancikli"
+	"Pargali"
+	"Pehlivan"
+	"Piri"
+	"Piyale"
+	"Rumi"
+	"Salih"
+	"Sari"
+	"Semiz"
+	"Serdar"
+	"Silahdar"
+	"Sokullu"
+	"Tarhuncu"
+	"Tayyar"
+	"Topal"
+	"Turgut"
+	"Uluç"
+	"Veli"
+	"Yemisçi"
+	"Çandarli"
+	"Çelebi"
+	"Çerkes"
+	"Çuhadar"
+}
+ship_names = {
+	"Bunsuz"
+	"Cilicia"
+	"Ermenek"
+	"Göksu"
+	"Gülnar"
+	"Karaman Bey"
+	"Larande"
+	"Mer"
+	"Mut"
+	"Nure Sufi"
+	"Sadaddin"
+	"Semseddin Mehmet"
+	"Silifke"
+	"Zeynül-Hac"
+}
+army_names = {
+	"$PROVINCE$ Ordusu"
+}
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

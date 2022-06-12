@@ -1,0 +1,268 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 197 92 106 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	diplomatic_ideas
+	humanist_ideas
+	trade_ideas
+	offensive_ideas
+	administrative_ideas
+	defensive_ideas
+	aristocracy_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Albert #0" = 0
+	"Aleksander #0" = 20
+	"Aleksy #0" = 0
+	"Andrzej #0" = 0
+	"Anna #0" = -1
+	"August #1" = 60
+	"Bartlomiej #0" = 0
+	"Bogumil #0" = 0
+	"Bronislaw #0" = 0
+	"Dawid #0" = 0
+	"Dominik #0" = 0
+	"Emil #0" = 0
+	"Eugeniusz #0" = 0
+	"Ferdynand #0" = 0
+	"Fryderyk #0" = 10
+	"Gustaw #0" = 0
+	"Henryk #0" = 20
+	"Igor #0" = 0
+	"Iwan #0" = 0
+	"Jadwiga #1" = -1
+	"Jan #0" = 20
+	"Karol #0" = 10
+	"Katarzyna #0" = -1
+	"Kazimierz #3" = 20
+	"Krystian #0" = 0
+	"Krzysztof #0" = 10
+	"Lech #0" = 0
+	"Lucjusz #0" = 0
+	"Ludwik #0" = 0
+	"Lukasz #0" = 0
+	"Maksym #0" = 0
+	"Mariusz #0" = 0
+	"Michal #0" = 20
+	"Mieszko #3" = 0
+	"Miroslaw #0" = 0
+	"Olbracht #0" = 10
+	"Oskar #0" = 0
+	"Patryk #0" = 0
+	"Rafal #0" = 0
+	"Stanislaw #0" = 40
+	"Stefan #0" = 20
+	"Sylwester #0" = 0
+	"Szymon #0" = 0
+	"Wladyslaw #3" = 60
+	"Zygfryd #0" = 0
+	"Zygmunt #0" = 20
+}
+leader_names = {
+	"Arciszewski"
+	"Benyowski"
+	"Bidzinski"
+	"Bielinski"
+	"Boner"
+	"Branicki"
+	"Brzostowski"
+	"Buczacki"
+	"Butler"
+	"Cetner"
+	"Chlewicki"
+	"Chodecki"
+	"Chometowski"
+	"Czapski"
+	"Czarniecki"
+	"Czarnkowski"
+	"Dambski"
+	"Denhoff"
+	"Drzewicki"
+	"Dunin"
+	"Dzialynski"
+	"Dzieduszycki"
+	"Firlej"
+	"Fredro"
+	"Gembicki"
+	"Gosiewski"
+	"Grabowski"
+	"Grodzicki"
+	"Grudzinski"
+	"Grzymultowski"
+	"Gurowski"
+	"Górka"
+	"Herburt"
+	"Houwaldt"
+	"Hylzen"
+	"Jablonowski"
+	"Jaroslawski"
+	"Jazlowiecki"
+	"Jordan"
+	"Judycki"
+	"Kalinowski"
+	"Kamieniecki"
+	"Karnkowski"
+	"Kazanowski"
+	"Kmita"
+	"Komorowski"
+	"Koniecpolski"
+	"Korycki"
+	"Krasicki"
+	"Krasinski"
+	"Kurozwecki"
+	"Kwilecki"
+	"Lacki"
+	"Lanckoronski"
+	"Latalski"
+	"Leszczynski"
+	"Ligeza"
+	"Lipski"
+	"Lisowski"
+	"Lubomirski"
+	"Lubranski"
+	"Malachowski"
+	"Malski"
+	"Matczynski"
+	"Melsztynski"
+	"Mielecki"
+	"Mielzynski"
+	"Mlodziejowski"
+	"Mniszech"
+	"Morsztyn"
+	"Mycielski"
+	"Nalecz"
+	"Niesiolowski"
+	"Odrowaz"
+	"Olesnicki"
+	"Opacki"
+	"Oporowski"
+	"Ossolinski"
+	"Ostroróg"
+	"Ostrowski"
+	"Ozarowski"
+	"Paniewski"
+	"Piaseczynski"
+	"Pilecki"
+	"Pociej"
+	"Poniatowski"
+	"Poninski"
+	"Potocki"
+	"Prazmowski"
+	"Przebendowski"
+	"Przyjemski"
+	"Pulaski"
+	"Raczynski"
+	"Radziejowski"
+	"Rej"
+	"Rytwianski"
+	"Rzewuski"
+	"Scibor"
+	"Siemienowicz"
+	"Sieniawski"
+	"Sierakowski"
+	"Skarbek"
+	"Sobieski"
+	"Soltyk"
+	"Stadnicki"
+	"Sulkowski"
+	"Szafraniec"
+	"Szembek"
+	"Szydlowiecki"
+	"Tarlo"
+	"Tarnowski"
+	"Teczynski"
+	"Tomicki"
+	"Tyzenhaus"
+	"Uchanski"
+	"Walewski"
+	"Weyher"
+	"Wielopolski"
+	"Wierzbowski"
+	"Wodzicki"
+	"Wolski"
+	"Wyhowski"
+	"Zacwilchowski"
+	"Zaluski"
+	"Zamoyski"
+	"Zborowski"
+	"Zebrzydowski"
+}
+ship_names = {
+	"Arka Noego"
+	"Belzkie"
+	"Bialy Lew"
+	"Bialy Orzel"
+	"Braclawskie"
+	"Brzesko-Kujawskie"
+	"Burza"
+	"Charitas"
+	"Chelminskie"
+	"Czarny Kruk"
+	"Czarny Orzel"
+	"Czernichowskie"
+	"Fortuna"
+	"Gnieznienskie"
+	"Gryf"
+	"Gwiazda"
+	"Inowroclawskie"
+	"Kaliskie"
+	"Kijowskie"
+	"Krakowskie"
+	"Kraków"
+	"Król Dawid"
+	"Latajacy Jelen"
+	"Leczyckie"
+	"Lubelskie"
+	"Lublin"
+	"Lwów"
+	"Malborskie"
+	"Maly Bialy Orzel"
+	"Mazowieckie"
+	"Niewrazliwy"
+	"Nowy Czarny Orzel"
+	"Panna Wodna"
+	"Plockie"
+	"Plomien"
+	"Podlaskie"
+	"Podolskie"
+	"Poznanskie"
+	"Prorok Samuel"
+	"Rawskie"
+	"Ruskie"
+	"Rycerz Swiety Jerzy"
+	"Sandomierskie"
+	"Sieradzkie"
+	"Strzelec"
+	"Suwerenny"
+	"Swiety Kazimierz"
+	"Swiety Piotr"
+	"Warminskie"
+	"Warszawa"
+	"Wielkie Slonce"
+	"Wodnik"
+	"Wolynskie"
+	"Zwyciestwo"
+	"Zólty Lew"
+}
+army_names = {
+	"Armia z $PROVINCE$"
+}

@@ -1,0 +1,26 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = schlesian
+capital = 78
+fixed_capital = 78
+add_accepted_culture = dynamic-franconian-culture-num2
+1444.11.11= {
+	monarch = {
+		name = "Dytryk"
+		adm = 5
+		dip = 0
+		mil = 2
+		birth_date = 1364.1.11
+		religion = catholic
+		culture = schlesian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 48
+	add_treasury = 64
+}

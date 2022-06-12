@@ -1,0 +1,109 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 176 72 77 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	maritime_ideas
+	religious_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alyok #0" = 0
+	"Anka #0" = -1
+	"Ayplat #0" = 0
+	"Bashtwa #2" = 10
+	"Bayça #0" = 0
+	"Dobrava #1" = -1
+	"Echan #2" = 10
+	"Jórunn #1" = -1
+	"Kechevi #1" = -1
+	"Kichay #1" = 10
+	"Mikal #0" = 0
+	"Nuyanza #0" = -1
+	"Nyayka #1" = -1
+	"Paksyay #1" = 10
+	"Papaçyz #1" = 10
+	"Patiyer #1" = -1
+	"Pinyas #0" = 0
+	"Sernyava #1" = -1
+	"Serzhay #0" = -1
+	"Shemvuy #0" = 0
+	"Shoksha #0" = 0
+	"Svanhildr #1" = -1
+	"Tachana #0" = -1
+	"Triihvo #1" = 10
+	"Utyayka #0" = -1
+	"Valdonya #0" = -1
+	"Vechkas #0" = 0
+	"Vikay #0" = 0
+	"Yumpatyr #2" = 10
+	"Þyri #1" = -1
+}
+leader_names = {
+	"Apraksin"
+	"Bagration"
+	"Barclay de Tolly"
+	"Bibikoff"
+	"Bodisco"
+	"Boruffsin"
+	"Golitzin"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Mensjikov"
+	"Mustislavski"
+	"Ostermann Tolstoy"
+	"Paletskij"
+	"Rajevski"
+	"Schuvalov"
+	"Sjeremetjev"
+	"Sjtjenjatvev"
+	"Tiesenhusen"
+	"Vasiljevitj"
+	"von Buxhoevden"
+	"von Knorring"
+	"von Lascy"
+}
+ship_names = {
+	"Coluna"
+	"Cortiza"
+	"Dmitri Donskoi"
+	"Iausa"
+	"Ivan Kalita"
+	"Klin"
+	"Konstantin I"
+	"Moscha"
+	"Mosnisk"
+	"Nizhny Novgorod"
+	"Olescho"
+	"Piersek"
+	"Rurik"
+	"Schorna"
+	"Suzdal"
+	"Troitzkoy"
+	"Volga"
+	"Wolok"
+}

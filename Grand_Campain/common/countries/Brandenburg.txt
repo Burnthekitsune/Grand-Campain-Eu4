@@ -1,0 +1,249 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 123 90 90 }
+revolutionary_colors = { 1 0 4 }
+historical_idea_groups = {
+	innovativeness_ideas
+	offensive_ideas
+	diplomatic_ideas
+	quality_ideas
+	economic_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Ansur #1" = 10
+	"Czimislav #1" = 10
+	"Dobieslav #0" = 0
+	"Dobroniega #0" = -1
+	"Edvard #1" = 10
+	"Elisabeth #2" = -1
+	"Emilie #0" = -1
+	"Ernst #0" = 0
+	"Havel #2" = 10
+	"Hrothwina #0" = -1
+	"Izabela #1" = -1
+	"Jedrzej #1" = 10
+	"Karoline #1" = -1
+	"Kliment #1" = 10
+	"Kornel #1" = 10
+	"Krzysztof #1" = 10
+	"Ksenia #1" = -1
+	"Magnus #1" = 10
+	"Manfredi #0" = 0
+	"Maria #0" = -1
+	"Martin #2" = 10
+	"Mateusz #0" = 0
+	"Mikkel #1" = 10
+	"Milyduch #1" = 10
+	"Mscislav #2" = 10
+	"Pawel #1" = 10
+	"Poul #1" = 10
+	"Przybyslaw #1" = 10
+	"Ratibor #0" = 0
+	"Ruprecht #0" = 0
+	"Ture #1" = 10
+	"Vilfred #0" = 0
+	"Woislava #1" = -1
+	"Yalla #0" = -1
+}
+leader_names = {
+	"Arnim"
+	"Arnswald"
+	"Below"
+	"Billerbeck"
+	"Blankensee"
+	"Briesen"
+	"Casimir"
+	"Cisielsky"
+	"Finck"
+	"Höltzendorff"
+	"Knobelsdorf"
+	"Kreytz"
+	"Linkendorf"
+	"Münchov"
+	"Perlkowski"
+	"Posadofsky"
+	"Riwotzki"
+	"Schach"
+	"Schnittern"
+	"Selasinky"
+	"Treskaw"
+	"Truxes"
+	"Ucklanski"
+	"Zitzwitz"
+	"von Anhalt-Dessau"
+	"von Bimback"
+	"von Bühler"
+	"von Derfflinger"
+	"von Dessau"
+	"von Dossow"
+	"von Hohenlohe"
+	"von Hohenzollern"
+	"von Kyau"
+	"von Mach"
+	"von Manstein"
+	"von Merckatz"
+	"von Plothow"
+	"von Preußen"
+	"von Quernheimberg"
+	"von Quitzow"
+	"von Rauch"
+	"von Rottenburg"
+	"von Rüts"
+	"von Schwerin"
+	"von Seel"
+	"von Stille"
+	"von Taubeneck"
+	"von Wermsdorff"
+	"von Ziethen"
+}
+ship_names = {
+	"Afrikaner"
+	"Amazone"
+	"Arminius"
+	"Barbarossa"
+	"Basilisk"
+	"Berlin"
+	"Bersteinfänger"
+	"Bielefeld"
+	"Blitz"
+	"Brandenburgischer Dragoner"
+	"Britannia"
+	"Bulle"
+	"Camaeleon"
+	"Charlotte Louise"
+	"Churfürst von Brandenburg"
+	"Churfürtstlische Liebjagd"
+	"Churprinz"
+	"Churprinz von Brandenburg"
+	"Clementia"
+	"Cleve"
+	"Clevesche Lindenbaum"
+	"Comet"
+	"Cyclop"
+	"Danzig"
+	"Delphin"
+	"Derffinger"
+	"Die Sieben Provinzien"
+	"Dorothea"
+	"Drache"
+	"Eichhorn"
+	"Falke"
+	"Fliegender Drache"
+	"Fortuna"
+	"Frauenlob"
+	"Frede"
+	"Friedrich Carl"
+	"Friedrich Wilhelm"
+	"Friedrich Wilhelm zu Pferde"
+	"Fuchs"
+	"Gazelle"
+	"Gefion"
+	"Goldener Löve"
+	"Grafschaft Mark"
+	"Grille"
+	"Grossfriedrichburg"
+	"Große Jacht"
+	"Grüner Drache"
+	"Habicht"
+	"Hansa"
+	"Hay"
+	"Hela"
+	"Hertha"
+	"Herzogtum Cleve"
+	"Hyäne"
+	"Jupiter"
+	"Kastell Spandau"
+	"Kronprinz"
+	"Kronprinz van Preußen"
+	"König Wilhelm"
+	"König von Preußen"
+	"König von Spanien"
+	"Leopard"
+	"Littauer Bauer"
+	"Makarele"
+	"Maria"
+	"Maria Catharina"
+	"Markgraf von Brandenburg"
+	"Mars"
+	"Merkur"
+	"Meteor"
+	"Mohrian"
+	"Morian"
+	"Mummelpot"
+	"Musquito"
+	"Natter"
+	"Neptun"
+	"Niobe"
+	"Nordischer Löve"
+	"Pallas"
+	"Pax"
+	"Pfeil"
+	"Pierlepomp"
+	"Post"
+	"Potsdam"
+	"Preußischer Adler"
+	"Princess Maria"
+	"Prinz Adalbert"
+	"Prinz Ludwig"
+	"Prinz Philipp"
+	"Prinz Wilhelm"
+	"Prinz von Preußen"
+	"Prinzess Maria"
+	"Prosperpina"
+	"Rommelpot"
+	"Rosenfelde"
+	"Rother Löve"
+	"Rover"
+	"Salamander"
+	"Sankt Johannes der Täufer"
+	"Sankt Josef"
+	"Sankt Peter"
+	"Schloss Oranienburg"
+	"Schwalbe"
+	"Seeritter"
+	"Spandau"
+	"Sperber"
+	"Stad Emden"
+	"Stralsund"
+	"Thetis"
+	"Tiger"
+	"Undine"
+	"Vineta"
+	"Vogel Greif"
+	"Wappen von Brandenburg"
+	"Wappen von Cleve"
+	"Wasserhund"
+	"Wespe"
+	"Wilhelmine Margrethe"
+	"Wolkensäule"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Elbe Armee"
+	"Kurfürstliche Garde"
+	"Oder Armee"
+}
+fleet_names = {
+	"Kurfürstliche Flotte"
+}
+preferred_religion = protestant

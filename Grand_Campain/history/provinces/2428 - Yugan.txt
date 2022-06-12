@@ -1,0 +1,7 @@
+capital = "Yugan"
+culture = dynamic-kirgiz-culture-num1
+religion = tengri_pagan
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1

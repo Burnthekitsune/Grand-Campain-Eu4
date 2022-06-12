@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = converted_dynamic_faith_102
+primary_culture = pommeranian
+capital = 47
+fixed_capital = 47
+add_accepted_culture = danish
+1444.11.11= {
+	monarch = {
+		name = "Bertha"
+		dynasty = "Wunstorf-Rostock"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1377.12.30
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = pommeranian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Arnold"
+		dynasty = "Wunstorf-Wismar"
+		adm = 5
+		dip = 5
+		mil = 5
+		country_of_origin = Z6B
+		birth_date = 1377.12.21
+		death_date = 1437.12.21
+		religion = converted_dynamic_faith_102
+		culture = saxon
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Arnold"
+		monarch_name = "Arnold"
+		dynasty = "von Orseln"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1423.4.9
+		death_date = 1488.4.9
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = dynamic-franconian-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 62
+	add_treasury = 54
+}

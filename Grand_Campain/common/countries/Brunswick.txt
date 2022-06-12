@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 116 92 39 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abo #1" = 10
+	"Adalgod #1" = 10
+	"Addila #1" = -1
+	"Arnulf #1" = 10
+	"Balthasar #0" = 0
+	"Baraka #0" = 0
+	"Bithild #1" = -1
+	"Bruno #3" = 10
+	"Cobbo #0" = 0
+	"Enda #0" = -1
+	"Erik #1" = 10
+	"Friedrich #1" = 10
+	"Gerberga #1" = -1
+	"Ghert #1" = 10
+	"Humfried #1" = 10
+	"Inga #1" = -1
+	"Lembert #1" = 10
+	"Luidolf #1" = 10
+	"Marcin #0" = 0
+	"Margarete #0" = -1
+	"Michael #1" = 10
+	"Norbert #2" = 10
+	"Philipp #1" = 10
+	"Stanislawa #0" = -1
+	"Svatopluk #3" = 10
+	"Wicho #1" = 10
+	"Wszemila #0" = -1
+}
+leader_names = {
+	"Brach"
+	"Eickenroth"
+	"Gruebel"
+	"Hattendorf"
+	"Hehn"
+	"Hein"
+	"Ickelrath"
+	"Jaxtheim"
+	"Lindemann"
+	"Opp"
+	"Schauseil"
+	"Schütze"
+	"Talken"
+	"Wassman"
+	"von Rhein"
+}
+ship_names = {
+	"Albert I"
+	"Bischof Branthag"
+	"Bischof Godehard"
+	"Bruno"
+	"Darkward"
+	"Gottingen"
+	"Grubenhagen"
+	"Gräfin Gertrud"
+	"Heinrich I."
+	"Herzog Ludolf"
+	"Herzog Otto"
+	"Lothar III"
+	"Magnus II"
+	"Wolfenbuttel"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

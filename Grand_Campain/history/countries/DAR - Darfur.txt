@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = east_african
+religion = shiite
+primary_culture = tunjur
+capital = 1219
+unit_type = sub_saharan
+1596.1.1= {
+	monarch = {
+		name = "Sulayman"
+		dynasty = "Solong"
+		adm = 2
+		dip = 2
+		mil = 4	
+	}
+}

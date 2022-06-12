@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = indian
+religion = mahayana
+primary_culture = dynamic-bengali-burmese-culture-num1
+capital = 4479
+1444.11.11= {
+	monarch = {
+		name = "Thihathu II"
+		dynasty = "Chandrasen"
+		adm = 4
+		dip = 6
+		mil = 3
+		birth_date = 1396.11.8
+		religion = mahayana
+		culture = dynamic-bengali-burmese-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Mibaya"
+		dynasty = "Pyusawhti"
+		adm = 6
+		dip = 3
+		mil = 6
+		country_of_origin = BNG
+		birth_date = 1401.10.16
+		death_date = 1461.10.16
+		female = yes
+		religion = mahayana
+		culture = dynamic-bengali-burmese-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Srimanta"
+		monarch_name = "Srimanta"
+		dynasty = "Chandrasen"
+		adm = 1
+		dip = 2
+		mil = 1
+		birth_date = 1439.5.12
+		death_date = 1504.5.12
+		claim = 89
+		religion = mahayana
+		culture = dynamic-bengali-burmese-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 100
+	add_treasury = 76
+}

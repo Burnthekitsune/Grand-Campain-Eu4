@@ -1,0 +1,84 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 38 66 71 }
+revolutionary_colors = { 5 0 13 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Artyo #1" = 10
+	"Ayampi #0" = -1
+	"Erhime #0" = -1
+	"Güshi #0" = 0
+	"Ioana #0" = -1
+	"Ipaos #1" = 10
+	"Kardaz #1" = 10
+	"Kivutar #1" = -1
+	"Layla #0" = -1
+	"Mala #1" = -1
+	"Mastorava #0" = -1
+	"Metiga #1" = 10
+	"Micipsa #1" = 10
+	"Mordvinko #2" = 10
+	"Mutlu #1" = -1
+	"Paksyay #1" = 10
+	"Sekhv0ttin #0" = 0
+	"Sevilay #1" = -1
+	"Seyamka #0" = -1
+	"Shindyay #0" = 0
+	"Siyamka #1" = -1
+	"Tatus #1" = 10
+	"Temir #1" = 10
+	"Ulput #1" = 10
+	"Vechkas #0" = 0
+	"Vytautas #1" = 10
+	"Yakkup #0" = 0
+}
+leader_names = {
+	"Azegid"
+	"Gachegid"
+	"Irtegid"
+	"Lunegid"
+	"Moshegid"
+	"Rategid"
+	"Syktyvkar"
+	"Yugra"
+	"Zhebegid"
+	"Zhunegid"
+}
+ship_names = {
+	"Noroava"
+	"Olota"
+	"Ordava"
+	"Pemka"
+	"Poshayka"
+	"Tekay"
+	"Tetyava"
+	"Tundya"
+	"Unzhutka"
+	"Yalgava"
+}

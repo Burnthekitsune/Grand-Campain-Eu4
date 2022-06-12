@@ -1,0 +1,82 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 50 37 125 }
+revolutionary_colors = { 13 16 13 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	chinese_dragoon
+	chinese_footsoldier
+	chinese_longspear
+	chinese_steppe
+	eastern_bow
+	han_banner
+	manchu_banner
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+	reformed_manchu_rifle
+}
+monarch_names = {
+	"Ajitamalla #0" = 20
+	"Deki Choden #0" = -1
+	"Indira #0" = -1
+	"Jigten Wangchuk Pekar De #0" = 20
+	"Kalyanamalla #0" = 20
+	"Kamala #0" = -1
+	"Kunzang #0" = -1
+	"Lobsang Rabten #0" = 20
+	"Namgyal De #0" = 20
+	"Namkha Wangchuk #0" = 20
+	"Namkha Wangpo Phuntsog De #0" = 20
+	"Namri Sanggye De #0" = 20
+	"Ngagi Wangchuk #0" = 20
+	"Phagspa Lha #0" = 20
+	"Pratapamalla #0" = 20
+	"Shakya Ö #0" = 20
+	"Surah Palinyal #0" = -1
+	"Tri Dragpa Wangchuk #0" = 20
+	"Tri Namgyal Dragpa De #0" = 20
+	"Tri Nyima Wangchuk #0" = 20
+	"Tri Trashi Dragpa De #0" = 20
+}
+leader_names = {
+	"Gampo"
+	"Phuntsok"
+	"Sonam"
+	"Sregs"
+	"Srong"
+	"Tashi"
+	"Thekchen"
+	"Tsewang"
+	"Wangdak"
+	"Wangdue"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

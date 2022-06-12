@@ -1,0 +1,189 @@
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="KOR"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="RYU"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="DAI"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="AYU"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="CHA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="LXA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="KHM"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="MMA"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="MLC"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="PGS"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="TDO"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="MJZ"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+dependency=
+{
+	subject_type="tributary_state"
+	first="MNG"
+	second="MHX"
+	start_date="769.1.1"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="ARB"
+	second="Z30"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="BNG"
+	second="Z2C"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="JOL"
+	second="Z1I"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="KAM"
+	second="Z1H"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="NPL"
+	second="Z1V"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="ORI"
+	second="Z1F"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="ORI"
+	second="Z28"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="PHA"
+	second="Z2H"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
+	first="Z0N"
+	second="Z22"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

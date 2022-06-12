@@ -1,0 +1,309 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 155 170 136 }
+historical_idea_groups = {
+	spy_ideas
+	defensive_ideas
+	administrative_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+	trade_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adela #0" = -1
+	"Adelheid #1" = -1
+	"Alima #1" = -1
+	"Bouchard #1" = 10
+	"Eglantine #1" = -1
+	"Emmerich #1" = 10
+	"Evrard #1" = 10
+	"Friedrich #1" = 10
+	"Gotzelo #1" = 10
+	"Guelph #1" = 10
+	"Hadrad #1" = 10
+	"Hans #1" = 10
+	"Hemma #0" = -1
+	"Hugo #1" = 10
+	"Humfried #1" = 10
+	"Hunfrid #1" = 10
+	"Liutfried #3" = 10
+	"Liutgard #1" = -1
+	"Meginhard #0" = 0
+	"Meinhard #1" = 10
+	"Otto #0" = 0
+	"Philemon #0" = 0
+	"Rothard #1" = 10
+	"Safiya #1" = -1
+	"Sigbert #1" = 10
+	"Svatopluk #1" = 10
+	"Tomasz #0" = 0
+	"Wenzel #1" = 10
+	"Werneke #1" = 10
+	"Wincenty #0" = 0
+	"Wulfhilde #1" = -1
+	"Zofia #0" = -1
+}
+leader_names = {
+	"Ablitzer"
+	"Achener"
+	"Ackermann"
+	"Andler"
+	"Angster"
+	"Anrich"
+	"Anthess"
+	"Arlenspach"
+	"Bader"
+	"Bamberger"
+	"Baumgartner"
+	"Bilger"
+	"Birin"
+	"Blankenhorn"
+	"Blessig"
+	"Bloch"
+	"Bock"
+	"Boeringer"
+	"Boersch"
+	"Boespflug"
+	"Braunstein"
+	"Breitwieser"
+	"Brustlein"
+	"Brustlin"
+	"Burggraf"
+	"Buschenhagen"
+	"Chmilecius"
+	"Cornetz"
+	"Cossmann"
+	"Cratander"
+	"Crotus"
+	"Cullmann"
+	"Cunitz"
+	"Diehl"
+	"Dollfus"
+	"Dorst"
+	"Drach"
+	"Dreyer"
+	"Eberhardt"
+	"Eckel"
+	"Edelmann"
+	"Elhorn"
+	"Etterlin"
+	"Fahys"
+	"Friedel"
+	"Funke"
+	"Furichius"
+	"Fürstenberger"
+	"Gemuseus"
+	"Gerhardt"
+	"Geyelin"
+	"Greitter"
+	"Greuter"
+	"Grewenig"
+	"Grossheinz"
+	"Guldenberger"
+	"Gutzwiller"
+	"Hahnemann"
+	"Haller"
+	"Hamm"
+	"Hasenburg"
+	"Hauser"
+	"Heger"
+	"Heilmann"
+	"Heissler"
+	"Heitz"
+	"Herrenschneider"
+	"Hetschelbach"
+	"Heuser"
+	"Heuss"
+	"Hillmeyer"
+	"Hirtz"
+	"Hirtzler"
+	"Hoerner"
+	"Holzschuh"
+	"Hornecker"
+	"Horsch"
+	"Humann"
+	"Humpich"
+	"Jelensperger"
+	"Junghaen"
+	"Justinger"
+	"Kahn"
+	"Kamp"
+	"Katterfeld"
+	"Kessler"
+	"Klein"
+	"Klieger"
+	"Klingler"
+	"Klug"
+	"Koechlin"
+	"Kornmann"
+	"Krüger"
+	"Laederich"
+	"Lambert"
+	"Laugel"
+	"Lauth"
+	"Leuthold"
+	"Lichtenberger"
+	"Liebach"
+	"Linck"
+	"Lippius"
+	"Lischy"
+	"Loeser"
+	"Loinger"
+	"Loos"
+	"Lotichius"
+	"Luscinius"
+	"Maeder"
+	"Mansbendel"
+	"Mantz"
+	"Martin"
+	"Mechler"
+	"Meisch"
+	"Meissner"
+	"Menninger"
+	"Micyllus"
+	"Mieg"
+	"Miller"
+	"Moll"
+	"Moscherosch"
+	"Motsch"
+	"Mugler"
+	"Mundwiller"
+	"Müller"
+	"Münch"
+	"Müntz"
+	"Oberlin"
+	"Oser"
+	"Oster"
+	"Ott"
+	"Petry"
+	"Pflimlin"
+	"Pleyel"
+	"Rack"
+	"Reber"
+	"Reuss"
+	"Rist"
+	"Roederer"
+	"Rottler"
+	"Rottner"
+	"Rühl"
+	"Schacre"
+	"Schaper"
+	"Schefferus"
+	"Schellenberger"
+	"Schilling"
+	"Schimper"
+	"Schlumberger"
+	"Schmiclensky"
+	"Schmitthaeusler"
+	"Schneider"
+	"Schnitzler"
+	"Schweighäuser"
+	"Schützenberger"
+	"Seelbach"
+	"Silbermann"
+	"Silberzahn"
+	"Sommervogel"
+	"Specklin"
+	"Spoerlin"
+	"Steinbach"
+	"Stetter"
+	"Stolz"
+	"Stoskopf"
+	"Stuckenschmidt"
+	"Tauler"
+	"Thierry"
+	"Thyss"
+	"Timerding"
+	"Traunecker"
+	"Traurach"
+	"Trautmann"
+	"Uhreneckel"
+	"Ungerer"
+	"Vetter"
+	"Vogel"
+	"Vogler"
+	"Vogt"
+	"Waechter"
+	"Wagner"
+	"Waldteufel"
+	"Wechtlin"
+	"Wehrling"
+	"Weiditz"
+	"Weil"
+	"Weinzaepflen"
+	"Wespiser"
+	"Widerkehr"
+	"Wilms"
+	"Wimpheling"
+	"Wurtz"
+	"Zell"
+	"Zetter"
+	"Ziegler"
+	"Zindel"
+	"Zipélius"
+	"Zorn"
+	"Zuber"
+	"Zwinger"
+	"Zürcher"
+	"von Basel"
+	"von Bebelenheim"
+	"von Benda"
+	"von Bose"
+	"von Broich"
+	"von Degenfeld"
+	"von Freyberg"
+	"von Friedeburg"
+	"von Fries"
+	"von Iltzach"
+	"von Koch"
+	"von Lüttwitz"
+	"von Nicolay"
+	"von Rebay"
+	"von Regesheim"
+	"von Rittberg"
+	"von Wunnenberg"
+	"von Wurmser"
+	"zu Rhein"
+}
+ship_names = {
+	"Dekapolis"
+	"Doller"
+	"Hagenau"
+	"Hans Guterolf von Dornach"
+	"Ill"
+	"Kaysersberg"
+	"Kolmar"
+	"Landau"
+	"Mulhusia"
+	"Münster"
+	"Oberehnheim"
+	"Rosheim"
+	"Schlettstadt"
+	"Selz"
+	"Türkheim"
+	"Vivelin"
+	"Weissenburg"
+	"Wolfdietrich"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

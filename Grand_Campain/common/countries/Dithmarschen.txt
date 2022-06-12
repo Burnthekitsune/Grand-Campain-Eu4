@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 72 194 212 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	economic_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_drill
+	prussian_frederickian
+	prussian_uhlan
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abel #1" = 10
+	"Alfridh #1" = -1
+	"Anselm #1" = 10
+	"Cecilía #1" = -1
+	"Dytryk #0" = 0
+	"Elzbieta #0" = -1
+	"Frode #1" = 10
+	"Glismod #1" = -1
+	"Glum #1" = 10
+	"Gniewosz #0" = 0
+	"Halfdan #1" = 10
+	"Hans #0" = 0
+	"Herberd #2" = 10
+	"Hesso #1" = 10
+	"Igor #0" = 0
+	"Johanne #1" = -1
+	"Jutta #1" = -1
+	"Lothar #1" = 10
+	"Mathilde #1" = -1
+	"Oldrik #1" = 10
+	"Rimbert #1" = 10
+	"Sigurd #0" = 0
+	"Silje #0" = -1
+	"Waldered #1" = 10
+	"Wolfard #1" = 10
+	"Zbigniew #0" = 0
+}
+leader_names = {
+	"Boie"
+	"Carl"
+	"Frese"
+	"Giesebert"
+	"Köster"
+	"Nann"
+	"Rachel"
+	"Reimers"
+	"Russe"
+	"Swyn"
+	"Wiben"
+	"von Hochwöhrden"
+	"von Wiemerstedt"
+}
+ship_names = {
+	"Dahme"
+	"Grossenbrode"
+	"Grömtz"
+	"Kellenhusen"
+	"Kiel"
+	"Neustadt"
+	"Ostsee"
+	"Scharbeutz"
+	"Sierksdorf"
+	"Telse von Hochwöhrden"
+	"Wedel"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

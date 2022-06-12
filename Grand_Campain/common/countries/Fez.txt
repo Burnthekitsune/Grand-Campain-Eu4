@@ -1,0 +1,93 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 224 146 113 }
+revolutionary_colors = { 10 15 10 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	maritime_ideas
+	offensive_ideas
+	spy_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Afonso #0" = 0
+	"Aiza #1" = -1
+	"Ameska #1" = 10
+	"Amr #1" = 10
+	"Andrés #1" = 10
+	"Arias #0" = 0
+	"Bernardo #0" = 0
+	"Boukar #1" = 10
+	"Bóthildr #0" = -1
+	"Drífa #0" = -1
+	"Eufrosina #1" = -1
+	"Grýla #1" = -1
+	"Guðrún #0" = -1
+	"Gómez #0" = 0
+	"Hakam #1" = 10
+	"Hýsingr #1" = 10
+	"Jórunn #0" = -1
+	"Kollr #1" = 10
+	"Lubb #1" = 10
+	"Muhammad #1" = 10
+	"Oneca #0" = -1
+	"Oveco #1" = 10
+	"Skjaldvör #1" = -1
+	"Snorri #1" = 10
+	"Umm #1" = -1
+	"Unnr #0" = -1
+	"Vela #0" = 0
+	"Velasquida #0" = -1
+	"Wolfgang #0" = 0
+	"Xoán #0" = 0
+	"Yabdas #1" = 10
+	"Yahya #1" = 10
+	"Úlfhildr #1" = -1
+	"Þórðr #0" = 0
+}
+leader_names = {
+	"Alami"
+	"Aouita"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Bidouane"
+	"Hadda"
+	"Hadji"
+	"Sediki"
+	"Sellami"
+}
+ship_names = {
+	"Adl"
+	"Ali"
+	"Azim"
+	"Ghafur"
+	"Hafiz"
+	"Hakim"
+	"Halim"
+	"Hasib"
+	"Jalil"
+	"Kabir"
+	"Karim"
+	"Khabir"
+	"Latif"
+	"Majid"
+	"Mujib"
+	"Muqit"
+	"Raqib"
+	"Shakur"
+	"Wadid"
+	"Wasi"
+}

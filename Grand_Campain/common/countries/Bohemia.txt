@@ -1,0 +1,129 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 161 139 40 }
+revolutionary_colors = { 0 4 15 }
+historical_idea_groups = {
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	administrative_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adolf #1" = 10
+	"Borivoj #1" = 10
+	"Drogo #0" = 0
+	"Dytryk #1" = 10
+	"Giedre #1" = -1
+	"Gniewosz #1" = 10
+	"Guillaume #0" = 0
+	"Hildeburg #0" = -1
+	"Hostivít #1" = 10
+	"Jenec #0" = 0
+	"Karima #0" = -1
+	"Katharina #1" = -1
+	"Krystyn #1" = 10
+	"Krystyna #1" = -1
+	"Kresomysl #1" = 10
+	"Landolf #0" = 0
+	"Liupolt #1" = 10
+	"Magdalena #0" = -1
+	"Mnata #1" = 10
+	"Neklan #1" = 10
+	"Nezamysl #1" = 10
+	"Olimpia #1" = -1
+	"Petru #3" = 10
+	"Piotr #0" = 0
+	"Premysl #1" = 10
+	"Radomir #0" = 0
+	"Thaculf #1" = 10
+	"Unislav #1" = 10
+	"Vojen #1" = 10
+	"Wszemila #0" = -1
+	"Zikmund #1" = 10
+}
+leader_names = {
+	"Berka"
+	"Capek"
+	"Harant"
+	"Jiskra"
+	"Kaspar"
+	"Kolowrat"
+	"Mansfeld"
+	"Purkyne"
+	"Píka"
+	"Reiner"
+	"Schwarzenberg"
+	"Sokol"
+	"Syrový"
+	"Thurn"
+	"Velen"
+	"Veliký"
+	"Zajíc"
+	"Zelezný"
+	"z Brandýsa"
+	"z Falkensteina"
+	"z Husi"
+	"z Mitrovic"
+	"z Otradovic"
+	"z Pardubic"
+	"z Polzic"
+	"z Rozmberka"
+	"z Rozmitálu"
+	"z Vartemberka"
+	"z Veleslavína"
+	"ze Lvovic"
+	"ze Svamberka"
+	"ze Zerotína"
+}
+ship_names = {
+	"Bystrý"
+	"Cechy"
+	"Ctirad"
+	"Hvezda"
+	"Jan Hus"
+	"Jan Zizka"
+	"Kníze Bretislav"
+	"Král Boleslav"
+	"Král Karel"
+	"Král Premysl"
+	"Libuse"
+	"Morava"
+	"Nejsvetejsí Trojice"
+	"Neporazitelný"
+	"Odvázný"
+	"Orel"
+	"Panna Maria Vitezná"
+	"Premysl Orac"
+	"Prokop Holý"
+	"Rychlý"
+	"Sipka"
+	"Slezsko"
+	"Sokol"
+	"Svatá Anezká"
+	"Svatá Ludmila"
+	"Svatý Jan Nepomucký"
+	"Svatý Jirí"
+	"Svatý Mikulás"
+	"Svatý Vaclav"
+}
+preferred_religion = protestant

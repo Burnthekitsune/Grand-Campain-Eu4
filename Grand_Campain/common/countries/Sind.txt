@@ -1,0 +1,128 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 135 104 85 }
+revolutionary_colors = { 9 0 9 }
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	religious_ideas
+	economic_ideas
+	offensive_ideas
+	defensive_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Aseed #1" = 10
+	"Bhoja #1" = 10
+	"Candrabhattarikadevi #0" = -1
+	"Dani #0" = -1
+	"Darya #0" = -1
+	"Desaladevi #0" = -1
+	"Dhruvadevi #0" = -1
+	"Fareedeh #0" = -1
+	"Golbahar #0" = -1
+	"Hisam #1" = 10
+	"Jairam #1" = 10
+	"Jasapala #0" = 0
+	"Kirtipala #0" = 0
+	"Langdarma #0" = 0
+	"Laxmidevi #0" = -1
+	"Leila #1" = -1
+	"Mang #1" = 10
+	"Mehrzad #0" = 0
+	"Mogubai #0" = -1
+	"Mohan #1" = 10
+	"Morteza #1" = 10
+	"Namalladevi #0" = -1
+	"Naravarmandeva #0" = 0
+	"Prithichand #1" = 10
+	"Reza #1" = 10
+	"Rudaladevi #0" = -1
+	"Samant-Singh #0" = 0
+	"Sidhawa #0" = -1
+	"Sisupal #0" = 0
+	"Somalladevi #0" = -1
+	"Suhava #0" = -1
+	"Sumtharaka #0" = 0
+	"Sundaridevi #0" = -1
+	"Talib #0" = 0
+	"Udayamati #0" = -1
+	"Umar #1" = 10
+	"Unmattavanti #1" = 10
+	"Zînê #0" = -1
+}
+leader_names = {
+	"Arghun"
+	"Bahadur"
+	"Begada"
+	"Bhatia"
+	"Bhil"
+	"Bhutto"
+	"Changezi"
+	"Chudasama"
+	"Desai"
+	"Farooqi"
+	"Ghazi"
+	"Golani"
+	"Jinnah"
+	"Kalhora"
+	"Khokhar"
+	"Khorasani"
+	"Malik"
+	"Mirza"
+	"Munshi"
+	"Naru"
+	"Pahore"
+	"Parikh"
+	"Patel"
+	"Patidar"
+	"Rushi"
+	"Samma"
+	"Shah"
+	"Sindhi"
+	"Singh"
+	"Solanki"
+	"Soomrah"
+	"Sultan"
+	"Tarkhan"
+	"Tomara"
+	"Zamindar"
+}
+ship_names = {
+	"Alia"
+	"Arusa"
+	"Baran"
+	"Fatimah"
+	"Haleji"
+	"Indus"
+	"Kalri"
+	"Khan"
+	"Malir"
+	"Manchhar"
+	"Mol"
+	"Niknaz"
+	"Niloufa"
+	"Noor"
+	"Salima"
+	"Sari"
+	"Shameena"
+	"Suhalia"
+	"Suk"
+	"Yasmine"
+	"Zahira"
+}

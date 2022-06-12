@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_106
+primary_culture = al_suryah_arabic
+capital = 382
+1444.11.11= {
+	add_prestige = 90
+	add_treasury = 76
+}

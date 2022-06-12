@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 143 92 21 }
+historical_idea_groups = {
+	expansion_ideas
+	offensive_ideas
+	administrative_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Bagha #0" = 0
+	"Baghatur #1" = 10
+	"Bahar #0" = -1
+	"Barjik #3" = 10
+	"Bashtwa #2" = 10
+	"Bastu #1" = 10
+	"Bihar #1" = 10
+	"Bulan #1" = 10
+	"Busir #1" = 10
+	"Edha #0" = -1
+	"Hanukkah #1" = 10
+	"Hezekiah #1" = 10
+	"Ilt‰b‰r #1" = 10
+	"Inal #1" = 10
+	"Isaac #2" = 10
+	"Kaiqobad #1" = 10
+	"Keghanoush #0" = -1
+	"Manasseh #3" = 10
+	"Obadiah #1" = 10
+	"PapaÁyz #1" = 10
+	"Sart‰Á #1" = 10
+	"Sar‰ #1" = -1
+	"Yasar #0" = -1
+	"Zebulun #1" = 10
+	"Cenek #1" = 10
+}
+leader_names = {
+	"Bayangge"
+	"Boke Temur"
+	"Bora Chinua"
+	"Chinuagene"
+	"Delger Bayar"
+	"Koke Burilgi"
+	"Nasange"
+	"Qutlugh Vachir"
+	"Qutughqan"
+	"Shria Gan"
+	"Suren Chinua"
+	"Surenchar"
+	"Temur-chi"
+	"Toluilun"
+}
+ship_names = {
+	"Abdallah"
+	"Baraq"
+	"Batu"
+	"Berdi Beg"
+	"Berke"
+	"Dawlat Berdi"
+	"Ediguh"
+	"Jabbar Berdi"
+	"Jalal ad-Din"
+	"Jani Beg"
+	"Karim Berdi"
+	"Kebek"
+	"Khidr"
+	"Mamai Khan"
+	"Mengu-Timur"
+	"Muhammad Bolak"
+	"Nawruz Beg"
+	"Nogai Khan"
+	"Polad Khan"
+	"Qulpa"
+	"Sartaq"
+	"Sayud Ahmad"
+	"Shadi Beg"
+	"Talabuga"
+	"Tem√ºr"
+	"Tem√ºr Qutlugh"
+	"Timur Khwaja"
+	"Tini Beg"
+	"Tokhta"
+	"Toqtamish"
+	"Tuda-Mengu"
+	"Ulaghchi"
+	"Ulugh Muhammad"
+	"√ñz Beg"
+}
+preferred_religion = jewish

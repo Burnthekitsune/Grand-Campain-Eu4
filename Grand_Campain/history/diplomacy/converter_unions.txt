@@ -1,0 +1,72 @@
+union=
+{
+	first="SLO"
+	second="HAB"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z25"
+	second="MEI"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z31"
+	second="Z11"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z31"
+	second="Z2U"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="BOH"
+	second="Z4H"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z1M"
+	second="Z3L"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z0A"
+	second="Z0N"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z24"
+	second="Z16"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="Z24"
+	second="Z3E"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = dynamic-andalucian-norse-culture-num1
+capital = 4565
+1444.11.11= {
+	monarch = {
+		name = "Adaugo"
+		dynasty = "Hæsteining-Canaria"
+		adm = 6
+		dip = 4
+		mil = 3
+		birth_date = 1393.9.24
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Ibtisam"
+		monarch_name = "Ibtisam II"
+		dynasty = "Hæsteining-Canaria"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1414.8.2
+		death_date = 1479.8.2
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 86
+	add_treasury = 63
+}

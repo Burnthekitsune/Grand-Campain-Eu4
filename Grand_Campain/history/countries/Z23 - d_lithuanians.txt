@@ -1,0 +1,55 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = eastern
+religion = baltic_pagan
+primary_culture = lithuanian
+capital = 4535
+1444.11.11= {
+	monarch = {
+		name = "Antavas"
+		dynasty = "av Sudreim"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1418.3.8
+		religion = baltic_pagan
+		culture = lithuanian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Kunyavka"
+		dynasty = "iš Barta"
+		adm = 2
+		dip = 4
+		mil = 3
+		country_of_origin = Z23
+		birth_date = 1414.10.7
+		death_date = 1474.10.7
+		female = yes
+		religion = baltic_pagan
+		culture = dynamic-uralic-old_prussian-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Vingoldas"
+		monarch_name = "Vingoldas II"
+		dynasty = "av Sudreim"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1435.11.24
+		death_date = 1500.11.24
+		claim = 89
+		religion = baltic_pagan
+		culture = lithuanian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 94
+	add_treasury = 60
+}

@@ -1,0 +1,55 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = western
+religion = norse_pagan
+primary_culture = swedish
+capital = 19
+1444.11.11= {
+	monarch = {
+		name = "Kol"
+		dynasty = "Kemiläinen"
+		adm = 3
+		dip = 3
+		mil = 5
+		birth_date = 1415.5.19
+		religion = norse_pagan
+		culture = swedish
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Gyla"
+		dynasty = "Borg"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z2N
+		birth_date = 1422.2.14
+		death_date = 1482.2.14
+		female = yes
+		religion = norse_pagan
+		culture = swedish
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Orvar"
+		monarch_name = "Orvar"
+		dynasty = "Kemiläinen"
+		adm = 2
+		dip = 0
+		mil = 2
+		birth_date = 1440.6.18
+		death_date = 1505.6.18
+		claim = 89
+		religion = norse_pagan
+		culture = swedish
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 77
+	add_treasury = 50
+}

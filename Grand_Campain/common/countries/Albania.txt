@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 181 0 20 }
+revolutionary_colors = { 4 1 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Abdul #0" = 0
+	"Alexandra #1" = -1
+	"Andreas #1" = 10
+	"Bardas #0" = 0
+	"Bashira #2" = -1
+	"Bóthildr #0" = -1
+	"Chinzhay #2" = -1
+	"Euphemios #0" = 0
+	"Gerasimos #1" = 10
+	"Herakleios #0" = 0
+	"Konstantia #0" = -1
+	"Kyriake #0" = -1
+	"Maha #1" = 10
+	"Mahecor #2" = 10
+	"Manthos #1" = 10
+	"Maram #1" = -1
+	"Mbar #0" = 0
+	"Meletios #1" = 10
+	"Nasiba #0" = -1
+	"Nikarete #0" = -1
+	"Nikodemos #1" = 10
+	"Pulcheria #0" = -1
+	"Sanjan #1" = 10
+	"Sergia #1" = -1
+	"Staurakios #0" = 0
+	"Thomas #1" = 10
+}
+leader_names = {
+	"Alia"
+	"Arianit"
+	"Badera"
+	"Balsha"
+	"Bua"
+	"Cervota"
+	"Chani"
+	"Comneniates"
+	"Corbajram"
+	"Dosti"
+	"Duka"
+	"Dukagjini"
+	"Elezi"
+	"Fakaj"
+	"Faqemiri"
+	"Gecaj"
+	"Gjika"
+	"Gjokaj"
+	"Gojcin"
+	"Golemi"
+	"Hajdaraga"
+	"Halili"
+	"Hamza"
+	"Hoxha"
+	"Kastrioti"
+	"Losha"
+	"Musaki"
+	"Sguros"
+	"Shehu"
+	"Shpata"
+	"Spani"
+	"Thopia"
+	"Toptani"
+	"Useni"
+	"Vata"
+	"Veseli"
+	"Vishanj"
+	"Xhaferi"
+	"Xhumba"
+	"Ymeri"
+	"Zenevisi"
+	"Ziberi"
+	"Zogu"
+	"Çarçani"
+}
+ship_names = {
+	"Bishti i Palles"
+	"Gjiri i Drinit"
+	"Gjiri i Rondonit"
+	"Jube"
+	"Kalaja e Turres"
+	"Kepi i Rodonit"
+	"Kyrekuq"
+	"Shengjin"
+	"Shetaj"
+	"Velipoje"
+}

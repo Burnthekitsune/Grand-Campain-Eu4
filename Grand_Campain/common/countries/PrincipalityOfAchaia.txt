@@ -1,0 +1,93 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 255 213 51 }
+revolutionary_colors = { 4 8 4 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adiba #0" = -1
+	"Agathe #0" = -1
+	"Agne #1" = -1
+	"Alexios #2" = 10
+	"Andronikos #1" = 10
+	"Aniketos #1" = 10
+	"Anthousa #1" = -1
+	"Athanasios #2" = 10
+	"Christophoros #1" = 10
+	"Chrysaphios #1" = 10
+	"Eirenaios #0" = 0
+	"Eirene #0" = -1
+	"Elaiodora #0" = -1
+	"Eugenios #1" = 10
+	"Herakleios #1" = 10
+	"Ilija #2" = 10
+	"Ioulia #0" = -1
+	"Ipek #0" = -1
+	"Kyriakos #0" = 0
+	"Markia #1" = -1
+	"Nikephoros #0" = 0
+	"Romylia #1" = -1
+	"Rositsa #0" = -1
+	"Rögnfríðr #0" = -1
+	"Sergia #0" = -1
+	"Stephania #1" = -1
+	"Styrkár #0" = 0
+	"Valeria #2" = -1
+	"Zacharias #4" = 10
+	"Þorbrandr #0" = 0
+}
+leader_names = {
+	"Angelus"
+	"Asan"
+	"Branas"
+	"Cantacuzene"
+	"Comnenus"
+	"Ducas"
+	"Mavros"
+	"Notaras"
+	"Palaeologus"
+	"Phocas"
+	"Raoul"
+	"Spagnoli"
+	"Sphrantzes"
+	"Tocco"
+	"Zaccaria"
+}
+ship_names = {
+	"Agios Kyprianos"
+	"Areopoli"
+	"Elika"
+	"Geronlimenas"
+	"Gytheio"
+	"Kardamyli"
+	"Kokkala"
+	"Kotronas"
+	"Skoutari"
+	"Vathia"
+}

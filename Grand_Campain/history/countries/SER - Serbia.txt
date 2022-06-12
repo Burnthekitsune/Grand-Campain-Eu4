@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+religion = converted_dynamic_faith_106
+primary_culture = serbian
+capital = 1827
+1444.11.11= {
+	add_prestige = 94
+	add_treasury = 70
+}

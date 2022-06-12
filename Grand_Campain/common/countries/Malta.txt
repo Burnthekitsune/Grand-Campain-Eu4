@@ -1,0 +1,88 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 80 200 120 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	maritime_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+}
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abas #1" = 10
+	"Abbad #1" = 10
+	"Ahmad #0" = 0
+	"Ali #0" = 0
+	"Antonios #1" = 10
+	"Beddis #0" = 0
+	"Chiara #0" = -1
+	"Dagr #0" = 0
+	"Drosos #1" = 10
+	"Fath #1" = 10
+	"Girvais #1" = 10
+	"Gregoras #4" = 10
+	"Guffredu #0" = 0
+	"Gurli #1" = -1
+	"Hjálmar #0" = 0
+	"Huda #0" = -1
+	"Ingjerðr #2" = -1
+	"Khafaja #1" = 10
+	"Maha #1" = -1
+	"Markia #1" = -1
+	"Nikolaos #1" = 10
+	"Refr #0" = 0
+	"Ríkiza #0" = -1
+	"Svanhildr #0" = -1
+	"Vagn #0" = 0
+	"Valirianu #1" = 10
+	"Wannaqo #1" = 10
+	"Yahya #0" = 0
+	"Ólafr #1" = 10
+}
+leader_names = {
+	"Ahmad"
+	"Hussain"
+	"Jahagir"
+	"Mahmud"
+	"Mirza"
+	"Mohsin"
+	"Rukh"
+	"Sa'id"
+	"Uways"
+	"Zaman"
+}
+ship_names = {
+	"Alfonse of Portugal"
+	"Arnaud de Comps"
+	"Auger de Balben"
+	"Garnier de Naplous"
+	"Gastone de Murols"
+	"Geoffrey le Rat"
+	"Geoffroy de Donjon"
+	"Gilbert d'Aissailly"
+	"Gilbert of Syria"
+	"Hermangard d'Asp"
+	"Hélion de Villeneuve"
+	"Raymond du Puy de Provence"
+	"Roger de Moulins"
+	"The Blessed Gerard"
+}

@@ -1,0 +1,106 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 255 133 59 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abu-Bakr #1" = 10
+	"Adalbert #1" = 10
+	"Adolf #1" = 10
+	"Aldona #0" = -1
+	"Amalie #1" = -1
+	"Andrzej #0" = 0
+	"Berchte #1" = -1
+	"Berengar #1" = 10
+	"Berthilo #1" = 10
+	"Berthold #2" = 10
+	"Bezprym #0" = 0
+	"Chadalhoh #1" = 10
+	"Dietrich #1" = 10
+	"Dietwin #1" = 10
+	"Eberhard #1" = 10
+	"Fairchellach #1" = 10
+	"Garibald #1" = 10
+	"Hedwig #1" = -1
+	"Henrike #1" = -1
+	"Hermann #1" = 10
+	"Humbert #1" = 10
+	"Judyta #0" = -1
+	"Kragel #1" = 10
+	"Kriemhild #1" = -1
+	"Krystyn #0" = 0
+	"Leopold #1" = 10
+	"Lothar #1" = 10
+	"Ludolf #1" = 10
+	"Magnus #1" = 10
+	"Malgorzata #0" = -1
+	"Wado #1" = 10
+	"Waldo #1" = 10
+	"Walpurga #1" = -1
+	"Wigerich #1" = 10
+	"Wolfram #1" = 10
+}
+leader_names = {
+	"Beich"
+	"Buchner"
+	"Börner"
+	"Börrner"
+	"Hummelberger"
+	"Humpis"
+	"Merkel"
+	"Ortlieb"
+	"Pfeilsticker"
+	"Susenbrot"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Andechs"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Kempten"
+	"Konstanz"
+	"König Arnulf"
+	"Lindau"
+	"Memmingen"
+	"Mindel"
+	"Oettingen"
+	"Otto"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Straubing"
+	"Tassilo III"
+	"Wittelsbach"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

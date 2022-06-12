@@ -1,0 +1,290 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 118 99 151 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	naval_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	chevauchee
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_men_at_arms
+}
+monarch_names = {
+	"Abdallah #1" = 10
+	"Abdul-Hasan #0" = 0
+	"Aiza #0" = -1
+	"Ali #0" = 0
+	"Aléarde #0" = -1
+	"Antonella #0" = -1
+	"Arnaud #1" = 10
+	"Baldr #0" = 0
+	"Bernhard #1" = 10
+	"Butayna #0" = -1
+	"Bótólfr #0" = 0
+	"Clotilde #0" = -1
+	"Dalla #0" = -1
+	"Daniyah #0" = -1
+	"Diederick #0" = 0
+	"Erispoë #1" = 10
+	"Fadl #0" = 0
+	"Fahra #0" = -1
+	"Fatima #1" = -1
+	"Freyja #0" = -1
+	"Garsiya #1" = 10
+	"Glóð #0" = -1
+	"Gríma #0" = -1
+	"Gurli #0" = -1
+	"Gyða #0" = -1
+	"Habiba #0" = -1
+	"Halfdán #0" = 0
+	"Hrafn #0" = 0
+	"Hróðgeirr #0" = 0
+	"Huda #0" = -1
+	"Hákon #0" = 0
+	"Ibrahim #0" = 0
+	"Iliana #0" = -1
+	"Ingiríðr #0" = -1
+	"Irmele #0" = -1
+	"Khadija #0" = -1
+	"Knútr #0" = 0
+	"Kári #0" = 0
+	"Lucia #0" = -1
+	"Ma'n #2" = 10
+	"Maccus #0" = 0
+	"Mariam #0" = -1
+	"Muhammad #1" = 10
+	"Munya #1" = -1
+	"Muyahid #0" = 0
+	"Mær #0" = -1
+	"Nadia #1" = -1
+	"Naila #0" = -1
+	"Nominoë #1" = 10
+	"Ormr #0" = 0
+	"Raf #0" = 0
+	"Raimonda #0" = -1
+	"Rashid #0" = 0
+	"Riwallon #1" = 10
+	"Salomon #1" = 10
+	"Setara #0" = -1
+	"Sif #0" = -1
+	"Sigrbjörn #1" = 10
+	"Suraya #1" = -1
+	"Sága #0" = -1
+	"Umm #1" = -1
+	"Vagn #0" = 0
+	"Valþjófr #0" = 0
+	"Vigdís #0" = -1
+	"Wannaqo #0" = 0
+	"Ya'far #0" = 0
+	"Yahya #0" = 0
+	"Yasmin #0" = -1
+	"Yusuf #0" = 0
+	"Zahida #0" = -1
+	"Áli #0" = 0
+	"Álvör #0" = -1
+	"Ástríðr #0" = -1
+	"Élodie #0" = -1
+	"Ólafr #0" = 0
+	"Önundr #0" = 0
+	"Úlfkell #0" = 0
+}
+leader_names = {
+	"Couasnon de la Barillière"
+	"Kalbean de Cardelan"
+	"Madec"
+	"d'Ancenis"
+	"d'Angennes"
+	"d'Argentré"
+	"d'Elbène"
+	"de Bain"
+	"de Beaudiez"
+	"de Beaumetz"
+	"de Boisguéhenneuc"
+	"de Bouëtiez"
+	"de Châteaubriand"
+	"de Châtillon"
+	"de Coatgoureden"
+	"de Coëtivy"
+	"de Coëtmen"
+	"de Craon"
+	"de Dol"
+	"de Francheville"
+	"de Goulaine"
+	"de Gourcuff"
+	"de Halgoët"
+	"de Kerdrel"
+	"de Kerellec"
+	"de Kergoulay"
+	"de Kerguenech"
+	"de Kerguerron"
+	"de Kersauzon"
+	"de Kersulguen"
+	"de La Haye-Saint-Hilaire"
+	"de Lamballe"
+	"de Locmaria"
+	"de Machecoul"
+	"de Malestroit"
+	"de Mercœur"
+	"de Monfort"
+	"de Penguem"
+	"de Penhoadic"
+	"de Penthièvre"
+	"de Pontbriand"
+	"de Rieux"
+	"de Rodellec"
+	"de Rohan"
+	"de Roscoat"
+	"de Rostrenen"
+	"de Saint-Hoularn"
+	"de Saint-Meleuc"
+	"de Sévigné"
+	"de Talhouët"
+	"de Tasher de la Pagerie"
+	"de Tintériac"
+	"de Tonquedec"
+	"de Tournemine"
+	"de Trogoff"
+	"de Tromelin"
+	"de Tréméreuc"
+	"de Vitré"
+	"de la Nouë-Bogat"
+	"de la Trémoille"
+}
+ship_names = {
+	"l'Achille"
+	"l'Actif"
+	"l'Active"
+	"l'Admirable"
+	"l'Aglaé"
+	"l'Aimable"
+	"l'Alcide"
+	"l'Algésiras"
+	"l'Alose"
+	"l'Amazone"
+	"l'Ambition"
+	"l'Amphion"
+	"l'Annibal"
+	"l'Anémone"
+	"l'Apollon"
+	"l'Argonaute"
+	"l'Artésien"
+	"l'Audacieux"
+	"l'Auguste"
+	"l'Avenant"
+	"l'Entreprenant"
+	"l'Impétueux"
+	"l'Indien"
+	"l'Indomptable"
+	"l'Orion"
+	"l'Union"
+	"l'Élephant"
+	"l'Élisabeth"
+	"l'Émérillon"
+	"l'Éole"
+	"la Badine"
+	"la Barbue"
+	"la Bergère"
+	"la Berryer"
+	"la Bretagne"
+	"la Bretonne"
+	"la Bécasse"
+	"la Grande Hermine"
+	"la Loire"
+	"la Petite Hermine"
+	"la Protée"
+	"la Sarcelle"
+	"la Sphère"
+	"la Victoire"
+	"la Volante"
+	"le Beaumont"
+	"le Belliqueux"
+	"le Bien-Aimé"
+	"le Bienfaisant"
+	"le Bon"
+	"le Brillant"
+	"le Brutus"
+	"le Caché"
+	"le Centaure"
+	"le Chameau"
+	"le Comte"
+	"le Courageux"
+	"le Célèbre"
+	"le Diadème"
+	"le Diamant"
+	"le Dictateur"
+	"le Diligent"
+	"le Dragon"
+	"le Duc"
+	"le Défenseur"
+	"le Fleuron"
+	"le Formidable"
+	"le Fortuné"
+	"le Foudroyant"
+	"le Fougueux"
+	"le Fourgon"
+	"le Furieux"
+	"le Glorieux"
+	"le Jupiter"
+	"le Léopard"
+	"le Massiac"
+	"le Neptune"
+	"le Nestor"
+	"le Portefaix"
+	"le Profond"
+	"le Pégase"
+	"le Rolland"
+	"le Saint-Guillaume"
+	"le Six-Corps"
+	"le Solide"
+	"le Solitaire"
+	"le Souverain"
+	"le Sphinx"
+	"le Superbe"
+	"le Sévère"
+	"le Tardif"
+	"le Terrible"
+	"le Thésée"
+	"le Tonnant"
+	"le Triomphant"
+	"le Triton"
+	"le Téméraire"
+	"le Vaillant"
+	"le Vengeur"
+	"le Vigilant"
+}
+army_names = {
+	"Armée de $PROVINCE$"
+	"Armée de Broërec"
+	"Armée de Cornouaille"
+	"Armée de Penthièvre"
+	"Armée de Porhoët"
+	"Armée de Tréguier"
+	"Armée du Léon"
+	"Armée du Pays Nantais"
+	"Armée du Pays Rennais"
+	"Armée du Pays de Dol"
+	"Armée du Pays de Saint Brieuc"
+	"Armée du Pays de Saint Malo"
+	"Armée du Trégor"
+	"Armée du Vannetais"
+}

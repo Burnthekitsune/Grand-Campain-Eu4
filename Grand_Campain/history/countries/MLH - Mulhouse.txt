@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = schlesian
+capital = 1880
+fixed_capital = 1880
+add_accepted_culture = swabian
+1444.11.11= {
+	monarch = {
+		name = "Budziwuj"
+		dynasty = "of Montbéliard"
+		adm = 5
+		dip = 1
+		mil = 3
+		birth_date = 1390.12.19
+		religion = catholic
+		culture = schlesian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Hemma"
+		dynasty = "Orsini"
+		adm = 2
+		dip = 4
+		mil = 3
+		country_of_origin = MLH
+		birth_date = 1396.6.11
+		death_date = 1456.6.11
+		female = yes
+		religion = catholic
+		culture = swabian
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Tomasz"
+		monarch_name = "Tomasz"
+		dynasty = "of Montbéliard"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1434.2.10
+		death_date = 1499.2.10
+		claim = 89
+		religion = catholic
+		culture = schlesian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 50
+	add_treasury = 54
+}

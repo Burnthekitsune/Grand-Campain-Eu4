@@ -1,0 +1,87 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 135 109 147 }
+revolutionary_colors = { 2 0 2 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abo #1" = 10
+	"Adelheid #1" = -1
+	"Benno #1" = 10
+	"Bertram #1" = 10
+	"Bithild #1" = -1
+	"Boguchwal #0" = 0
+	"Dedo #0" = 0
+	"Drogo #1" = 10
+	"Hinrik #2" = 10
+	"Jochim #3" = 10
+	"Kersten #0" = 0
+	"Liemar #1" = 10
+	"Luidolf #1" = 10
+	"Oda #1" = -1
+	"Otto #3" = 10
+	"Rudigar #2" = 10
+	"Stefan #0" = 0
+	"Theoderic #1" = 10
+	"Volkwin #1" = 10
+	"Waldemar #1" = 10
+}
+leader_names = {
+	"Ahlers"
+	"Basedow"
+	"Beuß"
+	"Bostelmann"
+	"Breden"
+	"Burmeister"
+	"Dietz"
+	"Döpner"
+	"Flathmann"
+	"Garbade"
+	"Gefken"
+	"Gehrken"
+	"Martin"
+	"Pielken"
+	"Reinbeck"
+	"Sölter"
+	"Westermann"
+	"von Hodenberg"
+}
+ship_names = {
+	"Bischof Amelung"
+	"Herzog Ernst"
+	"Herzog Otto"
+	"Herzog Wilhelm"
+	"Illmenau"
+	"Kalkberg"
+	"Luniburcs"
+	"Magnus Torquatus"
+	"Markgraf Billung"
+	"St. Michaelis"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

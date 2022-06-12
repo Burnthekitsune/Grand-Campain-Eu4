@@ -1,0 +1,95 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 115 142 205 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abu #0" = 0
+	"Alberich #0" = 0
+	"Amadeus #0" = 0
+	"Anno #0" = 0
+	"Barbara #0" = -1
+	"Belleassez #1" = -1
+	"Benedicta #0" = -1
+	"Gormr #0" = 0
+	"Grýla #1" = -1
+	"Gudrun #0" = -1
+	"Hakam #0" = 0
+	"Halla #0" = -1
+	"Henrik #0" = 0
+	"Hildegard #1" = -1
+	"Isabeau #1" = -1
+	"Karl #1" = 10
+	"Kyrillos #0" = 0
+	"Ludvig #0" = 0
+	"Morcar #1" = 10
+	"Munya #0" = -1
+	"Málmfríðr #0" = -1
+	"Nemoj #1" = 10
+	"Nicolas #1" = 10
+	"Oda #1" = -1
+	"Osterhild #0" = -1
+	"Payen #1" = 10
+	"Philipp #1" = 10
+	"Rashid #0" = 0
+	"Richara #0" = -1
+	"Rudolf #0" = 0
+	"Thaculf #0" = 0
+	"Þorsteinn #0" = 0
+}
+leader_names = {
+	"Bickling"
+	"Braun"
+	"Detemple"
+	"Fent"
+	"Feyerabend"
+	"Forthober"
+	"Freymuth"
+	"Kathrein"
+	"Krogloth"
+	"Limburg"
+	"Neubert"
+	"Oberlothringen"
+	"Wolferseder"
+	"von Elsass"
+}
+ship_names = {
+	"Toul"
+	"l'Empereur Lothaire"
+	"le Barrois"
+	"le Bera"
+	"le Lorraine"
+	"le Metz"
+	"le René II de Lorraine"
+	"le Scoc"
+	"le Sekjan"
+	"le Skirmjan"
+	"le Verdun"
+	"le Warding"
+}

@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dynamic-czech-culture-num1
+capital = 2964
+fixed_capital = 2964
+add_accepted_culture = saxon
+1444.11.11= {
+	add_prestige = 76
+	add_treasury = 69
+}

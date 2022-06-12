@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = nomad_group
+religion = tengri_pagan
+primary_culture = dynamic-kirgiz-culture-num1
+capital = 2434
+fixed_capital = 2434
+1444.11.11= {
+	monarch = {
+		name = "Gunduz"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1412.2.15
+		female = yes
+		religion = tengri_pagan
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Bachman"
+		dynasty = "Bairam"
+		adm = 5
+		dip = 3
+		mil = 6
+		country_of_origin = Z5H
+		birth_date = 1414.11.25
+		death_date = 1474.11.25
+		religion = tengri_pagan
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Gulnara"
+		monarch_name = "Gulnara"
+		dynasty = "Bairam"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1434.11.3
+		death_date = 1499.11.3
+		female = yes
+		claim = 89
+		religion = tengri_pagan
+		culture = dynamic-kirgiz-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 78
+	add_treasury = 47
+}

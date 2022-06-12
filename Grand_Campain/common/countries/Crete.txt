@@ -1,0 +1,122 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 138 110 130 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Adrianos #1" = 10
+	"Ahmad #1" = 10
+	"Anatolios #0" = 0
+	"Andronikos #0" = 0
+	"Anna #0" = -1
+	"Antonia #1" = -1
+	"Bardas #0" = 0
+	"Birute #0" = -1
+	"Christine #0" = -1
+	"Climenza #0" = -1
+	"Dionysia #0" = -1
+	"Eirenaios #0" = 0
+	"Elaiodora #0" = -1
+	"Eugenios #0" = 0
+	"Gabrielia #1" = -1
+	"Gerasimos #0" = 0
+	"Ghaysan #1" = 10
+	"Herakleios #1" = 10
+	"Hypatia #0" = -1
+	"Ignatios #0" = 0
+	"Ioannes #1" = 10
+	"Ioseph #0" = 0
+	"Ixfensen #2" = 10
+	"Kojo #0" = 0
+	"Konstantia #1" = -1
+	"Kwasi #0" = 0
+	"Kyriakos #0" = 0
+	"Leon #0" = 0
+	"Makarios #1" = 10
+	"Manuel #0" = 0
+	"Martha #0" = -1
+	"Massnsen #1" = 10
+	"Maurikios #0" = 0
+	"Meletios #0" = 0
+	"Michael #0" = 0
+	"Ndoye #0" = -1
+	"Nikephoros #0" = 0
+	"Pavlina #0" = -1
+	"Polykarpos #0" = 0
+	"Pulcheria #0" = -1
+	"Pyrros #0" = 0
+	"Päivi #0" = -1
+	"Romane #0" = -1
+	"Sall #0" = -1
+	"Sati #0" = -1
+	"Sergios #1" = 10
+	"Sevilay #0" = -1
+	"Shuayb #4" = 10
+	"Sophia #0" = -1
+	"Symeon #0" = 0
+	"Tatbirt #1" = -1
+	"Theodoros #1" = 10
+	"Thomas #0" = 0
+	"Thuriya #0" = -1
+	"Umar #2" = 10
+	"Umay #0" = -1
+	"Vartuk #0" = -1
+	"Yalla #1" = -1
+	"Yngvar #0" = 0
+	"Yusuf #1" = 10
+	"Zubeyr #1" = 10
+}
+leader_names = {
+	"Argyrus"
+	"Artavasdus"
+	"Basileus"
+	"Diogenes"
+	"Ducas"
+	"Monomachus"
+	"Morosini"
+	"Romanus"
+	"Stauracius"
+	"Stratioticus"
+	"Vataces"
+	"Zimisces"
+	"de Vendôme"
+}
+ship_names = {
+	"Dermoaros"
+	"Frangokastelo"
+	"Glalos"
+	"Koudouras"
+	"Lentas"
+	"Matala"
+	"Paleochora"
+	"Papadogiannis"
+	"Plakias"
+	"Sougia"
+}

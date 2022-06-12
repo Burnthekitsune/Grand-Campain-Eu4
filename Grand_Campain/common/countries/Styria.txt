@@ -1,0 +1,112 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 59 126 59 }
+revolutionary_colors = { 0 9 0 }
+historical_idea_groups = {
+	diplomatic_ideas
+	economic_ideas
+	defensive_ideas
+	influence_ideas
+	offensive_ideas
+	trade_ideas
+	administrative_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalhard #1" = 10
+	"Barbora #0" = -1
+	"Bogdana #0" = -1
+	"Božidar #0" = 0
+	"Cuk #1" = 10
+	"Dejana #0" = -1
+	"Dobromila #0" = -1
+	"Dušan #1" = 10
+	"Engelschalk #1" = 10
+	"Gudrun #1" = -1
+	"Hviezdoslav #0" = 0
+	"Jaromíra #0" = -1
+	"Jelen #0" = 0
+	"Kosuta #0" = 0
+	"Lada #0" = -1
+	"Ladomír #0" = 0
+	"Ljuban #3" = 10
+	"Ljubota #0" = -1
+	"Lubica #0" = -1
+	"Mesko #1" = 10
+	"Milomíra #0" = -1
+	"Miroslav #0" = 0
+	"Nadzieja #0" = -1
+	"Nikola #1" = 10
+	"Poppo #1" = 10
+	"Pribislava #0" = -1
+	"Prodan #0" = 0
+	"Radomír #0" = 0
+	"Samo #2" = 10
+	"Semislav #1" = 10
+	"Slavko #0" = 0
+	"Smiljana #0" = -1
+	"Sophia #0" = -1
+	"Stanka #0" = -1
+	"Stojan #1" = 10
+	"Unislav #0" = 0
+	"Vavrinec #1" = 10
+	"Vidojko #0" = 0
+	"Vladimir #0" = 0
+	"Zlatoslav #0" = 0
+	"Zubrivoj #0" = 0
+}
+leader_names = {
+	"Absenger"
+	"Allmer"
+	"Almer"
+	"Altmann"
+	"Amtmann"
+	"Andreitsch"
+	"Arlitz"
+	"Fuchs"
+	"Herndler"
+	"Hierzegger"
+	"Kroha"
+	"Lanz"
+	"Maxa"
+	"Messner"
+	"Potetz"
+	"Ruckenstuhl"
+	"Schmidtberger"
+	"Steinegger"
+	"Teubenbacher"
+	"Trenkler"
+	"Wergals"
+	"Zingl"
+}
+ship_names = {
+	"Bruck"
+	"Eisenerz"
+	"Graz"
+	"Greim"
+	"Kapfenberg"
+	"Leibnitz"
+	"Leoben"
+	"Mürztal"
+	"Steiermark"
+	"Weiz"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

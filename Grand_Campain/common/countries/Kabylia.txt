@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 60 140 70 }
+revolutionary_colors = { 10 8 13 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	naval_ideas
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Abdul-Rahman #0" = 0
+	"Bilal #0" = 0
+	"Farhan #1" = 10
+	"Fath #0" = 0
+	"Gamila #1" = -1
+	"Geoffroy #0" = 0
+	"Georgios #1" = 10
+	"Guðröðr #0" = 0
+	"Haukr #0" = 0
+	"Hróðólfr #1" = 10
+	"Ingiríðr #1" = -1
+	"Khadija #1" = -1
+	"Khatira #0" = -1
+	"Majida #1" = -1
+	"Malik #1" = 10
+	"Mirza #0" = 0
+	"Muhammad #2" = 10
+	"Murshid #1" = 10
+	"Nabil #1" = 10
+	"Nur #1" = -1
+	"Sabah #1" = 10
+	"Sigurðr #0" = 0
+	"Suleyman #1" = 10
+	"Sveinn #1" = 10
+	"Tarifa #1" = -1
+	"Tyke #0" = 0
+	"Ubald #1" = 10
+	"Valþjófr #0" = 0
+	"Yolande #0" = -1
+	"Zara #1" = -1
+	"Þorbjörn #0" = 0
+}
+leader_names = {
+	"Abi Youcef"
+	"Ait Akerma"
+	"Ait Aouggacha"
+	"Ait Aïssi"
+	"Ait Djennad"
+	"Ait Douala"
+	"Ait Fraoussen"
+	"Ait Ghobri"
+	"Ait Idjer"
+	"Ait Iraten"
+	"Maatka"
+}
+ship_names = {
+	"Akhir"
+	"Awwal"
+	"Ba'ith"
+	"Barr"
+	"Batin"
+	"Hamid"
+	"Haqq"
+	"Hayy"
+	"Majid"
+	"Matin"
+	"Mu'akhkhir"
+	"Mu'id"
+	"Mubdi"
+	"Muhsi"
+	"Muhyi"
+	"Mumit"
+	"Muqaddim"
+	"Muqtadir"
+	"Muta'al"
+	"Qadir"
+	"Qawiyy"
+	"Qayyum"
+	"Samad"
+	"Shahid"
+	"Wahid"
+	"Wajed"
+	"Wakil"
+	"Wali"
+	"Waliyy"
+	"Zahir"
+}

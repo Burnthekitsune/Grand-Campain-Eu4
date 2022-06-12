@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = converted_dynamic_faith_102
+primary_culture = dynamic-franconian-cosmopolitan_french-culture-num1
+capital = 192
+fixed_capital = 192
+1444.11.11= {
+	monarch = {
+		name = "Gelduin"
+		dynasty = "Welf-Auxerre"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1388.6.1
+		religion = converted_dynamic_faith_102
+		culture = dynamic-franconian-cosmopolitan_french-culture-num1
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Dalla"
+		dynasty = "Hæsteining-Angoulême"
+		adm = 4
+		dip = 5
+		mil = 4
+		country_of_origin = Z4B
+		birth_date = 1385.2.5
+		death_date = 1445.2.5
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = dynamic-andalucian-norse-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Gerberge"
+		monarch_name = "Gerberge"
+		dynasty = "Welf-Auxerre"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1407.2.7
+		death_date = 1472.2.7
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_102
+		culture = dynamic-franconian-cosmopolitan_french-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 75
+	add_treasury = 59
+}

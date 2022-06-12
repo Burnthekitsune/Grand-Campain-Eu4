@@ -1,0 +1,119 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 154 69 116 }
+revolutionary_colors = { 9 0 5 }
+historical_idea_groups = {
+	humanist_ideas
+	trade_ideas
+	economic_ideas
+	quality_ideas
+	diplomatic_ideas
+	administrative_ideas
+	aristocracy_ideas
+	quantity_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Arunas #1" = 10
+	"Baeivi #0" = 0
+	"Bergþóra #0" = -1
+	"Christina #1" = -1
+	"Drífa #0" = -1
+	"Flosi #0" = 0
+	"Gríma #1" = -1
+	"Gyríðr #0" = -1
+	"Heameel #1" = 10
+	"Hurmas #1" = 10
+	"Hólmfríðr #0" = -1
+	"Hýsingr #1" = 10
+	"Iliana #0" = -1
+	"Ingjerðr #1" = -1
+	"Katarina #1" = -1
+	"Kolbeinn #0" = 0
+	"Lávrrohas #1" = 10
+	"Mokci #0" = 0
+	"Oaván #0" = 0
+	"Ringaudas #1" = 10
+	"Rurik #0" = 0
+	"Savna #0" = -1
+	"Soabá #0" = -1
+	"Tyyne #0" = -1
+	"Áilu #0" = 0
+	"Þióðmundr #0" = 0
+}
+leader_names = {
+	"Alseniskis"
+	"Astikas"
+	"Chodkevicius"
+	"Daukantas"
+	"Dauksa"
+	"Denhofas"
+	"Giedraitis"
+	"Gosevskis"
+	"Gostautas"
+	"Kesgaila"
+	"Kiska"
+	"Kosakovskis"
+	"Kulvietis"
+	"Lietuvis"
+	"Masalskis"
+	"Mazvydas"
+	"Nemirovicius"
+	"Oginskis"
+	"Ostrogiskis"
+	"Pacas"
+	"Pociejus"
+	"Radvila"
+	"Rapolionis"
+	"Rimsa"
+	"Sanguska"
+	"Sapiega"
+	"Simonavicius"
+	"Sirvydas"
+	"Skorina"
+	"Sluska"
+	"Sosnovskis"
+	"Svyriskis"
+	"Tiskevicius"
+	"Valancius"
+	"Valavicius"
+	"Visniovieckis"
+	"Zabiela"
+}
+ship_names = {
+	"Alytus"
+	"Birzai"
+	"Druskininkai"
+	"Gardinas"
+	"Jonava"
+	"Kaunas"
+	"Kretinga"
+	"Kreva"
+	"Lazdijai"
+	"Naugardukas"
+	"Palanga"
+	"Raseiniai"
+	"Siauliai"
+	"Sventoji"
+	"Taurage"
+	"Telsiai"
+	"Trakai"
+	"Utena"
+	"Vilkmerge"
+}

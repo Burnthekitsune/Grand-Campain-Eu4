@@ -1,0 +1,110 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 104 94 247 }
+revolutionary_colors = { 5 0 13 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Asenet #0" = -1
+	"Batic #1" = 10
+	"Belisarios #1" = 10
+	"Borna #1" = 10
+	"Budimir #1" = 10
+	"Domagoj #2" = 10
+	"Hrana #3" = 10
+	"Hval #2" = 10
+	"Hypatios #1" = 10
+	"Iljko #1" = 10
+	"Ioannes #0" = 0
+	"Kujava #0" = -1
+	"Makarios #3" = 10
+	"Mihaela #1" = -1
+	"Milovan #0" = 0
+	"Mislav #1" = 10
+	"Petra #1" = -1
+	"Radivoj #0" = 0
+	"Radic #2" = 10
+	"Sol #0" = 0
+	"Teodora #0" = -1
+	"Thomas #1" = 10
+	"Titi #0" = -1
+	"Trpimir #1" = 10
+	"Tvrtko #1" = 10
+	"Viseslav #1" = 10
+	"Vladislav #1" = 10
+	"Vlatko #1" = 10
+	"Vuk #0" = 0
+	"Vukašin #0" = 0
+}
+leader_names = {
+	"Alapic"
+	"Babonic"
+	"Blagaj"
+	"Cesnegic"
+	"Crnkovic"
+	"Drashkovic"
+	"Frankapan"
+	"Gorjanski"
+	"Horvat"
+	"Hrvatinic"
+	"Ilocki"
+	"Jelacic"
+	"Kacic"
+	"Kaniski"
+	"Keglevic"
+	"Knezevic"
+	"Krbavski"
+	"Kruzic"
+	"Kurjakovic"
+	"Lackovic"
+	"Mihalovic"
+	"Nelipcic"
+	"Ozegovic"
+	"Pejacevic"
+	"Radic"
+	"Rukavina"
+	"Subic"
+	"Talovac"
+	"Vrancic"
+	"Zrinski"
+}
+ship_names = {
+	"Cres"
+	"Dugi Otok"
+	"Goli"
+	"Krl"
+	"Pag"
+	"Plavnik"
+	"Susak"
+	"Sveti Grgur"
+	"Tijat"
+	"Unije"
+	"Vele Srankane"
+	"Zlarin"
+	"Zmajan"
+}

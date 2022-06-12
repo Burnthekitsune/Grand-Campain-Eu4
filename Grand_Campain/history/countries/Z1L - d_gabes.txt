@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = muslim
+religion = converted_dynamic_faith_102
+primary_culture = tunisian
+capital = 2453
+1444.11.11= {
+	monarch = {
+		name = "Taljat"
+		dynasty = "Amirid"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1391.6.13
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = tunisian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Markos"
+		dynasty = "ot Debar"
+		adm = 4
+		dip = 4
+		mil = 3
+		country_of_origin = Z1L
+		birth_date = 1390.8.27
+		death_date = 1450.8.27
+		religion = converted_dynamic_faith_102
+		culture = dynamic-bulgarian-greek-culture-num1
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Gergana"
+		monarch_name = "Gergana"
+		dynasty = "ot Debar"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1408.8.28
+		death_date = 1473.8.28
+		female = yes
+		claim = 89
+		religion = converted_dynamic_faith_106
+		culture = dynamic-bulgarian-greek-culture-num1
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 70
+	add_treasury = 79
+}

@@ -1,0 +1,187 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 98 206 253 }
+revolutionary_colors = { 14 16 10 }
+historical_idea_groups = {
+	defensive_ideas
+	quantity_ideas
+	administrative_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Abida #0" = -1
+	"Adila #0" = -3
+	"Bahram Farrukhsiyar #0" = 40
+	"Bika #0" = -1
+	"Farangis #0" = -1
+	"Farrukh #0" = 10
+	"Farrukhsiyar Khalil #0" = 60
+	"Fatemeh #0" = -1
+	"Ghazi Farrukhsiyar #0" = 20
+	"Gowhar #0" = -1
+	"Gunish #0" = -1
+	"Halima #0" = -1
+	"Ibrahim #0" = 20
+	"Ismail #0" = 10
+	"Junayd #0" = 10
+	"Khadija #0" = -1
+	"Khair #0" = -1
+	"Khalilullah #0" = 10
+	"Khanikah #0" = -1
+	"Lal Bi #0" = -1
+	"Mahin Banu #0" = -1
+	"Malahat #0" = -3
+	"Pari #0" = -1
+	"Shah #0" = -1
+	"Shahnavaz #0" = -1
+	"Tahmasp #0" = 10
+	"Tajlu #0" = -1
+	"Ummugulsum #0" = -1
+	"Zainab #0" = -1
+}
+leader_names = {
+	"Ahrari"
+	"Ansari"
+	"Azizi"
+	"Daei"
+	"Dalwand"
+	"Fatemi"
+	"Jalili"
+	"Qazai"
+	"Sabet"
+	"Sabiri"
+	"Shahy"
+}
+ship_names = {
+	"Abathur"
+	"Adamn Kasia"
+	"Aesma Daeva"
+	"Agas"
+	"Ahaka"
+	"Ahriman"
+	"Ahura"
+	"Ahura Mazda"
+	"Ahurani"
+	"Airyaman"
+	"Aka Manah"
+	"Aladdin"
+	"Allatum"
+	"Amashaspan"
+	"Ameratat"
+	"Amesha Spentas"
+	"Anahita"
+	"Angra Mainyu"
+	"Anjuman"
+	"Apam-natat"
+	"Apaosa"
+	"Aredvi"
+	"Arishtat"
+	"Armaiti"
+	"Arsaces"
+	"Asha vahista"
+	"Asman"
+	"Asto Vidatu"
+	"Astvat-Ereta"
+	"Atar"
+	"Azi Dahaka"
+	"Baga"
+	"Bahram"
+	"Baku"
+	"Burijas"
+	"Bushyasta"
+	"Buyasta"
+	"Camros"
+	"Daena"
+	"Daevas"
+	"Dahhak"
+	"Dena"
+	"Dev"
+	"Diwe"
+	"Drug"
+	"Drvaspa"
+	"Frashegird"
+	"Fravashis"
+	"Gandarewa"
+	"Gao-kerena"
+	"Gayomard"
+	"Gayomart"
+	"Geus-Tasan"
+	"Geus-Urvan"
+	"Haoma"
+	"Haurvatat"
+	"Humay"
+	"Hvar"
+	"Hvarekhshaeta"
+	"Indar"
+	"Indra"
+	"Izha"
+	"Jamshid"
+	"Jeh"
+	"Karshipta"
+	"Kavi"
+	"Khara"
+	"Khshathra vairya"
+	"Kundrav"
+	"Mah"
+	"Mahre"
+	"Mahrianag"
+	"Manu"
+	"Manuchihir"
+	"Mao"
+	"Mashyane"
+	"Mashye"
+	"Menog"
+	"Mithra"
+	"Nairyosangha"
+	"Nanghaithya"
+	"Neriosang"
+	"Ormazd"
+	"Peris"
+	"Peshdadians"
+	"Rapithwin"
+	"Rashnu"
+	"Rustam"
+	"Saurva"
+	"Simurgh"
+	"Spenta Mainyu"
+	"Sraosa"
+	"Srosh"
+	"Tawrich"
+	"Thunaupa"
+	"Tistrya"
+	"Tushnamatay"
+	"Vanant"
+	"Vata"
+	"Verethragna"
+	"Vohu Manah"
+	"Vouruskasha"
+	"Yam"
+	"Yasht"
+	"Yazata"
+	"Yezidi"
+	"Yima"
+	"Zal"
+	"Zam"
+	"Zam-Armatay"
+	"Zarathustra"
+	"Zarich"
+	"Zend-Avesta"
+	"Zurvan"
+}
