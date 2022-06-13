@@ -1,13 +1,5 @@
 union=
 {
-	first="SLO"
-	second="HAB"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
-union=
-{
 	first="Z25"
 	second="MEI"
 	start_date="1444.11.11"
@@ -69,4 +61,3 @@ union=
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
-

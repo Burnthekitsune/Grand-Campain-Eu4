@@ -1,5 +1,5 @@
-owner = SIL
-controller = SIL
+owner = MVA
+controller = MVA
 capital = "Ratibor"
 is_city = yes
 culture = schlesian
@@ -8,7 +8,8 @@ trade_goods = iron
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = SIL
+add_core = MVA
+hre = yes
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

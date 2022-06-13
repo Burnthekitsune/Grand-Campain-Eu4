@@ -1,5 +1,5 @@
-owner = SLO
-controller = SLO
+owner = MVA
+controller = MVA
 capital = "Pressburg"
 is_city = yes
 culture = slovak
@@ -10,7 +10,8 @@ base_production = 5
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = SLO
+add_core = MVA
+hre = yes
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
