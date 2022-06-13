@@ -2,13 +2,13 @@ owner = MRK
 controller = MRK
 capital = "Tadla"
 is_city = yes
-culture = moroccan
+culture = janubian
 religion = converted_dynamic_faith_102
 trade_goods = copper
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = MOR
+
 add_core = MRK
 discovered_by = eastern
 discovered_by = indian

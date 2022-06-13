@@ -2,14 +2,14 @@ owner = FEZ
 controller = FEZ
 capital = "Meknes"
 is_city = yes
-culture = moroccan
+culture = janubian
 religion = converted_dynamic_faith_102
 trade_goods = cloth
 base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = FEZ
-add_core = MOR
+
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

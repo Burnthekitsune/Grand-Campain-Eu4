@@ -2,13 +2,13 @@ owner = MRK
 controller = MRK
 capital = "Safi"
 is_city = yes
-culture = moroccan
+culture = janubian
 religion = shiite
 trade_goods = sugar
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = MOR
+
 add_core = MRK
 discovered_by = eastern
 discovered_by = indian
