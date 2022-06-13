@@ -18,7 +18,7 @@ pagan = {
 		country = {
  
 		global_tax_modifier = -0.1
-		idea_cost = -0.|
+		idea_cost = -0.1
 
 		female_advisor_chance = 0.5
 	
@@ -26,10 +26,11 @@ pagan = {
 		country_as_secondary = {
 	
 		global_missionary_strength = 0.01
+		idea_cost = -0.1
 	
 }
 		
-		uses_roogan_power = yes
+		uses_converted_dynamic_faith_106_power = yes
 	
 		aspects = {
 			exiled_druzhina_aspect
@@ -49,7 +50,7 @@ pagan = {
 			embracing_the_dondu_aspect
 			shibboleth_of_change_aspect
 		}
-		aspects_name = PROTESTANT_ASPECTS
+		aspects_name = converted_dynamic_faith_106_ASPECTS
 	heretic = { GOAT_SKULL }
 
 	}
