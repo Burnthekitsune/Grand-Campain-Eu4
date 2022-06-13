@@ -3,115 +3,138 @@ graphical_culture = easterngfx
 color = { 181 0 20 }
 revolutionary_colors = { 4 1 4 }
 historical_idea_groups = {
-	religious_ideas
-	defensive_ideas
-	spy_ideas
-	trade_ideas
-	offensive_ideas
-	economic_ideas
-	diplomatic_ideas
+	aristocratic_ideas
 	innovativeness_ideas
+	diplomatic_ideas
+	offensive_ideas
+	maritime_ideas
 }
 historical_units = {
 	bardiche_infantry
-	eastern_carabinier
 	eastern_knights
 	eastern_militia
-	eastern_skirmisher
-	eastern_uhlan
-	ottoman_lancer
-	ottoman_new_model
-	ottoman_nizami_cedid
-	ottoman_reformed_janissary
-	ottoman_reformed_spahi
-	ottoman_sekban
-	ottoman_toprakli_dragoon
-	ottoman_toprakli_hit_and_run
-	slavic_stradioti
 }
 monarch_names = {
-	"Abdul #0" = 0
-	"Alexandra #1" = -1
-	"Andreas #1" = 10
-	"Bardas #0" = 0
-	"Bashira #2" = -1
-	"Bóthildr #0" = -1
-	"Chinzhay #2" = -1
-	"Euphemios #0" = 0
-	"Gerasimos #1" = 10
-	"Herakleios #0" = 0
-	"Konstantia #0" = -1
-	"Kyriake #0" = -1
-	"Maha #1" = 10
+	"Baras #0" = 2
+	"Bashira #2" = -3
+	"Cinsay #2" = -3
+	"Maha #1" = 5
 	"Mahecor #2" = 10
-	"Manthos #1" = 10
-	"Maram #1" = -1
-	"Mbar #0" = 0
-	"Meletios #1" = 10
-	"Nasiba #0" = -1
-	"Nikarete #0" = -1
-	"Nikodemos #1" = 10
-	"Pulcheria #0" = -1
-	"Sanjan #1" = 10
-	"Sergia #1" = -1
-	"Staurakios #0" = 0
-	"Thomas #1" = 10
+	"Maram #1" = -2
+	"Sanjan #1" = 5
+	"Esin #0" = -1
+	"Cucung #0" = 1
+	"Cipas #0" = 2
+	"Barakaaharoog #0" = 0
+	"Draagos #0" = 0
+	"Nekot #0" = 0
+	"Poriin #0" = 0
+	"Jegan #0" = 1
+	"Tabat #0" = 0
+	"Waali #0" = 0
+	"Kibaar #0" = 0
+	"Hiba #0" = 0
+	"Haidar #0" = 0
+	"Citska #0" = -2
+	"Neda #0" = -1
+	"Epilogi Touroog #0" = 0
+	"Apostolos Touroog #0" = 0
+	"Apostolos #0" = 0
+	"Neapania #0" = -0
 }
 leader_names = {
-	"Alia"
-	"Arianit"
-	"Badera"
-	"Balsha"
-	"Bua"
-	"Cervota"
-	"Chani"
-	"Comneniates"
-	"Corbajram"
-	"Dosti"
-	"Duka"
-	"Dukagjini"
-	"Elezi"
-	"Fakaj"
-	"Faqemiri"
-	"Gecaj"
-	"Gjika"
-	"Gjokaj"
-	"Gojcin"
-	"Golemi"
-	"Hajdaraga"
-	"Halili"
-	"Hamza"
-	"Hoxha"
-	"Kastrioti"
-	"Losha"
-	"Musaki"
-	"Sguros"
-	"Shehu"
-	"Shpata"
-	"Spani"
-	"Thopia"
-	"Toptani"
-	"Useni"
-	"Vata"
-	"Veseli"
-	"Vishanj"
-	"Xhaferi"
-	"Xhumba"
-	"Ymeri"
-	"Zenevisi"
-	"Ziberi"
-	"Zogu"
-	"Çarçani"
+	"Silla"
+	"Gnilane"
+	"Brakaabu"
+	"Kehinde"
+	"Njekehid"
+	"Mahan"
+	"Yandehid"
+	"Zammourid"
+	"Awo"
+	"Nadeerid"
+	"Traghan"
+	"Benn"
+	"Auchi"
+	"Ari"
+	"Baako"
+	"Matzaris"
+	"Anabid"
+	"Akosiwid"
+	"Makrembolites"
+	"Ndieumbeuttid"
+	"Stari Trgoviste"
+	"Zaccaria"
+	"Komnene"
+	"Azizidpatras"
+	"Agelastos"
+	"Duguwa"
+	"Philinos"
+	"Haploucheir"
+	"Belissariotes"
+	"Chrysos"
+	"Arbantenos"
+	"Belermen"
+	"Hede"
+	"Palazzu"
+	"Alnas"
+	"Saran"
+	"Collel"
+	"Serdebuur"
+	"Mbeddaajibuur"
+	"Agapimeni tou Roog"
+	"Sothike apo ton Roog"
+	"Roog me Yperaspizetai"
 }
 ship_names = {
-	"Bishti i Palles"
-	"Gjiri i Drinit"
-	"Gjiri i Rondonit"
-	"Jube"
-	"Kalaja e Turres"
-	"Kepi i Rodonit"
-	"Kyrekuq"
-	"Shengjin"
-	"Shetaj"
-	"Velipoje"
+	"Ipa Belermen"
+	"Ciubar Carianopol"
+	"Stelian Varos"
+	"Hypatios Tzanzes"
+	"Daumantas Palazzu"
+	"Abdul Pamplona"
+	"Torstein Hede"
+	"Nis"
+	"Theodoro"
+	"Ainos"
+	"Aqmescit"
+	"Severin"
+	"Sinope"
+	"Mahdiya"
+	"Agapimenos tou Roog"
+	"Rogos"
+	"Cembaso"
+	"Ombugol Maayp"
+	"Mahen"
+	"Alansara"
+	"Muraa"
+	"Saiim"
+	"Aiimofateraas"
+	"Romi"
+	"Rassena"
+	"Krimaia"
+	"Fedaafotonfovo"
+	"Karavofagoos"
+	"Cidereenia"
+	"Saaliv Rinodasoos"
+	"Donti"
+	"Cekuuri"
+	"Antarsia"
+	"Evropikaigetai"
+	"Asteriapagosan"
+	"Sti Neolaia"
+	"Xeroun ti Kanoun"
+	"Akinos"
+	"Akrida"
+	"Katsarida"
+}
+army_names = {
+	"Njaatigi"
+	"Onkoodisembata"
+	"$PROVINCE$ Demookird"
+}
+fleet_names = {
+	"Megalostolos"
+	"Neapania"
+	"Drysaspida"
 }
