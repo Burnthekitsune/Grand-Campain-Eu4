@@ -1,0 +1,53 @@
+country_event = {
+	id = brute_force.1
+	title = brute_force.1.t
+	desc = brute_force.1.d
+	picture = DEFENESTRATION_PRAGUE_eventPicture
+	
+	trigger = {
+		adm_tech = 5
+		NOT = {
+			adm_tech = 6
+			has_idea_group = exploration_ideas
+			has_country_flag = forced_colony
+		}
+		culture_group = alshamali
+		num_of_ports = 1
+		total_development = 20
+		is_subject = no
+		is_former_colonial_nation = no
+		ai = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = brute_force.a
+		set_country_flag = forced_colony
+		remove_idea_group = aristocracy_ideas
+		remove_idea_group = plutocracy_ideas
+		remove_idea_group = horde_gov_ideas
+		remove_idea_group = theocracy_gov_ideas
+		remove_idea_group = indigenous_ideas
+		remove_idea_group = innovativeness_ideas
+		remove_idea_group = religious_ideas
+		remove_idea_group = spy_ideas
+		remove_idea_group = diplomatic_ideas
+		remove_idea_group = offensive_ideas
+		remove_idea_group = defensive_ideas
+		remove_idea_group = trade_ideas
+		remove_idea_group = economic_ideas
+		remove_idea_group = maritime_ideas
+		remove_idea_group = quality_ideas
+		remove_idea_group = quantity_ideas
+		remove_idea_group = expansion_ideas
+		remove_idea_group = administrative_ideas
+		remove_idea_group = humanist_ideas
+		remove_idea_group = influence_ideas
+		remove_idea_group = naval_ideas
+		add_idea_group = exploration_ideas
+		ai_chance = 1
+	}
+}
