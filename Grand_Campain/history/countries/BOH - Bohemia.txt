@@ -8,23 +8,25 @@ primary_culture = dynamic-czech-culture-num1
 capital = 266
 1444.11.11= {
 	monarch = {
-		name = "(Regency Council)"
-		adm = 3
-		dip = 2
-		mil = 4
-		birth_date = 1.1.1
-		regent = yes
-		religion = catholic
-		culture = dynamic-czech-culture-num1
-	}
-	heir = {
 		name = "Krystyn"
 		dynasty = "Ernste-Eichstadt"
 		adm = 5
 		dip = 4
 		mil = 6
-		birth_date = 1430.12.17
+		birth_date = 1426.12.17
 		death_date = 1495.12.17
+		claim = 89
+		religion = catholic
+		culture = dynamic-czech-culture-num1
+	}
+	heir = {
+		name = "Usciech"
+		dynasty = "Florescu"
+		adm = 1
+		dip = 2
+		mil = 6
+		birth_date = 1443.12.17
+		death_date = 1495.12.18
 		claim = 89
 		religion = catholic
 		culture = dynamic-czech-culture-num1
@@ -34,3 +36,4 @@ capital = 266
 	add_prestige = 76
 	add_treasury = 69
 }
+1442.1.1 = { leader = {	name = "Jizrí z Hradec Králové"             	type = general	fire = 4	shock = 4	manuever = 2	siege = 2	death_date = 1472.11.17 }

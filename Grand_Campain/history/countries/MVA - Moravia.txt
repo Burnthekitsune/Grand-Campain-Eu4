@@ -17,6 +17,7 @@ add_accepted_culture = slovak
 		birth_date = 1381.10.22
 		religion = catholic
 		culture = hungarian
+		leader = {	name = "Emperor Balint the Hammer"             	type = general	fire = 4	shock = 6	manuever = 2	siege = 4 }
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
