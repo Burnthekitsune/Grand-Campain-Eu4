@@ -43,7 +43,7 @@ pagan = {
 			roogs_hidden_oases_aspect
 			tithe_ships_aspect
 			witch_kings_aspect
-			inercession_of_the_pangool_aspect
+			intercession_of_the_pangool_aspect
 			rapprochement_with_the_donyorde_aspect
 			diurduany_mysticism_aspect
 			intolerance_and_the_end_of_days_aspect

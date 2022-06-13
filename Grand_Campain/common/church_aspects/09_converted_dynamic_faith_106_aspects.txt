@@ -69,7 +69,7 @@ witch_kings_aspect = {
 		global_unrest = -0.5
 	}
 }
-inercession_of_the_pangool_aspect = {
+intercession_of_the_pangool_aspect = {
 	cost = 100
 	modifier = {
 		land_morale = 0.10
