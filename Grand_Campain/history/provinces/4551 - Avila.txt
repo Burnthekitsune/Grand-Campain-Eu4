@@ -1,5 +1,5 @@
-owner = LON
-controller = LON
+owner = CAS
+controller = CAS
 capital = "Avila"
 is_city = yes
 culture =  jabric
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 2
 base_manpower = 1
-add_core = LON
+add_core = CAS
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

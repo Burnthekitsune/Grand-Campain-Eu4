@@ -9,7 +9,6 @@ fort_15th = yes
 base_tax = 6
 base_production = 4
 base_manpower = 4
-add_core = GRA
 add_core = Z1E
 discovered_by = eastern
 discovered_by = indian

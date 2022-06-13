@@ -1,5 +1,5 @@
-owner = VAL
-controller = VAL
+owner = ARA
+controller = ARA
 capital = "Teruel"
 is_city = yes
 culture = sahilian
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 3
 base_production = 3
 base_manpower = 3
-add_core = VAL
+add_core = ARA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

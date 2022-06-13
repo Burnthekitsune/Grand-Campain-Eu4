@@ -1,5 +1,5 @@
-owner = LON
-controller = LON
+owner = GAL
+controller = GAL
 capital = "Lugo"
 is_city = yes
 culture =  jabric
@@ -8,8 +8,7 @@ trade_goods = fish
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = ASU
-add_core = LON
+add_core = GAL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

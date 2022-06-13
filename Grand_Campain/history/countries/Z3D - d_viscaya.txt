@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = converted_dynamic_faith_102
-primary_culture = dynamic-andalucian-norse-culture-num1
+primary_culture = albasik
 capital = 209
 1444.11.11= {
 	monarch = {
@@ -15,7 +15,7 @@ capital = 209
 		birth_date = 1388.11.8
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = albasik
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -29,7 +29,7 @@ capital = 209
 		birth_date = 1390.8.12
 		death_date = 1450.8.12
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = albasik
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality
@@ -44,7 +44,7 @@ capital = 209
 		death_date = 1472.8.30
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = albasik
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

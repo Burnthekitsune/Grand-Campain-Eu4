@@ -1,5 +1,5 @@
-owner = CAS
-controller = CAS
+owner = Z19
+controller = Z19
 capital = "Burgos"
 is_city = yes
 culture =  jabric
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = CAS
+add_core = Z19
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
