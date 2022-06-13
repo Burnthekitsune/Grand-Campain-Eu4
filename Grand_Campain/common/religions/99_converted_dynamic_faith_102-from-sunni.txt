@@ -1,6 +1,6 @@
 muslim = {
 	converted_dynamic_faith_102 = {
-		color = { 88 88 88 }
+		color = { 172 172 172 }
 		icon =  171
 		country = {
  
