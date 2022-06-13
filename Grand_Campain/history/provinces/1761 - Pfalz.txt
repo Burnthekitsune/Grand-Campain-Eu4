@@ -1,4 +1,5 @@
-owner = Z55
+discovered_by = western
+hre = yes = Z55
 controller = Z55
 capital = "Worms"
 is_city = yes

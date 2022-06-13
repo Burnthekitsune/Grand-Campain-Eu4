@@ -1,4 +1,5 @@
-owner = DWT
+discovered_by = western
+hre = yes = DWT
 controller = DWT
 capital = "Nördlingen"
 is_city = yes

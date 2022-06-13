@@ -1,4 +1,5 @@
-owner = KNZ
+discovered_by = western
+hre = yes = KNZ
 controller = KNZ
 capital = "St Gallen"
 is_city = yes

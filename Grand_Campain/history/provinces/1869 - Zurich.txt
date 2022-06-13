@@ -1,4 +1,5 @@
-owner = Z7C
+discovered_by = western
+hre = yes = Z7C
 controller = Z7C
 capital = "Zürich"
 is_city = yes

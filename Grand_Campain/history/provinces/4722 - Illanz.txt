@@ -1,4 +1,5 @@
-owner = TTL
+discovered_by = western
+hre = yes = TTL
 controller = TTL
 capital = "Illanz"
 is_city = yes

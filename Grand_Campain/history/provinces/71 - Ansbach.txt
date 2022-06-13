@@ -1,4 +1,5 @@
-owner = Z51
+discovered_by = western
+hre = yes = Z51
 controller = Z51
 capital = "Ansbach"
 is_city = yes

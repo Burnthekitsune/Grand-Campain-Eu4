@@ -3,6 +3,7 @@ add_government_reform = tsardom
 government_rank = 2
 technology_group = muslim
 religion = orthodox
+elector = yes
 primary_culture = dynamic-khazar-russian_culture-culture-num1
 capital = 280
 1444.11.11= {

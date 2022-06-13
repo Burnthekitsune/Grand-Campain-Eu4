@@ -1,3 +1,4 @@
+discovered_by = western
 owner = Z1Q
 controller = Z1Q
 capital = "Kanadey"

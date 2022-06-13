@@ -1,4 +1,5 @@
-owner = MLH
+discovered_by = western
+hre = yes = MLH
 controller = MLH
 capital = "Altkirch"
 is_city = yes

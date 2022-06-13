@@ -1,4 +1,5 @@
-owner = NUM
+discovered_by = western
+hre = yes = NUM
 controller = NUM
 capital = "Nürnberg"
 is_city = yes

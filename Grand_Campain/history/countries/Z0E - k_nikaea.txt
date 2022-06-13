@@ -3,6 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
 religion = orthodox
+elector = yes
 primary_culture = dynamic-bulgarian-greek-culture-num1
 capital = 317
 1444.11.11= {

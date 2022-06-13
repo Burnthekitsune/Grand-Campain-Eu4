@@ -1,4 +1,5 @@
-owner = Z4F
+discovered_by = western
+hre = yes = Z4F
 controller = Z4F
 capital = "Mülhausen"
 is_city = yes

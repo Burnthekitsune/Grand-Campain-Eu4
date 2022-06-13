@@ -1,4 +1,5 @@
-owner = Z45
+discovered_by = western
+hre = yes = Z45
 controller = Z45
 capital = "Freiburg"
 is_city = yes
