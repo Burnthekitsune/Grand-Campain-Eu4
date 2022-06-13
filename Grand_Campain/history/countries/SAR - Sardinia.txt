@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = muslim
+technology_group = western
 religion = converted_dynamic_faith_102
-primary_culture = dynamic-andalucian-norse-culture-num1
+primary_culture = rumanian
 capital = 2986
 add_accepted_culture = dynamic-occitain-sardinian-culture-num1
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = dynamic-occitain-sardinian-culture-num1
 		mil = 4
 		birth_date = 1369.2.2
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = rumanian
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality

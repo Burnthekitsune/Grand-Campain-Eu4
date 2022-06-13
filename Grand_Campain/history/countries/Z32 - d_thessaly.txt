@@ -31,7 +31,7 @@ add_accepted_culture = romanian
 		birth_date = 1411.7.17
 		death_date = 1471.7.17
 		religion = baltic_pagan
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = alyunania
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

@@ -1,5 +1,5 @@
-owner = LOT
-controller = LOT
+owner = FRA
+controller = FRA
 capital = "Rouen"
 is_city = yes
 culture = dynamic-cosmopolitan_french-culture-num2
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 extra_cost = 10
-add_core = LOT
+add_core = FRA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

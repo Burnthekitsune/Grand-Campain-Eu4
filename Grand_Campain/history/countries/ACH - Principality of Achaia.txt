@@ -29,7 +29,7 @@ capital = 1773
 		birth_date = 1389.9.20
 		death_date = 1449.9.20
 		religion = converted_dynamic_faith_106
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = alyunania
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

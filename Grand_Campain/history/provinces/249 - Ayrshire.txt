@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = SCO
+controller = SCO
 capital = "Ayr"
 is_city = yes
 culture = scottish
@@ -10,7 +10,6 @@ base_production = 4
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = GBR
 add_core = SCO
 discovered_by = eastern
 discovered_by = indian

@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture = dynamic-andalucian-norse-culture-num1
+primary_culture = rumanian
 capital = 126
 fixed_capital = 126
 add_accepted_culture = maltese
@@ -17,7 +17,7 @@ add_accepted_culture = maltese
 		birth_date = 1366.9.24
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = rumanian
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -46,7 +46,7 @@ add_accepted_culture = maltese
 		death_date = 1449.11.5
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = rumanian
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

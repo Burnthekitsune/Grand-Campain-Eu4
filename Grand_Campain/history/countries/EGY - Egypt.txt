@@ -3,7 +3,7 @@ add_government_reform = plutocratic_reform
 government_rank = 2
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture = alsaahilian
+primary_culture = msir
 capital = 361
 mercantilism = 15
 add_accepted_culture = al_misr_arabic
@@ -16,7 +16,7 @@ add_accepted_culture = al_misr_arabic
 		mil = 5
 		birth_date = 1386.3.11
 		religion = converted_dynamic_faith_102
-		culture = alsaahilian
+		culture = msir
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -31,7 +31,7 @@ add_accepted_culture = al_misr_arabic
 		death_date = 1430.4.15
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = alsaahilian
+		culture = msir
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality
@@ -46,7 +46,7 @@ add_accepted_culture = al_misr_arabic
 		death_date = 1468.10.19
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = alsaahilian
+		culture = msir
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

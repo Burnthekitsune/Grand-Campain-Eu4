@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = ENG
+controller = ENG
 capital = "Bath"
 is_city = yes
 culture = wessexian
@@ -9,8 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = CRN
-add_core = GBR
+add_core = ENG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

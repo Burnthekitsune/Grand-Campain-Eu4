@@ -30,7 +30,7 @@ add_accepted_culture = dynamic-fulani-culture-num1
 		birth_date = 1391.10.8
 		death_date = 1451.10.8
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = janubian
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = ENG
+controller = ENG
 capital = "Hastings"
 is_city = yes
 culture = essexian
@@ -9,7 +9,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = ENG
-add_core = GBR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

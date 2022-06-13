@@ -1,14 +1,13 @@
-owner = GBR
-controller = GBR
+owner = WLS
+controller = WLS
 capital = "Carmarthen"
 is_city = yes
-culture = welsh
+culture = wylz
 religion = converted_dynamic_faith_102
 trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = GBR
 add_core = WLS
 discovered_by = eastern
 discovered_by = indian

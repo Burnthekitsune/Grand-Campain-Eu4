@@ -263,7 +263,7 @@ age_of_reformation = {
 	can_start = {
 		OR = {
 			is_religion_enabled = protestant
-			is_year = 1594 #6 years before 1600, when Global Trade Can Spawn
+			is_year = 1530 #6 years before 1600, when Global Trade Can Spawn
 		}
 	}
 

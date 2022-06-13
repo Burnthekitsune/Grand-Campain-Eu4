@@ -30,7 +30,7 @@ mercantilism = 15
 		death_date = 1445.8.13
 		female = yes
 		religion = converted_dynamic_faith_106
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = faykinghian
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

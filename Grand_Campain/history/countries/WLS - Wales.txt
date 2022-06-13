@@ -2,6 +2,18 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = catholic
-primary_culture = welsh
+religion = converted_dynamic_faith_102
+primary_culture = wylz
 capital = 242
+1444.11.11= {
+	monarch = {
+		name = "Ali"
+		dynasty = "Haesteining"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1359.10.15
+		religion = converted_dynamic_faith_102
+		culture = wylz
+	}
+}

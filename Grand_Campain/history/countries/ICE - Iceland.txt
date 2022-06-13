@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = muslim
+technology_group = western
 religion = converted_dynamic_faith_102
-primary_culture = dynamic-andalucian-norse-culture-num1
+primary_culture = alayislandia
 capital = 370
 add_accepted_culture = icelandic
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = icelandic
 		mil = 5
 		birth_date = 1378.3.22
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = alayislandia
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -45,7 +45,7 @@ add_accepted_culture = icelandic
 		death_date = 1461.3.23
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = alayislandia
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

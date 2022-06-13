@@ -29,7 +29,7 @@ capital = 2454
 		death_date = 1460.6.27
 		female = yes
 		religion = converted_dynamic_faith_106
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = alsaahilian
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

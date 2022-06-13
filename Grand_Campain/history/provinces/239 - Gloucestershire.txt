@@ -10,7 +10,6 @@ base_production = 2
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = ENG
 add_core = GBR
 discovered_by = eastern
 discovered_by = indian

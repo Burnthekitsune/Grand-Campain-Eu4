@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = SCO
+controller = SCO
 capital = "Castletown"
 is_city = yes
 culture = dynamic-highland_scottish-culture-num1
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = GBR
+add_core = SCO
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

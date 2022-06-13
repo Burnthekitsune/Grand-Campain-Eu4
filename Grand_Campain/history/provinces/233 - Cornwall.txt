@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = ENG
+controller = ENG
 capital = "Penryn"
 is_city = yes
 culture = cornish
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = CRN
-add_core = GBR
+add_core = ENG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

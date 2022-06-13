@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture = dynamic-andalucian-norse-culture-num1
+primary_culture = faransan
 capital = 182
 fixed_capital = 182
 1444.11.11= {
@@ -15,7 +15,7 @@ fixed_capital = 182
 		mil = 5
 		birth_date = 1407.3.31
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = faransan
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -30,7 +30,7 @@ fixed_capital = 182
 		death_date = 1441.8.27
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = faransan
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

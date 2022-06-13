@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = SCO
+controller = SCO
 capital = "Edinburgh"
 is_city = yes
 culture = highland_scottish
@@ -10,7 +10,7 @@ base_production = 6
 base_manpower = 4
 extra_cost = 16
 center_of_trade = 2
-add_core = GBR
+add_core = SCO
 add_core = HSC
 discovered_by = eastern
 discovered_by = indian

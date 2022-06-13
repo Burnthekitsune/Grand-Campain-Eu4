@@ -46,7 +46,7 @@ fixed_capital = 192
 		female = yes
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = faransan
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

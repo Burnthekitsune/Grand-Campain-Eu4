@@ -1,0 +1,23 @@
+vassal =
+{
+	first="IRE"
+	second="WLS"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal =
+{
+	first="IRE"
+	second="SCO"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+vassal =
+{
+	first="IRE"
+	second="ENG"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}

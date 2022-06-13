@@ -30,7 +30,7 @@ fixed_capital = 192
 		death_date = 1445.2.5
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = dynamic-andalucian-norse-culture-num1
+		culture = faransan
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

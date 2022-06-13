@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = SCO
+controller = SCO
 capital = "Dornoch"
 is_city = yes
 culture = dynamic-highland_scottish-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = GBR
+add_core = SCO
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
