@@ -3,7 +3,6 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = catholic
-elector = yes
 primary_culture = chrobatian
 capital = 162
 add_accepted_culture = slovak

@@ -3,6 +3,7 @@ add_government_reform = papacy_reform
 government_rank = 2
 technology_group = western
 religion = catholic
+elector = yes
 primary_culture = dynamic-franconian-culture-num2
 capital = 78
 fixed_capital = 118
