@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = IRE
+controller = IRE
 capital = "Dublin"
 is_city = yes
 culture = ayirlandian
@@ -9,7 +9,6 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = GBR
 add_core = IRE
 discovered_by = eastern
 discovered_by = indian

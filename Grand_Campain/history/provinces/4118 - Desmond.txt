@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = IRE
+controller = IRE
 capital = "Cork"
 is_city = yes
 culture = ayirlandian
@@ -10,7 +10,6 @@ base_production = 3
 base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
-add_core = GBR
 add_core = IRE
 discovered_by = eastern
 discovered_by = indian
