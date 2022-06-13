@@ -30,7 +30,7 @@ add_accepted_culture = dynamic-occitain-sardinian-culture-num1
 		death_date = 1434.9.27
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = dynamic-nubian-culture-num1
+		culture = al_misr_arabic
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality

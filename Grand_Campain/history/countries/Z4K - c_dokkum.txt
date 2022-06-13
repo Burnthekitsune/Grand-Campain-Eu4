@@ -30,7 +30,7 @@ fixed_capital = 4382
 		birth_date = 1415.4.3
 		death_date = 1475.4.3
 		religion = converted_dynamic_faith_102
-		culture = dynamic-nubian-culture-num1
+		culture = al_misr_arabic
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality
