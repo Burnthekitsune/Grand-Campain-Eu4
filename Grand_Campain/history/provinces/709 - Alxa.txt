@@ -1,8 +1,8 @@
-owner = Z0A
-controller = Z0A
+owner = Z3L
+controller = Z3L
 capital = "Alxa"
 is_city = yes
-culture = chihan
+culture = dynamic-khalkha-culture-num1
 religion = mahayana
 trade_goods = gems
 base_tax = 1
