@@ -104,7 +104,7 @@ ship_names = {
 	"Agapimenos tou Roog"
 	"Rogos"
 	"Cembaso"
-	"Ombugol Maayp"
+	"Ombugol Maayo"
 	"Mahen"
 	"Alansara"
 	"Muraa"

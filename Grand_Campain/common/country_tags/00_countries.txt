@@ -1229,4 +1229,4 @@ ZNI = "countries/Zuni.txt"
 ZUL = "countries/Zulu.txt"
 ZUN = "countries/Zunghar.txt"
 ZZZ = "countries/Zazzau.txt"
-
+SSR = "countries/Saare.txt"
