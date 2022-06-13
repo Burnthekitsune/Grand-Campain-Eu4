@@ -2619,7 +2619,7 @@ windowType = {
 				position = { x = 10 y = -65 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				text = "Church of Nothingland"
+				text = "Council of Nothingland"
 				maxWidth = 200
 				maxHeight = 25
 				Orientation = "UPPER_LEFT"

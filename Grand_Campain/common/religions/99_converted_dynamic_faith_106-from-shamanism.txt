@@ -30,7 +30,7 @@ pagan = {
 	
 }
 		
-		uses_converted_dynamic_faith_106_power = yes
+		uses_church_power = yes
 	
 		aspects = {
 			exiled_druzhina_aspect
@@ -50,7 +50,7 @@ pagan = {
 			embracing_the_dondu_aspect
 			shibboleth_of_change_aspect
 		}
-		aspects_name = converted_dynamic_faith_106_ASPECTS
+		aspects_name = PROTESTANT_ASPECTS
 	heretic = { GOAT_SKULL }
 
 	}
