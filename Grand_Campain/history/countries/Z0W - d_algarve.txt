@@ -4,7 +4,6 @@ technology_group = western
 religion = converted_dynamic_faith_102
 primary_culture = faykinghian
 capital = 230
-religious_school = ismaili_school
 1444.11.11= {
 	monarch = {
 		name = "Cecilía"

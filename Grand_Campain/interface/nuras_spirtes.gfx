@@ -1,0 +1,28 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_ragnarrite"
+		texturefile = "gfx/interface/icon_muslim_school_ragnarrite.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_ismail"
+		texturefile = "gfx/interface/icon_muslim_school_isma'il.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_rikulfrian"
+		texturefile = "gfx/interface/icon_muslim_school_rikulfrian.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_nurrite"
+		texturefile = "gfx/interface/icon_muslim_school_nurrite.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_rasiqite"
+		texturefile = "gfx/interface/icon_muslim_school_rasiqite.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_muslim_school_adaoran"
+		texturefile = "gfx/interface/icon_muslim_school_adaoran.dds"
+	}
+	
+}
