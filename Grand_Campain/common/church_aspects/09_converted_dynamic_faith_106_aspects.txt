@@ -8,7 +8,8 @@ exiled_druzhina_aspect = {
 islamic_syncretism_aspect = {
 	cost = 100
 	modifier = {
-		tolerance_heretic = 1
+		tolerance_heathen = 1
+		tolerance_of_heathens_capacity = 1
 	}
 }
 
@@ -16,6 +17,9 @@ apotheosis_aspect = {
 	cost = 100
 	modifier = {
 		legitimacy = 0.25
+		republican_tradition = 0.25
+		devotion = 0.25
+		horde_unity = 0.25
 	}
 }
 
