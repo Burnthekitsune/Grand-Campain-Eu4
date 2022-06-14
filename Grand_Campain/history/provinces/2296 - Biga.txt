@@ -1,5 +1,5 @@
-owner = CRT
-controller = CRT
+owner = Z0E
+controller = Z0E
 capital = "Biga"
 is_city = yes
 culture = anatolian
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 add_core = BYZ
-add_core = CRT
+add_core = Z0E
 add_core = NAX
 discovered_by = eastern
 discovered_by = indian

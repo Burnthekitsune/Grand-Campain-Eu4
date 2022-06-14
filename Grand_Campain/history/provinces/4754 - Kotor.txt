@@ -1,5 +1,5 @@
-owner = Z1L
-controller = Z1L
+owner = RAG
+controller = RAG
 capital = "Kotor"
 is_city = yes
 culture = serbian
@@ -9,8 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = MON
-add_core = SER
-add_core = Z1L
+add_core = RAG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = MAL
-controller = MAL
+owner = Z09
+controller = Z09
 capital = "Assinie"
 is_city = yes
 culture = dyola
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = KNG
-add_core = MAL
+add_core = Z09
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

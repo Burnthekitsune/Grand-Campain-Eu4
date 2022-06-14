@@ -1,5 +1,5 @@
-owner = TRP
-controller = TRP
+owner = Z1L
+controller = Z1L
 capital = "Djerba"
 is_city = yes
 culture = dynamic-berber-fulani-culture-num1
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 1
 extra_cost = 8
 center_of_trade = 1
-add_core = TRP
+add_core = Z1L
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

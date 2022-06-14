@@ -1,5 +1,5 @@
-owner = Z02
-controller = Z02
+owner = Z0Q
+controller = Z0Q
 capital = "Poltava"
 is_city = yes
 culture = dynamic-khazar-mordvin-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = Z02
+add_core = Z0Q
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
