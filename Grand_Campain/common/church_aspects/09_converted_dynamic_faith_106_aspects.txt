@@ -1,0 +1,110 @@
+exiled_druzhina_aspect = {
+	cost = 100
+	modifier = {
+		cavalry_power = 0.05
+	}
+}
+
+islamic_syncretism_aspect = {
+	cost = 100
+	modifier = {
+		tolerance_heretic = 1
+	}
+}
+
+apotheosis_aspect = {
+	cost = 100
+	modifier = {
+		legitimacy = 0.25
+	}
+}
+
+opening_the_gates_aspect = {
+	cost = 100
+	modifier = {
+		hostile_attrition = 0.5
+	}
+}
+
+influx_of_old_believers_aspect = {
+	cost = 100
+	modifier = {
+		advisor_pool = 1
+		advisor_cost = 0.1
+	}
+}
+
+establish_a_norse-andalusian_guard_aspect = {
+	cost = 100
+	modifier = {
+		manpower_recovery_speed = 0.10
+	}
+}
+
+echo_of_the_third_hyena_aspect = {
+	cost = 100
+	modifier = {
+		global_missionary_strength = 0.01
+	}
+}
+
+roogs_hidden_oases_aspect = {
+	cost = 100
+	modifier = {
+		land_attrition = -0.10
+	}
+}
+
+tithe_ships_aspect = {
+	cost = 100
+	modifier = {
+		global_tariffs = 0.10
+	}
+}
+
+witch_kings_aspect = {
+	cost = 100
+	modifier = {
+		tolerance_own = 1
+		global_unrest = -0.5
+	}
+}
+intercession_of_the_pangool_aspect = {
+	cost = 100
+	modifier = {
+		land_morale = 0.10
+		fire_damage_received = 0.20
+	}
+}
+rapprochement_with_the_donyorde_aspect = {
+	cost = 100
+	modifier = {
+		improve_relation_modifier = 0.1
+	}
+}
+diurduany_mysticism_aspect = {
+	cost = 100
+	modifier = {
+		heir_chance = 0.25
+	}
+}
+intolerance_and_the_end_of_days_aspect = {
+	cost = 100
+	modifier = {
+		warscore_cost_vs_other_religion = -0.15
+		religious_unity = -0.1
+	}
+}
+embracing_the_dondu_aspect = {
+	cost = 100
+	modifier = {
+		tolerance_heretic = 2
+		church_loyalty_modifier = -0.1
+	}
+}
+shibboleth_of_change_aspect = {
+	cost = 100
+	modifier = {
+		global_spy_defence = 0.2
+	}
+}
