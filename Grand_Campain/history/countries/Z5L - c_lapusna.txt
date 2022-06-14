@@ -1,5 +1,6 @@
 government = republic
 government_rank = 1
+add_government_reform = oligarchy_reform
 technology_group = eastern
 religion = converted_dynamic_faith_106
 primary_culture = dynamic-greek-culture-num4
