@@ -1,0 +1,233 @@
+province_event = {
+	id = alshmali_culture.1
+	title = alshmali_culture.1.t
+	desc = alshmali_culture.1.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		OR = {
+			culture_group = alshamali
+			owner = {
+				culture_group = alshamali
+			}
+		}
+		OR = {
+			AND = {
+				NOT = {
+					culture = north_american_alshamali
+				}
+				continent = north_america 
+			}
+			AND = {
+				NOT = {
+					culture = south_american_alshamali
+				}
+				continent = south_america 
+			}
+			AND = {
+				NOT = {
+					culture = australian_alshamali
+					region = moluccas_region
+				}
+				continent = oceania 
+			}
+			AND = {
+				NOT = {
+					culture = south_african_alshamali
+					region = maghreb_region
+					region = egypt_region
+				}
+				continent = africa 
+			}
+			AND = {
+				NOT = {
+					culture = indian_alshamali
+				}
+				OR = {
+					region = khorasan_region
+					region = west_india_region
+					region = hindusthan_region
+					region = deccan_region
+					region = coromandel_region
+					region = bengal_region
+					region = burma_region
+				}
+			}
+			AND = {
+				NOT = {
+					culture = malaysian_alshamali
+				}
+				OR = {
+					region = indo_china_region
+					region = malaya_region
+					region = indonesia_region
+					region = moluccas_region
+				}
+			}
+			AND = {
+				NOT = {
+					culture = east_asian_alshamali
+					region = indo_china_region
+					region = malaya_region
+					region = indonesia_region
+					region = moluccas_region
+					region = khorasan_region
+					region = west_india_region
+					region = hindusthan_region
+					region = deccan_region
+					region = coromandel_region
+					region = bengal_region
+					region = burma_region
+					region = arabia_region
+					region = mashriq_region
+					region = anatolia_region
+					region = caucasia_region
+				}
+				continent = asia
+			}
+		
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+		
+		modifier = {
+			factor = 0.125
+				owner = {
+					OR = {
+						culture = north_american_alshamali
+						culture = south_american_alshamali
+						culture = australian_alshamali
+						culture = south_african_alshamali
+						culture = indian_alshamali
+						culture = east_asian_alshamali
+						culture = malaysian_alshamali
+					}
+				}
+				is_overseas = no
+		}
+		modifier = {
+			factor = 0.25
+			any_neighbor_province = {
+				OR = {
+					culture = north_american_alshamali
+					culture = south_american_alshamali
+					culture = australian_alshamali
+					culture = south_african_alshamali
+					culture = indian_alshamali
+					culture = east_asian_alshamali
+					culture = malaysian_alshamali
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			NOT = {
+				culture_group = alshamali
+				any_neighbor_province = {
+					culture_group = alshamali
+				}
+			}
+		}
+		
+		
+	}
+	
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			continent = north_america
+		}
+		change_culture = north_american_alshamali
+		ai_chance  = 1
+	}
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			continent = south_america
+		}
+		change_culture = south_american_alshamali
+		ai_chance  = 1
+	}
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			continent = oceania
+			NOT = {
+				region = moluccas_region
+			}
+		}
+		change_culture = australian_alshamali
+		ai_chance  = 1
+	}
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			continent = africa
+			NOT = {
+				region = maghreb_region
+				region = egypt_region
+			}
+		}
+		change_culture = south_african_alshamali
+		ai_chance  = 1
+	}
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			OR = {
+				region = khorasan_region
+				region = west_india_region
+				region = hindusthan_region
+				region = deccan_region
+				region = coromandel_region
+				region = bengal_region
+				region = burma_region
+			}
+		}
+		change_culture = indian_alshamali
+		ai_chance  = 1
+	}
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			NOT = {
+				region = indo_china_region
+				region = malaya_region
+				region = indonesia_region
+				region = moluccas_region
+				region = khorasan_region
+				region = west_india_region
+				region = hindusthan_region
+				region = deccan_region
+				region = coromandel_region
+				region = bengal_region
+				region = burma_region
+				region = arabia_region
+				region = mashriq_region	
+				region = anatolia_region
+				region = caucasia_region
+			}
+			continent = asia
+		}
+		change_culture = east_asian_alshamali
+		ai_chance  = 1
+	}
+	option = {
+		name = alshmali_culture.1.a
+		trigger = {
+			OR = {
+				region = indo_china_region
+				region = malaya_region
+				region = indonesia_region
+				region = moluccas_region
+			}
+		}
+		change_culture = malaysian_alshamali
+		ai_chance  = 1
+	}
+	
+	
+}

@@ -1,0 +1,346 @@
+Beja_Navy = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = bejan
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	Build_Navy = {
+		icon = mission_secure_hajj_ports
+		position = 1
+		required_missions = {  }
+		trigger = {
+			navy_size_percentage = 1
+		}
+		effect = {
+			prestige = 10
+			create_admiral = { traditon = 80 }
+		}
+	}
+	Start_Exploration = {
+		icon = imperial_navy
+		position = 3
+		required_missions = { Build_Navy Develop_Land }
+		trigger = {
+			has_idea_group = exploration_ideas
+		}
+		effect = {
+			create_explorer = { traditon = 100 }
+		}
+	}
+	Trade_Power = {
+		icon = indonesian_trade
+		position = 5
+		required_missions = { Start_Exploration }
+		trigger = {
+			home_trade_node = {
+				has_most_province_trade_power =  ROOT
+			}
+		}
+		effect = {
+			227 = {
+				add_center_of_trade_level = 1
+			}
+		}
+	}
+	Grand_Navy = {
+		icon = mission_aragonese_navy
+		position = 6
+		required_missions = { Trade_Power }
+		trigger = {
+			num_of_heavy_ship = 20
+		}
+		effect = {
+			define_admiral = { 
+				shock = 8
+				fire = 8
+				manuever = 8
+				siege = 8
+				trait = naval_gunner_personality
+			}
+		}
+	}
+}
+
+Bejan_Economy = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = bejan
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	Economic_Buffer = {
+		icon = dominant_economy
+		position = 1
+		required_missions = {  }
+		trigger = { 
+			treasury = 1
+		}
+		effect = {
+			add_years_of_income = 0.5
+		}
+	}
+	Develop_Land = {
+		icon = mission_high_income
+		position = 2
+		required_missions = { Economic_Buffer }
+		trigger = { 
+			grown_by_development = 15
+		}
+		effect = {
+			alentejo_area = {
+				add_prosperity = 50
+			}
+		}
+	}
+	Establish_Colony = {
+		icon = mission_colonial
+		position = 4
+		required_missions = { Start_Exploration }
+		trigger = {
+			colony = 1
+		}
+		effect = {
+			ROOT = {
+				random_subject_country = {
+					limit = {
+						is_colonial_nation = yes
+					}
+					add_liberty_desire = -20
+					capital_scope = {
+						add_base_tax = 2
+						add_base_production = 2
+						add_base_manpower = 2
+					}
+				}
+			}
+		}
+	}
+	Grow_Colony = {
+		icon = mission_colonize_florida
+		position = 5
+		required_missions = { Establish_Colony }
+		trigger = {
+			ROOT = {
+				any_subject_country = {
+					is_colonial_nation = yes
+					total_development = 200
+				}
+			}
+		}
+		effect = {
+			add_years_of_income = 2
+		}
+	}
+	Grand_Capital = {
+		icon = mission_valencian_silk
+		position = 6
+		required_missions = { Grow_Colony }
+		trigger = { 
+			capital_scope = {
+				development = 50
+			}
+		}
+		effect = { 
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+}
+
+Bejan_Army = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = bejan
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	Build_Army = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { 
+			army_size_percentage = 1
+		}
+		effect = { 
+			add_army_tradition = 15
+		}
+	}
+	Large_Army = {
+		icon = mission_conquer_romania
+		position = 3
+		required_missions = { Build_Army }
+		trigger = { 
+			army_size = 25
+		}
+		effect = { 
+			create_general = { traditon = 50 }
+		}
+	}
+	Invade_Algarve = {
+		icon = renaissance_city
+		position = 4
+		required_missions = { Control_Beja Large_Army }
+		trigger = {
+			owns_core_province = 230
+		}
+		effect = {
+			230 = {
+				center_of_trade = 1
+			}
+		}
+	}
+	Grand_Army = {
+		icon = mission_assemble_an_army
+		position = 6
+		required_missions = { Invade_Algarve }
+		trigger = { 
+			army_size = 50
+		}
+		effect = {
+			define_general = { 
+				shock = 8
+				fire = 8
+				manuever = 8
+				siege = 8
+				trait = defensive_planner_personality
+			}
+		}
+	}
+}
+
+Bejan_Conquest = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = bejan
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	Control_Beja = {
+		icon = conquer_tuscany
+		position = 3
+		required_missions = { Build_Army Develop_Land }
+		trigger = {
+			owns_all_provinces = {
+				area = alentejo_area
+			}
+		}
+		effect = {
+			prestige = 10
+		}
+	}
+	Proclaim_Kingdom = {
+		icon = conquer_tuscany
+		position = 4
+		required_missions = { Control_Beja }
+		trigger = {
+			NOT = {
+				exists = BJA
+			}
+		}
+		effect = {
+			set_government_rank = 2
+			change_tag = BJA
+			beieras_area = {
+				add_permanent_claim = ROOT
+			}
+			country_event = { id = ideagroups.1 }
+		}
+	}
+	Push_North = {
+		icon = mission_expand_inland
+		position = 5
+		required_missions = { Proclaim_Kingdom }
+		trigger = {
+			owns_all_provinces = {
+			area = beieras_area
+			}
+		}
+		effect = {
+			galicia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	Further_North = {
+		icon = claim_the_borderlands
+		position = 6
+		required_missions = { Push_North }
+		trigger = {
+			owns_all_provinces = {
+			area = galicia_area
+			}
+		}
+		effect = { 
+			prestige = 20
+		}
+	}
+	Proclaim_Empire = {
+		icon = secure_our_rule
+		position = 7
+		required_missions = { Further_North Grand_Army Grand_Navy Grand_Capital }
+		trigger = {
+			development = 500
+		}
+		effect = { 
+			set_government_rank = 3
+			prestige = 20
+			alentejo_area = {
+				any_owned_province = {
+					add_base_tax = 2
+					add_base_production = 2
+					add_base_manpower = 2
+				}
+			}
+		}
+	}
+	Claim_Iberia = {
+		icon = mission_unite_home_region
+		position = 8
+		required_missions = { Proclaim_Empire }
+		trigger = {
+			development = 750
+		}
+		effect = {
+			iberia_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
