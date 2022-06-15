@@ -12,6 +12,8 @@ pagan = {
 		shiite
 		ibadi
 		converted_dynamic_faith_102
+
+		converted_dynamic_faith_103
 	
 }
 		can_form_personal_unions = yes

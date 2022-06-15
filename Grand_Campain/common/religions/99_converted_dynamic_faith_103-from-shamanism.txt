@@ -2,6 +2,12 @@ pagan = {
 	converted_dynamic_faith_103 = {
 		color = { 50 190 104 }
 		icon =  172
+		allowed_conversion = {
+
+ 		converted_dynamic_faith_106
+	
+}
+		can_have_secondary_religion = yes
 		country = {
  
 		tolerance_own = 2

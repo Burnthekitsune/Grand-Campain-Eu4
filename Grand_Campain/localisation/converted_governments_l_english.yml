@@ -13,3 +13,7 @@
  #Governments
  NOME:0 "Nome"
  FARA:0 "Fara"
+
+ #Reforms
+ burgravate:1 "Burgravate"
+ burgravate_desc:1 "The Republic functions most smoothly under the de facto jurisdiction of our most prominent political family, the Burgraves. Any suggestion that this is barely distinguishable from a monarchy is of course nonsense."
