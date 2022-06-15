@@ -1,5 +1,5 @@
-owner = Z1R
-controller = Z1R
+owner = Z2X
+controller = Z2X
 capital = "Bizerte"
 is_city = yes
 culture = tunisian
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 1
 add_core = TUN
-add_core = Z1R
+add_core = Z2X
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

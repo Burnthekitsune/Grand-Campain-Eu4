@@ -1,5 +1,5 @@
-owner = JOL
-controller = JOL
+owner = Z02
+controller = Z02
 capital = "Kiffa"
 is_city = yes
 culture = dynamic-fulani-culture-num1
@@ -8,7 +8,7 @@ trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = JOL
+add_core = Z02
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

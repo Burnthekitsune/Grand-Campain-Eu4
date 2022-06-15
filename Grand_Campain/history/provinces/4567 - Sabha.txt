@@ -1,5 +1,5 @@
-owner = Z0I
-controller = Z0I
+owner = Z7A
+controller = Z7A
 capital = "Sabha"
 is_city = yes
 culture = dynamic-berber-fulani-culture-num1
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = Z0I
+add_core = Z7A
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

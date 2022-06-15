@@ -1,5 +1,5 @@
-owner = Z1L
-controller = Z1L
+owner = ALB
+controller = ALB
 capital = "Zabljak"
 is_city = yes
 culture = serbian
@@ -9,8 +9,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = MON
-add_core = SER
-add_core = Z1L
+add_core = ALB
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

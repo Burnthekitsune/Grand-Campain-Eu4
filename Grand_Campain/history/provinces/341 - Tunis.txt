@@ -1,5 +1,5 @@
-owner = Z1R
-controller = Z1R
+owner = Z2X
+controller = Z2X
 capital = "Tunis"
 is_city = yes
 culture = sicilian
@@ -10,7 +10,7 @@ base_production = 6
 base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
-add_core = Z1R
+add_core = Z2X
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

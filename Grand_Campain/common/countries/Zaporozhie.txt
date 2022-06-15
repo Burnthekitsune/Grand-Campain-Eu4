@@ -31,37 +31,24 @@ historical_units = {
 	slavic_stradioti
 }
 monarch_names = {
-	"Alexios #0" = 0
-	"Anatolios #1" = 10
-	"Apollonia #1" = -1
-	"Beata #1" = -1
-	"Bihor #1" = 10
-	"Evangelos #1" = 10
-	"Frujin #0" = 0
-	"Germanos #0" = 0
-	"Ipa #0" = 0
-	"Kale #0" = -1
-	"Khatun #1" = -1
+	"Chinzhay #1" = -20
+	"Eudokia #1" = -20
+	"Theophylaktos #1" = 10
+	"Romylia #1" = -20
+	"Evangelos #1" = 20
 	"Manuel #1" = 10
-	"Martha #0" = -1
-	"Mihai #0" = 0
-	"Mënümarót #1" = 10
-	"Narses #0" = 0
-	"Phyllis #1" = -1
-	"Pulcheria #0" = -1
-	"Sebastianos #0" = 0
-	"Shoksha #1" = 10
-	"Tabghaç #1" = 10
-	"Traianos #0" = 0
-	"Yildiz #1" = -1
-	"Çorpan #1" = 10
+	"Phyllis #1" = -10
+	"Apollonia #1" = -5
+	"Anatolios #1" = 20
 }
 leader_names = {
 	"Andrukhovych"
+	"Belissariotes"
 	"Cheremshyna"
 	"Dukhnovych"
 	"Holovatskyi"
 	"Hutsalo"
+	"Haploucheir"
 	"Khvylovy"
 	"Kobylyanska"
 	"Korniychuk"
@@ -69,11 +56,14 @@ leader_names = {
 	"Kulish"
 	"Kvitka"
 	"Marinina"
+	"Mastoratia"
 	"Palahniuk"
 	"Pokalchuk"
+	"Philinos"
 	"Shashkevych"
 	"Stefanyk"
 	"Stelmakh"
+	"Silla"
 	"Tobilevich"
 	"Vovchok"
 	"Vyshnia"

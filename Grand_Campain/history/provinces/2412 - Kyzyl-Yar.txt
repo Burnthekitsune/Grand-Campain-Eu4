@@ -1,5 +1,5 @@
-owner = Z3K
-controller = Z3K
+owner = ZAZ
+controller = ZAZ
 capital = "Kyzyl-Yar"
 is_city = yes
 culture = pecheneg
@@ -8,8 +8,7 @@ trade_goods = salt
 base_tax = 4
 base_production = 4
 base_manpower = 3
-add_core = PTZ
-add_core = Z3K
+add_core = ZAZ
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,10 +1,91 @@
 government = republic
 government_rank = 2
+add_government_reform = merchants_reform
 technology_group = eastern
 religion = converted_dynamic_faith_106
 primary_culture = goths
 capital = 2410
-1444.11.11= {
+1146.3.7= {
+	monarch = {
+		name = "Chinzhay"
+		dynasty = "Mastoratia"
+		birth_date = 1226.5.30
+		adm = 3
+		dip = 2
+		mil = 1
+		female = yes
+	}
+}
+1275.4.12= {
+	monarch = {
+		name = "Eudokia"
+		birth_date = 1240.4.20
+		adm = 2
+		dip = 2
+		mil = 3
+		female = yes
+	}
+}
+1282.6.18= {
+	monarch = {
+		name = "Theophylaktos"
+		birth_date = 1224.4.23
+		adm = 1
+		dip = 3
+		mil = 5
+	}
+}
+1284.9.6= {
+	monarch = {
+		name = "Romylia"
+		birth_date = 1236.2.19
+		adm = 3
+		dip = 2
+		mil = 1
+		female = yes
+	}
+}
+1305.4.20= {
+	monarch = {
+		name = "Evangelos"
+		birth_date = 1276.1.29
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+1345.10.14= {
+	monarch = {
+		name = "Manuel"
+		dynasty = "Philinos"
+		birth_date = 1308.10.26
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1374.12.21= {
+	monarch = {
+		name = "Phyllis"
+		birth_date = 1337.1.28
+		adm = 1
+		dip = 0
+		mil = 0
+		female = yes
+	}
+}
+1397.10.2= {
+	monarch = {
+		name = "Apollonia"
+		dynasty = "Haploucheir"
+		birth_date = 1359.12.1
+		adm = 1
+		dip = 4
+		mil = 0
+		female = yes
+	}
+}
+1430.4.27= {
 	monarch = {
 		name = "Anatolios"
 		dynasty = "Belissariotes"

@@ -1,11 +1,22 @@
 government = republic
 government_rank = 1
+add_government_reform = noble_elite_reform
 technology_group = eastern
 religion = converted_dynamic_faith_106
 primary_culture = dynamic-bulgarian-greek-culture-num1
 capital = 284
 fixed_capital = 284
-1444.11.11= {
+1423.9.3= {
+	monarch = {
+		name = "Gregoras"
+		dynasty = "Metochites"
+		birth_date = 1371.4.28
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1429.2.8= {
 	monarch = {
 		name = "Iva"
 		dynasty = "Chrysos"

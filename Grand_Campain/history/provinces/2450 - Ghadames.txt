@@ -1,5 +1,5 @@
-owner = Z0I
-controller = Z0I
+owner = Z1R
+controller = Z1R
 capital = "Ghadames"
 is_city = yes
 culture = dynamic-berber-fulani-culture-num1
@@ -8,7 +8,7 @@ trade_goods = spices
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = Z0I
+add_core = Z1R
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
