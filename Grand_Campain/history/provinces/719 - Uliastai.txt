@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KHA
+controller = KHA
 capital = "Uliastai"
 is_city = yes
 culture = dynamic-kirgiz-mongol-culture-num1
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 3
 base_production = 3
 base_manpower = 3
-add_core = MGE
+add_core = KHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

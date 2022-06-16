@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KAS
+controller = KAS
 capital = "Ili"
 is_city = yes
 culture = uyghur
@@ -10,7 +10,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 3
 add_core = KAS
-add_core = MGE
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

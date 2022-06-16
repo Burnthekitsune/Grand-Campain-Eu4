@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = Z0K
+controller = Z0K
 capital = "Kashgar"
 is_city = yes
 culture = saka
@@ -11,7 +11,7 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = KAS
-add_core = MGE
+add_core = Z0K
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

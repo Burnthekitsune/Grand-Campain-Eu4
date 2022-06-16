@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KHA
+controller = KHA
 capital = "Balikul"
 is_city = yes
 culture = dynamic-tocharian-uyghur-culture-num1
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = MGE
+add_core = KHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

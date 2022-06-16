@@ -1,14 +1,10 @@
-owner = MGE
-controller = MGE
 capital = "Altai Uriankhai"
-is_city = yes
 culture = dynamic-mongol-yakut-culture-num1
 religion = hinduism
 trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = MGE
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

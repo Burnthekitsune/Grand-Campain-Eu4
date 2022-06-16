@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KHA
+controller = KHA
 capital = "Sain Noyon"
 is_city = yes
 culture = khalkha
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 2
 add_core = KLK
-add_core = MGE
+add_core = KHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = PHA
+controller = PHA
 capital = "Kuqa"
 is_city = yes
 culture = dynamic-tocharian-uyghur-culture-num1
@@ -8,7 +8,7 @@ trade_goods = gold
 base_tax = 2
 base_production = 2
 base_manpower = 3
-add_core = MGE
+add_core = PHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

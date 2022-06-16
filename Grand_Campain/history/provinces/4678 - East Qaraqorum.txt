@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KHA
+controller = KHA
 capital = "Qaraqorum"
 is_city = yes
 culture = khalkha
@@ -12,7 +12,7 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = KLK
-add_core = MGE
+add_core = KHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

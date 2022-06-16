@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = PHA
+controller = PHA
 capital = "Korla"
 is_city = yes
 culture = dynamic-tocharian-uyghur-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = MGE
+add_core = PHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

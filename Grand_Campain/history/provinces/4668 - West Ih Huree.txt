@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = KHA
+controller = KHA
 capital = "Orkhon"
 is_city = yes
 culture = dynamic-kirgiz-mongol-culture-num2
@@ -8,7 +8,7 @@ trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = MGE
+add_core = KHA
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
