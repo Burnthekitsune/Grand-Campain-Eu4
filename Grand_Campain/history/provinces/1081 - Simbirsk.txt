@@ -1,5 +1,5 @@
-owner = Z1Q
-controller = Z1Q
+owner = MDV
+controller = MDV
 capital = "Bolgar"
 is_city = yes
 culture = dynamic-chuvash-mordvin-culture-num1
@@ -8,8 +8,7 @@ trade_goods = iron
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = Z1Q
-add_core = Z60
+add_core = MDV
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

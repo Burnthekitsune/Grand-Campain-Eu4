@@ -1,6 +1,6 @@
 vassal=
 {
-	first="ZAZ"
+	first="FEO"
 	second="Z57"
 	start_date="1444.11.11"
 	end_date="1836.1.1"

@@ -1,5 +1,5 @@
-owner = Z1Q
-controller = Z1Q
+owner = Z0M
+controller = Z0M
 capital = "Samara"
 is_city = yes
 culture = pecheneg
@@ -8,8 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = PTZ
-add_core = Z1Q
+add_core = Z0M
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

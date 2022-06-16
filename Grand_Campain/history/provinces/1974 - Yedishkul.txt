@@ -1,5 +1,5 @@
-owner = ZAZ
-controller = ZAZ
+owner = FEO
+controller = FEO
 capital = "Kherson"
 is_city = yes
 culture = pecheneg
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 4
 base_production = 4
 base_manpower = 2
-add_core = ZAZ
+add_core = FEO
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

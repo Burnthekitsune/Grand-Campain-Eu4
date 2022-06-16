@@ -1,5 +1,5 @@
-owner = ZAZ
-controller = ZAZ
+owner = FEO
+controller = FEO
 capital = "Mansur"
 is_city = yes
 culture = khazar
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = ZAZ
+add_core = FEO
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

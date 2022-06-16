@@ -10,6 +10,7 @@ base_production = 4
 base_manpower = 3
 add_core = NZH
 add_core = Z2J
+add_core = Z0G
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
