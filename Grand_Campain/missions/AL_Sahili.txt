@@ -11,6 +11,7 @@ Sahili_Start = {
 		has_country_flag = unique_missions
 		}
 	}
+	has_country_shield = yes
 
 	arm_army = {
 		icon = mission_build_up_to_force_limit
@@ -46,7 +47,7 @@ Sahili_Start = {
 			}
 		}
 		effect = {
-			prestige = 10
+			add_prestige = 10
 			aragon_area = {
 			add_permanent_claim = ROOT
 			}
@@ -76,6 +77,7 @@ Sahili_Aragon = {
 		has_country_flag = unique_missions
 		}
 	}
+	has_country_shield = yes
 
 	annex_aragon = {
 		icon = mission_build_up_to_force_limit
@@ -90,7 +92,7 @@ Sahili_Aragon = {
 			}
 		}
 		effect = {
-			prestige = 100
+			add_prestige = 10
 			aragon_area = {
 			add_nationalism = -10 
 			}
@@ -130,6 +132,7 @@ Sahili_Catalonia = {
 		has_country_flag = unique_missions
 		}
 	}
+	has_country_shield = yes
 
 	claim_catalonia = {
 		icon = mission_build_up_to_force_limit
@@ -144,7 +147,7 @@ Sahili_Catalonia = {
 			}
 		}
 		effect = {
-			prestige = 100
+			add_prestige = 10
 			catalonia_area = {
 			add_nationalism = -10 
 			}
@@ -155,15 +158,15 @@ Sahili_Catalonia = {
 		position = 4
 		required_missions = { claim_catalonia }
 		provinces_to_highlight = {
-			197
+			province_id = 197
 		}
 		trigger = {
 			197 = {
-			fort_level = 2
+				fort_level = 2
 			}
 		}
 		effect = {
-			prestige = 10
+			add_prestige = 10
 		}
 	}
 }
@@ -181,6 +184,7 @@ Sahili_Valencia = {
 		has_country_flag = unique_missions
 		}
 	}
+	has_country_shield = yes
 
 	victory_in_valencia = {
 		icon = mission_build_up_to_force_limit
@@ -205,16 +209,16 @@ Sahili_Valencia = {
 		position = 4
 		required_missions = { victory_in_valencia }
 		provinces_to_highlight = {
-			220
+			province_id = 220
 		}
 		trigger = {
 			220 = {
-			province_has_center_of_trade_of_level = 2
+				province_has_center_of_trade_of_level = 2
 			}
 		}
 		effect = {
 			220 = {
-			add_center_of_trade_level = 1
+				add_center_of_trade_level = 1
 			}
 		}
 	}
@@ -233,6 +237,7 @@ Sahili_Baleares = {
 		has_country_flag = unique_missions
 		}
 	}
+	has_country_shield = yes
 
 	battle_for_baleares = {
 		icon = mission_build_up_to_force_limit
@@ -247,9 +252,9 @@ Sahili_Baleares = {
 			}
 		}
 		effect = {
-			prestige = 100
+			add_prestige = 10
 			baleares_area = {
-			add_nationalism = -10 
+				add_nationalism = -10 
 			}
 		}
 	}
@@ -258,8 +263,8 @@ Sahili_Baleares = {
 		position = 4
 		required_missions = { battle_for_baleares }
 		trigger = {
-			home_trade_node_effect_scope = {
-			is_strongest_trade_power = ROOT
+			333 = {
+				is_strongest_trade_power = ROOT
 			}
 		}
 		effect = {
@@ -281,6 +286,7 @@ Proclaim_Sahili = {
 		has_country_flag = unique_missions
 		}
 	}
+	has_country_shield = yes
 
 	craft_crown = {
 		icon = mission_build_up_to_force_limit
@@ -291,7 +297,7 @@ Proclaim_Sahili = {
 		}
 		effect = {
 			add_treasury = -100
-			prestige = 25
+			add_prestige = 25
 		}
 	}
 	reforged_realm = {

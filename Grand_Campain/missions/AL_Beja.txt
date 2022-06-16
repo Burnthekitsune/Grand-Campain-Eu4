@@ -33,7 +33,7 @@ Beja_Navy = {
 			has_idea_group = exploration_ideas
 		}
 		effect = {
-			create_explorer = { traditon = 100 }
+			create_explorer = { traditon = 80 }
 		}
 	}
 	Trade_Power = {
@@ -184,7 +184,7 @@ Bejan_Army = {
 
 	Build_Army = {
 		icon = mission_build_up_to_force_limit
-		position = 1
+		position = 2
 		required_missions = {  }
 		trigger = { 
 			army_size_percentage = 1

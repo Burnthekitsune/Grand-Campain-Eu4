@@ -5,13 +5,14 @@ Mallorcia_Navy = {
 	potential = {
 		tag = MJO
 	}
+	has_country_shield = yes
 
 	build__mallorcan_navy = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
 		trigger = {
-			navy_size_percentage = .5
+			navy_size_percentage = 0.5
 		}
 		effect = {
 			corsica_sardinia_area= {
@@ -24,7 +25,7 @@ Mallorcia_Navy = {
 		position = 3
 		required_missions = { build__mallorcan_navy }
 		trigger = {
-			navy_size_percentage = .75
+			navy_size_percentage = 0.75
 		}
 		effect = {
 			create_admiral = { tradition = 50 }
@@ -64,6 +65,7 @@ Mallorca_Expansion = {
 	potential = {
 		tag = MJO
 	}
+	has_country_shield = yes
 
 	claim_sardinia = {
 		icon = mission_build_up_to_force_limit
@@ -94,8 +96,10 @@ Mallorca_Expansion = {
 		position = 3
 		required_missions = { claim_sardinia }
 		provinces_to_highlight = {
-			126
-			2954
+			OR = {
+				province_id = 126
+				province_id = 2954
+			}
 		}
 		trigger = {
 			owns = 126
@@ -115,8 +119,10 @@ Mallorca_Expansion = {
 		position = 4
 		required_missions = { gulf_of_gabes }
 		provinces_to_highlight = {
-			area = western_sicily_area
-			area = sicily_area
+			OR = {
+				area = western_sicily_area
+				area = sicily_area
+			}
 		}
 		trigger = {
 			owns_all_provinces = {
@@ -143,8 +149,10 @@ Mallorca_Expansion = {
 		position = 5
 		required_missions = { claim_sicily }
 		provinces_to_highlight = {
-			142
-			4698
+			OR = {
+				province_id = 142
+				province_id = 4698
+			}
 		}
 		trigger = {
 			owns = 142
@@ -164,8 +172,10 @@ Mallorca_Expansion = {
 		position = 6
 		required_missions = { expansion_into_greece }
 		provinces_to_highlight = {
-			163
-			321
+			OR = {
+				province_id = 163
+				province_id = 321
+			}
 		}
 		trigger = {
 			owns = 163
@@ -209,7 +219,7 @@ Mallorca_Expansion = {
 		position = 8
 		required_missions = { rulers_of_the_aegean }
 		provinces_to_highlight = {
-			151
+			province_id = 151
 		}
 		trigger = {
 			owns = 151
@@ -232,24 +242,14 @@ Mallorca_Expansion = {
 		position = 9
 		required_missions = { gem_of_the_east }
 		provinces_to_highlight = {
-			crimea_area = {
-			limit = {
-			NOT = {
-			province_id = 2247
-			}
-			}
+			province_id = 285
 		}
 		trigger = {
-			owns_all_provinces = {
-			area = crimea_area
-			NOT = {
-			province_id = 2247
-			}
-			}
+			owns = 285
 		}
 		effect = {
 			285 = {
-			add_center_of_trade_level = 1
+				add_center_of_trade_level = 1
 			}
 		}
 	}
@@ -262,32 +262,14 @@ Mallorcan_Trade = {
 	potential = {
 		tag = MJO
 	}
+	has_country_shield = yes
 
-	rulers_of_the_mediterranean = {
-		icon = mission_build_up_to_force_limit
-		position = 10
-		required_missions = { complete_navy capture_venice take_genoa crimean_trade pillars_of_hercules claim_alexandria }
-		trigger = {
-			always = yes
-		}
-		effect = {
-			all_owned_province = {
-			limit = {
-			has_center_of_trade_of_level = 1
-			}
-			add_center_of_trade_level = 1
-			add_base_production = 3
-			}
-			add_mercantilism = 50
-			add_years_of_income = 1
-		}
-	}
 	develop_capital = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { build__mallorcan_navy }
 		provinces_to_highlight = {
-			333
+			province_id = 333
 		}
 		trigger = {
 			333 = {
@@ -305,8 +287,8 @@ Mallorcan_Trade = {
 		position = 4
 		required_missions = { develop_capital gulf_of_gabes }
 		provinces_to_highlight = {
-			126
-			2954
+			province_id = 126
+			province_id = 2954
 		}
 		trigger = {
 			owns = 126
@@ -326,7 +308,7 @@ Mallorcan_Trade = {
 		position = 5
 		required_missions = { gabes_toll claim_sicily }
 		provinces_to_highlight = {
-			112
+			province_id = 112
 		}
 		trigger = {
 			owns = 112
@@ -338,6 +320,28 @@ Mallorcan_Trade = {
 			add_mercantilism = 5
 		}
 	}
+	rulers_of_the_mediterranean = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { capture_venice crimean_trade }
+		trigger = {
+			mission_completed = take_genoa
+			mission_completed = complete_navy
+			mission_completed = pillars_of_hercules
+			mission_completed = claim_alexandria
+		}
+		effect = {
+			all_owned_province = {
+			limit = {
+			has_center_of_trade_of_level = 1
+			}
+			add_center_of_trade_level = 1
+			add_base_production = 3
+			}
+			add_mercantilism = 50
+			add_years_of_income = 1
+		}
+	}
 }
 
 Mallorica_Optional = {
@@ -345,15 +349,16 @@ Mallorica_Optional = {
 	generic = no
 	ai = yes
 	potential = {
-		always = yes
+		tag = MJO
 	}
+	has_country_shield = yes
 
 	take_genoa = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { claim_sardinia }
 		provinces_to_highlight = {
-			101
+			province_id = 101
 		}
 		trigger = {
 			owns = 101
@@ -367,10 +372,10 @@ Mallorica_Optional = {
 		position = 4
 		required_missions = { expand_navy }
 		provinces_to_highlight = {
-			1749
-			1751
-			226
-			334
+			province_id = 1749
+			province_id = 1751
+			province_id = 226
+			province_id = 334
 		}
 		trigger = {
 			owns = 1749
@@ -383,7 +388,7 @@ Mallorica_Optional = {
 			add_center_of_trade_level = 1
 			}
 			1751 = {
-			center_of_trade
+			center_of_trade = 2
 			}
 			226 = {
 			center_of_trade = 2
@@ -398,7 +403,7 @@ Mallorica_Optional = {
 		position = 7
 		required_missions = { krete_and_cyprus }
 		provinces_to_highlight = {
-			358
+			province_id = 358
 		}
 		trigger = {
 			owns = 358

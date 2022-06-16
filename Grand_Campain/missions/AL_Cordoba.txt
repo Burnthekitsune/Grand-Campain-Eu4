@@ -5,6 +5,7 @@ Seville_Start = {
 	potential = {
 		tag = Z1E
 	}
+	has_country_shield = yes
 
 	build_to_forcelimit = {
 		icon = mission_build_up_to_force_limit
@@ -30,86 +31,7 @@ Seville_Start = {
 			}
 		}
 	}
-	improve_sevilla = {
-		icon = mission_build_up_to_force_limit
-		position = 4
-		required_missions = { core_toledo core_extremadura encourage_algarve_trade core_north_morocco }
-		provinces_to_highlight = {
-			224
-		}
-		trigger = {
-			224 = {
-			num_of_times_improved_by_owner = 5
-			}
-		}
-		effect = {
-			224 = {
-			add_center_of_trade_level = 1
-			add_base_tax = 2
-			add_base_production = 2
-			add_base_manpower = 2
-			}
-		}
-	}
-	improve_cordoba = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { improve_sevilla }
-		provinces_to_highlight = {
-			225
-		}
-		trigger = {
-			225 = {
-			num_of_times_improved_by_owner = 5
-			}
-		}
-		effect = {
-			225 = {
-			add_base_tax = 3
-			add_base_production = 3
-			add_base_manpower = 3
-			}
-		}
-	}
-	imrprove_granda = {
-		icon = mission_build_up_to_force_limit
-		position = 6
-		required_missions = { improve_cordoba }
-		provinces_to_highlight = {
-			223
-		}
-		trigger = {
-			223 = {
-			num_of_times_improved_by_owner = 5
-			}
-		}
-		effect = {
-			225 = {
-			add_base_tax = 2
-			add_base_production = 2
-			add_base_manpower = 2
-			add_great_project_tier = {
-			type = alhambra
-			tier = 1
-			}
-			}
-		}
-	}
-	restore_faykingh = {
-		icon = mission_build_up_to_force_limit
-		position = 7
-		required_missions = { improve_fez imrprove_granda la_mancha_gold }
-		trigger = {
-			always = yes
-		}
-		effect = {
-			switch_tag = FAY
-			prestige = 2
-			set_government_rank = 2
-			swap_non_generic_missions = yes
-			swap_free_idea_group = yes
-		}
-	}
+	
 }
 
 Seville_Toledo = {
@@ -119,6 +41,7 @@ Seville_Toledo = {
 	potential = {
 		tag = Z1E
 	}
+	has_country_shield = yes
 
 	take_toledo = {
 		icon = mission_build_up_to_force_limit
@@ -158,10 +81,10 @@ Seville_Toledo = {
 	}
 	la_mancha_gold = {
 		icon = mission_build_up_to_force_limit
-		position = 6
+		position = 5
 		required_missions = { core_toledo improve_sevilla }
 		provinces_to_highlight = {
-			2754
+			province_id = 2754
 		}
 		trigger = {
 			2754 = {
@@ -183,6 +106,7 @@ Seville_Extremadura = {
 	potential = {
 		tag = Z1E
 	}
+	has_country_shield = yes
 
 	take_extremadura = {
 		icon = mission_build_up_to_force_limit
@@ -220,6 +144,87 @@ Seville_Extremadura = {
 			}
 		}
 	}
+	
+	improve_sevilla = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { core_toledo core_extremadura encourage_algarve_trade core_north_morocco }
+		provinces_to_highlight = {
+			province_id = 224
+		}
+		trigger = {
+			224 = {
+				num_of_times_improved_by_owner = 5
+			}
+		}
+		effect = {
+			224 = {
+				add_center_of_trade_level = 1
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+	improve_cordoba = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { improve_sevilla }
+		provinces_to_highlight = {
+			province_id = 225
+		}
+		trigger = {
+			225 = {
+			num_of_times_improved_by_owner = 5
+			}
+		}
+		effect = {
+			225 = {
+			add_base_tax = 3
+			add_base_production = 3
+			add_base_manpower = 3
+			}
+		}
+	}
+	improve_granada = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { improve_cordoba la_mancha_gold }
+		provinces_to_highlight = {
+			province_id = 223
+		}
+		trigger = {
+			223 = {
+			num_of_times_improved_by_owner = 5
+			}
+		}
+		effect = {
+			225 = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			add_great_project_tier = {
+			type = alhambra
+			tier = 1
+			}
+			}
+		}
+	}
+	restore_faykingh = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { improve_fez improve_granada }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			switch_tag = FAY
+			prestige = 2
+			set_government_rank = 2
+			swap_non_generic_missions = yes
+			swap_free_idea_group = yes
+		}
+	}
 }
 
 Seville_Algarve = {
@@ -229,13 +234,14 @@ Seville_Algarve = {
 	potential = {
 		tag = Z1E
 	}
+	has_country_shield = yes
 
 	take_algarve = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { build_to_forcelimit }
 		provinces_to_highlight = {
-			230
+			province_id = 230
 		}
 		trigger = {
 			owns = 230
@@ -267,16 +273,19 @@ Seville_North_Morocco = {
 	potential = {
 		tag = Z1E
 	}
+	has_country_shield = yes
 
 	take_north_morocco = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { build_to_forcelimit }
 		provinces_to_highlight = {
-			334
-			1751
-			4561
-			335
+			OR = {
+				province_id = 334
+				province_id = 1751
+				province_id = 4561
+				province_id = 335
+			}
 		}
 		trigger = {
 			owns = 334
@@ -300,10 +309,10 @@ Seville_North_Morocco = {
 		position = 3
 		required_missions = { take_north_morocco }
 		provinces_to_highlight = {
-			334
-			1751
-			4561
-			335
+			province_id = 334
+			province_id = 1751
+			province_id = 4561
+			province_id = 335
 		}
 		trigger = {
 			owns_core_province = 334
@@ -329,13 +338,14 @@ Caliphate = {
 	potential = {
 		tag = Z1E
 	}
+	has_country_shield = yes
 
 	take_fez = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { core_toledo core_extremadura encourage_algarve_trade core_north_morocco }
 		provinces_to_highlight = {
-			343
+			province_id = 343
 		}
 		trigger = {
 			owns_core_province = 343
@@ -361,7 +371,7 @@ Caliphate = {
 		position = 6
 		required_missions = { proclaim_caliphate }
 		provinces_to_highlight = {
-			343
+			province_id = 343
 		}
 		trigger = {
 			343 = {

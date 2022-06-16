@@ -19,4 +19,5 @@ mercantilism = 15
 	}
 	add_prestige = 76
 	add_treasury = 112
+	set_country_flag = unique_missions
 }
