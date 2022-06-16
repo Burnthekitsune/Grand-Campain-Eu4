@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = NBI
+controller = NBI
 capital = "Assosa"
 is_city = yes
 culture = nubian
@@ -8,7 +8,7 @@ trade_goods = slaves
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = EGY
+add_core = NBI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

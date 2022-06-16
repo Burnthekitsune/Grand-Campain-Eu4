@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = LEB
+controller = LEB
 capital = "Hama"
 is_city = yes
 culture = al_suryah_arabic

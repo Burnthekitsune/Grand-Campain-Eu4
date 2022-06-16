@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = NBI
+controller = NBI
 capital = "Bayuda"
 is_city = yes
 culture = nubian
@@ -9,7 +9,6 @@ fort_15th = yes
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = EGY
 add_core = NBI
 discovered_by = eastern
 discovered_by = indian

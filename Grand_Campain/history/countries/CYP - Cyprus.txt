@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = eastern
 religion = converted_dynamic_faith_102
-primary_culture = anatolian
+primary_culture = alyunania
 capital = 321
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 321
 		mil = 3
 		birth_date = 1388.4.27
 		religion = converted_dynamic_faith_102
-		culture = anatolian
+		culture = alyunania
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -45,7 +45,7 @@ capital = 321
 		female = yes
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = greek
+		culture = alyunania
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

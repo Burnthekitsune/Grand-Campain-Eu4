@@ -1,0 +1,13 @@
+guarantee = {
+	first = EGY
+	second = Z5Q
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}
+
+guarantee = {
+	first = EGY
+	second = KOJ
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}

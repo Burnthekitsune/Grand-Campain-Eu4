@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = KOJ
+controller = KOJ
 capital = "Sayda"
 is_city = yes
 culture = al_suryah_arabic
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 5
 base_production = 5
 base_manpower = 3
-add_core = EGY
+add_core = KOJ
 add_core = SYR
 discovered_by = eastern
 discovered_by = indian
