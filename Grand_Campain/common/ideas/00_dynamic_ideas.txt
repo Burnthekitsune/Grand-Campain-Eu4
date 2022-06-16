@@ -4116,6 +4116,41 @@ dynamic-bavarian-italian-culture-num1_ideas = {
 	}
 }
 
+chalk_ideas = {
+	start = {
+		 monthly_gold_inflation_modifier = 0.5
+		 gold_depletion_chance_modifier = -0.5
+	}
+	trigger = {
+		tag = Z4A
+	}
+	free = yes
+
+	chalk_1 = {
+		may_perform_slave_raid = yes
+	}
+	chalk_2 = {
+		available_province_loot = 0.30
+	}
+	chalk_3 = {
+		global_tariffs = 0.10
+	}
+	chalk_4 = {
+		loot_amount = 0.40
+	}
+	chalk_5 = {
+		reinforce_cost_modifier = -0.10
+	}
+	chalk_6 = {
+		privateer_efficiency = 0.3
+	}
+	chalk_7 = {
+		interest = -1
+	}
+	bonus = {
+		transfer_trade_power_reasons = 50
+	}
+}
 
 dynamic-greek-culture-num6_ideas = {
 	start = {
