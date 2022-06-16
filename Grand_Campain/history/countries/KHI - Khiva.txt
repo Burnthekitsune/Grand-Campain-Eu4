@@ -1,12 +1,11 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = muslim
-religion = sunni
+religion = zoroastrian
 primary_culture = turkmeni
 capital = 1973
 fixed_capital = 1973
-religious_school = hanafi_school
 historical_rival = BUK
 historical_rival = SHY
 1511.1.1= {

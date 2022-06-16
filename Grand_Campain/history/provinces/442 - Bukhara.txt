@@ -1,5 +1,5 @@
-owner = Z0F
-controller = Z0F
+owner = KHI
+controller = KHI
 capital = "Bukhara"
 is_city = yes
 culture = dynamic-sogdian-culture-num1
@@ -8,7 +8,8 @@ trade_goods = salt
 base_tax = 5
 base_production = 5
 base_manpower = 5
-add_core = Z0F
+add_core = KHI
+add_core = TRS
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

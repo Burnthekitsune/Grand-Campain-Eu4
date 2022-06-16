@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = Z07
+controller = Z07
 capital = "Rasht"
 is_city = yes
 culture = mazandarani
@@ -10,6 +10,7 @@ base_production = 4
 base_manpower = 2
 add_core = PER
 add_core = TAB
+add_core = Z07
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

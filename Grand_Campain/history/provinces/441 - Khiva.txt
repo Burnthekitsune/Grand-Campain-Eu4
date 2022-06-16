@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = KHI
+controller = KHI
 capital = "Khiva"
 is_city = yes
 culture = turkmeni
@@ -11,7 +11,7 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = KHI
-add_core = PER
+add_core = TRS
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

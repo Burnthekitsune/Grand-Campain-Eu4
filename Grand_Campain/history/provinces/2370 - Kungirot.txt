@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = KHI
+controller = KHI
 capital = "Kungirot"
 is_city = yes
 culture = turkmeni
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = KHI
-add_core = PER
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

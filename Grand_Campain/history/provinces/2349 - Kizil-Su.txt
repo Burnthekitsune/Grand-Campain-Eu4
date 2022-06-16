@@ -1,5 +1,5 @@
-owner = Z0F
-controller = Z0F
+owner = TRS
+controller = TRS
 capital = "Kizil-Su"
 is_city = yes
 culture = turkmeni
@@ -8,8 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = KHI
-add_core = Z0F
+add_core = TRS
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
