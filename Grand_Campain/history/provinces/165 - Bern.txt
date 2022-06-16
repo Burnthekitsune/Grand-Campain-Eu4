@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = BUR
+controller = BUR
 capital = "Bern"
 is_city = yes
 culture = burgundian
@@ -12,7 +12,6 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = BUR
-add_core = Z0H
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = SPL
+controller = SPL
 capital = "Ancona"
 is_city = yes
 culture = umbrian
@@ -8,8 +8,7 @@ trade_goods = paper
 base_tax = 5
 base_production = 5
 base_manpower = 4
-add_core = URB
-add_core = Z0H
+add_core = SPL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

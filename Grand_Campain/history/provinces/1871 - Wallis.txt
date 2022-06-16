@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = BUR
+controller = BUR
 capital = "Sion"
 is_city = yes
 culture = burgundian
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 3
 base_production = 2
 base_manpower = 1
-add_core = Z0H
+add_core = BUR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

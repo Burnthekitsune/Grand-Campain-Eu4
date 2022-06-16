@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = NEV
+controller = NEV
 capital = "Charolles"
 is_city = yes
 culture = cosmopolitan_french
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 4
 base_production = 4
 base_manpower = 3
-add_core = FRA
+add_core = NEV
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

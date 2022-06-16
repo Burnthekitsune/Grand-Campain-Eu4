@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = MLO
+controller = MLO
 capital = "Brescia"
 is_city = yes
 culture = lombard
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 add_core = MLO
-add_core = Z0H
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

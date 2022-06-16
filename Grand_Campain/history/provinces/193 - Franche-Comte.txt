@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = Z4J
+controller = Z4J
 capital = "Besançon"
 is_city = yes
 culture = dynamic-franconian-cosmopolitan_french-culture-num1
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 3
 base_production = 4
 base_manpower = 3
-add_core = FRA
+add_core = Z4J
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

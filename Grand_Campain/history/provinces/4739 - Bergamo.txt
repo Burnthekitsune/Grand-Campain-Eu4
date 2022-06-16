@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = MLO
+controller = MLO
 capital = "Bergamo"
 is_city = yes
 culture = lombard
@@ -10,7 +10,6 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 add_core = MLO
-add_core = Z0H
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
