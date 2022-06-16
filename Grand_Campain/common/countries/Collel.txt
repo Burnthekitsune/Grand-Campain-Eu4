@@ -1,0 +1,140 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 181 0 20 }
+revolutionary_colors = { 4 1 4 }
+historical_idea_groups = {
+	aristocratic_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	offensive_ideas
+	maritime_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	eastern_militia
+}
+monarch_names = {
+	"Baras #0" = 2
+	"Bashira #2" = -3
+	"Cinsay #2" = -3
+	"Maha #1" = 5
+	"Mahecor #2" = 10
+	"Maram #1" = -2
+	"Sanjan #1" = 5
+	"Esin #0" = -1
+	"Cucung #0" = 1
+	"Cipas #0" = 2
+	"Barakaaharoog #0" = 0
+	"Draagos #0" = 0
+	"Nekot #0" = 0
+	"Poriin #0" = 0
+	"Jegan #0" = 1
+	"Tabat #0" = 0
+	"Waali #0" = 0
+	"Kibaar #0" = 0
+	"Hiba #0" = 0
+	"Haidar #0" = 0
+	"Citska #0" = -2
+	"Neda #0" = -1
+	"Epilogi Touroog #0" = 0
+	"Apostolos Touroog #0" = 0
+	"Apostolos #0" = 0
+	"Neapania #0" = -0
+}
+leader_names = {
+	"Silla"
+	"Gnilane"
+	"Brakaabu"
+	"Kehinde"
+	"Njekehid"
+	"Mahan"
+	"Yandehid"
+	"Zammourid"
+	"Awo"
+	"Nadeerid"
+	"Traghan"
+	"Benn"
+	"Auchi"
+	"Ari"
+	"Baako"
+	"Matzaris"
+	"Anabid"
+	"Akosiwid"
+	"Makrembolites"
+	"Ndieumbeuttid"
+	"Stari Trgoviste"
+	"Zaccaria"
+	"Komnene"
+	"Azizidpatras"
+	"Agelastos"
+	"Duguwa"
+	"Philinos"
+	"Haploucheir"
+	"Belissariotes"
+	"Chrysos"
+	"Arbantenos"
+	"Belermen"
+	"Hede"
+	"Palazzu"
+	"Alnas"
+	"Saran"
+	"Collel"
+	"Serdebuur"
+	"Mbeddaajibuur"
+	"Agapimeni tou Roog"
+	"Sothike apo ton Roog"
+	"Roog me Yperaspizetai"
+}
+ship_names = {
+	"Ipa Belermen"
+	"Ciubar Carianopol"
+	"Stelian Varos"
+	"Hypatios Tzanzes"
+	"Daumantas Palazzu"
+	"Abdul Pamplona"
+	"Torstein Hede"
+	"Nis"
+	"Theodoro"
+	"Ainos"
+	"Aqmescit"
+	"Severin"
+	"Sinope"
+	"Mahdiya"
+	"Agapimenos tou Roog"
+	"Rogos"
+	"Cembaso"
+	"Ombugol Maayo"
+	"Mahen"
+	"Alansara"
+	"Muraa"
+	"Saiim"
+	"Aiimofateraas"
+	"Romi"
+	"Rassena"
+	"Krimaia"
+	"Fedaafotonfovo"
+	"Karavofagoos"
+	"Cidereenia"
+	"Saaliv Rinodasoos"
+	"Donti"
+	"Cekuuri"
+	"Antarsia"
+	"Evropikaigetai"
+	"Asteriapagosan"
+	"Sti Neolaia"
+	"Xeroun ti Kanoun"
+	"Akinos"
+	"Akrida"
+	"Katsarida"
+}
+army_names = {
+	"Njaatigi"
+	"Onkoodisembata"
+	"$PROVINCE$ Demookird"
+}
+fleet_names = {
+	"Megalostolos"
+	"Neapania"
+	"Drysaspida"
+}

@@ -26,62 +26,27 @@ historical_units = {
 	westernized_adal
 }
 monarch_names = {
-	"'Ali #0" = 40
-	"'Uthman #0" = 20
-	"Abd al-Karim #0" = 0
-	"Abd al-Rahman #0" = 20
-	"Abd al-Shakur #0" = 0
-	"Abdallah #0" = 20
-	"Abu Bakr #0" = 20
-	"Ahmad #0" = 60
-	"Anfari #0" = 0
-	"Aydahis #0" = 0
-	"Aydays #0" = 0
-	"Badlay #0" = 0
-	"Barakat Bin Umar #0" = 20
-	"Bat'iah D0l Wanbara #0" = 20
-	"Bati #0" = -1
-	"Baziwi #0" = 0
-	"Fakhr al-Din #0" = 0
-	"Fasil #0" = 0
-	"Hamid #0" = 20
-	"Hanfadhe #0" = 0
-	"Haqq al-Din #0" = 0
-	"Hashim #0" = 20
-	"Husayn #0" = 0
-	"Ibrahim #0" = 60
-	"Jamal al-Din #0" = 0
-	"Kadhafo #0" = 0
-	"Kadhafo Muhammad #0" = 0
-	"Khalaf #0" = 20
-	"Malaq Adam #0" = 20
-	"Mansur #0" = 0
-	"Mohammed #0" = 100
-	"Nasr #0" = 20
-	"Nuha #0" = -1
-	"Nur #0" = 20
-	"Sa'ad al-Din #0" = 20
-	"Sabir al-Din #0" = 20
-	"Sabr al-Din #0" = 20
-	"Sadaf #0" = -1
-	"Sadiq #0" = 20
-	"Shams al-Din #0" = 0
-	"Talha #0" = 40
-	"Umar Din #0" = 20
-	"Yahya #0" = 0
-	"Yusuf #0" = 20
+	"Alp #0" = 40
+	"Arsalan #0" = 50
+	"Bagha #1" = 20
+	"Bihor #0" = 0
+	"Bulan #0" = 30
+	"Zebulun #0" = 0
+	"Akgul #0" = -1
+	"Parsbit #0" = -20
+	"Sirin #0" -30
 }
 leader_names = {
-	"Abdelrashid"
-	"Barré"
-	"Bol"
-	"Deng"
-	"Lemn"
-	"Leta"
+	"Kabar"
+	"Khwaliz"
+	"Kozar"
+	"Karakhazar"
+	"Alpid"
+	"Kyzylkil"
 	"Semer"
-	"Teka"
-	"Tsige"
-	"Yagoub"
+	"Kuler"
+	"Savuzun"
+	"Karayagac"
 }
 ship_names = {
 	"Asayita"

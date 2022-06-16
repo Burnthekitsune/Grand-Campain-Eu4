@@ -3043,3 +3043,9 @@
  misr:0 "Misr"
  alyunania:0 "Alyunania"
  almania:0 "Almania"
+
+ CLL:3 "Collel"
+ CLL_ADJ:3 "Collelean"
+ CLL_ideas:3 "Court Sillan Ideas"
+ CLL_ideas_bonus:3 "Court Sillan Ambition"
+ CLL_ideas_start:3 "Court Sillan Traditions"
