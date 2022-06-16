@@ -1,0 +1,311 @@
+Coimbra_Filler = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = coimbrian
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+}
+
+Coimbra_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = coimbrian
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	coimbra_forcelimit = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			beieras_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	unite_coimbra = {
+		icon = mission_conquer_50_development
+		position = 2
+		required_missions = { coimbra_forcelimit }
+		provinces_to_highlight = {
+			area = beieras_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = beieras_area
+			}
+		}
+		effect = {
+			capital_scope = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			}
+			prestige = 20
+		}
+	}
+	proclaim_coimbra = {
+		icon = mission_empire
+		position = 3
+		required_missions = { unite_coimbra }
+		trigger = {
+			NOT = {
+			overextension_percentage = 0.01
+			exists = CMB
+			}
+		}
+		effect = {
+			change_tag = CMB
+			set_government_rank = 2
+			alentejo_area = {
+			add_permanent_claim = ROOT
+			}
+			galicia_area = {
+			add_permanent_claim = ROOT
+			}
+			country_event = { id = ideagroups.1 }
+		}
+	}
+}
+
+Coimbra_North = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = coimbrian
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	annex_galicia = {
+		icon = mission_assemble_an_army
+		position = 4
+		required_missions = { proclaim_coimbra }
+		provinces_to_highlight = {
+			area = galicia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = galicia_area
+			}
+		}
+		effect = {
+			prestige = 15
+		}
+	}
+	end_resistance = {
+		icon = mission_high_income
+		position = 5
+		required_missions = { annex_galicia }
+		provinces_to_highlight = {
+			area = galicia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = galicia_area
+			}
+			galicia_area = {
+			NOT = {
+			nationalism = 1
+			}
+			}
+		}
+		effect = {
+			galicia_area = {
+			change_culture = coimbrian
+			}
+		}
+	}
+}
+
+Coimbra_South = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = coimbrian
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	annex_alentejo = {
+		icon = mission_assemble_an_army
+		position = 4
+		required_missions = { proclaim_coimbra }
+		provinces_to_highlight = {
+			area = alentejo_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = alentejo_area
+			}
+		}
+		effect = {
+			prestige = 15
+		}
+	}
+	souther_complience = {
+		icon = mission_high_income
+		position = 5
+		required_missions = { annex_alentejo }
+		provinces_to_highlight = {
+			area = alentejo_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = alentejo_area
+			}
+			alentejo_area = {
+			NOT = {
+			nationalism = 1
+			}
+			}
+		}
+		effect = {
+			alentejo_area = {
+			change_culture = coimbrian
+			}
+		}
+	}
+}
+
+Coimbra_Colony = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = coimbrian
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	have_colonist = {
+		icon = colonize_the_cape
+		position = 4
+		required_missions = { proclaim_coimbra }
+		trigger = {
+			has_colonist = yes
+		}
+		effect = {
+			add_country_modifier = {
+			name = "adu_new_world_discoveries"
+			duration = 7300
+			}
+		}
+	}
+	have_colony = {
+		icon = mission_colonize_florida
+		position = 5
+		required_missions = { have_colonist }
+		trigger = {
+			colony = 1
+		}
+		effect = {
+			add_country_modifier = {
+			name = "colonize_the_continent"
+			duration = 7300
+			}
+		}
+	}
+	large_colony = {
+		icon = mission_colonize_the_caribbean
+		position = 6
+		required_missions = { have_colony }
+		trigger = {
+			ROOT = {
+			any_subject_country = {
+			is_colonial_nation = yes
+			total_development = 200
+			}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+			name = "temporary_colonist"
+			duration = -1
+			}
+		}
+	}
+}
+
+Greater_Coimbra = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = coimbrian
+		capital_scope = {
+			region = iberia_region
+		}
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	greater_coimbra_destiny = {
+		icon = mission_empire
+		position = 6
+		required_missions = { end_resistance souther_complience }
+		trigger = {
+			total_development = 250
+		}
+		effect = {
+		any_owned_province = {
+			beieras_area = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			}
+			}
+			set_government_rank = 3
+		}
+	}
+	ruler_of_iberia = {
+		icon = mission_unite_home_region
+		position = 7
+		required_missions = { greater_coimbra_destiny }
+		trigger = {
+			total_development = 500
+		}
+		effect = {
+			iberia_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}

@@ -52,4 +52,5 @@ capital = 2472
 1444.11.11= {
 	add_prestige = 90
 	add_treasury = 63
+	set_country_flag = unique_missions
 }

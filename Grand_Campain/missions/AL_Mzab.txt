@@ -1,0 +1,317 @@
+Mzab_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = MZB
+	}
+	has_country_shield = yes
+
+	mzab_army = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			ouled_nail_area = {
+			add_permanent_claim = ROOT
+			}
+			north_saharan_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_gafsa = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { mzab_army }
+		provinces_to_highlight = {
+			province_id = 352
+		}
+		trigger = {
+			owns = 352
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	invade_tunisia = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { take_gafsa fortify_north }
+		provinces_to_highlight = {
+			area = tunisia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = tunisia_area
+			}
+		}
+		effect = {
+			tripolitania_area = {
+			add_permanent_claim = ROOT
+			}
+			djerba_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	complete_our_coast = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { invade_tunisia }
+		provinces_to_highlight = {
+			area = djerba_area
+			area = tripolitania_area
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = djerba_area
+			}
+			owns_all_provinces = {
+				area = tripolitania_area
+			}
+		}
+		effect = {
+			djerba_area = {
+				add_nationalism = -15
+			}
+			tripolitania_area = {
+				add_nationalism = -15
+			}
+			add_prestige = 10
+		}
+	}
+	proclaim_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { complete_our_coast mzab_push_west southern_expansion }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			sahel_region = {
+				add_permanent_claim = ROOT
+			}
+			niger_region = {
+				add_permanent_claim = ROOT
+			}
+			maghreb_region = {
+				add_permanent_claim = ROOT
+			}
+			guinea_region = {
+				add_permanent_claim = ROOT
+			}
+			set_government_rank = 3
+			add_prestige = 20
+		}
+	}
+	
+}
+
+Mzab_North = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = MZB
+	}
+	has_country_shield = yes
+
+	claim_zab = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { mzab_army }
+		provinces_to_highlight = {
+			area = ouled_nail_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = ouled_nail_area
+			}
+		}
+		effect = {
+			prestige = 10
+		}
+	}
+	fortify_land = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { claim_zab }
+		provinces_to_highlight = {
+			area = ouled_nail_area
+		}
+		trigger = {
+			any_owned_province = {
+				fort_level = 2
+			}
+		}
+		effect = {
+			add_manpower = 5
+			kabylia_area = {
+				add_permanent_claim = ROOT
+			}
+			tunisia_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_kaylia = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { fortify_land }
+		provinces_to_highlight = {
+			area = kabylia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = kabylia_area
+			}
+		}
+		effect = {
+			barbary_coast_area = {
+			add_permanent_claim = ROOT
+			}
+			algiers_area = {
+			add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	mzab_push_west = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { take_kaylia }
+		provinces_to_highlight = {
+			area = hautes_plaines_area
+			area = barbary_coast_area
+			area = algiers_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = hautes_plaines_area
+			}
+			owns_all_provinces = {
+			area = barbary_coast_area
+			}
+			owns_all_provinces = {
+			area = algiers_area
+			}
+		}
+		effect = {
+			algiers_area = {
+				add_nationalism = -15
+			}
+			barbary_coast_area = {
+				add_nationalism = -15
+			}
+			hautes_plaines_area = {
+				add_nationalism = -15
+			}
+			prestige = 10
+		}
+	}
+}
+
+Mzab_South = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = MZB
+	}
+	has_country_shield = yes
+
+	conquer_ghadames = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { mzab_army }
+		provinces_to_highlight = {
+			province_id = 2450
+		}
+		trigger = {
+			owns = 2450
+		}
+		effect = {
+			fezzan_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	push_to_fezzan = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { claim_zab take_gafsa conquer_ghadames }
+		provinces_to_highlight = {
+			area = fezzan_area
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = fezzan_area
+				NOT = {
+					is_empty = yes
+				}
+				
+			}
+		}
+		effect = {
+			east_azbin_area = {
+				add_permanent_claim = ROOT
+			}
+			2474 = {
+				add_siberian_construction = 200
+			}
+			2475 = {
+				add_siberian_construction = 200
+			}
+		}
+	}
+	invade_south = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { push_to_fezzan }
+		provinces_to_highlight = {
+			area = east_azbin_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = east_azbin_area
+			}
+		}
+		effect = {
+			sahel_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	southern_expansion = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { invade_south }
+		provinces_to_highlight = {
+			region = sahel_region
+		}
+		trigger = {
+			owns_all_provinces = {
+				region = sahel_region
+				NOT = {
+					is_empty = yes 
+				}
+			}
+		}
+		effect = {
+			add_prestige = 50
+			sahel_region = {
+				add_nationalism = -10
+			}
+			1127 = {
+				add_siberian_construction = 200
+			}
+		}
+	}
+}
+

@@ -1,0 +1,319 @@
+Sahili_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = sahilian
+		capital_scope = {
+		region = iberia_region
+		}
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	arm_army = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			capital_scope = {
+			all_province_in_state = {
+			add_permanent_claim = ROOT
+			}
+			}
+		}
+	}
+	controlled_core = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { arm_army }
+		provinces_to_highlight = {
+			capital_scope = {
+			all_province_in_state = {
+			owned_by = ROOT
+			}
+			}
+		}
+		trigger = {
+			capital_scope = {
+			all_province_in_state = {
+			is_core = yes
+			}
+			}
+		}
+		effect = {
+			add_prestige = 10
+			aragon_area = {
+			add_permanent_claim = ROOT
+			}
+			catalonia_area = {
+			add_permanent_claim = ROOT
+			}
+			valencia_area = {
+			add_permanent_claim = ROOT
+			}
+			baleares_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+Sahili_Aragon = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		culture = sahilian
+		capital_scope = {
+		region = iberia_region
+		}
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	annex_aragon = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { controlled_core }
+		provinces_to_highlight = {
+			area = aragon_area
+		}
+		trigger = {
+			aragon_area = {
+			owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			aragon_area = {
+			add_nationalism = -10 
+			}
+		}
+	}
+	aggrandize_aragon = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { annex_aragon }
+		provinces_to_highlight = {
+			area = aragon_area
+		}
+		trigger = {
+			development_in_provinces = {
+			value = 50
+			area = aragon_area
+			}
+		}
+		effect = {
+			aragon_area = {
+			add_prosperity = 50
+			}
+		}
+	}
+}
+
+Sahili_Catalonia = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture = sahilian
+		capital_scope = {
+		region = iberia_region
+		}
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	claim_catalonia = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { controlled_core }
+		provinces_to_highlight = {
+			area = catalonia_area
+		}
+		trigger = {
+			catalonia_area = {
+			owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			catalonia_area = {
+			add_nationalism = -10 
+			}
+		}
+	}
+	reinforce_roussillon = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { claim_catalonia }
+		provinces_to_highlight = {
+			province_id = 197
+		}
+		trigger = {
+			197 = {
+				fort_level = 2
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
+Sahili_Valencia = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = sahilian
+		capital_scope = {
+		region = iberia_region
+		}
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	victory_in_valencia = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { controlled_core }
+		provinces_to_highlight = {
+			area = valencia_area
+		}
+		trigger = {
+			valencia_area = {
+			owned_by = ROOT
+			}
+		}
+		effect = {
+			valencia_area = {
+			add_nationalism = -10 
+			}
+		}
+	}
+	powerful_port = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { victory_in_valencia }
+		provinces_to_highlight = {
+			province_id = 220
+		}
+		trigger = {
+			220 = {
+				province_has_center_of_trade_of_level = 2
+			}
+		}
+		effect = {
+			220 = {
+				add_center_of_trade_level = 1
+			}
+		}
+	}
+}
+
+Sahili_Baleares = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture = sahilian
+		capital_scope = {
+		region = iberia_region
+		}
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	battle_for_baleares = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { controlled_core }
+		provinces_to_highlight = {
+			area = baleares_area
+		}
+		trigger = {
+			baleares_area = {
+			owned_by = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 10
+			baleares_area = {
+				add_nationalism = -10 
+			}
+		}
+	}
+	mallorcan_merchants = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { battle_for_baleares }
+		trigger = {
+			333 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+			add_treasury = 100
+		}
+	}
+}
+
+Proclaim_Sahili = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = sahilian
+		capital_scope = {
+		region = iberia_region
+		}
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	craft_crown = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { reinforce_roussillon mallorcan_merchants powerful_port aggrandize_aragon }
+		trigger = {
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			add_prestige = 25
+		}
+	}
+	reforged_realm = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { craft_crown }
+		trigger = {
+			dip_power = 100
+		}
+		effect = {
+			add_dip_power = -100
+			set_government_rank = 2
+			change_tag = SHI
+			set_country_flag = unique_missions
+			country_event = { id = ideagroups.1 }
+		}
+	}
+}
+

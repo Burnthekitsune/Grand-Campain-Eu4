@@ -1,0 +1,418 @@
+Mallorcia_Navy = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = MJO
+	}
+	has_country_shield = yes
+
+	build__mallorcan_navy = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			navy_size_percentage = 0.5
+		}
+		effect = {
+			corsica_sardinia_area= {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	expand_navy = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { build__mallorcan_navy }
+		trigger = {
+			navy_size_percentage = 0.75
+		}
+		effect = {
+			create_admiral = { tradition = 50 }
+			add_navy_tradition = 10 
+			1749 = {
+			add_permanent_claim = ROOT
+			}
+			1751 = {
+			add_permanent_claim = ROOT
+			}
+			226 = {
+			add_permanent_claim = ROOT
+			}
+			334 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	complete_navy = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { expand_navy }
+		trigger = {
+			navy_size_percentage = 1
+		}
+		effect = {
+			add_yearly_sailors = 10
+			add_navy_tradition = 10
+		}
+	}
+}
+
+Mallorca_Expansion = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = MJO
+	}
+	has_country_shield = yes
+
+	claim_sardinia = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build__mallorcan_navy }
+		provinces_to_highlight = {
+			area = corsica_sardinia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = corsica_sardinia_area
+			}
+		}
+		effect = {
+			2954 = {
+			add_permanent_claim = ROOT
+			}
+			126 = {
+			add_permanent_claim = ROOT
+			}
+			101 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	gulf_of_gabes = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { claim_sardinia }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 126
+				province_id = 2954
+			}
+		}
+		trigger = {
+			owns = 126
+			owns = 2954
+		}
+		effect = {
+			sicily_area = {
+			add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	claim_sicily = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { gulf_of_gabes }
+		provinces_to_highlight = {
+			OR = {
+				area = western_sicily_area
+				area = sicily_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = western_sicily_area
+			}
+			owns_all_provinces = {
+			area = sicily_area
+			}
+		}
+		effect = {
+			112 = {
+			add_permanent_claim = ROOT
+			}
+			142 = {
+			add_permanent_claim = ROOT
+			}
+			4698 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	expansion_into_greece = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { claim_sicily }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 142
+				province_id = 4698
+			}
+		}
+		trigger = {
+			owns = 142
+			owns = 4698
+		}
+		effect = {
+			163 = {
+			add_permanent_claim = ROOT
+			}
+			321 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	krete_and_cyprus = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { expansion_into_greece }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 163
+				province_id = 321
+			}
+		}
+		trigger = {
+			owns = 163
+			owns = 321
+		}
+		effect = {
+			aegean_archipelago_area = {
+			add_permanent_claim = ROOT
+			}
+			163 = {
+			center_of_trade = 1
+			}
+			321 = {
+			center_of_trade = 1
+			}
+			358 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	rulers_of_the_aegean = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { krete_and_cyprus }
+		provinces_to_highlight = {
+			area = aegean_archipelago_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = aegean_archipelago_area
+			}
+		}
+		effect = {
+			151 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	gem_of_the_east = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { rulers_of_the_aegean }
+		provinces_to_highlight = {
+			province_id = 151
+		}
+		trigger = {
+			owns = 151
+		}
+		effect = {
+			prestige = 20
+			add_mercantilism = 10
+			crimea_area = {
+			limit = {
+			NOT = {
+			province_id = 2247
+			}
+			add_permanent_claim = ROOT
+			}
+			}
+		}
+	}
+	crimean_trade = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { gem_of_the_east }
+		provinces_to_highlight = {
+			province_id = 285
+		}
+		trigger = {
+			owns = 285
+		}
+		effect = {
+			285 = {
+				add_center_of_trade_level = 1
+			}
+		}
+	}
+}
+
+Mallorcan_Trade = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = MJO
+	}
+	has_country_shield = yes
+
+	develop_capital = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build__mallorcan_navy }
+		provinces_to_highlight = {
+			province_id = 333
+		}
+		trigger = {
+			333 = {
+			num_of_times_improved = 10
+			}
+		}
+		effect = {
+			333 = {
+			center_of_trade = 1
+			}
+		}
+	}
+	gabes_toll = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { develop_capital gulf_of_gabes }
+		provinces_to_highlight = {
+			province_id = 126
+			province_id = 2954
+		}
+		trigger = {
+			owns = 126
+			owns = 2954
+		}
+		effect = {
+			126 = {
+			center_of_trade = 1
+			}
+			2954 = {
+			add_center_of_trade_level = 1
+			}
+		}
+	}
+	capture_venice = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { gabes_toll claim_sicily }
+		provinces_to_highlight = {
+			province_id = 112
+		}
+		trigger = {
+			owns = 112
+		}
+		effect = {
+			112 = {
+			add_center_of_trade_level = 1
+			}
+			add_mercantilism = 5
+		}
+	}
+	rulers_of_the_mediterranean = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { capture_venice crimean_trade }
+		trigger = {
+			mission_completed = take_genoa
+			mission_completed = complete_navy
+			mission_completed = pillars_of_hercules
+			mission_completed = claim_alexandria
+		}
+		effect = {
+			all_owned_province = {
+			limit = {
+			has_center_of_trade_of_level = 1
+			}
+			add_center_of_trade_level = 1
+			add_base_production = 3
+			}
+			add_mercantilism = 50
+			add_years_of_income = 1
+		}
+	}
+}
+
+Mallorica_Optional = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MJO
+	}
+	has_country_shield = yes
+
+	take_genoa = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { claim_sardinia }
+		provinces_to_highlight = {
+			province_id = 101
+		}
+		trigger = {
+			owns = 101
+		}
+		effect = {
+			add_mercantilism = 5
+		}
+	}
+	pillars_of_hercules = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { expand_navy }
+		provinces_to_highlight = {
+			province_id = 1749
+			province_id = 1751
+			province_id = 226
+			province_id = 334
+		}
+		trigger = {
+			owns = 1749
+			owns = 1751
+			owns = 226
+			owns = 334
+		}
+		effect = {
+			1749 = {
+			add_center_of_trade_level = 1
+			}
+			1751 = {
+			center_of_trade = 2
+			}
+			226 = {
+			center_of_trade = 2
+			}
+			334 = {
+			add_center_of_trade_level = 1
+			}
+		}
+	}
+	claim_alexandria = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { krete_and_cyprus }
+		provinces_to_highlight = {
+			province_id = 358
+		}
+		trigger = {
+			owns = 358
+		}
+		effect = {
+			358 = {
+			add_center_of_trade_level = 1
+			}
+		}
+	}
+}
+

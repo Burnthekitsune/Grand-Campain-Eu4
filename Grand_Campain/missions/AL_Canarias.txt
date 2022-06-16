@@ -1,0 +1,614 @@
+Canarias_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z18
+	}
+	has_country_shield = yes
+
+	explore_high_seas = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			dip_power = 100
+		}
+		effect = {
+			4656 = {
+			light_ship = ROOT
+			light_ship = ROOT
+			light_ship = ROOT
+			}
+			create_explorer = { tradition = 50 }
+			add_dip_power = -100
+		}
+	}
+	discover_new_island = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { explore_high_seas }
+		provinces_to_highlight = {
+			province_id = 1096
+		}
+		trigger = {
+			has_discovered = 1096
+		}
+		effect = {
+			1096 = {
+				add_siberian_construction = 500
+				change_culture = janubian
+				change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+}
+
+Canarias_Africa = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z18
+	}
+	has_country_shield = yes
+
+	african_islands = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { discover_new_island }
+		provinces_to_highlight = {
+			province_id = 1097
+			province_id = 1306
+		}
+		trigger = {
+			has_discovered = 1097
+			has_discovered = 1306
+		}
+		effect = {
+			1097 = {
+			add_siberian_construction = 200
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1306 = {
+			add_siberian_construction = 200
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	lone_island = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { african_islands }
+		provinces_to_highlight = {
+			province_id = 1098
+		}
+		trigger = {
+			has_discovered = 1098
+		}
+		effect = {
+			1098 = {
+			add_siberian_construction = 200
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	round_the_cape = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { lone_island }
+		provinces_to_highlight = {
+			province_id = 1177
+		}
+		trigger = {
+			has_discovered = 1177
+		}
+		effect = {
+			1177 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	the_other_side = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { round_the_cape }
+		provinces_to_highlight = {
+			province_id = 4020
+		}
+		trigger = {
+			has_discovered = 4020
+		}
+		effect = {
+			4020 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			4020 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	looking_eastwards = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { the_other_side }
+		provinces_to_highlight = {
+			province_id = 1100
+		}
+		trigger = {
+			has_discovered = 1100
+		}
+		effect = {
+			1100 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1100 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	surround_madagascar = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { looking_eastwards }
+		provinces_to_highlight = {
+			province_id = 1102
+			province_id = 1103
+		}
+		trigger = {
+			has_discovered = 1102
+			has_discovered = 1103
+			owns_core_province = 1100
+		}
+		effect = {
+			1102 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1103 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1103 = {
+			add_permanent_claim = ROOT
+			}
+			1103 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	claim_madagascar = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { surround_madagascar }
+		provinces_to_highlight = {
+			area = betsimasaraka_area
+			area = madagascar_highlands_area
+			area = sakalava_area
+			area = southern_madagascar
+		}
+		trigger = {
+			owns_core_province = 1102
+			owns_core_province = 1103
+		}
+		effect = {
+			betsimasaraka_area = {
+				add_permanent_claim = ROOT
+			}
+			madagascar_highlands_area = {
+				add_permanent_claim = ROOT
+			}
+			sakalava_area = {
+				add_permanent_claim = ROOT
+			}
+			southern_madagascar = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	indian_foothold = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { claim_madagascar }
+		provinces_to_highlight = {
+			province_id = 1101
+		}
+		trigger = {
+			has_discovered = 1101
+		}
+		effect = {
+			1101 = {
+				add_siberian_construction = 100
+				change_culture = indian_alshamali
+				change_religion = converted_dynamic_faith_102
+			}
+			1101 = {
+				add_permanent_claim = ROOT
+			}
+				add_accepted_culture = indian_alshamali
+		}
+	}
+	swipe_maldives = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { indian_foothold }
+		provinces_to_highlight = {
+			province_id = 1248
+		}
+		trigger = {
+			treasury = 200
+			dip_power = 100
+			owns_core_province = 1101
+		}
+		effect = {
+			1248 = {
+				add_core = ROOT
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 3
+					win = yes
+					friend = ROOT
+				}
+			}
+		}
+	}
+	convert_maldives = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = { swipe_maldives }
+		provinces_to_highlight = {
+			province_id = 1248
+		}
+		trigger = {
+			owns_core_province = 1248
+		}
+		effect = {
+			1248 = {
+			change_culture = indian_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			all_country = {
+			remove_core = PREV
+			}
+		}
+	}
+}
+
+Canarias_Placeholder = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z18
+	}
+	has_country_shield = yes
+	Build_Navy = {
+		icon = mission_secure_hajj_ports
+		position = 1
+		required_missions = {  }
+		trigger = {
+			navy_size_percentage = 1
+		}
+		effect = {
+			prestige = 10
+			create_admiral = { traditon = 80 }
+		}
+	}
+
+}
+
+Cape_Colony = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z18
+	}
+	has_country_shield = yes
+
+	expand_cape = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { round_the_cape }
+		trigger = {
+			treasury = 100
+			owns_core_province = 1177
+		}
+		effect = {
+			1175 = {
+			add_permanent_claim = ROOT
+			}
+			1179 = {
+			add_permanent_claim = ROOT
+			}
+			add_treasury = -100
+			1175 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1179 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	claim_coast = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { expand_cape }
+		provinces_to_highlight = {
+			province_id = 833
+			province_id = 1180
+		}
+		trigger = {
+			treasury = 100
+			owns_core_province = 1175
+			owns_core_province = 1179
+		}
+		effect = {
+			833 = {
+			add_permanent_claim = ROOT
+			}
+			1180 = {
+			add_permanent_claim = ROOT
+			}
+			add_treasury = -100
+			833 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1180 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	claim_the_plateau = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { claim_coast }
+		provinces_to_highlight = {
+			province_id = 1176
+			province_id = 1178
+		}
+		trigger = {
+			treasury = 100
+			owns_core_province = 833
+			owns_core_province = 1180
+		}
+		effect = {
+			1176 = {
+			add_permanent_claim = ROOT
+			}
+			1178 = {
+			add_permanent_claim = ROOT
+			}
+			add_treasury = -100
+			1176 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1178 = {
+			add_siberian_construction = 100
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	build_the_cape = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { claim_the_plateau }
+		provinces_to_highlight = {
+			province_id = 1177
+		}
+		trigger = {
+			treasury = 200
+			adm_power = 100
+			dip_power = 100
+			mil_power = 100
+			owns_core_province = 1177
+		}
+		effect = {
+			1177 = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+				add_center_of_trade_level = 1
+			}
+			add_adm_power = -100
+			add_dip_power = -100
+			add_mil_power = -100
+		}
+	}
+	move_the_capital = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { build_the_cape }
+		provinces_to_highlight = {
+			province_id = 1177
+		}
+		trigger = {
+			dip_power = 100
+			owns_core_province = 1177
+		}
+		effect = {
+			add_dip_power = -100
+			set_capital = 1177
+			change_primary_culture = south_african_alshamali
+			add_accepted_culture = janubian
+			override_country_name = "Cape"
+			set_government_rank = 2
+		}
+	}
+	expand_homeland = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { move_the_capital }
+		provinces_to_highlight = {
+			area = cape_of_good_hope_area
+			area = south_african_plateau_area
+			area = limpopo_area
+			area = transvaal_area
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+			value = 10
+			is_overseas = no
+			}
+		}
+		effect = {
+			cape_of_good_hope_area = {
+				add_permanent_claim = ROOT
+			}
+			south_african_plateau_area = {
+				add_permanent_claim = ROOT
+			}
+			limpopo_area = {
+				add_permanent_claim = ROOT
+			}
+			transvaal_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	transval_gold = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 4781
+		}
+		trigger = {
+			owns_core_province = 4781
+		}
+		effect = {
+			4781 = {
+			change_trade_goods = gold
+			add_base_production = 5
+			}
+		}
+	}
+}
+
+Canarias_New_World = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z18
+	}
+	has_country_shield = yes
+
+	colonize_brazil = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { discover_new_island }
+		provinces_to_highlight = {
+			region = brazil_region
+		}
+		trigger = {
+			any_subject_country = {
+				is_colonial_nation = yes
+				capital_scope = {
+					region = brazil_region
+				}
+			}
+		}
+		effect = {
+			add_treasury = 200
+		}
+	}
+	a_new_colony = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { colonize_brazil }
+		provinces_to_highlight = {
+			region = la_plata_region
+			region = colombia_region
+		}
+		trigger = {
+			any_subject_country = {
+			is_colonial_nation = yes
+			capital_scope = {
+			OR = {
+			region = la_plata_region
+			region = colombia_region
+			}
+			}
+			}
+		}
+		effect = {
+			add_years_of_income = 2
+		}
+	}
+}
+
+Canarias_carribean = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z18
+	}
+	has_country_shield = yes
+
+	carribean_foothold = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { discover_new_island }
+		provinces_to_highlight = {
+			region = carribeans_region
+		}
+		trigger = {
+			any_subject_country = {
+			is_colonial_nation = yes
+			capital_scope = {
+			region = carribeans_region
+			}
+			}
+		}
+		effect = {
+			add_mercantilism = 10
+			
+			893 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	colonize_louisana = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { carribean_foothold }
+		provinces_to_highlight = {
+			province_id = 893
+		}
+		trigger = {
+			owns_or_subject_of = 893
+		}
+		effect = {
+			893 = {
+			add_center_of_trade_level = 2
+			change_culture = north_american_alshamali
+			}
+		}
+	}
+}
+
