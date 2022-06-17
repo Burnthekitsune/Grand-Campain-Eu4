@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 3
 base_manpower = 2
 add_core = Z4R
+add_core = NAP
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = NAP
+controller = NAP
 capital = "Salerno"
 is_city = yes
 culture = neapolitan
@@ -10,7 +10,6 @@ base_tax = 5
 base_production = 1
 base_manpower = 4
 add_core = NAP
-add_core = Z0H
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

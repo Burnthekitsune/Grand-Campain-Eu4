@@ -10,7 +10,6 @@ base_tax = 4
 base_production = 3
 base_manpower = 4
 add_core = EGY
-add_core = NBI
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

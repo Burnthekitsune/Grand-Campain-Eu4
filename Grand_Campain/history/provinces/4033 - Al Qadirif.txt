@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = ETH
+controller = ETH
 capital = "Al-Qadarif"
 is_city = yes
 culture = amhara
@@ -8,8 +8,6 @@ trade_goods = ivory
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = BEJ
-add_core = EGY
 add_core = ETH
 discovered_by = eastern
 discovered_by = indian
