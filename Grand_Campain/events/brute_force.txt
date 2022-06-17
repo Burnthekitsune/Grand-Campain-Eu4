@@ -1,3 +1,5 @@
+namespace =  brute_force
+
 country_event = {
 	id = brute_force.1
 	title = brute_force.1.t
