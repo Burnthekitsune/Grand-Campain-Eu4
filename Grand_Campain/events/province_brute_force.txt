@@ -1,0 +1,41 @@
+namespace = province_brute_force
+
+province_event = { # Random conversion stopping
+	id = province_brute_force.1
+	title = province_brute_force.1.t
+	desc = province_brute_force.1.d
+	picture = DEFENESTRATION_PRAGUE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		religion_group = muslim # It is just random muslim stuff
+		NOT = {
+			religion = converted_dynamic_faith_102
+		}
+		OR = {
+			NOT = {
+				religion = sunni # Don't want free sunni conversion 
+			}
+			NOT = {
+				nationalism = 1
+			}
+			
+		}
+		owner = {
+			religion = converted_dynamic_faith_102
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = province_brute_force.1.a
+		change_religion = converted_dynamic_faith_102
+		ai_chance {
+			factor = 1
+		}
+	}
+}
