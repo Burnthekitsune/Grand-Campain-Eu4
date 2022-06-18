@@ -58,6 +58,7 @@ dlc047_feo_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
 		primary_culture = dynamic-greek-culture-num4
+		primary_culture = gothic
 	}
 
 	sprite_infantry = {

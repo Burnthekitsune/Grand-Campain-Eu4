@@ -1,7 +1,4 @@
-owner = MGE
-controller = MGE
 capital = "Udinskoye"
-is_city = yes
 culture = dynamic-kirgiz-mongol-culture-num1
 religion = hinduism
 trade_goods = unknown
@@ -9,7 +6,6 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = MGE
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

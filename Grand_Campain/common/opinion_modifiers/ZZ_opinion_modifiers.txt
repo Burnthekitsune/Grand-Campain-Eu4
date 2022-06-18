@@ -1,0 +1,7 @@
+normal_to_caliph = {
+	opinion = 20
+}
+
+caliph_to_caliph = {
+	opinion = -100
+}

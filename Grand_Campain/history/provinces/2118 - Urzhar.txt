@@ -1,15 +1,10 @@
-owner = MGE
-controller = MGE
 capital = "Urzhar"
-is_city = yes
 culture = uyghur
 religion = hinduism
 trade_goods = salt
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = KAS
-add_core = MGE
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

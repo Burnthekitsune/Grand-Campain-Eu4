@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = Z1T
+controller = Z1T
 capital = "Narym"
 is_city = yes
 culture = dynamic-nogaybak-culture-num1
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = MGE
+add_core = Z1T
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

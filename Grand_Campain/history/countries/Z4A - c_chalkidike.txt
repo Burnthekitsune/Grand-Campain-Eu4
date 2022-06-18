@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = eastern
 religion = converted_dynamic_faith_106
@@ -9,4 +9,13 @@ fixed_capital = 148
 1444.11.11= {
 	add_prestige = 112
 	add_treasury = 106
+}
+1440.1.1= {
+	monarch = {
+		name = "Cipas"
+		dynasty = "Sothike apo ton Roog"
+		adm = 3
+		dip = 4
+		mil = 4		
+	}
 }

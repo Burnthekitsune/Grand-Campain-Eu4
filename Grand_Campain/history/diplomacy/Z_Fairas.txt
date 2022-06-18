@@ -1,0 +1,14 @@
+vassal=
+{
+	first="ALB"
+	second="ACH"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+vassal=
+{
+	first="ALB"
+	second="Z4A"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}

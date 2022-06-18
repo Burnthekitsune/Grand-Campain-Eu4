@@ -1,5 +1,5 @@
-owner = SIB
-controller = SIB
+owner = Z6Y
+controller = Z6Y
 capital = "Aksary"
 is_city = yes
 culture = nogaybak
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = NOG
-add_core = SIB
+add_core = Z6Y
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

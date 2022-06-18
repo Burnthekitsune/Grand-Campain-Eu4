@@ -1,5 +1,5 @@
-owner = ALB
-controller = ALB
+owner = Z4A
+controller = Z4A
 capital = "Thessaloniki"
 is_city = yes
 culture = dynamic-greek-culture-num4
@@ -10,7 +10,6 @@ base_production = 4
 base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
-add_core = ALB
 add_core = Z4A
 discovered_by = eastern
 discovered_by = indian

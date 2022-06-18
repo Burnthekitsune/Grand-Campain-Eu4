@@ -1,0 +1,104 @@
+al_generic = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = alshamali
+		religion = converted_dynamic_faith_102
+	}
+
+	al_exploration = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			has_idea_group = exploration_ideas
+		}
+		effect = {
+			create_explorer = { tradition = 50 } 
+			add_country_modifier = { 
+			    name = al_exploration
+			    duration = 3650
+			}
+		}
+	}
+	al_colonization = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = {  }
+		trigger = {
+			any_owned_province = {
+			is_colony = yes 
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = al_colonization_rush
+			    duration = 7300
+			}
+		}
+	}
+	al_raiding = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = {  }
+		trigger = {
+			navy_size_percentage =1
+			OR = {
+			full_idea_group = naval_ideas
+			all_owned_province = {
+			has_port = yes 
+			}
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = al_raid
+			    duration = -1
+			}
+		}
+	}
+	al_convert = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = {  }
+		trigger = {
+			full_idea_group = religious_ideas
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = al_evangelize
+			    duration = -1
+			}
+		}
+	}
+	al_mercantilism = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {  }
+		trigger = {
+			mercantilism = 40
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = al_mercantilism
+			    duration = -1
+			}
+		}
+	}
+	al_subjugation = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = {  }
+		trigger = {
+			vassal = 4
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = al_subjugation
+			    duration = -1
+			}
+		}
+	}
+}
+

@@ -1,3 +1,5 @@
+namespace = brute_force
+
 country_event = {
 	id = brute_force.1
 	title = brute_force.1.t
@@ -61,7 +63,7 @@ country_event = {
 	}
 	
 	option = {
-		name = brute_force.a
+		name = brute_force.1.a
 		set_country_flag = forced_colony
 		remove_idea_group = aristocracy_ideas
 		remove_idea_group = plutocracy_ideas

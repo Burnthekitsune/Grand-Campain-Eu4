@@ -1,5 +1,5 @@
-owner = MGE
-controller = MGE
+owner = Z0K
+controller = Z0K
 capital = "Karamegdan"
 is_city = yes
 culture = uzbehk
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = MGE
+add_core = Z0K
 add_core = SHY
 discovered_by = eastern
 discovered_by = indian

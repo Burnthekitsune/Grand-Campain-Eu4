@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = NAP
+controller = NAP
 capital = "Campobasso"
 is_city = yes
 culture = umbrian
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 2
 add_core = SPL
-add_core = Z0H
+add_core = NAP
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

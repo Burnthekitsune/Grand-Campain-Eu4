@@ -1,0 +1,282 @@
+Sous_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOS
+	}
+
+	build_up_army = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			tafilalt_area = {
+			add_permanent_claim = ROOT
+			}
+			2470 ={
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+Sous_South = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOS
+	}
+
+	push_into_tafilalt = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_up_army }
+		provinces_to_highlight = {
+			area = tafilalt_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = tafilalt_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	bridge_the_gap = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { northern_forts push_into_tafilalt }
+		provinces_to_highlight = {
+			province_id = 1127
+		}
+		trigger = {
+			is_core = 1127
+		}
+		effect = {
+			western_sahara_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	secure_sahara = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { bridge_the_gap }
+		provinces_to_highlight = {
+			area = western_sahara_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = western_sahara_area
+			}
+		}
+		effect = {
+			set_government_rank = 2
+			niger_bend_area = {
+			add_permanent_claim = ROOT
+			}
+			baghena_area = {
+			add_permanent_claim = ROOT
+			}
+			tekrur_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	african_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { secure_sahara }
+		trigger = {
+			development_in_provinces = {
+			value = 300
+			OR = {
+			region = sahel_region
+			region = niger_region
+			region = guinea_region
+			}
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			all_owned_province = {
+				limit = {
+					OR = {
+						region = sahel_region
+						region = niger_region
+						region = guinea_region
+					}
+				}
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+}
+
+Sous_North = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOS
+	}
+
+	take_haha = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_up_army }
+		provinces_to_highlight = {
+			province_id = 2470
+		}
+		trigger = {
+			owns_core_province = 2470
+		}
+		effect = {
+			add_prestige = 20
+		}
+	}
+	northern_forts = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_haha push_into_tafilalt }
+		provinces_to_highlight = {
+			province_id = 2470
+			province_id = 4568
+			province_id = 349
+		}
+		trigger = {
+			2470 = {
+			fort_level = 2
+			}
+			4568 = {
+			fort_level = 2
+			}
+			349 = {
+			fort_level = 2
+			}
+		}
+		effect = {
+			add_yearly_manpower = 0.5
+			macaronesia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	grab_macaronesia = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { northern_forts }
+		provinces_to_highlight = {
+			area = macaronesia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = macaronesia_area
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_yearly_sailors = 0.2
+		}
+	}
+}
+
+Sous_Infi = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SOS
+	}
+
+	deal_with_infi = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_up_army }
+		provinces_to_highlight = {
+			province_id = 347
+		}
+		trigger = {
+			owns = 347
+			347 ={
+			OR ={
+			development = 9
+			culture = janubian
+			}
+			}
+		}
+		effect = {
+			if = {
+			limit = {
+			347 = {
+			development = 9
+			}
+			}
+			add_accepted_culture = dynamic-fulani-culture-num1
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			}
+			
+			else = {
+			add_devastation = 5
+			spawn_rebels = {
+			    type = nationalist_rebels
+			    size = 1
+			}
+			}
+		}
+	}
+	discover_arguin = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { deal_with_infi }
+		provinces_to_highlight = {
+			province_id = 1111
+		}
+		trigger = {
+			has_discovered = 1111
+		}
+		effect = {
+			add_casus_belli = {
+			    target = SSR
+			    type = cb_vassalize_mission
+			    months = 12
+			}
+		}
+	}
+	vassalize_saare = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { discover_arguin }
+		provinces_to_highlight = {
+			province_id = 1111
+		}
+		trigger = {
+			1111 = {
+			owned_by = SSR
+			}
+			SSR = {
+			is_vassal = yes
+			}
+		}
+		effect = {
+			SSR = {
+			change_primary_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+			1111 = {
+			change_culture = south_african_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+}
+

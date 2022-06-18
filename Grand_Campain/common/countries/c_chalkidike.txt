@@ -2,31 +2,73 @@ ck2_converter_generated = yes
 graphical_culture = easterngfx
 color = { 165 30 170 }
 monarch_names = {
-	"Abdul #0" = 0
-	"Antipatra #1" = -1
-	"Apollonia #1" = -1
-	"Aristarchus #3" = 10
-	"Bardas #0" = 0
-	"Bartholomaios #2" = 10
-	"Bóthildr #0" = -1
-	"Chinzhay #2" = -1
-	"Chrysogonos #1" = 10
-	"Eugenios #1" = 10
-	"Euphemios #0" = 0
-	"Herakleios #0" = 0
-	"Konstantia #0" = -1
-	"Kyriake #0" = -1
-	"Maha #1" = 10
-	"Mahecor #2" = 10
-	"Maram #1" = -1
-	"Margarita #1" = -1
-	"Mbar #0" = 0
-	"Nasiba #0" = -1
-	"Nikarete #0" = -1
-	"Photeinos #1" = 10
-	"Pulcheria #0" = -1
-	"Sabbatios #1" = 10
-	"Sanjan #1" = 10
-	"Staurakios #0" = 0
-	"Stefania #1" = -1
+	"Baras #0" = 2
+	"Bashira #0" = -3
+	"Cinsay #0" = -3
+	"Maha #0" = 5
+	"Mahecor #0" = 5
+	"Maram #0" = -2
+	"Sanjan #0" = 5
+	"Esin #0" = -1
+	"Cucung #0" = 1
+	"Cipas #1" = 2
+	"Barakaaharoog #0" = 20
+	"Draagos #0" = 0
+	"Nekot #0" = 0
+	"Poriin #0" = 0
+	"Jegan #0" = 1
+	"Tabat #0" = 0
+	"Waali #0" = 0
+	"Kibaar #0" = 0
+	"Hiba #0" = 0
+	"Haidar #0" = 0
+	"Citska #0" = -2
+	"Neda #0" = -1
+	"Epilogi Touroog #0" = 10
+	"Apostolos Touroog #0" = 5
+	"Apostolos #0" = 10
+	"Neapania #0" = -20
 }
+leader_names = {
+	"Silla"
+	"Gnilane"
+	"Brakaabu"
+	"Kehinde"
+	"Njekehid"
+	"Mahan"
+	"Yandehid"
+	"Zammourid"
+	"Awo"
+	"Nadeerid"
+	"Traghan"
+	"Benn"
+	"Auchi"
+	"Ari"
+	"Baako"
+	"Matzaris"
+	"Anabid"
+	"Akosiwid"
+	"Makrembolites"
+	"Ndieumbeuttid"
+	"Stari Trgoviste"
+	"Zaccaria"
+	"Komnene"
+	"Azizidpatras"
+	"Agelastos"
+	"Duguwa"
+	"Philinos"
+	"Haploucheir"
+	"Belissariotes"
+	"Chrysos"
+	"Arbantenos"
+	"Belermen"
+	"Hede"
+	"Palazzu"
+	"Alnas"
+	"Saran"
+	"Collel"
+	"Serdebuur"
+	"Mbeddaajibuur"
+	"Agapimeni tou Roog"
+	"Sothike apo ton Roog"
+	"Roog me Yperaspizetai"

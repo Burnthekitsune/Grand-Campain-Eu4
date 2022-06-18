@@ -1,5 +1,5 @@
-owner = Z0H
-controller = Z0H
+owner = NAP
+controller = NAP
 capital = "Potenza"
 is_city = yes
 culture = neapolitan
@@ -10,7 +10,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = NAP
-add_core = Z0H
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

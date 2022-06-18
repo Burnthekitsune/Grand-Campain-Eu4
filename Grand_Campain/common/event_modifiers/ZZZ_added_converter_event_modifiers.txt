@@ -138,3 +138,34 @@ spreading_norse_rituals = {
 	religion = yes
 }
 
+al_exploration = {
+	range = 0.5
+}
+
+al_colonization_rush = {
+	colonists = 1
+	global_colonial_growth = 20
+	native_uprising_chance = -0.5
+	native_assimilation = 0.5 	
+}
+
+al_raid = {
+	may_perform_slave_raid = yes
+	privateer_efficiency = 0.2
+}
+
+al_evangelize = {
+	global_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.1
+}
+
+al_mercantilism = {
+	mercantilism_cost = -0.2
+	placed_merchant_power = 3
+	embargo_efficiency = 0.25
+}
+
+al_subjugation = {
+	liberty_desire_from_subject_development = -0.25
+	diplomatic_upkeep = 2
+}

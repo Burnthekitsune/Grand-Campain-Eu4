@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = WAD
+controller = WAD
 capital = "Al-Junaynahr"
 is_city = yes
 culture = tunjur
@@ -8,7 +8,6 @@ trade_goods = unknown
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = EGY
 add_core = WAD
 discovered_by = eastern
 discovered_by = indian

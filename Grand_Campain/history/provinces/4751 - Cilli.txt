@@ -9,6 +9,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 2
 add_core = Z2T
+add_core = Z71
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

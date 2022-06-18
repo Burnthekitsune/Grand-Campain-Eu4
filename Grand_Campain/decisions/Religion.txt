@@ -1587,6 +1587,7 @@ country_decisions = {
 			NOT = { religion = tengri_pagan_reformed }
 			NOT = converted_dynamic_faith_106
 			NOT = converted_dynamic_faith_103
+			NOT = converted_dynamic_faith_102
 			any_owned_province = {
 				religion_group = muslim
 			}
