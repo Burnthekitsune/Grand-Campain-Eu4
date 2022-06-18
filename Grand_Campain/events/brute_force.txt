@@ -90,3 +90,41 @@ country_event = {
 		ai_chance = 1
 	}
 }
+
+province_event = { # Random conversion stopping
+	id = brute_force.2
+	title = brute_force.2.t
+	desc = brute_force.2.d
+	picture = DEFENESTRATION_PRAGUE_eventPicture
+	
+	hidden = yes # Just hide the thing
+	
+	trigger = {
+		religion_group = muslim # It is just random muslim stuff
+		NOT = {
+			religion = converted_dynamic_faith_102
+		}
+		OR = {
+			NOT = {
+				religion = sunni # Don't want free sunni conversion 
+				nationalism = 1
+			}
+			
+		}
+		owner = {
+			religion = converted_dynamic_faith_102
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		brute_force.2.a
+		change_religion = converted_dynamic_faith_102
+		ai_chance {
+			factor = 1
+		}
+	}
+}
