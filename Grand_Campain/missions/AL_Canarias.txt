@@ -305,7 +305,7 @@ Canarias_Placeholder = {
 		tag = Z18
 	}
 	has_country_shield = yes
-	Build_Navy = {
+	build_navy = {
 		icon = mission_secure_hajj_ports
 		position = 1
 		required_missions = {  }
