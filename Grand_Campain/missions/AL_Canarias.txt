@@ -16,9 +16,12 @@ Canarias_Start = {
 		}
 		effect = {
 			4656 = {
-			light_ship = ROOT
-			light_ship = ROOT
-			light_ship = ROOT
+				add_unit_construction = {
+					type = light_ship
+					amount = 3
+					speed = 2
+			cost = 0
+		}
 			}
 			create_explorer = { tradition = 50 }
 			add_dip_power = -100
@@ -32,13 +35,21 @@ Canarias_Start = {
 			province_id = 1096
 		}
 		trigger = {
-			has_discovered = 1096
+			adm_power = 100
 		}
 		effect = {
+			add_adm_power = -100 
 			1096 = {
 				add_siberian_construction = 500
 				change_culture = janubian
 				change_religion = converted_dynamic_faith_102
+				discover_country = ROOT
+			}
+			1469 = {
+				discover_country = ROOT
+			}
+			1470 = {
+				discover_country = ROOT
 			}
 		}
 	}
