@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = TAB
+controller = TAB
 capital = "Sari"
 is_city = yes
 culture = mazandarani

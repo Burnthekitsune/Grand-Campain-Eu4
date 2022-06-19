@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = norse_pagan
+religion = converted_dynamic_faith_104
 primary_culture = norwegian
 capital = 4145
 fixed_capital = 4145
@@ -13,7 +13,7 @@ fixed_capital = 4145
 		dip = 4
 		mil = 3
 		birth_date = 1397.9.15
-		religion = norse_pagan
+		religion = converted_dynamic_faith_104
 		culture = norwegian
 	}
 	add_ruler_personality = well_connected_personality
@@ -27,7 +27,7 @@ fixed_capital = 4145
 		birth_date = 1395.6.30
 		death_date = 1455.6.30
 		female = yes
-		religion = norse_pagan
+		religion = converted_dynamic_faith_104
 		culture = norwegian
 	}
 	add_queen_personality = well_connected_personality
@@ -41,7 +41,7 @@ fixed_capital = 4145
 		birth_date = 1414.10.21
 		death_date = 1479.10.21
 		claim = 89
-		religion = norse_pagan
+		religion = converted_dynamic_faith_104
 		culture = norwegian
 	}
 	add_heir_personality = well_connected_personality

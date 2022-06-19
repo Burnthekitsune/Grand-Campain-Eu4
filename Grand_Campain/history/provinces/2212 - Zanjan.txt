@@ -1,5 +1,5 @@
-owner = PER
-controller = PER
+owner = Z07
+controller = Z07
 capital = "Zanjan"
 is_city = yes
 culture = mazandarani
@@ -9,6 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = PER
+add_core = Z07
 add_core = TAB
 discovered_by = eastern
 discovered_by = indian

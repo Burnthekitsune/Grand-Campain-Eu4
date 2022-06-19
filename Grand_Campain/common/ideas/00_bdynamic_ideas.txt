@@ -1,5 +1,297 @@
 ### National idea groups generated via cultural traditions. 
 
+chalk_ideas = {
+	start = {
+		 monthly_gold_inflation_modifier = -0.5
+		 gold_depletion_chance_modifier = -0.5
+	}
+	trigger = {
+		tag = Z4A
+	}
+	free = yes
+
+	chalk_1 = {
+		may_perform_slave_raid = yes
+	}
+	chalk_2 = {
+		available_province_loot = 0.30
+	}
+	chalk_3 = {
+		global_tariffs = 0.10
+	}
+	chalk_4 = {
+		loot_amount = 0.40
+	}
+	chalk_5 = {
+		reinforce_cost_modifier = -0.10
+	}
+	chalk_6 = {
+		privateer_efficiency = 0.3
+	}
+	chalk_7 = {
+		interest = -1
+	}
+	bonus = {
+		transfer_trade_power_reasons = 50
+	}
+}
+
+afrizoro_ideas = {
+	start = {
+		 leader_land_shock = 1
+		 warscore_cost_vs_other_religion = -0.25
+	}
+	trigger = {
+		tag = Z0I
+	}
+	free = yes
+
+	afrizoro_1 = {
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	afrizoro_2 = {
+		tolerance_own = 2
+	}
+	afrizoro_3 = {
+		diplomatic_upkeep = 1
+	}
+	afrizoro_4 = {
+		infantry_power = 0.20
+	}
+	afrizoro_5 = {
+		placed_merchant_power = 10
+	}
+	afrizoro_6 = {
+		cavalry_power = 0.10
+	}
+	afrizoro_7 = {
+		cavalry_shock = 1
+		envoy_travel_time = -0.1
+		movement_speed = 0.10
+	}
+	bonus = {
+		land_morale = 0.15
+	}
+}
+
+carthage_ideas = {
+	start = {
+		 religious_unity = 0.10
+		 naval_maintenance_modifier = -0.15
+	}
+	trigger = {
+		OR = {
+			tag = Z7A
+			tag = TRP
+			tag = Z1R
+			tag = Z2X
+			tag = CLL
+		}
+	}
+	free = yes
+
+	carthage_1 = {
+		mercenary_cost = -0.20
+	}
+	carthage_2 = {
+		heavy_ship_cost = -0.2
+	}
+	carthage_3 = {
+		advisor_cost = -0.15
+	}
+	carthage_4 = {
+		liberty_desire = -20
+	}
+	carthage_5 = {
+		hostile_attrition = 2
+	}
+	carthage_6 = {
+		global_manpower_modifier = 0.15
+	}
+	carthage_7 = {
+		allowed_marine_fraction = 0.25
+		colonists = 1
+		may_explore = yes
+	}
+	bonus = {
+		range = 0.4
+	}
+}
+
+homeland_ideas = {
+	start = {
+		 tolerance_own = 1
+		 light_ship_cost = -0.15
+	}
+	trigger = {
+		OR = {
+			tag = JOL
+			tag = Z1I
+			tag = Z02
+			tag = KBU
+		}
+	}
+	free = yes
+
+	homeland_1 = {
+		range = 0.2
+	}
+	homeland_2 = {
+		global_missionary_strength = 0.01
+	}
+	homeland_3 = {
+		may_recruit_female_generals = yes
+		land_morale = 0.10
+	}
+	homeland_4 = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.1
+	}
+	homeland_5 = {
+		mercenary_discipline = 0.10
+	}
+	homeland_6 = {
+		global_institution_spread = 0.2
+	}
+	homeland_7 = {
+		global_colonial_growth = 10
+		colonists = 1
+	}
+	bonus = {
+		fire_damage_received = -0.15
+	}
+}
+
+anti_ideas = {
+	start = {
+		 siege_ability = 0.05
+		 land_maintenance_modifier = -0.15
+	}
+	trigger = {
+		tag = Z1L
+	}
+	free = yes
+
+	anti_1 = {
+		build_cost = -0.15
+	}
+	anti_2 = {
+		ship_durability = 0.05
+	}
+	anti_3 = {
+		placed_merchant_power = 10
+	}
+	anti_4 = {
+		local_development_cost = -0.2
+	}
+	anti_5 = {
+		artillery_power = 0.10
+	}
+	anti_6 = {
+		free_policy = 1
+	}
+	anti_7 = {
+		infantry_power = 0.10
+	}
+	bonus = {
+		discipline = 0.05
+	}
+}
+
+fairas_ideas = {
+	start = {
+		 enemy_core_creation = 0.3
+		 allowed_marine_fraction = 0.25
+	}
+	trigger = {
+		tag = ALB
+	}
+	free = yes
+
+	fairas_1 = {
+		defensiveness = 0.20
+	}
+	fairas_2 = {
+		prestige = 0.5
+	}
+	fairas_3 = {
+		hostile_attrition = 1
+	}
+	fairas_4 = {
+		shock_damage_received = -0.20
+	}
+	fairas_5 = {
+		global_unrest = -2
+	}
+	fairas_6 = {
+		monarch_diplomatic_power = 1
+	}
+	fairas_7 = {
+		land_morale = 0.15
+	}
+	bonus = {
+		production_efficiency = 0.1
+	}
+}
+
+contender_ideas = {
+	start = {
+		 global_manpower_modifier = 0.10
+		 infantry_power = 0.10
+	}
+	trigger = {
+		OR = {
+			tag = Z36
+			tag = WAL
+			tag = Z32
+			tag = THR
+			tag = Z2V
+			tag = Z2M
+			tag = ACH
+			tag = BUL
+			tag = Z2W
+			tag = HRZ
+			tag = Z2I
+			tag = RAG
+			tag = DAL
+			tag = CRO
+			tag = Z27
+			tag = Z3C
+		}
+	}
+	free = yes
+
+	contender_1 = {
+		prestige = 0.5
+	}
+	contender_2 = {
+		shock_damage_received = -0.10
+		fire_damage_received = -0.05
+	}
+	contender_3 = {
+		global_tax_modifier = 0.05
+		administrative_efficiency = 0.05
+	}
+	contender_4 = {
+		production_efficiency = 0.1
+	}
+	contender_5 = {
+		legitimacy = 1
+	}
+	contender_6 = {
+		war_exhaustion = -0.03
+		global_unrest = -0.5
+	}
+	contender_7 = {
+		cavalry_fire = 1
+		infantry_shock = 1
+		cavalry_flanking = 0.25
+	}
+	bonus = {
+		land_morale = 0.10
+	}
+}
+
 dynamic-burmese-culture-num1_ideas = {
 	start = {
 		 yearly_corruption = -0.1
@@ -4113,42 +4405,6 @@ dynamic-bavarian-italian-culture-num1_ideas = {
 	}
 	bonus = {
 		prestige_from_land = 0.10
-	}
-}
-
-chalk_ideas = {
-	start = {
-		 monthly_gold_inflation_modifier = 0.5
-		 gold_depletion_chance_modifier = -0.5
-	}
-	trigger = {
-		tag = Z4A
-	}
-	free = yes
-
-	chalk_1 = {
-		may_perform_slave_raid = yes
-	}
-	chalk_2 = {
-		available_province_loot = 0.30
-	}
-	chalk_3 = {
-		global_tariffs = 0.10
-	}
-	chalk_4 = {
-		loot_amount = 0.40
-	}
-	chalk_5 = {
-		reinforce_cost_modifier = -0.10
-	}
-	chalk_6 = {
-		privateer_efficiency = 0.3
-	}
-	chalk_7 = {
-		interest = -1
-	}
-	bonus = {
-		transfer_trade_power_reasons = 50
 	}
 }
 
