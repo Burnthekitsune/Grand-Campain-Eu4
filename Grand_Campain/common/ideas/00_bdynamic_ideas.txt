@@ -80,11 +80,13 @@ carthage_ideas = {
 		 naval_maintenance_modifier = -0.15
 	}
 	trigger = {
-		tag = Z7A
-		tag = TRP
-		tag = Z1R
-		tag = Z2X
-		tag = CLL
+		OR = {
+			tag = Z7A
+			tag = TRP
+			tag = Z1R
+			tag = Z2X
+			tag = CLL
+		}
 	}
 	free = yes
 
@@ -122,10 +124,12 @@ homeland_ideas = {
 		 light_ship_cost = -0.15
 	}
 	trigger = {
-		tag = JOL
-		tag = Z1I
-		tag = Z02
-		tag = KBU
+		OR = {
+			tag = JOL
+			tag = Z1I
+			tag = Z02
+			tag = KBU
+		}
 	}
 	free = yes
 
@@ -236,22 +240,24 @@ contender_ideas = {
 		 infantry_power = 0.10
 	}
 	trigger = {
-		tag = Z36
-		tag = WAL
-		tag = Z32
-		tag = THR
-		tag = Z2V
-		tag = Z2M
-		tag = ACH
-		tag = BUL
-		tag = Z2W
-		tag = HRZ
-		tag = Z2I
-		tag = RAG
-		tag = DAL
-		tag = CRO
-		tag = Z27
-		tag = Z3C
+		OR = {
+			tag = Z36
+			tag = WAL
+			tag = Z32
+			tag = THR
+			tag = Z2V
+			tag = Z2M
+			tag = ACH
+			tag = BUL
+			tag = Z2W
+			tag = HRZ
+			tag = Z2I
+			tag = RAG
+			tag = DAL
+			tag = CRO
+			tag = Z27
+			tag = Z3C
+		}
 	}
 	free = yes
 
