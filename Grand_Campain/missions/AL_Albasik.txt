@@ -1,0 +1,200 @@
+Albasik_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = albasik
+		capital_scope = {
+			region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	build_force = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 0.6
+		}
+		effect = {
+			basque_country = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+own_basque_country = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture = albasik
+		capital_scope = {
+			region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	unite_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_force }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = basque_country
+			}
+		}
+		effect = {
+			add_prestige = 20
+		}
+	}
+	maintain_peace = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { unite_albasik }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			209 = {
+			NOT = {
+			unrest = 1
+			}
+			}
+			210 = {
+			NOT = {
+			unrest = 1
+			}
+			}
+			2989 = {
+			NOT = {
+			unrest = 1
+			}
+			}
+		}
+		effect = {
+			209 = {
+			add_prosperity = 30
+			}
+		}
+	}
+}
+
+build_up_basque = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture = albasik
+		capital_scope = {
+			region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	fortify_homeland = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_force }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			any_owned_province = {
+				fort_level = 2
+			}
+		}
+		effect = { 
+			add_yearly_manpower = 0.5
+		}
+	}
+	develop_homeland = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { fortify_homeland }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			development_in_provinces = {
+				value = 25
+				area = basque_country
+			}
+		}
+		effect = {
+			209 = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+			210 = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+			2989 = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+		}
+	}
+}
+
+form_albasik = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = albasik
+		capital_scope = {
+			region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	form_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { maintain_peace develop_homeland }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			set_government_rank = 2
+			change_tag = ABK
+			country_event = { id = ideagroups.1 }
+		}
+	}
+	defend_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { form_albasik }
+		trigger = {
+			is_in_war = {
+			    defender_leader = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = albasik_defend
+		}
+	}
+}
+
