@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = ETH
+controller = ETH
 capital = "Illubabor"
 is_city = yes
 culture = dynamic-somali-sidamo-culture-num1
@@ -8,7 +8,7 @@ trade_goods = slaves
 base_tax = 2
 base_production = 3
 base_manpower = 2
-add_core = EGY
+add_core = ETH
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

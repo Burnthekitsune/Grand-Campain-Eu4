@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = VEN
+controller = VEN
 capital = "Verona"
 is_city = yes
 culture = dynamic-bavarian-italian-culture-num1
@@ -10,7 +10,7 @@ base_production = 5
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = BAV
+add_core = VEN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

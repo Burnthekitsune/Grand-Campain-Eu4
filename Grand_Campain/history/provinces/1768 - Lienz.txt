@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = Z6C
+controller = Z6C
 capital = "Lienz"
 is_city = yes
 culture = dynamic-bavarian-culture-num1
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 4
 base_production = 3
 base_manpower = 2
-add_core = BAV
+add_core = Z6C
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

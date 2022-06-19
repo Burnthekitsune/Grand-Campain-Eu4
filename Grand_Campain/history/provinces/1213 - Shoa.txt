@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = ETH
+controller = ETH
 capital = "Badeqe"
 is_city = yes
 culture = dynamic-amhara-culture-num2
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 3
-add_core = EGY
+add_core = ETH
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

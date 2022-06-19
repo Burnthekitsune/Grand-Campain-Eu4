@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = VEN
+controller = VEN
 capital = "Trent"
 is_city = yes
 culture = dynamic-bavarian-italian-culture-num1
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 4
 base_production = 3
 base_manpower = 1
-add_core = BAV
+add_core = VEN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = VEN
+controller = VEN
 capital = "Treviso"
 is_city = yes
 culture = venetian
@@ -8,7 +8,6 @@ trade_goods = paper
 base_tax = 7
 base_production = 7
 base_manpower = 4
-add_core = BAV
 add_core = VEN
 discovered_by = eastern
 discovered_by = indian

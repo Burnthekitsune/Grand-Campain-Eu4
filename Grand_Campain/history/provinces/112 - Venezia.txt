@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = VEN
+controller = VEN
 capital = "Venezia"
 is_city = yes
 culture = venetian
@@ -11,7 +11,6 @@ base_production = 12
 base_manpower = 5
 extra_cost = 24
 center_of_trade = 3
-add_core = BAV
 add_core = VEN
 discovered_by = eastern
 discovered_by = indian

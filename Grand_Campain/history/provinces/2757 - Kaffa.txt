@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = ETH
+controller = ETH
 capital = "Anderaccha"
 is_city = yes
 culture = dynamic-somali-sidamo-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 4
 base_production = 3
 base_manpower = 4
-add_core = EGY
+add_core = ETH
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

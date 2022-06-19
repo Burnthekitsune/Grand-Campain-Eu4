@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = VEN
+controller = VEN
 capital = "Udine"
 is_city = yes
 culture = venetian
@@ -8,7 +8,6 @@ trade_goods = wine
 base_tax = 5
 base_production = 5
 base_manpower = 2
-add_core = BAV
 add_core = VEN
 discovered_by = eastern
 discovered_by = indian

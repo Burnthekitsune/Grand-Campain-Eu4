@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = Z6C
+controller = Z6C
 capital = "Ingolstadt"
 is_city = yes
 culture = dynamic-bavarian-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
-add_core = BAV
+add_core = Z6C
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
