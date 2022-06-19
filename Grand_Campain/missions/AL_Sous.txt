@@ -5,6 +5,7 @@ Sous_Start = {
 	potential = {
 		tag = SOS
 	}
+	has_country_shield = yes
 
 	build_up_army = {
 		icon = mission_build_up_to_force_limit
@@ -31,6 +32,7 @@ Sous_South = {
 	potential = {
 		tag = SOS
 	}
+	has_country_shield = yes
 
 	push_into_tafilalt = {
 		icon = mission_build_up_to_force_limit
@@ -127,6 +129,7 @@ Sous_North = {
 	potential = {
 		tag = SOS
 	}
+	has_country_shield = yes
 
 	take_haha = {
 		icon = mission_build_up_to_force_limit
@@ -195,6 +198,7 @@ Sous_Infi = {
 	potential = {
 		tag = SOS
 	}
+	has_country_shield = yes
 
 	deal_with_infi = {
 		icon = mission_build_up_to_force_limit
