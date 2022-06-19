@@ -1,0 +1,218 @@
+faykingh_start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = faykinghian
+		capital_scope = {
+			OR = {
+				region = iberia_region
+				region = maghreb_region
+			}
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	build_forcelimit = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			lower_andalucia_area = {
+			add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	invade_andalucia = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			OR = {
+			area = upper_andalucia_area
+			area = lower_andalucia_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = upper_andalucia_area
+			area = lower_andalucia_area
+			}
+			}
+		}
+		effect = {
+			toledo_area = {
+			add_permanent_claim = ROOT
+			}
+			extremadura_area = {
+			add_permanent_claim = ROOT
+			}
+			northern_morocco_area = {
+			limit = {
+			NOT = {
+			province_id = 4563
+			}
+			}
+			add_permanent_claim = ROOT
+			}
+			230 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	toledo_claim = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { invade_andalucia }
+		provinces_to_highlight = {
+			area = toledo_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = toledo_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	form_faykingh = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { toledo_claim take_the_strait grab_algarve beat_badajoz }
+		trigger = {
+			NOT = {
+			overextension_percentage = 0.01
+			}
+		}
+		effect = {
+			switch_tag = FAY
+			add_prestige = 20
+			set_government_rank = 2
+			country_event = { id = ideagroups.1 }
+		}
+	}
+}
+
+fakykingh_south = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture = faykinghian
+		capital_scope = {
+			OR = {
+				region = iberia_region
+				region = maghreb_region
+			}
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_the_strait = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { invade_andalucia }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 334
+				province_id = 1751
+				province_id = 4561
+				province_id = 335
+			}
+		}
+		trigger = {
+			owns = 334
+			owns = 1751
+			owns = 4561
+			owns = 335
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
+faykingh_extremadura = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture = faykinghian
+		capital_scope = {
+			OR = {
+				region = iberia_region
+				region = maghreb_region
+			}
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	beat_badajoz = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { invade_andalucia }
+		provinces_to_highlight = {
+			area = extremadura_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = extremadura_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
+algarve = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		culture = faykinghian
+		capital_scope = {
+			OR = {
+				region = iberia_region
+				region = maghreb_region
+			}
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	grab_algarve = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { invade_andalucia }
+		provinces_to_highlight = {
+			province_id = 230
+		}
+		trigger = {
+			owns = 230
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
