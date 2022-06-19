@@ -31,7 +31,7 @@ Seville_Start = {
 			}
 		}
 	}
-	
+
 }
 
 Seville_Toledo = {
@@ -144,7 +144,7 @@ Seville_Extremadura = {
 			}
 		}
 	}
-	
+
 	improve_sevilla = {
 		icon = mission_build_up_to_force_limit
 		position = 4
@@ -218,11 +218,11 @@ Seville_Extremadura = {
 			always = yes
 		}
 		effect = {
+			set_country_flag = cordoba
 			switch_tag = FAY
-			prestige = 2
+			add_prestige = 20
 			set_government_rank = 2
-			swap_non_generic_missions = yes
-			swap_free_idea_group = yes
+			country_event = { id = ideagroups.1 }
 		}
 	}
 }

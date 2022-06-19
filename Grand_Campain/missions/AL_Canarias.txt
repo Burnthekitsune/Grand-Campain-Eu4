@@ -41,7 +41,7 @@ Canarias_Start = {
 			add_adm_power = -100 
 			1096 = {
 				add_siberian_construction = 500
-				change_culture = janubian
+				change_culture = south_african_alshamali
 				change_religion = converted_dynamic_faith_102
 				discover_country = ROOT
 			}
