@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = autocracy_reform
-government_rank = 1
+government_rank = 2
 technology_group = eastern
 religion = converted_dynamic_faith_106
 primary_culture = dynamic-greek-culture-num4

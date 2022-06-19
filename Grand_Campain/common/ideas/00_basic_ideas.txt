@@ -735,6 +735,14 @@ exploration_ideas = {
 			num_of_ports = 20
 		}
 		modifier = {
+			factor = 3.0
+			OR = {
+				tag = Z1I
+				tag = SSR
+				tag = JOL
+			}
+		}
+		modifier = {
 			factor = 1000
 			OR = {
 				tag = POR
