@@ -1,0 +1,249 @@
+Jabal_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = jabric
+		capital_scope = {
+		region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	build_forcelimit = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			castille_area = {
+			add_permanent_claim = ROOT
+			}
+			asturias_area = {
+			add_permanent_claim = ROOT
+			}
+			galicia_area = {
+			add_permanent_claim = ROOT
+			}
+			leon_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_leon = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			area = leon_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = leon_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	develope_leon = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_leon }
+		provinces_to_highlight = {
+			province_id = 208
+		}
+		trigger = {
+			208 = {
+			development = 15
+			}
+		}
+		effect = {
+			208 = {
+			change_trade_goods = wine
+			}
+		}
+	}
+	form_jabal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { castillian_cloth develope_leon asturias_port encourage_galician_explorers }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			switch_tag = JBL
+			add_prestige = 20
+			set_government_rank = 2
+			country_event = { id = ideagroups.1 }
+		}
+	}
+}
+
+Galacia = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		culture = jabric
+		capital_scope = {
+		region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_galacia = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			area = galicia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = galicia_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	encourage_galician_explorers = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_galacia }
+		provinces_to_highlight = {
+			area = galicia_area
+		}
+		trigger = {
+			development_in_provinces = {
+				value = 35
+				area = galicia_area
+			}
+		}
+		effect = {
+			create_explorer = { 
+			tradition = 50
+			}
+		}
+	}
+}
+
+Asturias = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture = jabric
+		capital_scope = {
+		region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_asturias = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			area = asturias_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = asturias_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	asturias_port = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_asturias }
+		provinces_to_highlight = {
+			province_id = 207
+		}
+		trigger = {
+			207 = {
+			has_building = shipyard
+			}
+		}
+		effect = {
+			207 = {
+			build_to_forcelimit = {
+			    heavy_ship = 0.3
+			    light_ship = 0.3
+			    transport = 0.2
+			}
+			}
+		}
+	}
+}
+
+Castille = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture = jabric
+		capital_scope = {
+		region = iberia_region
+		}	
+		NOT = {
+			has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_castille = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			area = castille_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = castille_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	castillian_cloth = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_castille }
+		provinces_to_highlight = {
+			OR = {
+			province_id = 4789
+			province_id = 217
+			}
+		}
+		trigger = {
+			4789 = {
+			base_production = 5 
+			}
+			217 = {
+			base_production = 7 
+			}
+		}
+		effect = {
+			add_treasury = 200
+		}
+	}
+}
+

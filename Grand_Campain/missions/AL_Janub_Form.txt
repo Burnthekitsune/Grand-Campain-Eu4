@@ -1,0 +1,203 @@
+janub_macronesia = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture = janubian
+		capital_scope = {
+		region = maghreb_region
+				}	
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_the_islands = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			area = macaronesia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = macaronesia_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	build_navy = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_the_islands }
+		trigger = {
+			navy_size_percentage = 0.75
+		}
+		effect = {
+			create_admiral = { tradition = 50 }
+		}
+	}
+}
+
+janub_start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = janubian
+		capital_scope = {
+		region = maghreb_region
+				}	
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	build_forcelimit = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			sus_area = {
+			add_permanent_claim = ROOT
+			}
+			southern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			tafilalt_area = {
+			add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+			add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			macaronesia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_the_core = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			OR = {
+			area = western_morocco_area
+			area = marrekesh_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = western_morocco_area
+			}
+			owns_all_provinces = {
+				area = marrekesh_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	develop_fez = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_the_core }
+		provinces_to_highlight = {
+			province_id = 343
+		}
+		trigger = {
+			343 = {
+			development = 17
+			}
+		}
+		effect = {
+			343 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			}
+		}
+	}
+	form_janub = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { develop_fez build_the_pass build_navy }
+		trigger = {
+			allways = yes
+		}
+		effect = {
+			switch_tag = JNB
+			add_prestige = 20
+			set_government_rank = 2
+			country_event = { id = ideagroups.1 }
+		}
+	}
+}
+
+janub_south = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture = janubian
+		capital_scope = {
+		region = maghreb_region
+				}	
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	push_south = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			OR = {
+			area = sus_area
+			area = southern_morocco_area
+			area = tafilalt_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = sus_area
+			}
+			owns_all_provinces = {
+				area = southern_morocco_area
+			}
+			owns_all_provinces = {
+				area = tafilalt_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	build_the_pass = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { push_south }
+		trigger = {
+			treasury = 200
+		}
+		effect = {
+			add_treasury = -200
+			add_great_project_tier = {
+			type = ait_benhaddou
+			tier = 1
+			}
+		}
+	}
+}
+

@@ -1,0 +1,181 @@
+Alsaahil_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture = alsaahilian
+		capital_scope = {
+		region = maghreb_region
+						}	
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	build_forcelimit = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			algiers_area = {
+			add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+			add_permanent_claim = ROOT
+			}
+			ouled_nail_area = {
+			add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+			add_permanent_claim = ROOT
+			}
+			339 = {
+			add_permanent_claim = ROOT
+			}
+			2456 = {
+			add_permanent_claim = ROOT
+			}
+			2457 = {
+			add_permanent_claim = ROOT
+			}
+			2472 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	claim_the_core = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			OR = {
+			area =hautes_plaines_area
+			province_id = 339
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = hautes_plaines_area
+			}
+			owns = 339
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	restore_order = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { take_the_coast claim_the_core take_the_south }
+		provinces_to_highlight = {
+			
+		}
+		trigger = {
+			NOT = {
+				average_unrest = 1
+			}
+		}
+		effect = {
+			add_prestige = 20
+		}
+	}
+	forum_alsaahil = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { restore_order }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			switch_tag = AHL
+			add_prestige = 20
+			set_government_rank = 2
+			country_event = { id = ideagroups.1 }
+		}
+	}
+}
+
+push_west = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture = alsaahilian
+		capital_scope = {
+		region = maghreb_region
+						}	
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_the_coast = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			OR = {
+			area = algiers_area
+			area = barbary_coast_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = algiers_area
+			}
+			owns_all_provinces = {
+				area = barbary_coast_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
+push_east = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture = alsaahilian
+		capital_scope = {
+		region = maghreb_region
+						}	
+		NOT = {
+		has_country_flag = unique_missions
+		}
+	}
+	has_country_shield = yes
+
+	take_the_south = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { build_forcelimit }
+		provinces_to_highlight = {
+			OR = {
+			area = ouled_nail_area
+			province_id = 2456
+			province_id = 2457
+			province_id = 2472
+			}
+		}
+		trigger = {
+			owns = 2456
+			owns = 2457
+			owns = 2472
+			owns_all_provinces = {
+				area = ouled_nail_area
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
