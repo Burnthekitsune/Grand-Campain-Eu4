@@ -137,6 +137,7 @@ janub_start = {
 		effect = {
 			switch_tag = JNB
 			add_prestige = 20
+			set_country_flag = unique_missions
 			set_government_rank = 2
 			country_event = { id = ideagroups.1 }
 		}
