@@ -31,16 +31,23 @@ monarch_names = {
 	"Poriin #0" = 0
 	"Jegan #0" = 1
 	"Tabat #0" = 0
+	"Tabat #0 Alexander" = 0
+	"Draagos #0 Magnus" = 0
 	"Waali #0" = 0
+	"Skaaruhan #0" = 0
 	"Kibaar #0" = 0
 	"Hiba #0" = 0
 	"Haidar #0" = 0
 	"Citska #0" = -2
 	"Neda #0" = -1
+	"Helias #0" = 1
+	"Selene #0" = -1
 	"Epilogi Touroog #0" = 0
 	"Apostolos Touroog #0" = 0
 	"Apostolos #0" = 0
 	"Neapania #0" = -0
+	"Hiba #0 Haidar-Zabljak" = 0
+	"Jegan #0 Ioannina-Kastoria" = 0
 }
 leader_names = {
 	"Silla"

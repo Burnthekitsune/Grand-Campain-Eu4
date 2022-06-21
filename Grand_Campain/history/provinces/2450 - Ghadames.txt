@@ -9,6 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = Z1R
+add_core = Z7A
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
