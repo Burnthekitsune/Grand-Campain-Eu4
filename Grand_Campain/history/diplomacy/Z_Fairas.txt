@@ -12,3 +12,24 @@ vassal=
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
+
+alliance = {
+	first = Z1P
+	second = Z4R
+	start_date = 1443.5.1
+	end_date = 1764.6.1
+}
+
+alliance = {
+	first = Z1P
+	second = Z6E
+	start_date = 1443.5.1
+	end_date = 1764.6.1
+}
+
+alliance = {
+	first = Z6E
+	second = Z4R
+	start_date = 1443.5.1
+	end_date = 1764.6.1
+}

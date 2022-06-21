@@ -11,3 +11,24 @@ alliance = {
 	start_date = 1443.5.1
 	end_date = 1764.6.1
 }
+
+guarantee = {
+	first = Z0E
+	second = Z0Z
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}
+
+guarantee = {
+	first = Z0E
+	second = GRE
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}
+
+guarantee = {
+	first = Z0E
+	second = SIC
+	start_date = 1444.1.1
+	end_date = 1468.1.1
+}
