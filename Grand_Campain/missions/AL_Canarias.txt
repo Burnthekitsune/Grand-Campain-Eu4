@@ -39,6 +39,7 @@ Canarias_Start = {
 		}
 		effect = {
 			add_adm_power = -100 
+			add_accepted_culture = south_african_alshamali
 			1096 = {
 				add_siberian_construction = 500
 				change_culture = south_african_alshamali

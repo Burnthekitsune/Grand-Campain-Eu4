@@ -34,7 +34,7 @@ al_generic = {
 		effect = {
 			add_country_modifier = { 
 			    name = al_colonization_rush
-			    duration = 7300
+			    duration = 14600
 			}
 		}
 	}
