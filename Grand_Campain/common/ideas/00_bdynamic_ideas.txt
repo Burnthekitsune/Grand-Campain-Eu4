@@ -135,9 +135,11 @@ homeland_ideas = {
 
 	homeland_1 = {
 		range = 0.2
+		may_explore = yes
 	}
 	homeland_2 = {
 		global_missionary_strength = 0.01
+		colonists = 1
 	}
 	homeland_3 = {
 		may_recruit_female_generals = yes
@@ -155,7 +157,6 @@ homeland_ideas = {
 	}
 	homeland_7 = {
 		global_colonial_growth = 10
-		colonists = 1
 	}
 	bonus = {
 		fire_damage_received = -0.15
