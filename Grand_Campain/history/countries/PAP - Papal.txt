@@ -8,6 +8,7 @@ primary_culture = dynamic-franconian-culture-num2
 capital = 78
 fixed_capital = 118
 add_army_professionalism = 0.05
+historical_rival = Z0H
 1091.9.20= {
 	monarch = {
 		name = "Silvester II"

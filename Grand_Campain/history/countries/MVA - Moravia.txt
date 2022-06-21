@@ -7,6 +7,7 @@ elector = yes
 primary_culture = hungarian
 capital = 265
 add_accepted_culture = slovak
+historical_friend = BOH
 1444.11.11= {
 	monarch = {
 		name = "Bálint"

@@ -6,6 +6,7 @@ religion = catholic
 elector = yes
 primary_culture = dynamic-czech-culture-num1
 capital = 266
+historical_friend = MVA
 1444.11.11= {
 	monarch = {
 		name = "Krystyn"

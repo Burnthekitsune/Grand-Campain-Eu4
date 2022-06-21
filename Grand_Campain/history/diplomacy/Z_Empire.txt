@@ -1,0 +1,13 @@
+alliance = {
+	first = MVA
+	second = BOH
+	start_date = 1443.5.1
+	end_date = 1764.6.1
+}
+
+alliance = {
+	first = UKR
+	second = Z3I
+	start_date = 1443.5.1
+	end_date = 1764.6.1
+}
