@@ -1,5 +1,5 @@
-owner = ARB
-controller = ARB
+owner = Z30
+controller = Z30
 capital = "Sana'a"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 4
 add_core = ADE
-add_core = ARB
+add_core = Z30
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

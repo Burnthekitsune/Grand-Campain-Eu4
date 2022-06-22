@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 2
-technology_group = muslim
+technology_group = east_african
 religion = zoroastrian
 primary_culture = al_suryah_arabic
 capital = 1205

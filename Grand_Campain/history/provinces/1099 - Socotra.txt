@@ -1,5 +1,5 @@
-owner = ARB
-controller = ARB
+owner = Z30
+controller = Z30
 capital = "Suqutra"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 2
 base_manpower = 1
 add_core = ADE
-add_core = ARB
+add_core = Z30
 add_core = YEM
 discovered_by = eastern
 discovered_by = indian

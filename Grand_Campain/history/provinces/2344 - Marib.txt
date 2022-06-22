@@ -1,5 +1,5 @@
-owner = ARB
-controller = ARB
+owner = Z30
+controller = Z30
 capital = "Marib"
 is_city = yes
 culture = dynamic-bedouin_arabic-culture-num1
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = ARB
+add_core = Z30
 add_core = YEM
 discovered_by = eastern
 discovered_by = indian

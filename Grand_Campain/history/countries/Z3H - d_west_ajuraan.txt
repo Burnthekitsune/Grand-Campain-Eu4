@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 1
-technology_group = muslim
+technology_group = east_african
 religion = sunni
 primary_culture = al_suryah_arabic
 capital = 2776
