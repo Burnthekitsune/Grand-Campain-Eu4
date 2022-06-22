@@ -1,23 +1,31 @@
-vassal =
+march =
 {
-	first="IRE"
+	first="JRK"
 	second="WLS"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
 
-vassal =
+march =
 {
-	first="IRE"
+	first="JRK"
 	second="SCO"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
 
-vassal =
+march =
 {
-	first="IRE"
+	first="JRK"
 	second="ENG"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="JRK"
+	second="IRE"
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }

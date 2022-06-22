@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = JRK
+controller = JRK
 capital = "Leicester"
 is_city = yes
 culture = dynamic-anglo_saxon-norse-culture-num1
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 2
 base_production = 2
 base_manpower = 2
-add_core = GBR
+add_core = JRK
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

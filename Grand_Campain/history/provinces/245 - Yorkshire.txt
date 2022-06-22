@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = JRK
+controller = JRK
 capital = "York"
 is_city = yes
 culture = dynamic-anglo_saxon-norse-culture-num1
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = GBR
+add_core = JRK
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

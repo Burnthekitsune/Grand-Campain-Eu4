@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = JRK
+controller = JRK
 capital = "Carlisle"
 is_city = yes
 culture = highland_scottish
@@ -8,8 +8,7 @@ trade_goods = wool
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = GBR
-add_core = HSC
+add_core = JRK
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

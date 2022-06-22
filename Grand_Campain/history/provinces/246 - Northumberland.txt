@@ -1,5 +1,5 @@
-owner = GBR
-controller = GBR
+owner = JRK
+controller = JRK
 capital = "Newcastle"
 is_city = yes
 culture = highland_scottish
@@ -9,8 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = GBR
-add_core = HSC
+add_core = JRK
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
