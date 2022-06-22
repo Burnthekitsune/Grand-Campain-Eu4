@@ -409,7 +409,7 @@ lonefortress_ideas = {
 		monthly_favor_modifier = 0.2
 	}
 	lonefortress_7 = {
-		global_rebel_suppression_efficiency = -0.2
+		global_rebel_suppression_efficiency = 0.2
 	}
 	bonus = {
 		artillery_fire = 1
@@ -468,11 +468,11 @@ krete_ideas = {
 	free = yes
 
 	krete_1 = {
-		movement_speed_onto_off_boat_modifier = -0.2
+		prestige_decay = -0.01
+		movement_speed_onto_off_boat_modifier = 0.2
 	}
 	krete_2 = {
 		legitimacy = 0.5
-		prestige_decay = -0.01
 	}
 	krete_3 = {
 		allowed_marine_fraction = 0.25
