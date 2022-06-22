@@ -194,3 +194,10 @@ march=
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
+vassal=
+{
+	first="Z0B"
+	second="AIR"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
