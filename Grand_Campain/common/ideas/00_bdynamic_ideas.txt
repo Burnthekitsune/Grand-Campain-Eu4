@@ -300,9 +300,11 @@ blacksea_ideas = {
 		 global_trade_goods_size_modifier = 0.1
 	}
 	trigger = {
+	OR = {
 		tag = FEO
 		tag = Z57
 		tag = Z5L
+	}
 	}
 	free = yes
 
@@ -339,9 +341,11 @@ steppefort_ideas = {
 		 discipline = 0.025
 	}
 	trigger = {
+	OR = {
 		tag = Z1Q
 		tag = TNA
 		tag = Z3K
+	}
 	}
 	free = yes
 
@@ -378,9 +382,11 @@ lonefortress_ideas = {
 		 hostile_attrition = 1
 	}
 	trigger = {
+	OR = {
 		tag = Z1P
 		tag = Z4R
 		tag = Z6E
+	}
 	}
 	free = yes
 
@@ -416,9 +422,11 @@ oldglory_ideas = {
 		 diplomatic_upkeep = 2
 	}
 	trigger = {
+	OR = {
 		tag = MAL
 		tag = JNN
 		tag = Z08
+	}
 	}
 	free = yes
 
