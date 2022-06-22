@@ -1,11 +1,23 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = muslim
+technology_group = sub_saharan
 religion = converted_dynamic_faith_102
 primary_culture = south_african_alshamali
+add_accepted_culture = dynamic-yorumba-culture-num1
 capital = 1140
 1444.11.11= {
 	add_prestige = 117
 	add_treasury = 81
+	monarch = {
+		name = "Guraya"
+		dynasty = "Haesteining-Jos"
+		adm = 1
+		dip = 4
+		mil = 5
+		birth_date = 1395.3.21
+		female = yes
+		religion = converted_dynamic_faith_102
+		culture = south_african_alshamali
+	}
 }

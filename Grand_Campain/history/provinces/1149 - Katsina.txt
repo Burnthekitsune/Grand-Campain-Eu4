@@ -1,5 +1,5 @@
-owner = Z0B
-controller = Z0B
+owner = AIR
+controller = AIR
 capital = "Katsina"
 is_city = yes
 culture = dynamic-hausa-nupe-culture-num1
@@ -11,7 +11,7 @@ base_manpower = 3
 extra_cost = 16
 center_of_trade = 2
 add_core = HAU
-add_core = Z0B
+add_core = AIR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

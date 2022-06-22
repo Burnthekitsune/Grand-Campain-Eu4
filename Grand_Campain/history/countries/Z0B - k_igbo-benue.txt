@@ -1,12 +1,13 @@
 government = monarchy
-add_government_reform = plutocratic_reform
+add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = muslim
+technology_group = sub_saharan
 religion = converted_dynamic_faith_102
 primary_culture = south_african_alshamali
 capital = 1249
 mercantilism = 15
 add_accepted_culture = dynamic-hausa-nupe-culture-num1
+add_accepted_culture = yorumba
 1444.11.11= {
 	monarch = {
 		name = "Freydís II"

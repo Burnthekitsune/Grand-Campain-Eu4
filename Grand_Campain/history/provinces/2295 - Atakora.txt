@@ -1,5 +1,5 @@
-owner = Z0B
-controller = Z0B
+owner = Z05
+controller = Z05
 capital = "Sansanné Mango"
 is_city = yes
 culture = fon
@@ -10,7 +10,6 @@ base_production = 1
 base_manpower = 1
 add_core = DAH
 add_core = Z05
-add_core = Z0B
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

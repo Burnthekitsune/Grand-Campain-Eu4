@@ -1,5 +1,5 @@
-owner = Z0B
-controller = Z0B
+owner = Z05
+controller = Z05
 capital = "Oyo"
 is_city = yes
 culture = dynamic-aka-yorumba-culture-num1
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = Z0B
+add_core = Z05
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

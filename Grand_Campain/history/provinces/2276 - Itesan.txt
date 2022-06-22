@@ -1,5 +1,5 @@
-owner = Z0B
-controller = Z0B
+owner = AIR
+controller = AIR
 capital = "Tahut"
 is_city = yes
 culture = dynamic-hausa-nupe-culture-num1
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = HAU
-add_core = Z0B
+add_core = AIR
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

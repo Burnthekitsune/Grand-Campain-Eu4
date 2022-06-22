@@ -1,5 +1,5 @@
-owner = Z0B
-controller = Z0B
+owner = ASH
+controller = ASH
 capital = "Amanvi"
 is_city = yes
 culture = dynamic-aka-mali-culture-num1
@@ -8,7 +8,7 @@ trade_goods = coffee
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = Z0B
+add_core = ASH
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

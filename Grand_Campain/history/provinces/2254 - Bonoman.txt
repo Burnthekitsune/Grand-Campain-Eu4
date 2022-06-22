@@ -1,5 +1,5 @@
-owner = Z0B
-controller = Z0B
+owner = ASH
+controller = ASH
 capital = "Bono Manso"
 is_city = yes
 culture = aka
@@ -9,7 +9,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = ASH
-add_core = Z0B
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
