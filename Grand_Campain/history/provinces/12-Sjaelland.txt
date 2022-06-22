@@ -1,5 +1,5 @@
-owner = LOT
-controller = LOT
+owner = DAN
+controller = DAN
 capital = "København"
 is_city = yes
 culture = danish
@@ -9,7 +9,7 @@ base_tax = 8
 base_production = 8
 base_manpower = 4
 extra_cost = 20
-add_core = LOT
+add_core = DAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

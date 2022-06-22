@@ -1,5 +1,5 @@
-owner = LOT
-controller = LOT
+owner = DAN
+controller = DAN
 capital = "Oslo"
 is_city = yes
 culture = norwegian
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = LOT
+add_core = DAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

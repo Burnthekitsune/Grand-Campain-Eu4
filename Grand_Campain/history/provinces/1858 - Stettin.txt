@@ -1,5 +1,5 @@
-owner = LOT
-controller = LOT
+owner = DAN
+controller = DAN
 capital = "Stettin"
 is_city = yes
 culture = old_pommeranian
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 extra_cost = 10
-add_core = LOT
+add_core = DAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

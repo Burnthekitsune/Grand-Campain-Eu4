@@ -1,5 +1,5 @@
-owner = DAN
-controller = DAN
+owner = SWE
+controller = SWE
 capital = "Växjö"
 is_city = yes
 culture = geatish
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = DAN
+add_core = SWE
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

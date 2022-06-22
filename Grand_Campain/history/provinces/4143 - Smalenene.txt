@@ -1,5 +1,5 @@
-owner = LOT
-controller = LOT
+owner = DAN
+controller = DAN
 capital = "Moss"
 is_city = yes
 culture = norwegian
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = LOT
+add_core = DAN
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim
