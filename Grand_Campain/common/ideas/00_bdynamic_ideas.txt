@@ -129,6 +129,7 @@ homeland_ideas = {
 			tag = Z1I
 			tag = Z02
 			tag = KBU
+			tag = FUL
 		}
 	}
 	free = yes
@@ -290,6 +291,239 @@ contender_ideas = {
 	}
 	bonus = {
 		land_morale = 0.10
+	}
+}
+
+blacksea_ideas = {
+	start = {
+		 num_accepted_cultures = 1
+		 global_trade_goods_size_modifier = 0.1
+	}
+	trigger = {
+		tag = FEO
+		tag = Z57
+		tag = Z5L
+	}
+	free = yes
+
+	blacksea_1 = {
+		trade_efficiency = 0.1
+	}
+	blacksea_2 = {
+		fire_damage = 0.10
+	}
+	blacksea_3 = {
+		diplomatic_upkeep = 1
+	}
+	blacksea_4 = {
+		mercenary_manpower = 0.20
+	}
+	blacksea_5 = {
+		land_morale = 0.10
+		discipline = 0.025
+	}
+	blacksea_6 = {
+		global_unrest = -1
+	}
+	blacksea_7 = {
+		global_trade_power = 0.15
+	}
+	bonus = {
+		production_efficiency = 0.1
+	}
+}
+
+steppefort_ideas = {
+	start = {
+		 prestige_decay = -0.02
+		 discipline = 0.025
+	}
+	trigger = {
+		tag = Z1Q
+		tag = TNA
+		tag = Z3K
+	}
+	free = yes
+
+	steppefort_1 = {
+		defensiveness = 0.10
+	}
+	steppefort_2 = {
+		fabricate_claims_cost = -0.2
+	}
+	steppefort_3 = {
+		trade_efficiency = 0.1
+	}
+	steppefort_4 = {
+		hostile_attrition = 0.5
+		infantry_fire = 1
+	}
+	steppefort_5 = {
+		trade_goods_size_modifier = 0.10
+	}
+	steppefort_6 = {
+		envoy_travel_time = -0.2
+	}
+	steppefort_7 = {
+		development_cost = -0.1
+	}
+	bonus = {
+		prestige = 1
+	}
+}
+
+lonefortress_ideas = {
+	start = {
+		 defensiveness = 0.25
+		 hostile_attrition = 1
+	}
+	trigger = {
+		tag = Z1P
+		tag = Z4R
+		tag = Z6E
+	}
+	free = yes
+
+	lonefortress_1 = {
+		global_unrest = -2
+	}
+	lonefortress_2 = {
+		global_spy_defence = 0.2
+	}
+	lonefortress_3 = {
+		naval_morale = 0.1
+	}
+	lonefortress_4 = {
+		tolerance_own = 2
+	}
+	lonefortress_5 = {
+		galley_power = 0.3
+	}
+	lonefortress_6 = {
+		monthly_favor_modifier = 0.2
+	}
+	lonefortress_7 = {
+		global_rebel_suppression_efficiency = -0.2
+	}
+	bonus = {
+		artillery_fire = 1
+	}
+}
+
+oldglory_ideas = {
+	start = {
+		 prestige = 0.5
+		 diplomatic_upkeep = 2
+	}
+	trigger = {
+		tag = MAL
+		tag = JNN
+		tag = Z08
+	}
+	free = yes
+
+	oldglory_1 = {
+		unjustified_demands = -0.1
+	}
+	oldglory_2 = {
+		build_cost = -0.15
+	}
+	oldglory_3 = {
+		global_manpower_modifier = 0.25
+	}
+	oldglory_4 = {
+		development_cost = -0.15
+	}
+	oldglory_5 = {
+		leader_land_manuever = 1
+		hostile_attrition = 0.5
+	}
+	oldglory_6 = {
+		legitimacy = 1
+	}
+	oldglory_7 = {
+		manpower_recovery_speed = 0.10
+	}
+	bonus = {
+		diplomatic_reputation = 1
+	}
+}
+
+krete_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		religious_unity = 0.25
+	}
+	trigger = {
+		tag = CRT
+	}
+	free = yes
+
+	krete_1 = {
+		movement_speed_onto_off_boat_modifier = -0.2
+	}
+	krete_2 = {
+		legitimacy = 0.5
+		prestige_decay = -0.01
+	}
+	krete_3 = {
+		allowed_marine_fraction = 0.25
+	}
+	krete_4 = {
+		monarch_lifespan = 0.15
+	}
+	krete_5 = {
+		global_tax_modifier = 0.1
+	}
+	krete_6 = {
+		sailors_recovery_speed = 0.1
+		global_sailors_modifier = 0.1
+	}
+	krete_7 = {
+		trade_goods_size_modifier = 0.10
+	}
+	bonus = {
+		missionaries = 1
+	}
+}
+
+optimist_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		number_of_cannons_flagship_modifier = 0.4
+	}
+	trigger = {
+		tag = Z4Q
+	}
+	free = yes
+
+	optimist_1 = {
+		tolerance_own = 3
+	}
+	optimist_2 = {
+		garrison_size = 0.20
+	}
+	optimist_3 = {
+		warscore_cost_vs_other_religion = -0.15
+	}
+	optimist_4 = {
+		hostile_attrition = 1
+	}
+	optimist_5 = {
+		defensiveness = 0.15
+	}
+	optimist_6 = {
+		naval_tradition_from_battle = 0.2
+		naval_tradition_from_trade = 0.1
+		naval_forcelimit_modifier = 0.4
+	}
+	optimist_7 = {
+		light_ship_power = 0.1
+		global_naval_barrage_cost = -0.2
+		global_ship_trade_power = 0.1
+	}
+	bonus = {
+		merchants = 1
 	}
 }
 
