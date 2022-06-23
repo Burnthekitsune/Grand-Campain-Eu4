@@ -1,0 +1,27 @@
+namespace = zaracas_empire
+
+country_event = {
+	id = zaracas_empire.1
+	title = zaracas_empire.1.t #The Empire of the Closed Sea
+	description = zaracas_empire.1.d
+	picture = CITY_VIEW_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = zaracas_empire.1.a #We will rule from Libya
+		set_capital = 353
+		capital_scope = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			}
+		}
+	option = {
+		name = zaracas_empire.1.b #We will rule from current capital
+		capital_scope = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+			}
+		}
+}
