@@ -100,5 +100,20 @@ al_generic = {
 			}
 		}
 	}
+	
+	al_teasure = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  }
+		trigger = {
+			colony = 3
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = al_treasure
+			    duration = -1
+			}
+		}
+	}
 }
 
