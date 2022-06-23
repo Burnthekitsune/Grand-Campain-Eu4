@@ -39,4 +39,5 @@ ZZZ_enhanced_unreformed_religion = {
 #	legitimacy = 1
 #	max_absolutism = 10
 #	tolerance_own = 1
+#	church_loyalty_modifier = 0.2
 #}
