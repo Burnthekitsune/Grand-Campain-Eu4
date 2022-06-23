@@ -1,0 +1,358 @@
+alsaahilia_ideas = {
+	start = {
+		hostile_attrition = 1
+		global_unrest = -1
+	}
+	
+	trigger = {
+		primary_culture = alsaahilian
+	}
+	free = yes
+	
+	alsaahilia_1 = {
+		ae_impact = -0.1
+	}
+	
+	alsaahilia_2 = {
+		cav_to_inf_ratio = 0.6
+	}
+	
+	alsaahilia_3 = {
+		cavalry_power = 0.2
+	}
+	
+	alsaahilia_4 = {
+		development_cost = -0.2
+	}
+	
+	alsaahilia_5 = {
+		global_trade_power = 0.2
+	}
+	
+	alsaahilia_6 = {
+		diplomatic_reputation = 1
+	}
+	
+	alsaahilia_7 = {
+		trade_efficiency = 0.1
+	}
+	
+	bonus = {
+		cavalry_flanking = 0.50
+	}
+}
+
+janub_ideas = {
+	start = {
+		naval_morale = 0.2
+		light_ship_power = 0.2
+	}
+	
+	trigger = {
+		primary_culture = janubian
+	}
+	free = yes
+	
+	janub_1 = {
+		discipline = 0.025
+	}
+	
+	janub_2 = {
+		range = 0.2
+	}
+	
+	janub_3 = {
+		technology_cost = -0.1
+	}
+	
+	janub_4 = {
+		church_loyalty_modifier = 0.2
+	}
+	
+	janub_5 = {
+		garrison_size = 0.20
+	}
+	
+	janub_6 = {
+		artillery_cost = -0.05
+	}
+	
+	janub_7 = {
+		drill_gain_modifier = 0.125
+	}
+	
+	bonus = {
+		same_culture_advisor_cost = -0.2
+	}
+}
+
+Shamal_ideas = {
+	start = {
+		num_accepted_cultures = 2
+		monarch_lifespan = 0.2
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = shamalian
+			primary_culture = north_shamalian
+		}
+	}
+	free = yes
+	
+	Shamal_1 = {
+		defensiveness = 0.10
+	}
+	
+	Shamal_2 = {
+		artillery_bonus_vs_fort = 2
+	}
+	
+	Shamal_3 = {
+		development_cost = -0.2
+	}
+	
+	Shamal_4 = {
+		all_power_cost = -0.05
+	}
+	
+	Shamal_5 = {
+		global_monthly_devastation = -0.1
+	}
+	
+	Shamal_6 = {
+		center_of_trade_upgrade_cost = -0.4
+	}
+	
+	Shamal_7 = {
+		discipline = 0.5
+	}
+	
+	bonus = {
+		mercantilism_cost = -0.2
+	}
+}
+
+Sahili_ideas = {
+	start = {
+		movement_speed_in_fleet_modifier = 4
+		galley_power = 0.2
+	}
+	
+	trigger = {
+		primary_culture = sahilian
+	}
+	free = yes
+	
+	Sahili_1 = {
+		galley_cost = -0.2
+	}
+	
+	Sahili_2 = {
+		global_naval_engagement_modifier = 0.2
+	}
+	
+	Sahili_3 = {
+		siege_blockade_progress = 1 
+	}
+	
+	Sahili_4 = {
+		trade_goods_size_modifier = 0.1
+	}
+	
+	Sahili_5 = {
+		heir_chance = 0.5
+	}
+	
+	Sahili_6 = {
+		idea_cost = -0.05
+	}
+	
+	Sahili_7 = {
+		innovativeness_gain = 0.5
+	}
+	
+	bonus = {
+		all_estate_loyalty_equilibrium = 0.2
+	}
+}
+
+Albasik_ideas = {
+	start = {
+		hostile_attrition = 2
+		defensiveness = 0.2
+	}
+	
+	trigger = {
+		primary_culture = albasik
+	}
+	free = yes
+	
+	Albasik_1 = {
+		garrison_size = 0.40
+	}
+	
+	Albasik_2 = {
+		enemy_core_creation = 0.6
+	}
+	
+	Albasik_3 = {
+		monarch_lifespan = 0.2
+	}
+	
+	Albasik_4 = {
+		development_cost = -0.1
+	}
+	
+	Albasik_5 = {
+		global_spy_defence = 0.2
+	}
+	
+	Albasik_6 = {
+		improve_relation_modifier = 0.1
+	}
+	
+	Albasik_7 = {
+		global_manpower_modifier = 0.15
+	}
+	
+	bonus = {
+		innovativeness_gain = 0.5
+	}
+}
+
+Jabal_ideas = {
+	start = {
+		range = 0.1
+		adm_tech_cost_modifier = -0.05
+	}
+	
+	trigger = {
+		primary_culture = jabric
+	}
+	free = yes
+	
+	Jabal_1 = {
+		global_colonial_growth = 20
+	}
+	
+	Jabal_2 = {
+		colonists = 1
+	}
+	
+	Jabal_3 = {
+		stability_cost_modifier = -0.1 
+	}
+	
+	Jabal_4 = {
+		idea_cost = -0.1 
+	}
+	
+	Jabal_5 = {
+		siege_blockade_progress = 1 
+	}
+	
+	Jabal_6 = {
+		rival_border_fort_maintenance = -0.3
+	}
+	
+	Jabal_7 = {
+		trade_efficiency = 0.2
+	}
+	
+	bonus = {
+		envoy_travel_time = -0.1
+	}
+}
+
+Beja_Coimbra_ideas = {
+	start = {
+		range = 0.1
+		adm_tech_cost_modifier = -0.05
+	}
+	
+	trigger = {
+		OR = {
+			primary_culture = bejan
+			primary_culture = coimbrian
+			
+		}
+	}
+	free = yes
+	
+	Beja_Coimbra_1 = {
+		global_colonial_growth = 20
+	}
+	
+	Beja_Coimbra_2 = {
+		colonists = 1
+	}
+	
+	Beja_Coimbra_3 = {
+		burghers_loyalty_modifier = 0.1 
+	}
+	
+	Beja_Coimbra_4 = {
+		build_cost = -0.1
+	}
+	
+	Beja_Coimbra_5 = {
+		development_cost = -0.2
+	}
+	
+	Beja_Coimbra_6 = {
+		loot_amount = 0.1
+	}
+	
+	Beja_Coimbra_7 = {
+		native_uprising_chance = -0.5
+	}
+	
+	bonus = {
+		artillery_cost = -0.2
+	}
+}
+
+Faykingh_ideas = {
+	start = {
+		core_creation = -0.2
+		ae_impact = -0.2
+	}
+	
+	trigger = {
+		primary_culture = faykinghian
+	}
+	free = yes
+	
+	Faykingh_1 = {
+		infantry_power = 0.2
+	}
+	
+	Faykingh_2 = {
+		siege_ability = 0.10
+	}
+	
+	Faykingh_3 = {
+		global_unrest = -1
+	}
+	
+	Faykingh_4 = {
+		global_monthly_devastation = -0.1
+	}
+	
+	Faykingh_5 = {
+		diplomatic_reputation = 1
+	}
+	
+	Faykingh_6 = {
+		harsh_treatment_cost = -0.1
+	}
+	
+	Faykingh_7 = {
+		free_leader_pool = 1
+	}
+	
+	bonus = {
+		drill_gain_modifier = 0.125
+	}
+}
