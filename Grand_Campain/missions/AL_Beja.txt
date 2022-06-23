@@ -13,7 +13,7 @@ Beja_Navy = {
 	}
 	has_country_shield = yes
 
-	Build_Navy = {
+	beja_build_navy = {
 		icon = mission_secure_hajj_ports
 		position = 1
 		required_missions = {  }
@@ -21,19 +21,23 @@ Beja_Navy = {
 			navy_size_percentage = 1
 		}
 		effect = {
-			prestige = 10
-			create_admiral = { traditon = 80 }
+			add_prestige = 10
+			create_admiral = {
+				tradition = 80
+			}
 		}
 	}
 	Start_Exploration = {
 		icon = imperial_navy
 		position = 3
-		required_missions = { Build_Navy Develop_Land }
+		required_missions = { beja_build_navy Develop_Land }
 		trigger = {
 			has_idea_group = exploration_ideas
 		}
 		effect = {
-			create_explorer = { traditon = 80 }
+			create_explorer = {
+				traditon = 80
+			}
 		}
 	}
 	Trade_Power = {
@@ -201,7 +205,9 @@ Bejan_Army = {
 			army_size = 25
 		}
 		effect = { 
-			create_general = { traditon = 50 }
+			create_general = {
+				traditon = 50
+			}
 		}
 	}
 	Invade_Algarve = {
@@ -261,7 +267,7 @@ Bejan_Conquest = {
 			}
 		}
 		effect = {
-			prestige = 10
+			add_prestige = 10
 		}
 	}
 	Proclaim_Kingdom = {
@@ -307,7 +313,7 @@ Bejan_Conquest = {
 			}
 		}
 		effect = { 
-			prestige = 20
+			add_prestige = 20
 		}
 	}
 	Proclaim_Empire = {
@@ -319,13 +325,31 @@ Bejan_Conquest = {
 		}
 		effect = { 
 			set_government_rank = 3
-			prestige = 20
-			alentejo_area = {
-				any_owned_province = {
-					add_base_tax = 2
-					add_base_production = 2
-					add_base_manpower = 2
-				}
+			add_prestige = 20
+			227 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			229 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			230 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			4150 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			4787 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 			}
 		}
 	}

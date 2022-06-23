@@ -16,7 +16,7 @@ faykingh_start = {
 	}
 	has_country_shield = yes
 
-	build_forcelimit = {
+	fay_build_forcelimit = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
@@ -35,7 +35,7 @@ faykingh_start = {
 	invade_andalucia = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { fay_build_forcelimit }
 		provinces_to_highlight = {
 			OR = {
 			area = upper_andalucia_area

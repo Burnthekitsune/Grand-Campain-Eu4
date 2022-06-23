@@ -288,11 +288,8 @@ Canarias_Africa = {
 		}
 		effect = {
 			1248 = {
-			change_culture = indian_alshamali
-			change_religion = converted_dynamic_faith_102
-			}
-			all_country = {
-			remove_core = PREV
+				change_culture = indian_alshamali
+				change_religion = converted_dynamic_faith_102
 			}
 		}
 	}
@@ -306,7 +303,7 @@ Canarias_Placeholder = {
 		tag = Z18
 	}
 	has_country_shield = yes
-	build_navy = {
+	can_build_navy = {
 		icon = mission_secure_hajj_ports
 		position = 1
 		required_missions = {  }
@@ -314,8 +311,10 @@ Canarias_Placeholder = {
 			navy_size_percentage = 1
 		}
 		effect = {
-			prestige = 10
-			create_admiral = { traditon = 80 }
+			add_prestige = 10
+			create_admiral = {
+				traditon = 80
+			}
 		}
 	}
 

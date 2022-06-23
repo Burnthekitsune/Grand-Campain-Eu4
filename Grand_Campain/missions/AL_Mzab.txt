@@ -133,7 +133,7 @@ Mzab_North = {
 			}
 		}
 		effect = {
-			prestige = 10
+			add_prestige = 10
 		}
 	}
 	fortify_land = {
@@ -212,7 +212,7 @@ Mzab_North = {
 			hautes_plaines_area = {
 				add_nationalism = -15
 			}
-			prestige = 10
+			add_prestige = 10
 		}
 	}
 }

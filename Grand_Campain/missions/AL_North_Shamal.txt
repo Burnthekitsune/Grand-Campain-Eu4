@@ -13,7 +13,7 @@ north_shamal_start = {
 	}
 	has_country_shield = yes
 
-	build_forcelimit = {
+	north_build_forcelimit = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
@@ -38,7 +38,7 @@ north_shamal_start = {
 	take_sothern_cities = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { north_build_forcelimit }
 		provinces_to_highlight = {
 			OR = {
 			province_id = 194
@@ -140,7 +140,7 @@ Shamal_West = {
 	take_poitou = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { north_build_forcelimit }
 		provinces_to_highlight = {
 			area = poitou_area
 		}
@@ -189,7 +189,7 @@ Shamal_East = {
 	take_auvergne = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { north_build_forcelimit }
 		provinces_to_highlight = {
 			area = massif_central_area
 		}

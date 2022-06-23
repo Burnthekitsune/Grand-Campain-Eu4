@@ -13,7 +13,7 @@ Jabal_Start = {
 	}
 	has_country_shield = yes
 
-	build_forcelimit = {
+	jab_build_forcelimit = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
@@ -38,7 +38,7 @@ Jabal_Start = {
 	take_leon = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
 			area = leon_area
 		}
@@ -104,7 +104,7 @@ Galacia = {
 	take_galacia = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
 			area = galicia_area
 		}
@@ -156,7 +156,7 @@ Asturias = {
 	take_asturias = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
 			area = asturias_area
 		}
@@ -211,7 +211,7 @@ Castille = {
 	take_castille = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
 			area = castille_area
 		}

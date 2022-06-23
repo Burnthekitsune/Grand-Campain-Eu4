@@ -225,15 +225,15 @@ Mallorca_Expansion = {
 			owns = 151
 		}
 		effect = {
-			prestige = 20
+			add_prestige = 20
 			add_mercantilism = 10
 			crimea_area = {
-			limit = {
-			NOT = {
-			province_id = 2247
-			}
-			add_permanent_claim = ROOT
-			}
+				limit = {
+					NOT = {
+						province_id = 2247
+					}
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -331,15 +331,8 @@ Mallorcan_Trade = {
 			mission_completed = claim_alexandria
 		}
 		effect = {
-			all_owned_province = {
-			limit = {
-			has_center_of_trade_of_level = 1
-			}
-			add_center_of_trade_level = 1
-			add_base_production = 3
-			}
 			add_mercantilism = 50
-			add_years_of_income = 1
+			add_years_of_income = 2
 		}
 	}
 }
@@ -415,4 +408,3 @@ Mallorica_Optional = {
 		}
 	}
 }
-

@@ -107,7 +107,7 @@ Sous_South = {
 		}
 		effect = {
 			set_government_rank = 3
-			all_owned_province = {
+			every_owned_province = {
 				limit = {
 					OR = {
 						region = sahel_region

@@ -1,4 +1,4 @@
-north_shamal_start = {
+south_shamal_start = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -13,7 +13,7 @@ north_shamal_start = {
 	}
 	has_country_shield = yes
 
-	build_forcelimit = {
+	south_south_build_forcelimit = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
@@ -48,7 +48,7 @@ north_shamal_start = {
 	take_guynne = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { south_south_build_forcelimit }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 198
@@ -68,7 +68,7 @@ north_shamal_start = {
 	claim_the_north = {
 		icon = mission_build_up_to_force_limit
 		position = 3
-		required_missions = { invade_gascony take_auvergne take_guynne }
+		required_missions = { invade_gascony south_take_auvergne take_guynne }
 		trigger = {
 			always = yes
 		}
@@ -105,10 +105,10 @@ north_shamal_start = {
 			add_prestige = 10
 		}
 	}
-	unite_shamal = {
+	south_unite_shamal = {
 		icon = mission_build_up_to_force_limit
 		position = 5
-		required_missions = { take_poitou grab_the_east push_north }
+		required_missions = { south_take_poitou south_grab_the_east push_north }
 		trigger = {
 			accepted_culture = north_shamalian
 		}
@@ -122,7 +122,7 @@ north_shamal_start = {
 	}
 }
 
-Shamal_West = {
+South_Shamal_West = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -140,7 +140,7 @@ Shamal_West = {
 	invade_gascony = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { south_south_build_forcelimit }
 		provinces_to_highlight = {
 			area = pyrenees_area
 		}
@@ -153,7 +153,7 @@ Shamal_West = {
 			add_prestige = 10
 		}
 	}
-	take_poitou = {
+	south_take_poitou = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { claim_the_north }
@@ -172,7 +172,7 @@ Shamal_West = {
 	}
 }
 
-Shamal_East = {
+South_Shamal_East = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -187,10 +187,10 @@ Shamal_East = {
 	}
 	has_country_shield = yes
 
-	take_auvergne = {
+	south_take_auvergne = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { south_south_build_forcelimit }
 		provinces_to_highlight = {
 			OR = {
 			area = provence_area
@@ -213,7 +213,7 @@ Shamal_East = {
 			add_prestige = 10
 		}
 	}
-	grab_the_east = {
+	south_grab_the_east = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { claim_the_north }

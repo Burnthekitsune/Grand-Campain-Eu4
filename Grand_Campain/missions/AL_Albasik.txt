@@ -193,7 +193,10 @@ form_albasik = {
 			}
 		}
 		effect = {
-			set_country_flag = albasik_defend
+			add_country_modifier = { 
+			    name = al_defense
+			    duration = -1
+			}
 		}
 	}
 }

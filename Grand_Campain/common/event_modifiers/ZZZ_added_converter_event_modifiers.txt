@@ -169,3 +169,8 @@ al_subjugation = {
 	liberty_desire_from_subject_development = -0.25
 	diplomatic_upkeep = 2
 }
+
+al_defense = {
+	defensiveness = 0.2
+	hostile_attrition = 1
+}

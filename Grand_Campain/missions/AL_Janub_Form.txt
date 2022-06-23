@@ -16,7 +16,7 @@ janub_macronesia = {
 	take_the_islands = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jan_build_forcelimit }
 		provinces_to_highlight = {
 			area = macaronesia_area
 		}
@@ -29,7 +29,7 @@ janub_macronesia = {
 			add_prestige = 10
 		}
 	}
-	build_navy = {
+	jan_build_navy = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { take_the_islands }
@@ -57,7 +57,7 @@ janub_start = {
 	}
 	has_country_shield = yes
 
-	build_forcelimit = {
+	jan_build_forcelimit = {
 		icon = mission_build_up_to_force_limit
 		position = 1
 		required_missions = {  }
@@ -88,7 +88,7 @@ janub_start = {
 	take_the_core = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jan_build_forcelimit }
 		provinces_to_highlight = {
 			OR = {
 			area = western_morocco_area
@@ -130,9 +130,9 @@ janub_start = {
 	form_janub = {
 		icon = mission_build_up_to_force_limit
 		position = 4
-		required_missions = { develop_fez build_the_pass build_navy }
+		required_missions = { develop_fez build_the_pass jan_build_navy }
 		trigger = {
-			allways = yes
+			always = yes
 		}
 		effect = {
 			switch_tag = JNB
@@ -162,7 +162,7 @@ janub_south = {
 	push_south = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { build_forcelimit }
+		required_missions = { jan_build_forcelimit }
 		provinces_to_highlight = {
 			OR = {
 			area = sus_area

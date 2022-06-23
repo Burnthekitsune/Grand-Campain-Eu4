@@ -22,9 +22,9 @@ Sahili_Start = {
 		}
 		effect = {
 			capital_scope = {
-			all_province_in_state = {
-			add_permanent_claim = ROOT
-			}
+				every_province_in_state = {
+					add_permanent_claim = ROOT
+				}
 			}
 		}
 	}
@@ -41,9 +41,9 @@ Sahili_Start = {
 		}
 		trigger = {
 			capital_scope = {
-			all_province_in_state = {
-			is_core = yes
-			}
+				every_province_in_state  = {
+					is_core = yes
+				}
 			}
 		}
 		effect = {

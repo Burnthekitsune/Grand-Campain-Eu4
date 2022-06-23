@@ -351,7 +351,7 @@ Caliphate = {
 			owns_core_province = 343
 		}
 		effect = {
-			prestige = 20
+			add_prestige = 20
 			add_legitimacy = 20
 		}
 	}
