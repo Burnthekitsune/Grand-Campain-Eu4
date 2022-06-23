@@ -174,3 +174,15 @@ al_defense = {
 	defensiveness = 0.2
 	hostile_attrition = 1
 }
+
+nur_caliph = {
+	prestige = 0.5
+	legitimacy = 1
+	max_absolutism = 10
+	tolerance_own = 1
+	church_loyalty_modifier = 0.2
+}
+
+al_treasure = {
+	treasure_fleet_income = 0.2
+}

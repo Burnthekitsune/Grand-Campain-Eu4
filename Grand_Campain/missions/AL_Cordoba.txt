@@ -360,10 +360,22 @@ Caliphate = {
 		position = 5
 		required_missions = { take_fez }
 		trigger = {
-			legitimacy = 100
+			OR = {
+				legitimacy = 100
+				has_country_flag = caliph_lost
+			}
 		}
 		effect = {
-			set_country_flag = caliph
+			if = {
+				NOT = {
+					has_country_flag = caliph_lost
+				}
+				set_country_flag = caliph
+				add_country_modifier = { 
+					name = nur_caliph
+					duration = -1
+				}
+			}
 		}
 	}
 	improve_fez = {

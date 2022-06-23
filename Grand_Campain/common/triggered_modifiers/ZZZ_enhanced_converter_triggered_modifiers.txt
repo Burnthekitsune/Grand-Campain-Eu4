@@ -22,22 +22,3 @@ ZZZ_enhanced_unreformed_religion = {
 	
 	global_missionary_strength = -0.005
 }
-
-#nur_caliph = {
-#	potential = {
-#		religion = converted_dynamic_faith_102
-#		NOT = {
-#			has_county_flag = lost_caliph
-#		}
-#	}
-#	
-#	trigger = {
-#		has_county_flag = caliph
-#	}
-#	
-#	prestige = 0.5
-#	legitimacy = 1
-#	max_absolutism = 10
-#	tolerance_own = 1
-#	church_loyalty_modifier = 0.2
-#}
