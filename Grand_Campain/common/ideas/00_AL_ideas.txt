@@ -1,3 +1,61 @@
+alshmali_empire_idea = {
+	start = {
+		max_absolutism = 10
+		min_autonomy_in_territories = -0.20
+	}
+	
+	trigger = {
+		tag = ASE
+	}
+	free = yes
+	
+	alshmali_empire_1 = {
+		discipline = 0.05
+	}
+	
+	alshmali_empire_2 = {
+		global_tax_modifier = 0.2
+	}
+	
+	alshmali_empire_3 = {
+		trade_efficiency = 0.2
+	}
+	
+	alshmali_empire_4 = {
+		culture_conversion_cost = -0.2
+	}
+	
+	alshmali_empire_5 = {
+		global_unrest = -1
+	}
+	
+	alshmali_empire_6 = {
+		land_morale = 0.2
+	}
+	
+	alshmali_empire_7 = {
+		artillery_power = 0.2
+	}
+	
+	bonus = {
+		reduced_liberty_desire = -20
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 alsaahilia_ideas = {
 	start = {
 		hostile_attrition = 1
