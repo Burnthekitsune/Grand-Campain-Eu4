@@ -1,0 +1,422 @@
+The_Past = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z1L
+	}
+
+	Z_Glorious_Past = {
+		icon = mission_alliances
+		position = 1
+		required_missions = {  }
+		trigger = {
+			prestige = 50
+		}
+		effect = {
+			define_advisor = {
+			    type = philosopher
+			    name = "Skaaruhan Alexander Agapimeni tou Roog"
+			    skill = 3
+			    culture = dynamic-greek-culture-num4
+			    religion = converted_dynamic_faith_103
+				cost_multiplier = -0.25
+			}
+			add_country_modifier = { 
+			    name = our_glorious_past
+			    duration = 3600  
+			}
+		}
+	}
+	Z_Glorious_Future = {
+		icon = mission_assemble_an_army
+		position = 4
+		required_missions = { Z_Glorious_Past }
+		trigger = {
+			AND = {
+			workshop = 10
+			weapons = 1
+			}
+		}
+		effect = {
+			add_army_tradition = 10
+			add_country_modifier = { 
+			    name = our_glorious_future
+			    duration = 3600
+			}
+		}
+	}
+}
+
+Silla = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z1L
+	}
+
+	Z_Levy = {
+		icon = mission_guilds_of_barcelona
+		position = 1
+		required_missions = {  }
+		trigger = {
+			barracks = 5
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = z_levy
+			    duration = 8900
+			}
+		}
+	}
+	Z_Means = {
+		icon = mission_african_gold
+		position = 3
+		required_missions = { Z_Levy }
+		trigger = {
+			AND = {
+			num_of_war_reparations = 4
+			share_of_starting_income = 3
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = z_means
+			    duration = 8900
+			}
+		}
+	}
+	Z_Empire = {
+		icon = mission_rb_mediterranean_authority
+		position = 5
+		required_missions = { Z_Means }
+		trigger = {
+			AND = {
+			total_development = 500
+			training_fields = 10
+			regimental_camp = 5
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = z_empire
+			    duration = 3600  
+			}
+		}
+	}
+	Z_Ends = {
+		icon = mission_dhr_metropolis_of_the_deccan
+		position = 8
+		required_missions = { Z_Empire }
+		trigger = {
+			AND = {
+			owns_or_non_sovereign_subject_of = 353
+			OR = {
+			owns_or_non_sovereign_subject_of = 2453
+			owns_or_non_sovereign_subject_of = 4175
+			}
+			OR = {
+			owns_or_non_sovereign_subject_of = 2451
+			owns_or_non_sovereign_subject_of = 286
+			}
+			OR = {
+			owns_or_non_sovereign_subject_of = 1115
+			owns_or_non_sovereign_subject_of = 347
+			}
+			}
+		}
+		effect = {
+			country_event = {
+			id = zaracas_empire.1
+			}
+			set_government_rank = 3
+		}
+	}
+}
+
+Z_East = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z1L
+	}
+	has_country_shield = yes
+
+	ZA_Prestige_Bit = {
+		icon = mission_monarch_in_throne_room
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = {
+			352 = {
+			add_permanent_claim = Z1L
+			}
+			add_stability = 1
+		}
+	}
+	ZA_Kairouan_Core = {
+		icon = mission_mal_restore_the_mali_empire
+		position = 2
+		required_missions = { ZA_Prestige_Bit }
+		provinces_to_highlight = {
+			province_id = 352
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 352
+		}
+		effect = {
+			north_saharan_area = {
+			add_permanent_claim = Z1L
+			}
+			add_army_tradition = 5
+		}
+	}
+	ZA_Saharan_Safari = {
+		icon = mission_pue_sky_city
+		position = 3
+		required_missions = { ZA_Kairouan_Core }
+		trigger = {
+			owns_or_non_sovereign_subject_of = 354
+		}
+		effect = {
+			fezzan_area = {
+			add_permanent_claim = Z1L
+			}
+			add_prestige = 10
+			add_army_tradition = 5
+		}
+	}
+	ZA_East_1 = {
+		icon = mission_protect_granada
+		position = 5
+		required_missions = { ZA_Proclaim_Kingdom }
+		trigger = {
+			OR = {
+			ROOT = {
+			is_enemy = EGY
+			}
+			ROOT = {
+			has_won_war_against = {
+				who = EGY
+				max_years_since = 20
+			}
+			}
+		}
+		effect = {
+			cyrenaica_area = {
+			add_permanent_claim = Z1L
+			}
+			add_navy_tradition = 5
+			add_splendor = 100
+		}
+	}
+	ZA_East_2 = {
+		icon = mission_combat_barbary_piracy
+		position = 6
+		required_missions = { ZA_East_1 }
+		trigger = { }
+		effect = { }
+	}
+	ZA_East_3 = {
+		icon = mission_rb_seize_alexandria
+		position = 7
+		required_missions = { ZA_East_2 }
+		trigger = { }
+		effect = { }
+	}
+	ZA_East_4 = {
+		icon = mission_rb_grow_the_channel
+		position = 8
+		required_missions = { ZA_East_3 }
+		trigger = { }
+		effect = { }
+	}
+}
+
+Z_West = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z1L
+	}
+	has_country_shield = yes
+	
+	ZA_Collel_Core = {
+		icon = mission_che_the_cave_country
+		position = 2
+		required_missions = { ZA_Initial_Claims }
+		provinces_to_highlight = {
+			province_id = 353
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of = 353
+		}
+		effect = {
+			tripolitania_area = {
+			add_permanent_claim = Z1L
+			}
+			add_navy_tradition = 5
+		}
+	}
+	ZA_West_1 = {
+		icon = mission_conquer_air
+		position = 5
+		required_missions = { ZA_Proclaim_Kingdom }
+		trigger = { }
+		effect = { }
+	}
+	ZA_West_2 = {
+		icon = mission_control_the_barbary_coast
+		position = 6
+		required_missions = { ZA_West_1 }
+		trigger = { }
+		effect = { }
+	}
+	ZA_West_3 = {
+		icon = mission_pirate_havens
+		position = 7
+		required_missions = { ZA_West_2 }
+		trigger = { }
+		effect = { }
+	}
+	ZA_West_4 = {
+		icon = mission_rb_conquer_wales
+		position = 8
+		required_missions = { ZA_West_3 }
+		trigger = { }
+		effect = { }
+	}
+}
+
+Z_Kingdom = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z1L
+	}
+	has_country_shield = yes
+
+	ZA_Initial_Claims = {
+		icon = mission_dhr_invade_maharashtra
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			353 = {
+			add_permanent_claim = Z1L
+			}
+			add_prestige = 5
+			add_legitimacy = 5
+		}
+	}
+	ZA_Securing_Tunis = {
+		icon = mission_rb_unite_the_clans
+		position = 3
+		required_missions = { ZA_Kairouan_Core ZA_Collel_Core }
+		provinces_to_highlight = {
+			OR = {
+			province_id = 354
+			province_id = 2472
+			}
+		}
+		trigger = {
+			AND = {
+			owns_or_non_sovereign_subject_of = 354
+			owns_or_non_sovereign_subject_of = 2472
+			}
+		}
+		effect = {
+			tunisia_area = {
+			add_permanent_claim = Z1L
+			}
+			add_legitimacy = 10
+		}
+	}
+	ZA_Proclaim_Kingdom = {
+		icon = mission_conquer_tunis
+		position = 4
+		required_missions = { ZA_Securing_Tunis }
+		provinces_to_highlight = {
+			area = italy_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			tunisia_area = {
+			owned_by = ROOT
+			}
+		}
+		effect = {
+			set_government_rank = 2
+			add_army_tradition = 10
+			define_general = {
+			    shock = 2
+			    fire = 5
+			    manuever = 4
+			    siege = 3
+			    trait = master_of_arms_personality
+			}
+		}
+	}
+	ZA_Economy_1 = {
+		icon = mission_subjugate_zaf
+		position = 5
+		required_missions = { ZA_Proclaim_Kingdom }
+		trigger = {
+			AND = {
+			development_in_provinces = {
+				value = 20
+				area = fezzan_area
+			}
+			development_in_provinces = {
+				value = 25
+				area = north_saharan_area
+			}
+			}
+		}
+		effect = { }
+	}
+	ZA_Economy_2 = {
+		icon = mission_early_game_buildings
+		position = 6
+		required_missions = { ZA_Economy_1 }
+		trigger = {
+			AND = {
+			workshops = 5
+			textile = 2
+			farm_estate = 2
+			}
+		}
+		effect = { }
+	}
+	ZA_Economy_3 = {
+		icon = mission_rb_trinity_college_dublin
+		position = 7
+		required_missions = { ZA_Economy_2 }
+		trigger = {
+			AND = {
+			university = 5
+			trade_depot = 3
+			}
+		}
+		effect = { }
+	}
+	ZA_Economy_4 = {
+		icon = mission_rb_college_of_justice
+		position = 8
+		required_missions = { ZA_Economy_3 }
+		trigger = {
+			AND = {
+			counting_house = 20
+			stock_exchange = 10
+			}
+		}
+		effect = { }
+	}
+}
+
