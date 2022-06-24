@@ -1,0 +1,379 @@
+shamal_minors_east = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = SML
+	}
+	has_country_shield = yes
+
+	take_savoy = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { prepare_northern_invasion }
+		provinces_to_highlight = {
+			area = savoy_dauphine_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = savoy_dauphine_area
+			}
+		}
+		effect = {
+			204 = {
+				change_culture = shamalian
+			}
+			205 = {
+				change_culture = shamalian
+			}
+			203 = {
+				change_culture = north_shamalian
+			}
+			4719 = {
+				change_culture = north_shamalian
+			}
+			west_burgundy_area = {
+			add_permanent_claim = ROOT
+			}
+			bourgogne_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_burgundy = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { capture_paris take_savoy }
+		provinces_to_highlight = {
+			OR = {
+			area = bourgogne_area
+			area = west_burgundy_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = bourgogne_area
+			}
+			owns_all_provinces = {
+			area = west_burgundy_area
+			}
+		}
+		effect = {
+			lorraine_area = {
+			add_permanent_claim = ROOT
+			}
+			champagne_area = {
+			add_permanent_claim = ROOT
+			}
+			picardy_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	unite_the_east = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { take_burgundy }
+		provinces_to_highlight = {
+			OR = {
+			area = lorraine_area
+			area = picardy_area
+			area = champagne_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = lorraine_area
+			}
+			owns_all_provinces = {
+			area = picardy_area
+			}
+			owns_all_provinces = {
+			area = champagne_area
+			}
+		}
+		effect = {
+			add_prestige = 30
+		}
+	}
+}
+
+shamal_france = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = SML
+	}
+	has_country_shield = yes
+
+	prepare_northern_invasion = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			OR = {
+			NOT = {
+			exists = FRA
+			}
+			army_size = FRA
+			}
+		}
+		effect = {
+			179 = {
+			add_permanent_claim = ROOT
+			}
+			183 = {
+			add_permanent_claim = ROOT
+			}
+			savoy_dauphine_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	capture_paris = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { prepare_northern_invasion }
+		provinces_to_highlight = {
+			province_id = 183
+		}
+		trigger = {
+			controls = 183
+		}
+		effect = {
+			183 = {
+			add_core = ROOT
+			183 = {
+				cede_province = SML
+			}
+			change_culture = faransan
+			}
+			add_accepted_culture = faransan
+			FRA = {
+			every_owned_province = {
+			limit = {
+			region = france_region
+			}
+			add_permanent_claim = SML
+			}
+			}
+		}
+	}
+	defeat_france = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { capture_paris }
+		trigger = {
+			OR = {
+				NOT = {
+					exists = FRA
+				}
+				owns_all_provinces = {
+					region = france_region
+				}
+			}
+		}
+		effect = {
+			add_prestige = 20
+		}
+	}
+	a_new_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { defeat_france take_brittany unite_the_west unite_the_east }
+		provinces_to_highlight = {
+			region = france_region
+		}
+		trigger = {
+			owns_all_provinces = {
+				region = france_region
+			}
+			NOT = {
+				overextension_percentage = 0.01
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = normandy_area
+			area = orleans_area
+			area = loire_area
+			area = ile_de_france_area 
+			area = lorraine_area
+			area = picardy_area
+			area = champagne_area
+			area = bourgogne_area
+			area = west_burgundy_area
+			}
+			}
+			change_culture = faransan
+			}
+			set_government_rank = 3
+			override_country_name = "Faransa"
+			set_capital = 183
+		}
+	}
+	a_northern_caliph = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { a_new_empire }
+		trigger = {
+			religious_unity = 0.99
+		}
+		effect = {
+			if = {
+				NOT = {
+					has_country_flag = caliph_lost
+				}
+				set_country_flag = caliph
+				add_country_modifier = { 
+					name = nur_caliph
+					duration = -1
+				}
+			}
+			low_countries_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_low_countries = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { a_northern_caliph }
+		provinces_to_highlight = {
+			region = low_countries_region
+		}
+		trigger = {
+			owns_all_provinces = {
+				region = low_countries_region
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					region = low_countries_region
+				}
+				change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+}
+
+shamal_brittany = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = SML
+	}
+	has_country_shield = yes
+
+	claim_brittany = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			treasury = 100
+		}
+		effect = {
+			add_treasury = -100
+			brittany_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_brittany = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { claim_brittany }
+		provinces_to_highlight = {
+			area = brittany_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = brittany_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			area = brittany_area
+			}
+			change_culture = biritani
+			}
+		}
+	}
+}
+
+shamal_minors_west = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SML
+	}
+	has_country_shield = yes
+
+	claim_western_lands = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { capture_paris }
+		provinces_to_highlight = {
+			OR = {
+			area = normandy_area
+			area = orleans_area
+			area = loire_area
+			area = ile_de_france_area
+			}
+		}
+		trigger = {
+			always = yes
+		}
+		effect = {
+			normandy_area = {
+			add_permanent_claim = ROOT
+			}
+			orleans_area = {
+			add_permanent_claim = ROOT
+			}
+			loire_area = {
+			add_permanent_claim = ROOT
+			}
+			ile_de_france_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	unite_the_west = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { claim_western_lands }
+		provinces_to_highlight = {
+			OR = {
+			area = normandy_area
+			area = orleans_area
+			area = loire_area
+			area = ile_de_france_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = normandy_area
+			}
+			owns_all_provinces = {
+			area = orleans_area
+			}
+			owns_all_provinces = {
+			area = loire_area
+			}
+			owns_all_provinces = {
+			area = ile_de_france_area
+			}
+		}
+		effect = {
+			add_prestige = 30
+		}
+	}
+}
