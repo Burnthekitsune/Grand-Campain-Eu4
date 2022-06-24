@@ -1,0 +1,26 @@
+our_glorious_past = {
+	prestige_decay = -0.02
+	diplomatic_reputation = 1
+}
+
+our_glorious_future = {
+	fire_damage = 0.05
+	global_trade_goods_size_modifier = 0.1
+}
+
+z_levy = {
+	reinforce_speed = 0.10
+	land_maintenance_modifier = -0.10
+}
+
+z_means = {
+	global_tax_modifier = 0.05
+	interest = -0.5
+	inflation_reduction = -0.05
+}
+
+z_empire = {
+	infantry_cost = -0.10
+	prestige_decay = -0.01
+	prestige = 1
+}
