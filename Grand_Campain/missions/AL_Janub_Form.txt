@@ -135,7 +135,7 @@ janub_start = {
 			always = yes
 		}
 		effect = {
-			switch_tag = JNB
+			change_tag = JNB
 			add_prestige = 20
 			set_country_flag = unique_missions
 			set_government_rank = 2

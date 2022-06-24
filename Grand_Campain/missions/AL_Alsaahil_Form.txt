@@ -91,7 +91,7 @@ Alsaahil_Start = {
 			always = yes
 		}
 		effect = {
-			switch_tag = AHL
+			change_tag = AHL
 			add_prestige = 20
 			set_country_flag = unique_missions
 			set_government_rank = 2

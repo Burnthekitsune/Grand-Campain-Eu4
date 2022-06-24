@@ -219,7 +219,7 @@ Seville_Extremadura = {
 		}
 		effect = {
 			set_country_flag = cordoba
-			switch_tag = FAY
+			change_tag = FAY
 			add_prestige = 20
 			set_government_rank = 2
 			country_event = { id = ideagroups.1 }

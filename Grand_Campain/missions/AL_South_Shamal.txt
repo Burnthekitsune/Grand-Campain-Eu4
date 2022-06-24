@@ -113,7 +113,7 @@ south_shamal_start = {
 			accepted_culture = north_shamalian
 		}
 		effect = {
-			switch_tag = SML
+			change_tag = SML
 			add_prestige = 20
 			set_country_flag = unique_missions
 			set_government_rank = 2

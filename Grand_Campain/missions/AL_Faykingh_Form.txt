@@ -96,7 +96,7 @@ faykingh_start = {
 			}
 		}
 		effect = {
-			switch_tag = FAY
+			change_tag = FAY
 			add_prestige = 20
 			set_government_rank = 2
 			set_country_flag = unique_missions
