@@ -313,6 +313,7 @@ Proclaim_Sahili = {
 			change_tag = SHI
 			set_country_flag = unique_missions
 			country_event = { id = ideagroups.1 }
+			swap_non_generic_missions = yes 
 		}
 	}
 }

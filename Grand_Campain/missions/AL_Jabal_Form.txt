@@ -82,6 +82,7 @@ Jabal_Start = {
 			set_government_rank = 2
 			set_country_flag = unique_missions
 			country_event = { id = ideagroups.1 }
+			swap_non_generic_missions = yes 
 		}
 	}
 }

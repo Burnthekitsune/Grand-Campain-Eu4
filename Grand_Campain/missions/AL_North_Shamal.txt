@@ -118,6 +118,7 @@ north_shamal_start = {
 			set_country_flag = unique_missions
 			set_government_rank = 2
 			country_event = { id = ideagroups.1 }
+			swap_non_generic_missions = yes 
 		}
 	}
 }
