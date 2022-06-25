@@ -87,6 +87,6 @@ country_event = {
 		remove_idea_group = influence_ideas
 		remove_idea_group = naval_ideas
 		add_idea_group = exploration_ideas
-		ai_chance = 1
+		ai_chance = { factor = 25 }
 	}
 }
