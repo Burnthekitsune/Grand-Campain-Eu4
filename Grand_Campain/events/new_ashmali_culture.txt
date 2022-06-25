@@ -455,3 +455,351 @@ province_event = {
 		ai_chance = { factor = 25 }
 	}
 }
+
+country_event = {
+	id = alshmali_culture.8 # north_american_alshamali
+	title = alshmali_culture.8.t
+	desc = alshmali_culture.8.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope  = {
+			continent = north_america
+		}
+		NOT = {
+			primary_culture = north_american_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = north_american_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.8.a
+		change_primary_culture = north_american_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				same_continent = capital
+			}
+			change_culture = north_american_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.9 # south_american_alshamali
+	title = alshmali_culture.9.t
+	desc = alshmali_culture.9.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope  = {
+			continent = south_america
+		}
+		NOT = {
+			primary_culture = south_american_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = south_american_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.9.a
+		change_primary_culture = south_american_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				same_continent = capital
+			}
+			change_culture = south_american_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.10 # australian_alshamali
+	title = alshmali_culture.10.t
+	desc = alshmali_culture.10.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope  = {
+			continent = oceania
+		}
+		NOT = {
+			primary_culture = australian_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = australian_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.10.a
+		change_primary_culture = australian_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				same_continent = capital
+			}
+			change_culture = australian_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.11 # south_african_alshamali
+	title = alshmali_culture.11.t
+	desc = alshmali_culture.11.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope  = {
+			continent = africa
+			NOT = {
+				region = maghreb_region
+				region = egypt_region
+			}
+		}
+		NOT = {
+			primary_culture = south_african_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = south_african_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.11.a
+		change_primary_culture = south_african_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				same_continent = capital
+				NOT = {
+					region = maghreb_region
+					region = egypt_region
+				}
+			}
+			change_culture = south_african_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.12 # indian_alshamali
+	title = alshmali_culture.12.t
+	desc = alshmali_culture.12.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope = {
+			OR = {
+				region = khorasan_region
+				region = west_india_region
+				region = hindusthan_region
+				region = deccan_region
+				region = coromandel_region
+				region = bengal_region
+				region = burma_region
+			}
+		}
+		NOT = {
+			primary_culture = indian_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = indian_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.12.a
+		change_primary_culture = indian_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				OR = {
+					region = khorasan_region
+					region = west_india_region
+					region = hindusthan_region
+					region = deccan_region
+					region = coromandel_region
+					region = bengal_region
+					region = burma_region
+				}
+			}
+			change_culture = indian_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.13 # east_asian_alshamali
+	title = alshmali_culture.13.t
+	desc = alshmali_culture.13.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope = {
+			NOT = {
+				region = indo_china_region
+				region = malaya_region
+				region = indonesia_region
+				region = moluccas_region
+				region = khorasan_region
+				region = west_india_region
+				region = hindusthan_region
+				region = deccan_region
+				region = coromandel_region
+				region = bengal_region
+				region = burma_region
+				region = arabia_region
+				region = mashriq_region	
+				region = anatolia_region
+				region = caucasia_region
+			}
+			continent = asia
+		}
+		NOT = {
+			primary_culture = east_asian_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = east_asian_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.13.a
+		change_primary_culture = east_asian_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				same_continent = capital
+				NOT = {
+					region = indo_china_region
+					region = malaya_region
+					region = indonesia_region
+					region = moluccas_region
+					region = khorasan_region
+					region = west_india_region
+					region = hindusthan_region
+					region = deccan_region
+					region = coromandel_region
+					region = bengal_region
+					region = burma_region
+					region = arabia_region
+					region = mashriq_region	
+					region = anatolia_region
+					region = caucasia_region
+				}
+			}
+			change_culture = east_asian_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.14 # malaysian_alshamali
+	title = alshmali_culture.14.t
+	desc = alshmali_culture.14.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope = {
+			OR = {
+				region = indo_china_region
+				region = malaya_region
+				region = indonesia_region
+				region = moluccas_region
+			}
+		}
+		NOT = {
+			primary_culture = malaysian_alshamali
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = malaysian_alshamali
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.14.a
+		change_primary_culture = malaysian_alshamali
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				OR = {
+					region = indo_china_region
+					region = malaya_region
+					region = indonesia_region
+					region = moluccas_region
+				}
+			}
+			change_culture = malaysian_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
