@@ -1,0 +1,459 @@
+fay_janub = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = FAY
+	}
+
+	claim_janub = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			marrekesh_area = {
+			add_permanent_claim = ROOT
+			}
+			northern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	press_into_janub = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { claim_janub }
+		provinces_to_highlight = {
+			OR = {
+			area = western_morocco_area
+			area = marrekesh_area
+			area = northern_morocco_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = northern_morocco_area
+			}
+			owns_all_provinces = {
+			area = marrekesh_area
+			}
+			owns_all_provinces = {
+			area = western_morocco_area
+			}
+		}
+		effect = {
+			southern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			sus_area = {
+			add_permanent_claim = ROOT
+			}
+			tafilalt_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_mainland_janub = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { press_into_janub }
+		provinces_to_highlight = {
+			OR = {
+			area = tafilalt_area
+			area = sus_area
+			area = southern_morocco_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = tafilalt_area
+			}
+			owns_all_provinces = {
+			area = sus_area
+			}
+			owns_all_provinces = {
+			area = southern_morocco_area
+			}
+		}
+		effect = {
+			macaronesia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	janubian_islands = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { take_mainland_janub }
+		provinces_to_highlight = {
+			area = macaronesia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = macaronesia_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			NOT = {
+			culture = alsaahilian
+			}
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = janubian
+		}
+	}
+}
+
+fay_sahili = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = FAY
+	}
+
+	claim_sahili = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			valencia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	fay_valencia = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { claim_sahili }
+		provinces_to_highlight = {
+			area = valencia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = valencia_area
+			}
+		}
+		effect = {
+			aragon_area = {
+			add_permanent_claim = ROOT
+			}
+			catalonia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	north_sahili = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { fay_valencia }
+		provinces_to_highlight = {
+			OR = {
+			area = aragon_area
+			area = catalonia_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = aragon_area
+			}
+			owns_all_provinces = {
+			area = catalonia_area
+			}
+		}
+		effect = {
+			baleares_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sahili_islands = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { north_sahili }
+		provinces_to_highlight = {
+			area = baleares_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = baleares_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = valencia_area
+			area = aragon_area
+			area = catalonia_area 
+			area = baleares_area
+			}
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = sahilian
+		}
+	}
+}
+
+fay_west = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = FAY
+	}
+
+	claim_beja = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			alentejo_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	rule_beja = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { claim_beja }
+		provinces_to_highlight = {
+			area = alentejo_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = alentejo_area
+			}
+		}
+		effect = {
+			beieras_area = {
+			add_permanent_claim = ROOT
+			}
+			every_owned_province = {
+			limit = {
+			area = alentejo_area
+			}
+			add_nationalism = -15
+			}
+		}
+	}
+	rule_coimbra = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { rule_beja }
+		provinces_to_highlight = {
+			area = beieras_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = beieras_area 
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			area = beieras_area 
+			}
+			add_nationalism = -15
+			}
+		}
+	}
+}
+
+fay_jabal = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = FAY
+	}
+
+	claim_jabal = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			castille_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	rule_castile = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { claim_jabal }
+		provinces_to_highlight = {
+			area = castille_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = castille_area
+			}
+		}
+		effect = {
+			leon_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	rule_leon = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { rule_castile }
+		provinces_to_highlight = {
+			area = leon_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = leon_area
+			}
+		}
+		effect = {
+			galicia_area = {
+			add_permanent_claim = ROOT
+			}
+			asturias_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	rule_jabal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { rule_leon }
+		provinces_to_highlight = {
+			OR = {
+			area = asturias_area
+			area = galicia_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = asturias_area
+			}
+			owns_all_provinces = {
+			area = galicia_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = castille_area
+			area = asturias_area
+			area = galicia_area
+			area = leon_area
+			}
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = jabric
+		}
+	}
+}
+
+fay_albasik = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = FAY
+	}
+
+	claim_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { janubian_islands sahili_islands rule_coimbra rule_jabal }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			basque_country = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	fay_restore_alshamali_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { claim_albasik }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = basque_country
+			}
+		}
+		effect = {
+			set_country_flag = faykingh
+			change_tag = ASE
+			add_prestige = 20
+			set_government_rank = 3
+			country_event = { id = ideagroups.1 }
+			swap_non_generic_missions = yes
+			algiers_area = {
+				add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+				add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+				add_permanent_claim = ROOT
+			}
+			ouled_nail_area = {
+				add_permanent_claim = ROOT
+			}
+			339 = {
+				add_permanent_claim = ROOT
+			}
+			2457 = {
+				add_permanent_claim = ROOT
+			}
+			2472 = {
+				add_permanent_claim = ROOT
+			}
+			2456 = {
+				add_permanent_claim = ROOT
+			}
+			provence_area = {
+				add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+				add_permanent_claim = ROOT
+			}
+			pyrenees_area = {
+				add_permanent_claim = ROOT
+			}
+			guyenne_area = {
+				add_permanent_claim = ROOT
+			}
+			poitou_area = {
+				add_permanent_claim = ROOT
+			}
+			massif_central_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
