@@ -14,44 +14,36 @@ country_event = {
 			has_country_flag = forced_colony
 		}
 		culture_group = alshamali
-		any_owned_province = {
-			has_port = yes
-			OR = {
-				area = macaronesia_area
-				area = southern_morocco_area
-				area = western_morocco_area
-				area = northern_morocco_area
-				area = lower_andalucia_area
-				area = alentejo_area
-				area = beieras_area
-				area = galicia_area
-				area = leon_area
-				area = asturias_area
-				area = basque_country
-				area = pyrenees_area
-				area = guyenne_area
-				area = poitou_area
-				area = brittany_area
-				area = normandy_area
-				area = picardy_area
-				area = weser_area
-				area = lower_saxony_area
-				area = holstein_area
-				area = jutland_area
-				area = picardy_area
-				area = eastern_norway
-				area = western_norway
-				area = northern_norway
-				area = laponia_area
-				area = subarctic_islands_area
-				region = low_countries_region
-				region = british_isles_region
-			}
-		}
 		OR = {
-			total_development = 20
-			tag = ICE # Iceland colonizing
-			tag = Z18 # Make sure Canarias always colonizes
+			AND = {
+				any_owned_province = {
+					has_port = yes
+					OR = {
+						area = macaronesia_area
+						area = southern_morocco_area
+						area = western_morocco_area
+						area = northern_morocco_area
+						area = lower_andalucia_area
+						area = alentejo_area
+						area = beieras_area
+						area = galicia_area
+						area = leon_area
+						area = asturias_area
+						area = basque_country
+						area = pyrenees_area
+						area = guyenne_area
+						area = poitou_area
+						area = brittany_area
+						area = normandy_area
+						area = picardy_area
+					}
+				}
+				total_development = 20
+			}
+			OR = {
+				tag = ICE # Iceland colonizing
+				tag = Z18 # Make sure Canarias always colonizes
+			}
 		}
 		is_subject = no
 		is_former_colonial_nation = no
