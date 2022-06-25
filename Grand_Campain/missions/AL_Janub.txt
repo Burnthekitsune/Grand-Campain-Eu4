@@ -1,0 +1,278 @@
+jnb_faykingh = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = JNB
+	}
+	has_country_shield = yes
+
+	rightful_claims = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			northern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			algiers_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jnb_across_the_strait = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { rightful_claims }
+		provinces_to_highlight = {
+			area = northern_morocco_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = northern_morocco_area 
+			}
+		}
+		effect = {
+			lower_andalucia_area = {
+			add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jnb_challenge_cordoba = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { jnb_across_the_strait }
+		provinces_to_highlight = {
+			OR = {
+			area = upper_andalucia_area
+			area = lower_andalucia_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = upper_andalucia_area
+			}
+			owns_all_provinces = {
+			area = lower_andalucia_area
+			}
+		}
+		effect = {
+			toledo_area = {
+			add_permanent_claim = ROOT
+			}
+			extremadura_area = {
+			add_permanent_claim = ROOT
+			}
+			alentejo_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jnb_unit_faykingh = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { jnb_challenge_cordoba }
+		provinces_to_highlight = {
+			OR = {
+			area = toledo_area
+			area = extremadura_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = toledo_area
+			}
+			owns_all_provinces = {
+			area = extremadura_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			culture = faykinghian
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = faykinghian
+		}
+	}
+	jnb_new_alshamali_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { jnb_unite_alsaahili jnb_press_west jnb_unit_faykingh }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			set_country_flag = janub
+			change_tag = ASE
+			add_prestige = 20
+			set_government_rank = 3
+			country_event = { id = ideagroups.1 }
+			swap_non_generic_missions = yes
+			override_country_name = "Janubian Empire"
+			iberia_region = {
+			add_permanent_claim = ROOT
+			}
+			provence_area = {
+			add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+			add_permanent_claim = ROOT
+			}
+			pyrenees_area = {
+			add_permanent_claim = ROOT
+			}
+			guyenne_area = {
+			add_permanent_claim = ROOT
+			}
+			poitou_area = {
+			add_permanent_claim = ROOT
+			}
+			massif_central_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+jnb_alsaahili = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = JNB
+	}
+	has_country_shield = yes
+
+	jnb_push_east = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { rightful_claims }
+		provinces_to_highlight = {
+			area = algiers_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = algiers_area
+			}
+		}
+		effect = {
+			barbary_coast_area = {
+			add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jnb_further_east = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { jnb_push_east }
+		provinces_to_highlight = {
+			OR = {
+			area = barbary_coast_area 
+			area = hautes_plaines_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = hautes_plaines_area
+			}
+			owns_all_provinces = {
+			area = barbary_coast_area 
+			}
+		}
+		effect = {
+			ouled_nail_area = {
+			add_permanent_claim = ROOT
+			}
+			339 = {
+			add_permanent_claim = ROOT
+			}
+			2457 = {
+			add_permanent_claim = ROOT
+			}
+			2472 = {
+			add_permanent_claim = ROOT
+			}
+			2456 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jnb_unite_alsaahili = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { jnb_further_east }
+		provinces_to_highlight = {
+			OR = {
+			area = ouled_nail_area
+			province_id = 339
+			province_id = 2457
+			province_id = 2472
+			province_id = 2456
+			province_id = 
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = ouled_nail_area
+			}
+			owns = 339
+			owns = 2457
+			owns = 2472
+			owns = 2456
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			culture = alsaahilian
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = alsaahilian
+		}
+	}
+}
+
+jnb_west = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = JNB
+	}
+	has_country_shield = yes
+
+	jnb_press_west = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { jnb_challenge_cordoba }
+		provinces_to_highlight = {
+			area = alentejo_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = alentejo_area
+			}
+		}
+		effect = {
+			add_prestige = 20
+			every_owned_province = {
+			limit = {
+			culture = bejan
+			}
+			add_nationalism = -15
+			}
+		}
+	}
+}
+

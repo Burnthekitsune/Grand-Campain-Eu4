@@ -8,7 +8,8 @@ janub_macronesia = {
 		region = maghreb_region
 				}	
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = JNB
 		}
 	}
 	has_country_shield = yes
@@ -52,7 +53,8 @@ janub_start = {
 		region = maghreb_region
 				}	
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = JNB
 		}
 	}
 	has_country_shield = yes
@@ -155,7 +157,8 @@ janub_south = {
 		region = maghreb_region
 				}	
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = JNB
 		}
 	}
 	has_country_shield = yes
