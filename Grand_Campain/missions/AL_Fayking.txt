@@ -5,6 +5,7 @@ fay_janub = {
 	potential = {
 		tag = FAY
 	}
+	has_country_shield = yes
 
 	claim_janub = {
 		icon = mission_build_up_to_force_limit
@@ -120,6 +121,7 @@ fay_sahili = {
 	potential = {
 		tag = FAY
 	}
+	has_country_shield = yes
 
 	claim_sahili = {
 		icon = mission_build_up_to_force_limit
@@ -215,6 +217,7 @@ fay_west = {
 	potential = {
 		tag = FAY
 	}
+	has_country_shield = yes
 
 	claim_beja = {
 		icon = mission_build_up_to_force_limit
@@ -283,6 +286,7 @@ fay_jabal = {
 	potential = {
 		tag = FAY
 	}
+	has_country_shield = yes
 
 	claim_jabal = {
 		icon = mission_build_up_to_force_limit
@@ -378,6 +382,7 @@ fay_albasik = {
 	potential = {
 		tag = FAY
 	}
+	has_country_shield = yes
 
 	claim_albasik = {
 		icon = mission_build_up_to_force_limit
