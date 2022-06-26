@@ -113,7 +113,10 @@ Als_Start = {
 			change_culture = janubian
 			}
 			africa = {
-			add_permanent_claim = ROOT
+				limit = {
+					is_wasteland = no
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -126,6 +129,9 @@ Als_Start = {
 		}
 		trigger = {
 			owns_all_provinces = {
+				limit = {
+					is_wasteland = no
+				}
 				continent = africa
 			}
 		}
