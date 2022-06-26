@@ -8,7 +8,8 @@ Sahili_Start = {
 		region = iberia_region
 		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = SHI
 		}
 	}
 	has_country_shield = yes
@@ -16,35 +17,10 @@ Sahili_Start = {
 	arm_army = {
 		icon = mission_build_up_to_force_limit
 		position = 1
-		required_missions = {  }
+		required_missions = { }
+		provinces_to_highlight = { }
 		trigger = {
 			army_size_percentage = 1
-		}
-		effect = {
-			capital_scope = {
-				every_province_in_state = {
-					add_permanent_claim = ROOT
-				}
-			}
-		}
-	}
-	controlled_core = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { arm_army }
-		provinces_to_highlight = {
-			capital_scope = {
-			all_province_in_state = {
-			owned_by = ROOT
-			}
-			}
-		}
-		trigger = {
-			capital_scope = {
-				every_province_in_state  = {
-					is_core = yes
-				}
-			}
 		}
 		effect = {
 			add_prestige = 10
@@ -74,15 +50,16 @@ Sahili_Aragon = {
 		region = iberia_region
 		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = SHI
 		}
 	}
 	has_country_shield = yes
 
 	annex_aragon = {
 		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { controlled_core }
+		position = 2
+		required_missions = { arm_army }
 		provinces_to_highlight = {
 			area = aragon_area
 		}
@@ -100,7 +77,7 @@ Sahili_Aragon = {
 	}
 	aggrandize_aragon = {
 		icon = mission_build_up_to_force_limit
-		position = 4
+		position = 3
 		required_missions = { annex_aragon }
 		provinces_to_highlight = {
 			area = aragon_area
@@ -129,15 +106,16 @@ Sahili_Catalonia = {
 		region = iberia_region
 		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = SHI
 		}
 	}
 	has_country_shield = yes
 
 	claim_catalonia = {
 		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { controlled_core }
+		position = 2
+		required_missions = { arm_army }
 		provinces_to_highlight = {
 			area = catalonia_area
 		}
@@ -155,7 +133,7 @@ Sahili_Catalonia = {
 	}
 	reinforce_roussillon = {
 		icon = mission_build_up_to_force_limit
-		position = 4
+		position = 3
 		required_missions = { claim_catalonia }
 		provinces_to_highlight = {
 			province_id = 197
@@ -181,15 +159,16 @@ Sahili_Valencia = {
 		region = iberia_region
 		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = SHI
 		}
 	}
 	has_country_shield = yes
 
 	victory_in_valencia = {
 		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { controlled_core }
+		position = 2
+		required_missions = { arm_army }
 		provinces_to_highlight = {
 			area = valencia_area
 		}
@@ -206,7 +185,7 @@ Sahili_Valencia = {
 	}
 	powerful_port = {
 		icon = mission_build_up_to_force_limit
-		position = 4
+		position = 3
 		required_missions = { victory_in_valencia }
 		provinces_to_highlight = {
 			province_id = 220
@@ -234,15 +213,16 @@ Sahili_Baleares = {
 		region = iberia_region
 		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = SHI
 		}
 	}
 	has_country_shield = yes
 
 	battle_for_baleares = {
 		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { controlled_core }
+		position = 2
+		required_missions = { arm_army }
 		provinces_to_highlight = {
 			area = baleares_area
 		}
@@ -260,7 +240,7 @@ Sahili_Baleares = {
 	}
 	mallorcan_merchants = {
 		icon = mission_build_up_to_force_limit
-		position = 4
+		position = 3
 		required_missions = { battle_for_baleares }
 		trigger = {
 			333 = {
@@ -283,14 +263,15 @@ Proclaim_Sahili = {
 		region = iberia_region
 		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = SHI
 		}
 	}
 	has_country_shield = yes
 
 	craft_crown = {
 		icon = mission_build_up_to_force_limit
-		position = 5
+		position = 4
 		required_missions = { reinforce_roussillon mallorcan_merchants powerful_port aggrandize_aragon }
 		trigger = {
 			treasury = 100
@@ -302,7 +283,7 @@ Proclaim_Sahili = {
 	}
 	reforged_realm = {
 		icon = mission_build_up_to_force_limit
-		position = 6
+		position = 5
 		required_missions = { craft_crown }
 		trigger = {
 			dip_power = 100
@@ -317,4 +298,3 @@ Proclaim_Sahili = {
 		}
 	}
 }
-
