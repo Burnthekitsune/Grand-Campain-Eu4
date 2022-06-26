@@ -1,0 +1,366 @@
+Als_Start = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = AHL
+	}
+	has_country_shield = yes
+
+	alh_claims = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			northern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			kabylia_area = {
+			add_permanent_claim = ROOT
+			}
+			north_saharan_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	a_new_caliph = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { als_secure_the_north }
+		provinces_to_highlight = {
+			province_id = 343
+		}
+		trigger = {
+			owns_core_province = 343
+		}
+		effect = {
+			if = {
+			NOT = {
+			has_country_flag = caliph_lost
+			}
+			set_country_flag = caliph
+			add_country_modifier = { 
+			name = nur_caliph
+			duration = -1
+			}
+			}
+		}
+	}
+	proclaim_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { a_new_caliph }
+		trigger = {
+			total_development = 300
+		}
+		effect = {
+			set_government_rank = 3
+			override_country_name = "Alsaahilian Empire"
+		}
+	}
+	als_claim_egypt = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { als_ruler_of_janub proclaim_empire als_fezzan }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			egypt_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	north_african_rule = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { als_claim_egypt }
+		provinces_to_highlight = {
+			region = egypt_region
+		}
+		trigger = {
+			owns_all_provinces = {
+			region = egypt_region
+			}
+			NOT = {
+			overextension_percentage = 0.01
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			region = egypt_region
+			}
+			change_culture = msir
+			}
+			every_owned_province = {
+			limit = {
+			OR = {
+				area = fezzan_area
+				area = tunisia_area
+				area = djerba_area
+				area = kabylia_area
+				area = north_saharan_area
+				area = tripolitania_area
+			}
+			}
+			change_culture = alsaahilian
+			}
+			347 = {
+			change_culture = janubian
+			}
+			africa = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	african_rule = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { north_african_rule }
+		provinces_to_highlight = {
+			continent = africa
+		}
+		trigger = {
+			owns_all_provinces = {
+				continent = africa
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			continent = africa
+			NOT = {
+			region = egypt_region
+			region = maghreb_region
+			}
+			}
+			change_culture = south_african_alshamali
+			}
+			every_owned_province = {
+			limit = {
+			continent = africa
+			}
+			change_religion = converted_dynamic_faith_102
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_prosperity = 100
+			}
+			add_prestige = 100
+		}
+	}
+}
+
+Als_east = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = AHL
+	}
+	has_country_shield = yes
+
+	als_rightful_land = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { alh_claims }
+		provinces_to_highlight = {
+			OR = {
+			area = north_saharan_area
+			area = kabylia_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = kabylia_area
+			}
+			owns_all_provinces = {
+			area = north_saharan_area
+			}
+		}
+		effect = {
+			tunisia_area = {
+			add_permanent_claim = ROOT
+			}
+			djerba_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	als_tunisia = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { als_rightful_land }
+		provinces_to_highlight = {
+			OR = {
+			area = tunisia_area
+			area = djerba_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = tunisia_area
+			}
+			owns_all_provinces = {
+			area = djerba_area
+			}
+		}
+		effect = {
+			tripolitania_area = {
+			add_permanent_claim = ROOT
+			}
+			fezzan_area = {
+			add_permanent_claim = ROOT
+			}
+			if = {
+			limit = {
+			2474 = {
+			is_empty = yes
+			}
+			}
+			2448 = {
+			owner = {
+			2474 = {
+			add_siberian_construction = 999
+			}
+			}
+			}
+			}
+		}
+	}
+	als_fezzan = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { als_tunisia }
+		provinces_to_highlight = {
+			OR = {
+			area = fezzan_area
+			area = tripolitania_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = fezzan_area
+			}
+			owns_all_provinces = {
+			area = tripolitania_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+				maghreb_region = {
+			}
+			change_religion = converted_dynamic_faith_102
+			}
+			}
+		}
+	}
+}
+
+Als_west = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = AHL
+	}
+	has_country_shield = yes
+
+	als_secure_the_north = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { alh_claims }
+		provinces_to_highlight = {
+			area = northern_morocco_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = northern_morocco_area 
+			}
+		}
+		effect = {
+			tafilalt_area = {
+			add_permanent_claim = ROOT
+			}
+			sus_area = {
+			add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	als_dominate_janub = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { als_secure_the_north }
+		provinces_to_highlight = {
+			OR = {
+			area = tafilalt_area
+			area = sus_area
+			area = marrekesh_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = tafilalt_area
+			}
+			owns_all_provinces = {
+			area = sus_area
+			}
+			owns_all_provinces = {
+			area = marrekesh_area
+			}
+		}
+		effect = {
+			southern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			macaronesia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	als_ruler_of_janub = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { als_dominate_janub }
+		provinces_to_highlight = {
+			OR = {
+			area = macaronesia_area
+			area = southern_morocco_area
+			area = western_morocco_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = macaronesia_area
+			}
+			owns_all_provinces = {
+			area = southern_morocco_area
+			}
+			owns_all_provinces = {
+			area = western_morocco_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			culture = janubian
+			}
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = janubian
+		}
+	}
+}
+

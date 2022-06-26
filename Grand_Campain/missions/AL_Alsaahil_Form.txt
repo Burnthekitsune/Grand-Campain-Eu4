@@ -5,10 +5,11 @@ Alsaahil_Start = {
 	potential = {
 		culture = alsaahilian
 		capital_scope = {
-		region = maghreb_region
-						}	
+			region = maghreb_region
+		}
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = AHL
 		}
 	}
 	has_country_shield = yes
@@ -108,10 +109,11 @@ push_west = {
 	potential = {
 		culture = alsaahilian
 		capital_scope = {
-		region = maghreb_region
-						}	
+			region = maghreb_region
+		}	
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = AHL
 		}
 	}
 	has_country_shield = yes
@@ -147,10 +149,11 @@ push_east = {
 	potential = {
 		culture = alsaahilian
 		capital_scope = {
-		region = maghreb_region
-						}	
+			region = maghreb_region
+		}	
 		NOT = {
-		has_country_flag = unique_missions
+			has_country_flag = unique_missions
+			tag = AHL
 		}
 	}
 	has_country_shield = yes
