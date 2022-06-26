@@ -103,8 +103,7 @@ fay_janub = {
 		effect = {
 			every_owned_province = {
 			limit = {
-			NOT = {
-			culture = alsaahilian
+				culture = janubian
 			}
 			}
 			add_nationalism = -15
