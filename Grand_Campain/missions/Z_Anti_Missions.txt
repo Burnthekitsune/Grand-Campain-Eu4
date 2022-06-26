@@ -100,7 +100,7 @@ Silla = {
 		}
 		effect = {
 			add_country_modifier = { 
-			    name = z_empire
+			    name = zz_empire
 			    duration = 3600  
 			}
 		}
@@ -363,12 +363,10 @@ Z_West = {
 		position = 7
 		required_missions = { ZA_West_2 }
 		trigger = { 
-			AND = {
 				num_of_transport = 10
 				num_of_heavy_ship = 5
 				advisor = navy_reformer
 				owns_or_non_sovereign_subject_of = 4562
-		}
 		}
 		effect = { 
 			macaronesia_area = {

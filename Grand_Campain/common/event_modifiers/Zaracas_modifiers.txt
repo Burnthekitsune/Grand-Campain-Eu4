@@ -19,7 +19,7 @@ z_means = {
 	inflation_reduction = 0.05
 }
 
-z_empire = {
+zz_empire = {
 	infantry_cost = -0.10
 	prestige_decay = -0.01
 	prestige = 1
