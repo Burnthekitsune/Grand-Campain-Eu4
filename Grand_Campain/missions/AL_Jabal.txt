@@ -1,0 +1,285 @@
+jab_coimbra = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = JBL
+	}
+	has_country_shield = yes
+
+	jab_coimbra = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			beieras_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jab_rule_coimbra = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { jab_coimbra }
+		provinces_to_highlight = {
+			area = beieras_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = beieras_area
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_yearly_sailors = 5
+		}
+	}
+	jab_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { jab_rule_coimbra jab_rule_albasik }
+		trigger = {
+			total_development = 300
+		}
+		effect = {
+			set_goveernment_rank = 3
+			iberia_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jab_iberia = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { jab_empire }
+		provinces_to_highlight = {
+			region = iberia_region
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = iberia_region
+			}
+		}
+		effect = {
+			add_prestige = 50
+			add_country_modifier = {
+			name = jab_colony
+			duration = -1
+			}
+		}
+	}
+}
+
+jab_albasik = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = JBL
+	}
+	has_country_shield = yes
+
+	jab_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			basque_country = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jab_rule_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { jab_albasik }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = basque_country 
+			}
+		}
+		effect = {
+			add_prestige = 10
+			add_yearly_manpower = 0.5
+		}
+	}
+}
+
+jab_explore = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = JBL
+	}
+	has_country_shield = yes
+
+	jab_new_world = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			OR = {
+				north_america = { has_discovered = ROOT }
+				south_america = { has_discovered = ROOT }
+				new_world = { has_discovered = ROOT }
+			}
+		}
+		effect = {
+			add_country_modifier = {
+			name = jab_settler_growth
+			duration = 3650
+			}
+		}
+	}
+	overseas_land = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { jab_new_world }
+		trigger = {
+			any_owned_province = {
+			is_overseas = yes
+			}
+		}
+		effect = {
+			random_owned_province = {
+			limit = {
+			is_overseas = yes
+			}
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1 
+			}
+		}
+	}
+}
+
+jab_new_world = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = JBL
+	}
+	has_country_shield = yes
+
+	jab_colony = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { overseas_land }
+		trigger = {
+			colony = 1
+		}
+		effect = {
+			random_subject_country = {
+			limit = {
+			is_colonial_nation = yes
+			}
+			add_country_modifier = {
+			name = jab_settler_growth
+			duration = 3650
+			}
+			}
+		}
+	}
+	jab_colonial_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { jab_colony }
+		trigger = {
+			colony = 5
+		}
+		effect = {
+			every_subject_country = {
+			limit = {
+			is_colonial_nation = yes
+			}
+			add_country_modifier = {
+			name = jab_colony
+			duration = -1
+			}
+			}
+		}
+	}
+}
+
+jab_east = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = JBL
+	}
+	has_country_shield = yes
+
+	jab_africa_holdings = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { overseas_land }
+		trigger = {
+			any_owned_province = {
+			continent = africa
+			}
+		}
+		effect = {
+			add_treasury = 100
+		}
+	}
+	jab_india = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { jab_africa_holdings }
+		trigger = {
+			has_discovered = 527
+		}
+		effect = {
+			south_lanka_area = {
+			add_permanent_claim = ROOT
+			}
+			lanka_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	jab_lanka = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { jab_india }
+		provinces_to_highlight = {
+			OR = {
+			area = south_lanka_area
+			area = lanka_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = south_lanka_area
+			}
+			owns_all_provinces = {
+			area = lanka_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+				area = south_lanka_area
+				area = lanka_area
+			}
+			}
+			change_culture = indian_alshamali
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+}
+

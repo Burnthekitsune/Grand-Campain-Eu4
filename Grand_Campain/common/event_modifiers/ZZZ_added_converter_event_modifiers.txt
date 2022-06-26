@@ -186,3 +186,15 @@ nur_caliph = {
 al_treasure = {
 	treasure_fleet_income = 0.2
 }
+
+jab_settler_growth = {
+	global_colonial_growth = 20
+}
+
+jab_colony = {
+	colonists = 1
+	global_colonial_growth = 20
+	native_uprising_chance = -0.5
+	may_establish_frontier = yes
+	liberty_desire = -20
+}

@@ -9,6 +9,7 @@ Jabal_Start = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = JBL
 		}
 	}
 	has_country_shield = yes
@@ -98,6 +99,7 @@ Galacia = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = JBL
 		}
 	}
 	has_country_shield = yes
@@ -150,6 +152,7 @@ Asturias = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = JBL
 		}
 	}
 	has_country_shield = yes
@@ -205,6 +208,7 @@ Castille = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = JBL
 		}
 	}
 	has_country_shield = yes
