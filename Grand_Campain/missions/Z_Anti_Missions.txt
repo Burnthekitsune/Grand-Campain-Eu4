@@ -362,26 +362,25 @@ Z_West = {
 		icon = mission_pirate_havens
 		position = 7
 		required_missions = { ZA_West_2 }
-		trigger = { 
-				num_of_transport = 10
-				num_of_heavy_ship = 5
-				advisor = navy_reformer
-				owns_or_non_sovereign_subject_of = 4562
+		trigger = {
+			num_of_transport = 10
+			num_of_heavy_ship = 5
+			owns_or_non_sovereign_subject_of = 4562
 		}
-		effect = { 
+		effect = {
 			macaronesia_area = {
-			add_permanent_claim = Z1L
+				add_permanent_claim = Z1L
 			}
 			define_explorer = {
-			    shock = 4
-			    fire = 4
-			    manuever = 6
-			    siege = 2
-			    trait = accomplished_sailor_personality
+				shock = 4
+				fire = 4
+				manuever = 6
+				siege = 2
+				trait = accomplished_sailor_personality
 			}
 			add_country_modifier = { 
-			    name = z_uper_colonist
-			    duration = 10950
+				name = z_uper_colonist
+				duration = 10950
 			}
 		}
 	}
