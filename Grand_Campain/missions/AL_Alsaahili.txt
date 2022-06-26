@@ -115,6 +115,10 @@ Als_Start = {
 			africa = {
 				limit = {
 					is_wasteland = no
+					NOT = {
+						has_terrain = ocean
+						has_terrain = inland_ocean
+					}
 				}
 				add_permanent_claim = ROOT
 			}
@@ -126,13 +130,20 @@ Als_Start = {
 		required_missions = { north_african_rule }
 		provinces_to_highlight = {
 			continent = africa
+			NOT = {
+					has_terrain = ocean
+					has_terrain = inland_ocean
+			}
+			is_wasteland = no
 		}
 		trigger = {
 			owns_all_provinces = {
-				limit = {
-					is_wasteland = no
-				}
+				is_wasteland = no
 				continent = africa
+				NOT = {
+					has_terrain = ocean
+					has_terrain = inland_ocean
+				}
 			}
 		}
 		effect = {
