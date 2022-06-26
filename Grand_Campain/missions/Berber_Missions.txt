@@ -18,6 +18,7 @@ berber_3 = {
 					OR = {
 						tag = MOR
 						tag = TUN
+						tag = Z1L
 					}
 				}
 			}
