@@ -1,0 +1,327 @@
+sah_faykinh = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = SHI
+	}
+
+	sah_toledo = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			toledo_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_take_toledo = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { sah_toledo }
+		provinces_to_highlight = {
+			area = toledo_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = toledo_area 
+			}
+		}
+		effect = {
+			lower_andalucia_area = {
+			add_permanent_claim = ROOT
+			}
+			upper_andalucia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_andalucia = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { sah_take_toledo }
+		provinces_to_highlight = {
+			OR = {
+			area = upper_andalucia_area
+			area = lower_andalucia_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = lower_andalucia_area
+			}
+			owns_all_provinces = {
+			area = upper_andalucia_area
+			}
+		}
+		effect = {
+			extremadura_area = {
+			add_permanent_claim = ROOT
+			}
+			230 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_unite_fayking = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { sah_andalucia }
+		provinces_to_highlight = {
+			OR = {
+			area = extremadura_area
+			province_id = 230
+			}
+		}
+		trigger = {
+			owns = 230
+			owns_all_provinces = {
+			area = extremadura_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			culture = faykinghian
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = faykinghian
+		}
+	}
+}
+
+sah_jabal = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = SHI
+	}
+
+	sah_castille = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			castille_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_take_castille = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { sah_castille }
+		provinces_to_highlight = {
+			area = castille_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = castille_area
+			}
+		}
+		effect = {
+			leon_area = {
+			add_permanent_claim = ROOT
+			}
+			asturias_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_heart_of_jabal = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { sah_take_castille }
+		provinces_to_highlight = {
+			OR = {
+			area = asturias_area
+			area = leon_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = leon_area
+			}
+			owns_all_provinces = {
+			area = asturias_area
+			}
+		}
+		effect = {
+			galicia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_unite_jabal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { sah_heart_of_jabal }
+		provinces_to_highlight = {
+			area = galicia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = galicia_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			culture = jabric
+			}
+			add_nationalism = -15
+			}
+			add_accepted_culture = jabric
+		}
+	}
+}
+
+sah_minors = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = SHI
+	}
+
+	sah_claim_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			basque_country = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_take_albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { sah_claim_albasik }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = basque_country
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	sah_claim_beja_and_coimbra = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { sah_take_albasik sah_unite_fayking sah_unite_jabal }
+		trigger = {
+			always = yes
+		}
+		effect = {
+			alentejo_area = {
+			add_permanent_claim = ROOT
+			}
+			beieras_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	sah_a_new_empire = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { sah_claim_beja_and_coimbra }
+		provinces_to_highlight = {
+			region = iberia_region
+		}
+		trigger = {
+			owns_all_provinces = {
+			region = iberia_region
+			}
+		}
+		effect = {
+			set_country_flag = sahili
+			change_tag = ASE
+			add_prestige = 20
+			set_government_rank = 3
+			country_event = { id = ideagroups.1 }
+			swap_non_generic_missions = yes
+			override_country_name = "Sahilian Empire"
+			provence_area = {
+			add_permanent_claim = ROOT
+			}
+			languedoc_area = {
+			add_permanent_claim = ROOT
+			}
+			pyrenees_area = {
+			add_permanent_claim = ROOT
+			}
+			guyenne_area = {
+			add_permanent_claim = ROOT
+			}
+			poitou_area = {
+			add_permanent_claim = ROOT
+			}
+			massif_central_area = {
+			add_permanent_claim = ROOT
+			}
+			algiers_area = {
+			add_permanent_claim = ROOT
+			}
+			barbary_coast_area = {
+			add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+			add_permanent_claim = ROOT
+			}
+			ouled_nail_area = {
+			add_permanent_claim = ROOT
+			}
+			339 = {
+			add_permanent_claim = ROOT
+			}
+			2457 = {
+			add_permanent_claim = ROOT
+			}
+			2472 = {
+			add_permanent_claim = ROOT
+			}
+			2456 = {
+			add_permanent_claim = ROOT
+			}
+			northern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			western_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			marrekesh_area = {
+			add_permanent_claim = ROOT
+			}
+			southern_morocco_area = {
+			add_permanent_claim = ROOT
+			}
+			sus_area = {
+			add_permanent_claim = ROOT
+			}
+			tafilalt_area = {
+			add_permanent_claim = ROOT
+			}
+			macaronesia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
