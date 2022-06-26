@@ -12,6 +12,8 @@ faykingh_start = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = ASE
+			tag = FAY
 		}
 	}
 	has_country_shield = yes
@@ -120,6 +122,8 @@ fakykingh_south = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = ASE
+			tag = FAY
 		}
 	}
 	has_country_shield = yes
@@ -198,6 +202,8 @@ algarve = {
 		}	
 		NOT = {
 			has_country_flag = unique_missions
+			tag = ASE
+			tag = FAY
 		}
 	}
 	has_country_shield = yes

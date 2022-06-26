@@ -10,6 +10,7 @@ Sahili_Start = {
 		NOT = {
 			has_country_flag = unique_missions
 			tag = SHI
+			tag = ASE
 		}
 	}
 	has_country_shield = yes
@@ -52,6 +53,7 @@ Sahili_Aragon = {
 		NOT = {
 			has_country_flag = unique_missions
 			tag = SHI
+			tag = ASE
 		}
 	}
 	has_country_shield = yes
@@ -108,6 +110,7 @@ Sahili_Catalonia = {
 		NOT = {
 			has_country_flag = unique_missions
 			tag = SHI
+			tag = ASE
 		}
 	}
 	has_country_shield = yes
@@ -161,6 +164,7 @@ Sahili_Valencia = {
 		NOT = {
 			has_country_flag = unique_missions
 			tag = SHI
+			tag = ASE
 		}
 	}
 	has_country_shield = yes
@@ -215,6 +219,7 @@ Sahili_Baleares = {
 		NOT = {
 			has_country_flag = unique_missions
 			tag = SHI
+			tag = ASE
 		}
 	}
 	has_country_shield = yes
@@ -265,6 +270,7 @@ Proclaim_Sahili = {
 		NOT = {
 			has_country_flag = unique_missions
 			tag = SHI
+			tag = ASE
 		}
 	}
 	has_country_shield = yes
