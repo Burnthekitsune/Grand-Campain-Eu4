@@ -49,7 +49,7 @@ Als_Start = {
 			}
 		}
 	}
-	proclaim_empire = {
+	als_proclaim_empire = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { a_new_caliph }
