@@ -382,6 +382,15 @@
  religious_events.998.d:0  "Yazidi communities in our country rejoice as they learn of our intention to make their religion our own. All those missionaries sent to the court in [Root.Capital.GetName] have finally paid off."
  religious_events.998.z1:3 "The black book contains the truth."
  religious_events.998.z2:3 "Xwedê is great."
+ 
+ florida_migration.1.t:0 "Sicilian Emigrants"
+ florida_migration.1.d:0 "Our nation is in a precarious position, and we are entirely surrounded. Because of this, upon hearing of a new world, some of out citizens jumped at the oppertunity to make a new home."
+ florida_migration.1.a:0 "We shall support them!"
+ florida_migration.1.b:0 "They are on their own!"
+ florida_migration.2.t:0 "New land discovered!"
+ florida_migration.2.d:0 "The settlers have found a new home, and called it Florida."
+ florida_migration.2.a:0 "We shall join them!"
+ florida_migration.2.b:0 "Good for them"
 
  #Silla Court
  z_court.1.t:0 "The Court Relocated"

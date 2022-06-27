@@ -154,6 +154,9 @@
  desc_plati_ruler_yazidi_dip: ""
  plati_ruler_yazidi_mil: "Avatar of Mikayil"
  desc_plati_ruler_yazidi_adm: ""
+ 
+ flo_start_boost: "Colonial Enthuiasm"
+ desc_flo_start_boost: ""
 
  #Zaracas
  silla_court:0 "Silla Court"

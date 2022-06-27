@@ -1,0 +1,213 @@
+namespace = florida_migration
+
+country_event = {
+	id = florida_migration.1
+	title = florida_migration.1.t
+	desc = florida_migration.1.d
+	picture = EUROPEAN_REFUGEES_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SIC
+		is_year = 1465
+	}
+	
+	mean_time_to_happen  = {
+		months = 3
+	}
+	
+	option = {
+		name = florida_migration.1.a
+		add_treasury = -100
+		add_manpower = -2
+		4736 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		125 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		4737 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		124 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		2982 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		country_event = {
+			id = florida_migration.2
+			days = 365
+			random = 20
+		}
+		ai_chance = { factor = 1 }
+	}
+	option = {
+		name = florida_migration.1.b
+		4736 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		125 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		4737 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+		country_event = {
+			id = florida_migration.3
+			days = 365
+			random = 20
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = florida_migration.2
+	title = florida_migration.2.t
+	desc = florida_migration.2.d
+	picture = EUROPEAN_REFUGEES_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		2536 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 3
+			add_base_production = 3
+			add_base_manpower = 3
+			add_core = FLO
+		}
+		2535 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+		}
+		926 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+		}
+		southeast_america_region = {
+			discover_country = SIC
+			discover_country = FLO
+		}
+		FLO = {
+			build_to_forcelimit = {
+				infantry = 1
+			}
+			set_capital = 2536
+			add_country_modifier = {
+				name = flo_start_boost
+				duration = 10800
+			}
+			create_conquistador = { tradition = 50 }
+		}
+		}
+	}
+	
+	option = {
+		name = florida_migration.2.a
+		switch_tag = FLO
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = florida_migration.2.b
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = florida_migration.3
+	title = florida_migration.2.t
+	desc = florida_migration.2.d
+	picture = EUROPEAN_REFUGEES_eventPicture
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		2536 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+		}
+		2535 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+		}
+		926 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+		}
+		southeast_america_region = {
+			discover_country = SIC
+			discover_country = FLO
+		}
+		FLO = {
+			build_to_forcelimit = {
+				infantry = 0.25
+			}
+			set_capital = 2536
+			add_country_modifier = {
+				name = flo_start_boost
+				duration = 3600
+			}
+		}
+		}
+	}
+	
+	option = {
+		name = florida_migration.2.a
+		switch_tag = FLO
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = florida_migration.2.b
+		ai_chance = { factor = 1 }
+	}
+}
