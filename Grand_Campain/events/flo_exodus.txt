@@ -97,6 +97,14 @@ country_event = {
 			add_base_production = 3
 			add_base_manpower = 3
 			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
 		}
 		2535 = {
 			cede_province = FLO
@@ -106,6 +114,14 @@ country_event = {
 			add_base_production = 1
 			add_base_manpower = 1
 			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
 		}
 		926 = {
 			cede_province = FLO
@@ -115,6 +131,14 @@ country_event = {
 			add_base_production = 1
 			add_base_manpower = 1
 			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
 		}
 		southeast_america_region = {
 			discover_country = SIC
@@ -129,6 +153,9 @@ country_event = {
 				name = flo_start_boost
 				duration = 10800
 			}
+			add_adm_tech = 2
+			add_dip_tech = 2
+			add_mil_tech = 2
 			create_conquistador = { tradition = 50 }
 		}
 		}
@@ -164,6 +191,14 @@ country_event = {
 			add_base_production = 1
 			add_base_manpower = 1
 			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
 		}
 		2535 = {
 			cede_province = FLO
@@ -173,6 +208,14 @@ country_event = {
 			add_base_production = 1
 			add_base_manpower = 1
 			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
 		}
 		926 = {
 			cede_province = FLO
@@ -182,6 +225,14 @@ country_event = {
 			add_base_production = 1
 			add_base_manpower = 1
 			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
 		}
 		southeast_america_region = {
 			discover_country = SIC
@@ -196,6 +247,9 @@ country_event = {
 				name = flo_start_boost
 				duration = 3600
 			}
+			add_adm_tech = 2
+			add_dip_tech = 2
+			add_mil_tech = 2
 		}
 		}
 	}
