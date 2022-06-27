@@ -1,0 +1,1281 @@
+ASE_Unite_Empire = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_Faykingh = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+				area = toledo_area
+				area = extremadura_area
+				province_id = 230
+				province_id = 334
+				province_id = 1751
+				province_id = 4561
+				province_id = 335
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = lower_andalucia_area
+					area = upper_andalucia_area
+					area = toledo_area
+					area = extremadura_area
+					province_id = 230
+					province_id = 334
+					province_id = 1751
+					province_id = 4561
+					province_id = 335
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = lower_andalucia_area
+					area = upper_andalucia_area
+					area = toledo_area
+					area = extremadura_area
+					province_id = 230
+					province_id = 334
+					province_id = 1751
+					province_id = 4561
+					province_id = 335
+				}
+				}
+				add_core = FAY
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = fay_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Beja = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+					province_id = 229
+					province_id = 4150
+					province_id = 4787
+					province_id = 227
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					province_id = 229
+					province_id = 4150
+					province_id = 4787
+					province_id = 227
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					province_id = 229
+					province_id = 4150
+					province_id = 4787
+					province_id = 227
+				}
+				}
+				add_core = BJA
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = bja_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Coimbra = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = {  }
+		provinces_to_highlight = {
+			area = beieras_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = beieras_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				area = beieras_area
+				}
+				add_core = CMB
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = cmb_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Jabal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+					area = castille_area
+					area = asturias_area
+					area = galicia_area
+					area = leon_area
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = castille_area
+					area = asturias_area
+					area = galicia_area
+					area = leon_area
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = castille_area
+					area = asturias_area
+					area = galicia_area
+					area = leon_area
+				}
+				}
+				add_core = JBL
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = jbl_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Albasik = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {  }
+		provinces_to_highlight = {
+			area = basque_country
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = basque_country
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				area = basque_country
+				}
+				add_core = ABK
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = abk_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Sahili = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+					area = aragon_area
+					area = catalonia_area
+					area = valencia_area
+					area = baleares_area
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = aragon_area
+					area = catalonia_area
+					area = valencia_area
+					area = baleares_area
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = aragon_area
+					area = catalonia_area
+					area = valencia_area
+					area = baleares_area
+				}
+				}
+				add_core = SHI
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = shi_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Shamal = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+					area = pyrenees_area
+					area = guyenne_area
+					area = poitou_area
+					area = provence_area
+					area = languedoc_area
+					area = massif_central_area
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = pyrenees_area
+					area = guyenne_area
+					area = poitou_area
+					area = provence_area
+					area = languedoc_area
+					area = massif_central_area
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = pyrenees_area
+					area = guyenne_area
+					area = poitou_area
+					area = provence_area
+					area = languedoc_area
+					area = massif_central_area
+				}
+				}
+				add_core = SML
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = sml_authority
+				duration = -1
+			}
+		}
+	}
+	SML_Janub = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+					area = tafilalt_area
+					area = sus_area
+					area = southern_morocco_area
+					area = western_morocco_area
+					area = marrekesh_area
+					area = macaronesia_area
+					province_id = 4563
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = tafilalt_area
+					area = sus_area
+					area = southern_morocco_area
+					area = western_morocco_area
+					area = marrekesh_area
+					area = macaronesia_area
+					province_id = 4563
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = tafilalt_area
+					area = sus_area
+					area = southern_morocco_area
+					area = western_morocco_area
+					area = marrekesh_area
+					area = macaronesia_area
+					province_id = 4563
+				}
+				}
+				add_core = JNB
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = jnb_authority
+				duration = -1
+			}
+		}
+	}
+	ASE_Alsaahili = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+					area = algiers_area
+					area = barbary_coast_area
+					area = hautes_plaines_area
+					area = ouled_nail_area
+					province_id = 339
+					province_id = 2457
+					province_id = 2456
+					province_id = 2472
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = algiers_area
+					area = barbary_coast_area
+					area = hautes_plaines_area
+					area = ouled_nail_area
+					province_id = 339
+					province_id = 2457
+					province_id = 2456
+					province_id = 2472
+				}
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = algiers_area
+					area = barbary_coast_area
+					area = hautes_plaines_area
+					area = ouled_nail_area
+					province_id = 339
+					province_id = 2457
+					province_id = 2456
+					province_id = 2472
+				}
+				}
+				add_core = AHL
+				add_prosperity = 20
+				set_local_autonomy = 0
+			}
+			add_country_modifier = {
+				name = ahl_authority
+				duration = -1
+			}
+		}
+	}
+	
+	ASE_United = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = {  }
+		trigger = {
+			mission_completed = ASE_Faykingh
+			mission_completed = ASE_Beja
+			mission_completed = ASE_Coimbra
+			mission_completed = ASE_Jabal
+			mission_completed = ASE_Albasik
+			mission_completed = ASE_Shamal
+			mission_completed = ASE_Janub
+			mission_completed = ASE_Alsaahili
+			mission_completed = ASE_Sahili
+		}
+		effect = {
+			add_country_modifier = {
+				name = ase_authority
+				duration = -1
+			}
+		}
+	}
+}
+
+ASE_France = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_claim_france = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			mission_completed = ASE_Shamal
+		}
+		effect = {
+			france_region = {
+				limit = {
+				NOT = {
+					area = brittany_area
+				}
+			}
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Savoy = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { ASE_claim_france }
+		provinces_to_highlight = {
+			area = savoy_dauphine_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = savoy_dauphine_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			area = savoy_dauphine_area
+			}
+			change_culture = north_shamalian
+			add_core = SML
+			}
+		}
+	}
+	AL_Faransa = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { ASE_Savoy }
+		provinces_to_highlight = {
+			OR = {
+					area = loire_area
+					area = orleans_area
+					area = champagne_area
+					area = ile_de_france_area
+					area = picardy_area
+					area = lorraine_area
+					area = west_burgundy_area
+					area = normandy_area
+					area = bourgogne_area
+				}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = loire_area
+					area = orleans_area
+					area = champagne_area
+					area = ile_de_france_area
+					area = picardy_area
+					area = lorraine_area
+					area = west_burgundy_area
+					area = normandy_area
+					area = bourgogne_area
+				}
+			}
+			OR = {
+			NOT = {
+			exists = FRA
+			}
+			overlord_of = FRA 
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+				OR = {
+					area = loire_area
+					area = orleans_area
+					area = champagne_area
+					area = ile_de_france_area
+					area = picardy_area
+					area = lorraine_area
+					area = west_burgundy_area
+					area = normandy_area
+				}
+				}
+				add_core = FRA
+				change_culture = faransan
+				cede_province = FRA
+			}
+			vassalize = FRA
+			FRA = {
+				change_primary_culture = faransan
+				override_country_name = Faransa
+				set_government_rank = 2
+				set_dynasty = Haesteining
+				set_ruler_culture = faransan
+				set_capital = 183
+			}
+			brittany_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	AL_Birtani = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { AL_Faransa }
+		provinces_to_highlight = {
+			area = brittany_area
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = brittany_area
+			}
+			OR = {
+			NOT = {
+			exists = BRI
+			}
+			overlord_of = BRI
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					area = brittany_area
+				}
+				add_core = BRI
+				change_culture = biritani
+				cede_province = BRI
+			}
+			vassalize = BRI
+			BRI = {
+				change_primary_culture = biritani
+				override_country_name = Biritani
+				set_government_rank = 2
+				set_dynasty = Haesteining
+				set_ruler_culture = biritani
+				set_capital = 171
+			}
+		}
+	}
+}
+
+ASE_Carribean = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_Carribean_Colony = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {  }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_the_carribean
+				is_city = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+	ASE_Large_Carribean_Colony = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { ASE_Carribean_Colony }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				colonial_region = colonial_the_carribean
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ase_carribean
+				duration = -1
+			}
+		}
+	}
+}
+
+ASE_North_America = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_North_America_Foothold = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+	ASE_multiple_NA_colonies = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { ASE_North_America_Foothold }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_mexico
+				is_city = yes
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_canada
+				is_city = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+	ASE_North_American_Empire = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { ASE_multiple_NA_colonies }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_louisiana
+				is_city = yes
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_california
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+			name = ase_north_america
+			duration = -1
+			}
+		}
+	}
+}
+
+ASE_South_America = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_South_America_Foothold = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_brazil
+				is_city = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+	ASE_Columbia = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { ASE_South_America_Foothold }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_colombia
+				is_city = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+	ASE_South_American_Empire = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { ASE_Columbia }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_la_plata
+				is_city = yes
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = colonial_peru
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+			name = ase_south_america
+			duration = -1
+			}
+		}
+	}
+}
+
+ASE_Africa = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_Discover_Kongo = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 4080
+		}
+		trigger = {
+			has_discovered = 4080
+		}
+		effect = {
+			coastal_kongo = {
+			add_permanent_claim = ROOT
+			}
+			angola_namibia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Kongo_Colony = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { ASE_Discover_Kongo }
+		provinces_to_highlight = {
+			region = kongo_region
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+			value = 9
+			region = kongo_region
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			region = kongo_region
+			}
+			change_religion = converted_dynamic_faith_102
+			}
+			south_africa_region = {
+			limit = {
+			NOT = {
+			area = butua_area
+			area = quelimane_area
+			area = zimbabwe_area
+			}
+			}
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Cape = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { ASE_Kongo_Colony }
+		provinces_to_highlight = {
+			region = south_africa_region
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+			value = 10
+			region = south_africa_region
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			region = south_africa_region
+			}
+			change_religion = converted_dynamic_faith_102
+			}
+			sakalava_area = {
+			add_permanent_claim = ROOT
+			}
+			madagascar_highlands_area = {
+			add_permanent_claim = ROOT
+			}
+			betsimasaraka_area = {
+			add_permanent_claim = ROOT
+			}
+			southern_madagascar = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Madagascar = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { ASE_Cape }
+		provinces_to_highlight = {
+			OR = {
+			area = sakalava_area
+			area = southern_madagascar
+			area = betsimasaraka_area
+			area = madagascar_highlands_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = sakalava_area
+			area = southern_madagascar
+			area = betsimasaraka_area
+			area = madagascar_highlands_area
+			}
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = sakalava_area
+			area = southern_madagascar
+			area = betsimasaraka_area
+			area = madagascar_highlands_area
+			}
+			}
+			change_religion = converted_dynamic_faith_102
+			}
+		}
+	}
+}
+
+ASE_India = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_Claim_Indian_Islands = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			has_discovered = 1340
+		}
+		effect = {
+			lanka_area = {
+			add_permanent_claim = ROOT
+			}
+			north_lanka_area = {
+			add_permanent_claim = ROOT
+			}
+			1248 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Own_Lanka = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { ASE_Claim_Indian_Islands }
+		provinces_to_highlight = {
+			OR = {
+			area = lanka_area 
+			area = south_lanka_area 
+			province_id = 1248
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = lanka_area 
+			area = south_lanka_area 
+			province_id = 1248
+			}
+			}
+		}
+		effect = {
+			madura_area = {
+			add_permanent_claim = ROOT
+			}
+			kongu_area = {
+			add_permanent_claim = ROOT
+			}
+			tanjore_area = {
+			add_permanent_claim = ROOT
+			}
+			malabar_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Indian_Foothold = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { ASE_Own_Lanka }
+		provinces_to_highlight = {
+			OR = {
+			area = madura_area
+			area = malabar_area
+			area = tanjore_area
+			area = kongu_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = madura_area
+			area = malabar_area
+			area = tanjore_area
+			area = kongu_area
+			}
+			}
+		}
+		effect = {
+			east_bengal_area = {
+			add_permanent_claim = ROOT
+			}
+			west_bengal_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Bengal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { ASE_Indian_Foothold }
+		provinces_to_highlight = {
+			OR = {
+			area = east_bengal_area
+			area = west_bengal_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = east_bengal_area
+			area = west_bengal_area
+			}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 1
+		}
+	}
+	ASE_Indian_Empire = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { ASE_Bengal }
+		trigger = {
+			num_of_owned_provinces_with = {
+			value = 50
+			superregion = india_superregion
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			superregion = india_superregion
+			}
+			set_local_autonomy = 0
+			add_nationalism = -25
+			}
+			random_core_province = {
+			limit = {
+			superregion = india_superregion
+			has_port = yes 
+			}
+			change_culture = indian_alshamali
+			}
+		}
+	}
+	ASE_Goa = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = {  }
+		trigger = {
+			has_discovered = 1339
+		}
+		effect = {
+			if = {
+				limit = {
+					2030 = {
+						owner = {
+							ai = yes
+						}
+					}
+				}
+				2030 = { 
+					cede_province = ASE
+					add_territorial_core = ASE
+				}
+			}
+			else = {
+				2030 = {
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+}
+
+ASE_China = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_Claim_Taiwan = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  }
+		trigger = {
+			has_discovered = 2115
+		}
+		effect = {
+			taiwan_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_dragon_coast = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { ASE_Claim_Taiwan }
+		provinces_to_highlight = {
+			area = taiwan_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = taiwan_area
+			}
+		}
+		effect = {
+			666 = {
+			add_permanent_claim = ROOT
+			}
+			2160 = {
+			add_permanent_claim = ROOT
+			}
+			shandong_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	ASE_Poke_the_Dragon = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { ASE_dragon_coast }
+		provinces_to_highlight = {
+			OR = {
+			province_id = 666
+			province_id = 2160
+			area = shandong_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			province_id = 666
+			province_id = 2160
+			area = shandong_area
+			}
+			}
+		}
+		effect = {
+			south_jiangsu_area = {
+			add_permanent_claim = ROOT
+			}
+			zhejiang_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	ASE_tame_the_dragon = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { ASE_Poke_the_Dragon }
+		provinces_to_highlight = {
+			OR = {
+			area = south_jiangsu_area 
+			area = zhejiang_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = south_jiangsu_area 
+			area = zhejiang_area
+			}
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			superregion = china_superregion
+			}
+			set_local_autonomy = 0
+			add_nationalism = -25
+			}
+		}
+	}
+}
+
+ASE_Australia = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_Australia_Foothold = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = {  }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				colonial_region = oceania
+				is_city = yes
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+	ASE_Oceania_Colonies = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { ASE_Australia_Foothold }
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 15
+				colonial_region = oceania
+				is_city = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+			name = ase_oceania
+			duration = -1
+			}
+		}
+	}
+}
+
+ASE_Japan_and_Korea = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_north_asian_tradeposts = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = {  }
+		trigger = {
+			num_of_owned_provinces_with = {
+			value = 10
+			OR = {
+			region = korea_region
+			region = japan
+			}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 0.5
+		}
+	}
+}
+
+ASE_SEA = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ASE
+	}
+	has_country_shield = yes
+
+	ASE_SEA_trade_posts = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = {  }
+		trigger = {
+			num_of_owned_provinces_with = {
+			value = 10
+			OR = {
+			region = malaya_region
+			region = moluccas_region
+			region = indonesia_region
+			}
+			}
+		}
+		effect = {
+			add_mercantilism = 5
+			add_years_of_income = 1
+		}
+	}
+}
+

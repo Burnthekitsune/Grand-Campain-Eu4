@@ -1,0 +1,25 @@
+AL_Faransa_Subject = {
+	potential = {
+		tag = ASE
+		mission_completed = AL_Faransa
+	}
+	
+	trigger = {
+		overlord_of = FRA
+	}
+	
+	diplomatic_upkeep = 1
+}
+
+AL_Birtani_Subject = {
+	potential = {
+		tag = ASE
+		mission_completed = AL_Birtani
+	}
+	
+	trigger = {
+		overlord_of = BRI
+	}
+	
+	diplomatic_upkeep = 1
+}

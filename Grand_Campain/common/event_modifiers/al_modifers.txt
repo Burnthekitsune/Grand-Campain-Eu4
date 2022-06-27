@@ -1,0 +1,116 @@
+al_exploration = {
+	range = 0.5
+}
+
+al_colonization_rush = {
+	colonists = 1
+	global_colonial_growth = 20
+	native_uprising_chance = -0.5
+	native_assimilation = 0.5 	
+}
+
+al_raid = {
+	may_perform_slave_raid = yes
+	privateer_efficiency = 0.2
+}
+
+al_evangelize = {
+	global_missionary_strength = 0.03
+	missionary_maintenance_cost = -0.1
+}
+
+al_mercantilism = {
+	mercantilism_cost = -0.2
+	placed_merchant_power = 3
+	embargo_efficiency = 0.25
+}
+
+al_subjugation = {
+	liberty_desire_from_subject_development = -0.25
+	diplomatic_upkeep = 2
+}
+
+al_defense = {
+	defensiveness = 0.2
+	hostile_attrition = 1
+}
+
+nur_caliph = {
+	prestige = 0.5
+	legitimacy = 1
+	max_absolutism = 10
+	tolerance_own = 1
+	church_loyalty_modifier = 0.2
+}
+
+al_treasure = {
+	treasure_fleet_income = 0.2
+}
+
+jab_settler_growth = {
+	global_colonial_growth = 20
+}
+
+jab_colony = {
+	colonists = 1
+	global_colonial_growth = 20
+	native_uprising_chance = -0.5
+	may_establish_frontier = yes
+	liberty_desire = -20
+}
+
+fay_authority = {
+
+}
+
+bja_authority = {
+
+}
+
+cmb_authority = {
+
+}
+
+jbl_authority = {
+
+}
+
+abk_authority = {
+
+}
+
+shi_authority = {
+
+}
+
+sml_authority = {
+
+}
+
+jnb_authority = {
+
+}
+
+ahl_authority = {
+
+}
+
+ase_authority = {
+
+}
+
+ase_carribean = {
+	global_foreign_trade_power = 0.15
+}
+
+ase_north_america = {
+	liberty_desire_from_subject_development = -0.25
+}
+
+ase_south_america = {
+	global_tax_modifier = 0.05
+}
+
+ase_oceania = {
+	navy_tradition_decay = -0.01 
+}
