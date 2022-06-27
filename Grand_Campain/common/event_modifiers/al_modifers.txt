@@ -60,43 +60,44 @@ jab_colony = {
 }
 
 fay_authority = {
-
+	infantry_shock = 1
 }
 
 bja_authority = {
-
+	colonist_placement_chance = 0.05
 }
 
 cmb_authority = {
-
+	treasure_fleet_income = 0.1
 }
 
 jbl_authority = {
-
+	merchants = 1
 }
 
 abk_authority = {
-
+	defensiveness = 0.10
 }
 
 shi_authority = {
-
+	global_trade_power = 0.1
 }
 
 sml_authority = {
-
+	culture_conversion_cost = -0.20
 }
 
 jnb_authority = {
-
+	technology_cost = -0.1
 }
 
 ahl_authority = {
-
+	cavalry_shock = 1
 }
 
 ase_authority = {
-
+	max_absolutism = 10
+	yearly_absolutism = 0.1
 }
 
 ase_carribean = {
