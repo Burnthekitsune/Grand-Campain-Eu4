@@ -1,5 +1,5 @@
 flo_start_boost = {
 	global_tax_income = 24
 	colonists = 1
-	global_colonial_growth = 20
+	global_colonial_growth = 50
 }
