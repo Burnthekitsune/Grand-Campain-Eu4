@@ -383,3 +383,10 @@
  religious_events.998.z1:3 "The black book contains the truth."
  religious_events.998.z2:3 "Xwedê is great."
 
+ #Silla Court
+ z_court.1.t:0 "The Court Relocated"
+ z_court.1.d:0 "Citing war, unrest and the fall of [From.Capital] the court of Silla has declared they will be relocating to [Root.Capital] and the safety it provides. We have sworn to their safety and for now they are content with our guardianship."
+ z_court.1.a:0 "Excellent"
+ z_court.2.t:0 "The Emperor Kidnapped!"
+ z_court.2.d:0 "The bandits from [Root.Capital.$CONTROLLERNAME$] have raided [Root.Capital] and kidnapped the Silla court! Some of the minor courtiers and bureacrats remain, but without the head of the dynasty in our control we will suffer diplomatically."
+ z_court.2.a:0 "Damn Them"

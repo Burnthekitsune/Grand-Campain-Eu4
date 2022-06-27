@@ -148,7 +148,11 @@ Z_East = {
 		icon = mission_monarch_in_throne_room
 		position = 1
 		required_missions = {  }
-		trigger = { }
+		trigger = {
+			capital = {
+				has_province_modifier = silla_court
+			}
+		}
 		effect = {
 			352 = {
 			add_permanent_claim = Z1L

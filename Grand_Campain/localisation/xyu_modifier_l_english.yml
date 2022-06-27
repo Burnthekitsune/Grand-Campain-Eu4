@@ -154,3 +154,7 @@
  desc_plati_ruler_yazidi_dip: ""
  plati_ruler_yazidi_mil: "Avatar of Mikayil"
  desc_plati_ruler_yazidi_adm: ""
+
+ #Zaracas
+ silla_court:0 "Silla Court"
+ silla_court_shadow:0 "Remnant Court"

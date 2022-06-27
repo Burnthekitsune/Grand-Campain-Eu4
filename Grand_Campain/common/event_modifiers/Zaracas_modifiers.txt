@@ -56,3 +56,12 @@ z_uper_colonist = {
 	colonist_placement_chance = 0.1
 	range = 0.4
 }
+
+silla_court = {
+	legitimacy = 0.5
+}
+
+silla_court_shadow = {
+	legitimacy = 0.5
+	prestige = -0.5
+}
