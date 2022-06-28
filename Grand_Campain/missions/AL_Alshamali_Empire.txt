@@ -8,7 +8,7 @@ ASE_Unite_Empire = {
 	has_country_shield = yes
 
 	ASE_Faykingh = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 1
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -65,7 +65,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Beja = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 2
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -107,7 +107,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Coimbra = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 3
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -134,7 +134,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Jabal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 4
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -176,7 +176,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 5
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -203,7 +203,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Sahili = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 6
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -245,7 +245,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Shamal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 7
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -293,7 +293,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	SML_Janub = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 8
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -344,7 +344,7 @@ ASE_Unite_Empire = {
 		}
 	}
 	ASE_Alsaahili = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 9
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -399,7 +399,7 @@ ASE_Unite_Empire = {
 	}
 	
 	ASE_United = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 10
 		required_missions = {  }
 		trigger = {
@@ -432,7 +432,7 @@ ASE_France = {
 	has_country_shield = yes
 
 	ASE_claim_france = {
-		icon = mission_build_up_to_force_limit
+		icon = king_of_france
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -450,7 +450,7 @@ ASE_France = {
 		}
 	}
 	ASE_Savoy = {
-		icon = mission_build_up_to_force_limit
+		icon = alpine_fortifications
 		position = 2
 		required_missions = { ASE_claim_france }
 		provinces_to_highlight = {
@@ -472,7 +472,7 @@ ASE_France = {
 		}
 	}
 	AL_Faransa = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_the_french_menace
 		position = 3
 		required_missions = { ASE_Savoy }
 		provinces_to_highlight = {
@@ -542,7 +542,7 @@ ASE_France = {
 		}
 	}
 	AL_Birtani = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_conquer_brittany
 		position = 4
 		required_missions = { AL_Faransa }
 		provinces_to_highlight = {
@@ -591,7 +591,7 @@ ASE_Carribean = {
 	has_country_shield = yes
 
 	ASE_Carribean_Colony = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonial
 		position = 5
 		required_missions = {  }
 		trigger = {
@@ -607,7 +607,7 @@ ASE_Carribean = {
 		}
 	}
 	ASE_Large_Carribean_Colony = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonize_the_caribbean
 		position = 6
 		required_missions = { ASE_Carribean_Colony }
 		trigger = {
@@ -636,7 +636,7 @@ ASE_North_America = {
 	has_country_shield = yes
 
 	ASE_North_America_Foothold = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_the_thirteen_colonies
 		position = 7
 		required_missions = {  }
 		trigger = {
@@ -652,7 +652,7 @@ ASE_North_America = {
 		}
 	}
 	ASE_multiple_NA_colonies = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_colonise_canada
 		position = 8
 		required_missions = { ASE_North_America_Foothold }
 		trigger = {
@@ -673,7 +673,7 @@ ASE_North_America = {
 		}
 	}
 	ASE_North_American_Empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_the_thirteen_colonies
 		position = 9
 		required_missions = { ASE_multiple_NA_colonies }
 		trigger = {
@@ -707,7 +707,7 @@ ASE_South_America = {
 	has_country_shield = yes
 
 	ASE_South_America_Foothold = {
-		icon = mission_build_up_to_force_limit
+		icon = colonize_brazil
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -723,7 +723,7 @@ ASE_South_America = {
 		}
 	}
 	ASE_Columbia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonize_the_west
 		position = 2
 		required_missions = { ASE_South_America_Foothold }
 		trigger = {
@@ -739,7 +739,7 @@ ASE_South_America = {
 		}
 	}
 	ASE_South_American_Empire = {
-		icon = mission_build_up_to_force_limit
+		icon = colonize_the_cape
 		position = 3
 		required_missions = { ASE_Columbia }
 		trigger = {
@@ -773,7 +773,7 @@ ASE_Africa = {
 	has_country_shield = yes
 
 	ASE_Discover_Kongo = {
-		icon = mission_build_up_to_force_limit
+		icon = kon_greatest_power_kongo
 		position = 4
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -792,7 +792,7 @@ ASE_Africa = {
 		}
 	}
 	ASE_Kongo_Colony = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_african_trade_post
 		position = 5
 		required_missions = { ASE_Discover_Kongo }
 		provinces_to_highlight = {
@@ -824,7 +824,7 @@ ASE_Africa = {
 		}
 	}
 	ASE_Cape = {
-		icon = mission_build_up_to_force_limit
+		icon = colonize_the_cape
 		position = 6
 		required_missions = { ASE_Kongo_Colony }
 		provinces_to_highlight = {
@@ -858,7 +858,7 @@ ASE_Africa = {
 		}
 	}
 	ASE_Madagascar = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
 		position = 7
 		required_missions = { ASE_Cape }
 		provinces_to_highlight = {
@@ -905,7 +905,7 @@ ASE_India = {
 	has_country_shield = yes
 
 	ASE_Claim_Indian_Islands = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_indian_empire
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -924,7 +924,7 @@ ASE_India = {
 		}
 	}
 	ASE_Own_Lanka = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_take_indian_coast
 		position = 2
 		required_missions = { ASE_Claim_Indian_Islands }
 		provinces_to_highlight = {
@@ -959,7 +959,7 @@ ASE_India = {
 		}
 	}
 	ASE_Indian_Foothold = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_indian_trade_company
 		position = 3
 		required_missions = { ASE_Own_Lanka }
 		provinces_to_highlight = {
@@ -990,7 +990,7 @@ ASE_India = {
 		}
 	}
 	ASE_Bengal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_bengal_campaign
 		position = 4
 		required_missions = { ASE_Indian_Foothold }
 		provinces_to_highlight = {
@@ -1013,7 +1013,7 @@ ASE_India = {
 		}
 	}
 	ASE_Indian_Empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_inland_india
 		position = 5
 		required_missions = { ASE_Bengal }
 		trigger = {
@@ -1040,7 +1040,7 @@ ASE_India = {
 		}
 	}
 	ASE_Goa = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_secure_hajj_ports
 		position = 6
 		required_missions = {  }
 		trigger = {
@@ -1079,7 +1079,7 @@ ASE_China = {
 	has_country_shield = yes
 
 	ASE_Claim_Taiwan = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_to_the_south_china_sea
 		position = 7
 		required_missions = {  }
 		trigger = {
@@ -1092,7 +1092,7 @@ ASE_China = {
 		}
 	}
 	ASE_dragon_coast = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_open_up_china
 		position = 8
 		required_missions = { ASE_Claim_Taiwan }
 		provinces_to_highlight = {
@@ -1116,7 +1116,7 @@ ASE_China = {
 		}
 	}
 	ASE_Poke_the_Dragon = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_to_china
 		position = 9
 		required_missions = { ASE_dragon_coast }
 		provinces_to_highlight = {
@@ -1146,7 +1146,7 @@ ASE_China = {
 	}
 	
 	ASE_tame_the_dragon = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_defy_the_dragon
 		position = 10
 		required_missions = { ASE_Poke_the_Dragon }
 		provinces_to_highlight = {
@@ -1185,7 +1185,7 @@ ASE_Australia = {
 	has_country_shield = yes
 
 	ASE_Australia_Foothold = {
-		icon = mission_build_up_to_force_limit
+		icon = colonize_australia
 		position = 8
 		required_missions = {  }
 		trigger = {
@@ -1201,7 +1201,7 @@ ASE_Australia = {
 		}
 	}
 	ASE_Oceania_Colonies = {
-		icon = mission_build_up_to_force_limit
+		icon = settle_austrialasia
 		position = 9
 		required_missions = { ASE_Australia_Foothold }
 		trigger = {
@@ -1230,7 +1230,7 @@ ASE_Japan_and_Korea = {
 	has_country_shield = yes
 
 	ASE_north_asian_tradeposts = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_trade_with_japan
 		position = 10
 		required_missions = {  }
 		trigger = {
@@ -1259,7 +1259,7 @@ ASE_SEA = {
 	has_country_shield = yes
 
 	ASE_SEA_trade_posts = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_colonise_spice_islands
 		position = 10
 		required_missions = {  }
 		trigger = {

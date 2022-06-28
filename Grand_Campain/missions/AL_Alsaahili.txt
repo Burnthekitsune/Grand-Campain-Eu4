@@ -8,7 +8,7 @@ Als_Start = {
 	has_country_shield = yes
 
 	alh_claims = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -27,7 +27,7 @@ Als_Start = {
 		}
 	}
 	a_new_caliph = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_hands_praying
 		position = 3
 		required_missions = { als_secure_the_north }
 		provinces_to_highlight = {
@@ -50,7 +50,7 @@ Als_Start = {
 		}
 	}
 	als_proclaim_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 4
 		required_missions = { a_new_caliph }
 		trigger = {
@@ -62,7 +62,7 @@ Als_Start = {
 		}
 	}
 	als_claim_egypt = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_egyptian_mamluk_soldier
 		position = 5
 		required_missions = { als_ruler_of_janub proclaim_empire als_fezzan }
 		trigger = {
@@ -75,7 +75,7 @@ Als_Start = {
 		}
 	}
 	north_african_rule = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_west_african_ports
 		position = 6
 		required_missions = { als_claim_egypt }
 		provinces_to_highlight = {
@@ -125,7 +125,7 @@ Als_Start = {
 		}
 	}
 	african_rule = {
-		icon = mission_build_up_to_force_limit
+		icon = mal_west_african_great_power
 		position = 7
 		required_missions = { north_african_rule }
 		provinces_to_highlight = {
@@ -182,7 +182,7 @@ Als_east = {
 	has_country_shield = yes
 
 	als_rightful_land = {
-		icon = mission_build_up_to_force_limit
+		icon = claim_the_borderlands
 		position = 2
 		required_missions = { alh_claims }
 		provinces_to_highlight = {
@@ -209,7 +209,7 @@ Als_east = {
 		}
 	}
 	als_tunisia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_tunisia
 		position = 3
 		required_missions = { als_rightful_land }
 		provinces_to_highlight = {
@@ -250,7 +250,7 @@ Als_east = {
 		}
 	}
 	als_fezzan = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_malwa_bng
 		position = 4
 		required_missions = { als_tunisia }
 		provinces_to_highlight = {
@@ -289,7 +289,7 @@ Als_west = {
 	has_country_shield = yes
 
 	als_secure_the_north = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_galleys_in_port
 		position = 2
 		required_missions = { alh_claims }
 		provinces_to_highlight = {
@@ -313,7 +313,7 @@ Als_west = {
 		}
 	}
 	als_dominate_janub = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_moroccan_ports
 		position = 3
 		required_missions = { als_secure_the_north }
 		provinces_to_highlight = {
@@ -347,7 +347,7 @@ Als_west = {
 		}
 	}
 	als_ruler_of_janub = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_moroccan_ports
 		position = 4
 		required_missions = { als_dominate_janub }
 		provinces_to_highlight = {

@@ -44,7 +44,7 @@ own_basque_country = {
 	has_country_shield = yes
 
 	unite_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_monarch_in_throne_room
 		position = 2
 		required_missions = { build_force }
 		provinces_to_highlight = {
@@ -60,7 +60,7 @@ own_basque_country = {
 		}
 	}
 	maintain_peace = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_suppress_the_saophas
 		position = 3
 		required_missions = { unite_albasik }
 		provinces_to_highlight = {
@@ -107,7 +107,7 @@ build_up_basque = {
 	has_country_shield = yes
 
 	fortify_homeland = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_interference
 		position = 2
 		required_missions = { build_force }
 		provinces_to_highlight = {
@@ -123,7 +123,7 @@ build_up_basque = {
 		}
 	}
 	develop_homeland = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_nevas_port
 		position = 3
 		required_missions = { fortify_homeland }
 		provinces_to_highlight = {
@@ -171,7 +171,7 @@ form_albasik = {
 	has_country_shield = yes
 
 	form_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 4
 		required_missions = { maintain_peace develop_homeland }
 		trigger = {
@@ -184,7 +184,7 @@ form_albasik = {
 		}
 	}
 	defend_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_cannons_firing
 		position = 5
 		required_missions = { form_albasik }
 		trigger = {

@@ -49,7 +49,7 @@ Alsaahil_Start = {
 		}
 	}
 	claim_the_core = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_reconquer_ceuta
 		position = 2
 		required_missions = { als_build_forcelimit }
 		provinces_to_highlight = {
@@ -69,7 +69,7 @@ Alsaahil_Start = {
 		}
 	}
 	restore_order = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_friends_or_enemies_(morocco)
 		position = 3
 		required_missions = { take_the_coast claim_the_core take_the_south }
 		provinces_to_highlight = {
@@ -85,7 +85,7 @@ Alsaahil_Start = {
 		}
 	}
 	forum_alsaahil = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 4
 		required_missions = { restore_order }
 		trigger = {
@@ -119,7 +119,7 @@ push_west = {
 	has_country_shield = yes
 
 	take_the_coast = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_bedouins
 		position = 2
 		required_missions = { als_build_forcelimit }
 		provinces_to_highlight = {
@@ -159,7 +159,7 @@ push_east = {
 	has_country_shield = yes
 
 	take_the_south = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_bedouins
 		position = 2
 		required_missions = { als_build_forcelimit }
 		provinces_to_highlight = {
