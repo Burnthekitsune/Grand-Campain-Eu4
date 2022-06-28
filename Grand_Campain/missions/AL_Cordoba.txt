@@ -146,7 +146,7 @@ Seville_Extremadura = {
 	}
 
 	improve_sevilla = {
-		icon = mission_early_game_buildings
+		icon = mission_eastern_european_city
 		position = 4
 		required_missions = { core_toledo core_extremadura encourage_algarve_trade core_north_morocco }
 		provinces_to_highlight = {
