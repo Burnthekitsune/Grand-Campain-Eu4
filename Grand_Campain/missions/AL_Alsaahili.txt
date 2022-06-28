@@ -125,7 +125,7 @@ Als_Start = {
 		}
 	}
 	african_rule = {
-		icon = mal_west_african_great_power
+		icon = mission_empire
 		position = 7
 		required_missions = { north_african_rule }
 		provinces_to_highlight = {
