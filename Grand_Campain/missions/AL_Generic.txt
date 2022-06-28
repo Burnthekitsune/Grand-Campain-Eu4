@@ -8,7 +8,7 @@ al_generic = {
 	}
 
 	al_exploration = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_launch_a_flagship
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -23,7 +23,7 @@ al_generic = {
 		}
 	}
 	al_colonization = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_raid_on_venice
 		position = 2
 		required_missions = {  }
 		trigger = {
@@ -39,7 +39,7 @@ al_generic = {
 		}
 	}
 	al_raiding = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_south_indian_trade
 		position = 3
 		required_missions = {  }
 		trigger = {
@@ -59,7 +59,7 @@ al_generic = {
 		}
 	}
 	al_convert = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_interfaith_relations
 		position = 4
 		required_missions = {  }
 		trigger = {
@@ -73,7 +73,7 @@ al_generic = {
 		}
 	}
 	al_mercantilism = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_dominate_gujarati_trade
 		position = 5
 		required_missions = {  }
 		trigger = {
@@ -87,7 +87,7 @@ al_generic = {
 		}
 	}
 	al_subjugation = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_have_two_subjects
 		position = 6
 		required_missions = {  }
 		trigger = {
@@ -101,8 +101,8 @@ al_generic = {
 		}
 	}
 	
-	al_teasure = {
-		icon = mission_build_up_to_force_limit
+	al_treasure = {
+		icon = mission_dominate_gujarati_trade
 		position = 7
 		required_missions = {  }
 		trigger = {
