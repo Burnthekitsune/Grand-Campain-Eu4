@@ -35,7 +35,7 @@ faykingh_start = {
 		}
 	}
 	invade_andalucia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_reclaim_andalucia
 		position = 2
 		required_missions = { fay_build_forcelimit }
 		provinces_to_highlight = {
@@ -73,7 +73,7 @@ faykingh_start = {
 		}
 	}
 	toledo_claim = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_african_gold
 		position = 3
 		required_missions = { invade_andalucia }
 		provinces_to_highlight = {
@@ -89,7 +89,7 @@ faykingh_start = {
 		}
 	}
 	form_faykingh = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 4
 		required_missions = { toledo_claim take_the_strait grab_algarve beat_badajoz }
 		trigger = {
@@ -129,7 +129,7 @@ fakykingh_south = {
 	has_country_shield = yes
 
 	take_the_strait = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_plus_ultra
 		position = 3
 		required_missions = { invade_andalucia }
 		provinces_to_highlight = {
@@ -173,7 +173,7 @@ faykingh_extremadura = {
 	has_country_shield = yes
 
 	beat_badajoz = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 3
 		required_missions = { invade_andalucia }
 		provinces_to_highlight = {
@@ -211,7 +211,7 @@ algarve = {
 	has_country_shield = yes
 
 	grab_algarve = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_galleys_in_port
 		position = 3
 		required_missions = { invade_andalucia }
 		provinces_to_highlight = {

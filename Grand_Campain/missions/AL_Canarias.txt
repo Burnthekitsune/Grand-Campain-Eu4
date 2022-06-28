@@ -8,7 +8,7 @@ Canarias_Start = {
 	has_country_shield = yes
 
 	explore_high_seas = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonial
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -28,7 +28,7 @@ Canarias_Start = {
 		}
 	}
 	discover_new_island = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonize_the_west
 		position = 2
 		required_missions = { explore_high_seas }
 		provinces_to_highlight = {
@@ -66,7 +66,7 @@ Canarias_Africa = {
 	has_country_shield = yes
 
 	african_islands = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_african_trade_post
 		position = 3
 		required_missions = { discover_new_island }
 		provinces_to_highlight = {
@@ -91,7 +91,7 @@ Canarias_Africa = {
 		}
 	}
 	lone_island = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
 		position = 4
 		required_missions = { african_islands }
 		provinces_to_highlight = {
@@ -109,7 +109,7 @@ Canarias_Africa = {
 		}
 	}
 	round_the_cape = {
-		icon = mission_build_up_to_force_limit
+		icon = mal_west_african_great_power
 		position = 5
 		required_missions = { lone_island }
 		provinces_to_highlight = {
@@ -127,7 +127,7 @@ Canarias_Africa = {
 		}
 	}
 	the_other_side = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_establish_high_seas_navy
 		position = 6
 		required_missions = { round_the_cape }
 		provinces_to_highlight = {
@@ -148,7 +148,7 @@ Canarias_Africa = {
 		}
 	}
 	looking_eastwards = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_south_indian_trade
 		position = 7
 		required_missions = { the_other_side }
 		provinces_to_highlight = {
@@ -169,7 +169,7 @@ Canarias_Africa = {
 		}
 	}
 	surround_madagascar = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
 		position = 8
 		required_missions = { looking_eastwards }
 		provinces_to_highlight = {
@@ -201,7 +201,7 @@ Canarias_Africa = {
 		}
 	}
 	claim_madagascar = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_mediterranean_islands
 		position = 9
 		required_missions = { surround_madagascar }
 		provinces_to_highlight = {
@@ -231,7 +231,7 @@ Canarias_Africa = {
 	}
 	
 	indian_foothold = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_indian_trade_company
 		position = 10
 		required_missions = { claim_madagascar }
 		provinces_to_highlight = {
@@ -253,7 +253,7 @@ Canarias_Africa = {
 		}
 	}
 	swipe_maldives = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_take_indian_coast
 		position = 11
 		required_missions = { indian_foothold }
 		provinces_to_highlight = {
@@ -277,7 +277,7 @@ Canarias_Africa = {
 		}
 	}
 	convert_maldives = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_the_riches_of_india
 		position = 12
 		required_missions = { swipe_maldives }
 		provinces_to_highlight = {
@@ -330,7 +330,7 @@ Cape_Colony = {
 	has_country_shield = yes
 
 	expand_cape = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_early_game_buildings
 		position = 6
 		required_missions = { round_the_cape }
 		trigger = {
@@ -358,7 +358,7 @@ Cape_Colony = {
 		}
 	}
 	claim_coast = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_cromandel_coast
 		position = 7
 		required_missions = { expand_cape }
 		provinces_to_highlight = {
@@ -391,7 +391,7 @@ Cape_Colony = {
 		}
 	}
 	claim_the_plateau = {
-		icon = mission_build_up_to_force_limit
+		icon = claim_the_borderlands
 		position = 8
 		required_missions = { claim_coast }
 		provinces_to_highlight = {
@@ -424,7 +424,7 @@ Cape_Colony = {
 		}
 	}
 	build_the_cape = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_imperial_cities
 		position = 9
 		required_missions = { claim_the_plateau }
 		provinces_to_highlight = {
@@ -450,7 +450,7 @@ Cape_Colony = {
 		}
 	}
 	move_the_capital = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 10
 		required_missions = { build_the_cape }
 		provinces_to_highlight = {
@@ -470,7 +470,7 @@ Cape_Colony = {
 		}
 	}
 	expand_homeland = {
-		icon = mission_build_up_to_force_limit
+		icon = develop_provence
 		position = 11
 		required_missions = { move_the_capital }
 		provinces_to_highlight = {
@@ -501,7 +501,7 @@ Cape_Colony = {
 		}
 	}
 	transval_gold = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_zambezi_gold
 		position = 12
 		required_missions = {  }
 		provinces_to_highlight = {
@@ -529,7 +529,7 @@ Canarias_New_World = {
 	has_country_shield = yes
 
 	colonize_brazil = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonial
 		position = 3
 		required_missions = { discover_new_island }
 		provinces_to_highlight = {
@@ -548,7 +548,7 @@ Canarias_New_World = {
 		}
 	}
 	a_new_colony = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonise_brazil
 		position = 4
 		required_missions = { colonize_brazil }
 		provinces_to_highlight = {
@@ -582,7 +582,7 @@ Canarias_carribean = {
 	has_country_shield = yes
 
 	carribean_foothold = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonize_the_caribbean
 		position = 3
 		required_missions = { discover_new_island }
 		provinces_to_highlight = {
@@ -605,7 +605,7 @@ Canarias_carribean = {
 		}
 	}
 	colonize_louisana = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_nevas_port
 		position = 4
 		required_missions = { carribean_foothold }
 		provinces_to_highlight = {

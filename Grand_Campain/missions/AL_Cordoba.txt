@@ -44,7 +44,7 @@ Seville_Toledo = {
 	has_country_shield = yes
 
 	take_toledo = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 2
 		required_missions = { build_to_forcelimit }
 		provinces_to_highlight = {
@@ -62,7 +62,7 @@ Seville_Toledo = {
 		}
 	}
 	core_toledo = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_early_game_buildings
 		position = 3
 		required_missions = { take_toledo }
 		provinces_to_highlight = {
@@ -80,7 +80,7 @@ Seville_Toledo = {
 		}
 	}
 	la_mancha_gold = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_african_gold
 		position = 5
 		required_missions = { core_toledo improve_sevilla }
 		provinces_to_highlight = {
@@ -109,7 +109,7 @@ Seville_Extremadura = {
 	has_country_shield = yes
 
 	take_extremadura = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 2
 		required_missions = { build_to_forcelimit }
 		provinces_to_highlight = {
@@ -127,7 +127,7 @@ Seville_Extremadura = {
 		}
 	}
 	core_extremadura = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_early_game_buildings
 		position = 3
 		required_missions = { take_extremadura }
 		provinces_to_highlight = {
@@ -146,7 +146,7 @@ Seville_Extremadura = {
 	}
 
 	improve_sevilla = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_early_game_buildings
 		position = 4
 		required_missions = { core_toledo core_extremadura encourage_algarve_trade core_north_morocco }
 		provinces_to_highlight = {
@@ -167,7 +167,7 @@ Seville_Extremadura = {
 		}
 	}
 	improve_cordoba = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_mosque
 		position = 5
 		required_missions = { improve_sevilla }
 		provinces_to_highlight = {
@@ -187,7 +187,7 @@ Seville_Extremadura = {
 		}
 	}
 	improve_granada = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_secure_hajj_ports
 		position = 6
 		required_missions = { improve_cordoba la_mancha_gold }
 		provinces_to_highlight = {
@@ -211,7 +211,7 @@ Seville_Extremadura = {
 		}
 	}
 	restore_faykingh = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 7
 		required_missions = { improve_fez improve_granada }
 		trigger = {
@@ -238,7 +238,7 @@ Seville_Algarve = {
 	has_country_shield = yes
 
 	take_algarve = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_nevas_port
 		position = 2
 		required_missions = { build_to_forcelimit }
 		provinces_to_highlight = {
@@ -254,7 +254,7 @@ Seville_Algarve = {
 		}
 	}
 	encourage_algarve_trade = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_arabian_sea_trade
 		position = 3
 		required_missions = { take_algarve }
 		trigger = {
@@ -277,7 +277,7 @@ Seville_North_Morocco = {
 	has_country_shield = yes
 
 	take_north_morocco = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_moroccan_ports
 		position = 2
 		required_missions = { build_to_forcelimit }
 		provinces_to_highlight = {
@@ -306,7 +306,7 @@ Seville_North_Morocco = {
 		}
 	}
 	core_north_morocco = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_friends_or_enemies_(morocco)
 		position = 3
 		required_missions = { take_north_morocco }
 		provinces_to_highlight = {
@@ -342,7 +342,7 @@ Caliphate = {
 	has_country_shield = yes
 
 	take_fez = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_mosque
 		position = 4
 		required_missions = { core_toledo core_extremadura encourage_algarve_trade core_north_morocco }
 		provinces_to_highlight = {
@@ -357,7 +357,7 @@ Caliphate = {
 		}
 	}
 	proclaim_caliphate = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_restore_caliphate_of_cordoba
 		position = 5
 		required_missions = { take_fez }
 		trigger = {
@@ -380,7 +380,7 @@ Caliphate = {
 		}
 	}
 	improve_fez = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_alhambra
 		position = 6
 		required_missions = { proclaim_caliphate }
 		provinces_to_highlight = {

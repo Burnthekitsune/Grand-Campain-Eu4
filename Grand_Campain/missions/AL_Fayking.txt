@@ -8,7 +8,7 @@ fay_janub = {
 	has_country_shield = yes
 
 	claim_janub = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -27,7 +27,7 @@ fay_janub = {
 		}
 	}
 	press_into_janub = {
-		icon = mission_build_up_to_force_limit
+		icon = army_reforms
 		position = 2
 		required_missions = { claim_janub }
 		provinces_to_highlight = {
@@ -61,7 +61,7 @@ fay_janub = {
 		}
 	}
 	take_mainland_janub = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sw_against_the_desert
 		position = 3
 		required_missions = { press_into_janub }
 		provinces_to_highlight = {
@@ -89,7 +89,7 @@ fay_janub = {
 		}
 	}
 	janubian_islands = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
 		position = 4
 		required_missions = { take_mainland_janub }
 		provinces_to_highlight = {
@@ -122,7 +122,7 @@ fay_sahili = {
 	has_country_shield = yes
 
 	claim_sahili = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -135,7 +135,7 @@ fay_sahili = {
 		}
 	}
 	fay_valencia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_valencian_silk
 		position = 2
 		required_missions = { claim_sahili }
 		provinces_to_highlight = {
@@ -156,7 +156,7 @@ fay_sahili = {
 		}
 	}
 	north_sahili = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_golden_century
 		position = 3
 		required_missions = { fay_valencia }
 		provinces_to_highlight = {
@@ -180,7 +180,7 @@ fay_sahili = {
 		}
 	}
 	sahili_islands = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_mediterranean_islands
 		position = 4
 		required_missions = { north_sahili }
 		provinces_to_highlight = {
@@ -218,7 +218,7 @@ fay_west = {
 	has_country_shield = yes
 
 	claim_beja = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -231,7 +231,7 @@ fay_west = {
 		}
 	}
 	rule_beja = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_interference
 		position = 2
 		required_missions = { claim_beja }
 		provinces_to_highlight = {
@@ -255,7 +255,7 @@ fay_west = {
 		}
 	}
 	rule_coimbra = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_oman
 		position = 4
 		required_missions = { rule_beja }
 		provinces_to_highlight = {
@@ -287,7 +287,7 @@ fay_jabal = {
 	has_country_shield = yes
 
 	claim_jabal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -300,7 +300,7 @@ fay_jabal = {
 		}
 	}
 	rule_castile = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_imperial_spain
 		position = 2
 		required_missions = { claim_jabal }
 		provinces_to_highlight = {
@@ -318,7 +318,7 @@ fay_jabal = {
 		}
 	}
 	rule_leon = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fortify_rajputana
 		position = 3
 		required_missions = { rule_castile }
 		provinces_to_highlight = {
@@ -339,7 +339,7 @@ fay_jabal = {
 		}
 	}
 	rule_jabal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fortify_mandu
 		position = 4
 		required_missions = { rule_leon }
 		provinces_to_highlight = {
@@ -383,7 +383,7 @@ fay_albasik = {
 	has_country_shield = yes
 
 	claim_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 5
 		required_missions = { janubian_islands sahili_islands rule_coimbra rule_jabal }
 		trigger = {
@@ -396,7 +396,7 @@ fay_albasik = {
 		}
 	}
 	fay_restore_alshamali_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 6
 		required_missions = { claim_albasik }
 		provinces_to_highlight = {
