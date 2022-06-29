@@ -36,8 +36,10 @@ monarch_names = {
 	"Zahra #1" = -10
 	"Cathán #0" = 5
 	"Temair #0" = 5
-	"Alsting #0" = 10
+	"Alsting #0" = 15
 	"Edwin #0" = 0
+	"Harald #0" = 5
+	"Liam #0" = 15
 }
 leader_names = {
 	"Wessex"
