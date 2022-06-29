@@ -1244,3 +1244,5 @@ SML = "countries/Shamal.txt"
 JNB = "countries/Janub.txt"
 AHL = "countries/Alsaahili.txt"
 ASE = "countries/Alshamali.txt"
+
+MUR = "countries/Muraa.txt"

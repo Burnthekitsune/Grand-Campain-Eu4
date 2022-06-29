@@ -1,0 +1,155 @@
+graphical_culture = easterngfx
+color = { 30 160 203 }
+revolutionary_colors = { 15 5 0 }
+historical_idea_groups = {
+	aristocratic_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	offensive_ideas
+	maritime_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	eastern_militia
+}
+monarch_names = {
+	"Nomedas #0" = 50
+	"Pelagios #0" = 50
+	"Mahecor #2" = 40
+	"Anaba #0" = 40
+	"Manuchehar #0" = 40
+	"Semou #0" = 40
+	"Maha #1" = 30
+	"Sanjan #1" = 30
+	"Sartac #0" = 30
+	"Sergonis #0" = 30
+	"Echan #0" = 30
+	"Narses #0" = 30
+	"Porphyrogenitos #0" = 20
+	"Serapion #0" = 20
+	"Prusas #0" = 20
+	"Helias #0" = 20
+	"Cikai #0" = 20
+	"Konstantin #0" = 20
+	"Tabat #0" = 10
+	"Phocas #0" = 10
+	"Uchva #0" = 10
+	"Leo #0" = 5
+	"Henotikon #0" = 5
+	"Aspar #0" = 5
+	"Ardabur #0" = 5
+	"Ghani #0" = 5
+	"Dravenis #0" = 5
+	"Koshka #0" = 5
+	"Izi #0" = 0
+	"Vecas #0" = 0
+	"Saksa #0" = 0
+	"Maksa #0" = 0
+	"Varash #0" = 0
+	"Ma'n #0" = 0
+	"Hakam #0" = 0
+	"Gejopal #0" = 0
+
+	"Raisa #0" = -50
+	"Cinsay #2" = -40
+	"Isra #0" = -40
+	"Bashira #2" = -30
+	"Maram #1" = -30
+	"Aamina #0" = -30
+	"Arcadia #0" = -30
+	"Selene #0" = -20
+	"Tamsin #0" = -20
+	"Neapania #0" = -20
+	"Aspasia #0" = -20
+	"Dasin #0" = -20
+	"Aasi #0" = -20
+	"Samur #0" = -10
+	"Esin #0" = -10
+	"Neda #0" = -10
+	"Casna #0" = -10
+	"Citska #0" = -10
+	"Pelaja #0" = -5
+	"Massa #0" = -5
+	"Kulla #0" = -5
+	"Yalla #0" = -5
+	"Badra #0" = -5
+	"Awo #0" = -5
+	"Ariadne #0" = -5
+	"Lashin #0" = -5
+	"Kechevi #0" = -5
+}
+leader_names = {
+	Ari Amirid Alemdar Arbantenos Aplakes Apskhid Ainos Acerenza Aristenos Ashina Acicskayid
+	Belermen Bahadur Bagdazarian Buyan Bayandur
+	Celebi Cijin Cotesti Cazanes Cania
+	Dongkar Dra Dvinok Drakontopoulos
+	Ermi
+	Gomostos Gacegid
+	Hrabar Hede
+	Ilikid
+	Katakalon Koshkin Karenos Kophinas Kentenares Kiatamba Karaionatan
+	Muroma Muromid Monacites Manzikert Murje Mra Monokarites Murun Maurikios Meshcersky
+	Paru Pra Petrosian Pontica Prodanic
+	Rumi Ríki
+	Sarkis Shams Sorkor Senka Salaid Sirhan Saran Salavatid
+	Tazid Tibai Taid
+	Udmurt
+	Volan Viksa
+	Xiphias
+	Yoishta
+	Zeno Zagare
+}
+ship_names = {
+	"Ipa Belermen"
+	"Ciubar Carianopol"
+	"Stelian Varos"
+	"Hypatios Tzanzes"
+	"Daumantas Palazzu"
+	"Abdul Pamplona"
+	"Torstein Hede"
+	"Nis"
+	"Theodoro"
+	"Ainos"
+	"Aqmescit"
+	"Severin"
+	"Sinope"
+	"Mahdiya"
+	"Agapimenos tou Roog"
+	"Rogos"
+	"Cembaso"
+	"Ombugol Maayo"
+	"Mahen"
+	"Alansara"
+	"Muraa"
+	"Saiim"
+	"Aiimofateraas"
+	"Romi"
+	"Rassena"
+	"Krimaia"
+	"Fedaafotonfovo"
+	"Karavofagoos"
+	"Cidereenia"
+	"Saaliv Rinodasoos"
+	"Donti"
+	"Cekuuri"
+	"Antarsia"
+	"Evropikaigetai"
+	"Asteriapagosan"
+	"Sti Neolaia"
+	"Xeroun ti Kanoun"
+	"Akinos"
+	"Akrida"
+	"Katsarida"
+	"Mut"
+	"Mer"
+	"Roog me Yperaspizetai"
+}
+army_names = {
+	"$PROVINCE$ Sembata"
+}
+fleet_names = {
+	"Megalostolos"
+	"Neapania"
+	"Drysaspida"
+}
