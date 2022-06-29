@@ -2,14 +2,51 @@ alshamali = {
 	
 	faykinghian = {
 		primary = FAY # Faykingh
-		male_names = { "Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir" "Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal" "Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr" "Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr" "Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan" "Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns" "Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath" "Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il" "Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses" "Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq" "Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf" "Joseph" }
-		female_names = { "Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya" "Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija" "Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat" "Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm" "Wahida" "Yasmin" "Zahida" "Zahra" }
+		male_names = {
+			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
+			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
+			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
+			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
+			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
+			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
+			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
+			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
+			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
+			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
+			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
+			"Joseph"
+		}
+		female_names = {
+			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
+			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
+			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
+			"Wahida" "Yasmin" "Zahida" "Zahra"
+		}
 		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
 	}
 	bejan = {
-		primary = BJA # Beja
-		male_names = { "Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir" "Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal" "Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr" "Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr" "Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan" "Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns" "Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath" "Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il" "Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses" "Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq" "Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf" "Joseph" }
-		female_names = { "Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya" "Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija" "Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat" "Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm" "Wahida" "Yasmin" "Zahida" "Zahra" }
+		primary = BJA # Bejamale_names = {
+			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
+			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
+			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
+			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
+			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
+			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
+			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
+			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
+			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
+			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
+			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
+			"Joseph"
+		}
+		female_names = {
+			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
+			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
+			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
+			"Wahida" "Yasmin" "Zahida" "Zahra"
+		}
 		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
 	}
 	coimbrian = {
@@ -61,20 +98,82 @@ alshamali = {
 	}
 	ayirlandian = { # Ireland
 		primary = IRE # Ireland
-		male_names = { "Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir" "Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal" "Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr" "Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr" "Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan" "Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns" "Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath" "Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il" "Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses" "Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq" "Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf" "Joseph" }
-		female_names = { "Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya" "Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija" "Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat" "Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm" "Wahida" "Yasmin" "Zahida" "Zahra" }
-		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
+		male_names = {
+			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
+			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
+			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
+			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
+			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
+			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
+			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
+			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
+			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
+			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
+			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
+			"Joseph"
+		}
+		female_names = {
+			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
+			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
+			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
+			"Wahida" "Yasmin" "Zahida" "Zahra"
+		}
+		dynasty_names = {
+			Haesteining Hammelburg Qutamid Snjalli Elfael Ari "ua Dochartaigh" "Airthir Chliach" Eóganacht
+			"Chliach-Uists" Rakki Viss Toki "Pahlen-Llandrindod" Romsdoeling "Dál Birn" Mikli Darcy Néill
+			Ivaring Rogalander Armagh Athlone Inchmore Cappagh Moher Curraghbee Clonbonny Crovan Caiteach
+			Barry Burke Lynch Aiken Mulcahy Collins
+		}
 	}
 	askulandi = { # Scotland
 		primary = SCO # Scotland
-		male_names = { "Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir" "Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal" "Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr" "Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr" "Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan" "Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns" "Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath" "Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il" "Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses" "Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq" "Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf" "Joseph" }
-		female_names = { "Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya" "Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija" "Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat" "Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm" "Wahida" "Yasmin" "Zahida" "Zahra" }
+		male_names = {
+			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
+			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
+			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
+			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
+			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
+			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
+			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
+			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
+			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
+			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
+			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
+			"Joseph"
+		}
+		female_names = {
+			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
+			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
+			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
+			"Wahida" "Yasmin" "Zahida" "Zahra"
+		}
 		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
 	}
 	anjilu_nurs = { # Jorvik
 		primary = JRK # Jorvik
-		male_names = { "Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir" "Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal" "Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr" "Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr" "Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan" "Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns" "Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath" "Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il" "Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses" "Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq" "Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf" "Joseph" }
-		female_names = { "Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya" "Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija" "Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat" "Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm" "Wahida" "Yasmin" "Zahida" "Zahra" }
+		male_names = {
+			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
+			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
+			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
+			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
+			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
+			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
+			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
+			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
+			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
+			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
+			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
+			"Joseph"
+		}
+		female_names = {
+			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
+			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
+			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
+			"Wahida" "Yasmin" "Zahida" "Zahra"
+		}
 		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
 	}
 	anjilu_saksunia = { # England
@@ -103,8 +202,27 @@ alshamali = {
 	}
 	wylz = {
 		primary = WLS # Wales
-		male_names = { "Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir" "Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal" "Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr" "Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr" "Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan" "Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns" "Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath" "Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il" "Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses" "Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq" "Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf" "Joseph" }
-		female_names = { "Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya" "Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija" "Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat" "Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm" "Wahida" "Yasmin" "Zahida" "Zahra" }
+		male_names = {
+			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
+			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
+			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
+			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
+			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
+			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
+			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
+			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
+			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
+			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
+			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
+			"Joseph"
+		}
+		female_names = {
+			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
+			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
+			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
+			"Wahida" "Yasmin" "Zahida" "Zahra"
+		}
 		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
 	}
 	faransan = {
