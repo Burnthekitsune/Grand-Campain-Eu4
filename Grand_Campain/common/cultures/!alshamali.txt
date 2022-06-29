@@ -99,31 +99,24 @@ alshamali = {
 	ayirlandian = { # Ireland
 		primary = IRE # Ireland
 		male_names = {
-			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
-			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
-			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
-			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
-			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
-			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
-			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
-			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
-			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
-			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
-			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
-			"Joseph"
+			Haestein Alsting Ragnar Rognvald Abbas Ayyub Budli Galind Abu Torolf Ali Ivar "Máel Sechnaill"
+			"Móenach" "Dub-dá-Bairenn" "Cathán" Cathal Cahal Taran "Tigernán" Morand "Cú-Allaid" "Cathalán"
+			Corbb "Gilla-Ruad" Kollr Torbrand Rikulf Art Muiris Tadhg "Seán" "Naomhán" Diarmaid Aerdghal
+			Somhairle "Abbán" Hugh "Áedán" Ailgus Artbran Berrach Bran Colcu Congal "Cú-Cúaráin" Eochu
+			Drost Domnall Liam Maine Lochlann Godfrey Sogan Tuathal Ruah
 		}
 		female_names = {
-			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
-			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
-			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
-			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
-			"Wahida" "Yasmin" "Zahida" "Zahra"
+			Jorun Skuld Iliana Ahu Malika Unner Bergtora Zahra Saraid Ablach "Aíbinn" Aileann "Áine" Agnes
+			Anlaith Aíbinn Brigit Cacht "Caitilín" Cainnech "Catríona" Ciar Conchenn Deirdre Gormlaith
+			Lann Lathir Lucia Mauda Muirenn Ros Sadb Slaine Sinech Temair
 		}
 		dynasty_names = {
 			Haesteining Hammelburg Qutamid Snjalli Elfael Ari "ua Dochartaigh" "Airthir Chliach" Eóganacht
 			"Chliach-Uists" Rakki Viss Toki "Pahlen-Llandrindod" Romsdoeling "Dál Birn" Mikli Darcy Néill
 			Ivaring Rogalander Armagh Athlone Inchmore Cappagh Moher Curraghbee Clonbonny Crovan Caiteach
-			Barry Burke Lynch Aiken Mulcahy Collins
+			Barry Burke Lynch Aiken Mulcahy Collins "ua Amr" "ua Coel" "ua Frode" MacLochlainn Kelly
+			Cotter Shannon "O'Cathail" Garnafailagh Moate Drumgarve Sheean Kildun Collanmore Inishraher
+			Cleggan Kerrigan Carna Ardnagla Glencanane
 		}
 	}
 	askulandi = { # Scotland
