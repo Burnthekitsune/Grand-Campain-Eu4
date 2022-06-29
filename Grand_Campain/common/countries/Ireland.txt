@@ -29,51 +29,26 @@ historical_units = {
 	western_medieval_knights
 }
 monarch_names = {
-	"Aerdghal #0" = 0
-	"Aonghus #2" = 5
-	"Art #1" = 20
-	"Bearach #0" = 0
-	"Brian #2" = 20
-	"Cao0mhin #0" = 0
-	"Cathal #0" = 20
-	"Cathaoir #0" = 40
-	"Comhghall #2" = 5
-	"Conchobhar #1" = 40
-	"Conn #1" = 10
-	"Criomhthann #2" = 20
-	"Diarmaid #1" = 5
-	"Donal #5" = 40
-	"Donnabhain #0" = 0
-	"Einr0 #0" = 15
-	"Eoghan #1" = 10
-	"E0hmh0n #0" = 0
-	"Fearghal #0" = 0
-	"Fedelma #0" = -1
-	"Feidlimidh #1" = 40
-	"Flann #1" = 5
-	"Fonnchadh #3" = 20
-	"Iarfhlaith #0" = 0
-	"Lorcc0n #0" = 0
-	"MONARCH_NAME_GEAROID #0" = 20
-	"Maeleachlain #2" = 5
-	"Math0in #0" = 0
-	"Muchadh #0" = 40
-	"Muireadhach #2" = 40
-	"Muiris #0" = 20
-	"Naomh0n #0" = 0
-	"Niall #4" = 15
-	"Ois0n #0" = 0
-	"P0draig #0" = 0
-	"R0ag0in #0" = 0
-	"Saraid #0" = -1
-	"Se0n #0" = 20
-	"Somhairle #0" = 0
-	"Tadhg #0" = 20
-	"Turlough #2" = 60
-	"0ed #6" = 20
-	"0rfhlaith #0" = -1
+	"Skjalvor #1" = -10
+	"Sigtrygg #1" = 10
+	"Rikulf #1" = 10
+	"Bergtora #1" = -10
+	"Zahra #1" = -10
+	"Cathán #0" = 5
+	"Temair #0" = 5
+	"Alsting #0" = 10
+	"Edwin #0" = 0
 }
 leader_names = {
+	"Wessex"
+	"of York"
+	"Cerdicing-Dover"
+	"Kiffa-Kissi"
+	"Ailpin"
+	"Leicester"
+	"Norscester"
+	"Lancaster"
+	"Rakki"
 	"Alexander"
 	"Annesley"
 	"Balfour"
