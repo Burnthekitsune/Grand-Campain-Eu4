@@ -259,7 +259,9 @@ Seville_Algarve = {
 		required_missions = { take_algarve }
 		trigger = {
 			owns_core_province = 230
-			num_of_times_improved = 3
+			230 = {
+				num_of_times_improved = 3
+			}
 		}
 		effect = {
 			center_of_trade = 2
