@@ -70,8 +70,10 @@ Canarias_Africa = {
 		position = 3
 		required_missions = { discover_new_island }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 1097
 			province_id = 1306
+			}
 		}
 		trigger = {
 			has_discovered = 1097
@@ -173,8 +175,10 @@ Canarias_Africa = {
 		position = 8
 		required_missions = { looking_eastwards }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 1102
 			province_id = 1103
+			}
 		}
 		trigger = {
 			has_discovered = 1102
@@ -205,10 +209,12 @@ Canarias_Africa = {
 		position = 9
 		required_missions = { surround_madagascar }
 		provinces_to_highlight = {
+			OR = {
 			area = betsimasaraka_area
 			area = madagascar_highlands_area
 			area = sakalava_area
 			area = southern_madagascar
+			}
 		}
 		trigger = {
 			owns_core_province = 1102
@@ -313,7 +319,7 @@ Canarias_Placeholder = {
 		effect = {
 			add_prestige = 10
 			create_admiral = {
-				traditon = 80
+				tradition = 80
 			}
 		}
 	}
@@ -362,8 +368,10 @@ Cape_Colony = {
 		position = 7
 		required_missions = { expand_cape }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 833
 			province_id = 1180
+			}
 		}
 		trigger = {
 			treasury = 100
@@ -395,8 +403,10 @@ Cape_Colony = {
 		position = 8
 		required_missions = { claim_coast }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 1176
 			province_id = 1178
+			}
 		}
 		trigger = {
 			treasury = 100
@@ -474,10 +484,12 @@ Cape_Colony = {
 		position = 11
 		required_missions = { move_the_capital }
 		provinces_to_highlight = {
+			OR = {
 			area = cape_of_good_hope_area
 			area = south_african_plateau_area
 			area = limpopo_area
 			area = transvaal_area
+			}
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -552,8 +564,10 @@ Canarias_New_World = {
 		position = 4
 		required_missions = { colonize_brazil }
 		provinces_to_highlight = {
+			OR = {
 			region = la_plata_region
 			region = colombia_region
+			}
 		}
 		trigger = {
 			any_subject_country = {

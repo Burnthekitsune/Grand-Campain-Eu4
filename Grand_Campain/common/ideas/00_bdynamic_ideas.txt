@@ -851,7 +851,7 @@ dynamic-greek-culture-num1_ideas = {
 	free = yes
 
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_formation_fighting = {
 		reserves_organisation = -0.10
@@ -1031,7 +1031,7 @@ dynamic-franconian-cosmopolitan_french-culture-num1_ideas = {
 		global_prosperity_growth = 0.1
 	}
 	bonus = {
-		 = 
+		legitimacy = 1
 	}
 }
 
@@ -1174,7 +1174,7 @@ dynamic-tibetan-culture-num1_ideas = {
 		cav_to_inf_ratio = 0.10
 	}
 	tradition_merciful_blindings = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_fervent_temple_builders = {
 		global_tax_modifier = 0.1
@@ -1213,7 +1213,7 @@ dynamic-yorumba-culture-num1_ideas = {
 		female_advisor_chance = 0.5
 	}
 	tradition_hidden_cities = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_ancient_miners = {
 		gold_depletion_chance_modifier = -0.2
@@ -1925,7 +1925,7 @@ dynamic-tibetan-culture-num3_ideas = {
 		global_spy_defence = 0.1
 	}
 	tradition_merciful_blindings = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_hard_working = {
 		build_cost = -0.1
@@ -2526,7 +2526,7 @@ dynamic-greek-culture-num3_ideas = {
 	free = yes
 
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_roman_legacy = {
 		land_maintenence_modifier = -0.1
@@ -2655,7 +2655,7 @@ dynamic-hausa-nupe-culture-num1_ideas = {
 		build_time = -0.2
 	}
 	tradition_hidden_cities = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_caravaneers = {
 		caravan_power = 0.2
@@ -2930,7 +2930,7 @@ dynamic-aka-yorumba-culture-num1_ideas = {
 		build_time = -0.2
 	}
 	tradition_hidden_cities = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_hard_working = {
 		build_cost = -0.1
@@ -3158,7 +3158,7 @@ dynamic-bulgarian-greek-culture-num1_ideas = {
 		cavalry_flanking = 0.20
 	}
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_roman_legacy = {
 		land_maintenence_modifier = -0.1
@@ -3543,7 +3543,7 @@ dynamic-greek-culture-num4_ideas = {
 		reserves_organisation = -0.10
 	}
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_roman_legacy = {
 		land_maintenence_modifier = -0.1
@@ -4549,7 +4549,7 @@ dynamic-greek-culture-num5_ideas = {
 	free = yes
 
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_formation_fighting = {
 		reserves_organisation = -0.10
@@ -4625,7 +4625,7 @@ dynamic-bavarian-italian-culture-num1_ideas = {
 	free = yes
 
 	tradition_republican_legacy = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_mountain_homes = {
 		development_cost = -0.1
@@ -4662,7 +4662,7 @@ dynamic-greek-culture-num6_ideas = {
 	free = yes
 
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_formation_fighting = {
 		reserves_organisation = -0.10
@@ -4751,7 +4751,7 @@ dynamic-slovak-culture-num1_ideas = {
 		diplomats = 1
 	}
 	tradition_legalistic = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_mendicant_mystics = {
 		merchant = 1
@@ -4791,7 +4791,7 @@ dynamic-buryat-culture-num2_ideas = {
 		horde_unity = 1
 	}
 	tradition_merciful_blindings = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_artisans = {
 		global_prov_trade_power_modifier = 0.1
@@ -5464,7 +5464,7 @@ dynamic-franconian-cosmopolitan_french-culture-num2_ideas = {
 		prestige = 1
 	}
 	tradition_merciful_blindings = {
-		 = 
+		legitimacy = 1
 	}
 	tradition_fervent_temple_builders = {
 		global_tax_modifier = 0.1

@@ -150,9 +150,11 @@ Sous_North = {
 		position = 3
 		required_missions = { take_haha push_into_tafilalt }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 2470
 			province_id = 4568
 			province_id = 349
+			}
 		}
 		trigger = {
 			2470 = {

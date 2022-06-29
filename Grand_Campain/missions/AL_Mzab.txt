@@ -63,8 +63,10 @@ Mzab_Start = {
 		position = 5
 		required_missions = { invade_tunisia }
 		provinces_to_highlight = {
+			OR = {
 			area = djerba_area
 			area = tripolitania_area
+			}
 		}
 		trigger = {
 			owns_all_provinces = {
@@ -187,9 +189,11 @@ Mzab_North = {
 		position = 5
 		required_missions = { take_kaylia }
 		provinces_to_highlight = {
+			OR = {
 			area = hautes_plaines_area
 			area = barbary_coast_area
 			area = algiers_area
+			}
 		}
 		trigger = {
 			owns_all_provinces = {

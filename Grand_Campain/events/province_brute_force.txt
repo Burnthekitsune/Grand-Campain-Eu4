@@ -34,7 +34,7 @@ province_event = { # Random conversion stopping
 	option = {
 		name = province_brute_force.1.a
 		change_religion = converted_dynamic_faith_102
-		ai_chance {
+		ai_chance = {
 			factor = 1
 		}
 	}

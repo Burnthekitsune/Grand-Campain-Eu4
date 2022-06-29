@@ -88,7 +88,7 @@ Seville_Toledo = {
 		}
 		trigger = {
 			2754 = {
-			num_of_times_improved_by_owner = 5
+			num_of_times_improved = 5
 			}
 		}
 		effect = {
@@ -154,7 +154,7 @@ Seville_Extremadura = {
 		}
 		trigger = {
 			224 = {
-				num_of_times_improved_by_owner = 5
+				num_of_times_improved = 5
 			}
 		}
 		effect = {
@@ -175,7 +175,7 @@ Seville_Extremadura = {
 		}
 		trigger = {
 			225 = {
-			num_of_times_improved_by_owner = 5
+			num_of_times_improved = 5
 			}
 		}
 		effect = {
@@ -195,7 +195,7 @@ Seville_Extremadura = {
 		}
 		trigger = {
 			223 = {
-			num_of_times_improved_by_owner = 5
+			num_of_times_improved = 5
 			}
 		}
 		effect = {
@@ -259,7 +259,7 @@ Seville_Algarve = {
 		required_missions = { take_algarve }
 		trigger = {
 			owns_core_province = 230
-			num_of_times_improved_by_owner = 3
+			num_of_times_improved = 3
 		}
 		effect = {
 			center_of_trade = 2
@@ -310,10 +310,12 @@ Seville_North_Morocco = {
 		position = 3
 		required_missions = { take_north_morocco }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 334
 			province_id = 1751
 			province_id = 4561
 			province_id = 335
+			}
 		}
 		trigger = {
 			owns_core_province = 334
@@ -388,7 +390,7 @@ Caliphate = {
 		}
 		trigger = {
 			343 = {
-			num_of_times_improved_by_owner = 5
+			num_of_times_improved = 5
 			}
 		}
 		effect = {

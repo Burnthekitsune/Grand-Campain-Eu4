@@ -1,7 +1,7 @@
 ﻿l_english:
  #These are here to replace Country Specific government names to make them more open
  ottoman_government:3 "Padishah Government"
- ottoman_government_desc:3 "The Padishah Government is in many ways synonymous with the royal household. The harem ensures that there will never be a lack of heirs for the Padishah, or "Master King"."
+ ottoman_government_desc:3 "The Padishah Government is in many ways synonymous with the royal household. The harem ensures that there will never be a lack of heirs for the Padishah, or Master King."
  english_monarchy:3 "Chartered Monarchy"
  english_monarchy_desc:3 "A Chartered Monarchy is a representative monarchy, with a parliament called regularly by the ruling monarch. It is based on the privileges defined in a charter signed by the Monarch and his vassals."
  mamluk_government:3 "Circassian Slave Government"

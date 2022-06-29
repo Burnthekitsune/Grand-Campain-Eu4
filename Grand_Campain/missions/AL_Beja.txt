@@ -288,7 +288,7 @@ Bejan_Conquest = {
 			country_event = { id = ideagroups.1 }
 		}
 	}
-	Push_North = {
+	BJA_Push_North = {
 		icon = mission_expand_inland
 		position = 5
 		required_missions = { Proclaim_Kingdom }
@@ -316,7 +316,7 @@ Bejan_Conquest = {
 			add_prestige = 20
 		}
 	}
-	Proclaim_Empire = {
+	BEJ_Proclaim_Empire = {
 		icon = secure_our_rule
 		position = 7
 		required_missions = { Further_North Grand_Army Grand_Navy Grand_Capital }

@@ -55,4 +55,4 @@ pagan = {
 	heretic = { GOAT_SKULL }
 
 	}
-
+}

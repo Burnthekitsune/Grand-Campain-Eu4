@@ -287,8 +287,10 @@ Mallorcan_Trade = {
 		position = 4
 		required_missions = { develop_capital gulf_of_gabes }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 126
 			province_id = 2954
+			}
 		}
 		trigger = {
 			owns = 126
@@ -365,10 +367,12 @@ Mallorica_Optional = {
 		position = 4
 		required_missions = { expand_navy }
 		provinces_to_highlight = {
+			OR = {
 			province_id = 1749
 			province_id = 1751
 			province_id = 226
 			province_id = 334
+			}
 		}
 		trigger = {
 			owns = 1749

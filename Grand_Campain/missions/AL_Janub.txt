@@ -219,12 +219,11 @@ jnb_alsaahili = {
 			province_id = 2457
 			province_id = 2472
 			province_id = 2456
-			province_id = 
 			}
 		}
 		trigger = {
 			owns_all_provinces = {
-			area = ouled_nail_area
+				area = ouled_nail_area
 			}
 			owns = 339
 			owns = 2457

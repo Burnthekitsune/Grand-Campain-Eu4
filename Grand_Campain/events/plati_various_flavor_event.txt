@@ -374,63 +374,63 @@ country_event = {
 					change_religion = norse_pagan
 				}
 		}
-				else_if {
+				else_if = {
 					limit = { culture_group = scandinavian }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = norse_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = latin }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = hellenic_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = iberian }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = hellenic_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = finno_ugric }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = finnish_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = west_slavic }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = slavic_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = east_slavic }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = slavic_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = baltic }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = baltic_pagan
 					}
 				}
-				else_if {
+				else_if = {
 					limit = { culture_group = byzantine }
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = hellenic_pagan
 					}
 				}
-				else = {
+				else_if = {
 					random_owned_province = {
 						limit = { has_owner_religion = yes }
 						change_religion = animism

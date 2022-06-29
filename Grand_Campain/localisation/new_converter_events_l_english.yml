@@ -97,7 +97,7 @@
  ZZZ_enhanced_fetishist.10.a:3 "We must study this further."
 
  ZZZ_enhanced_fetishist.11.t:3 "The Olympians"
- ZZZ_enhanced_fetishist.11.d:3 "Traveling scholars have arrived in the court of [Root.Monarch.GetName]. They spend their days arguing with everyone and anyone, oftentimes leading circling arguments that end up with the scholar's partner arguing against what he had stood for just an hour previously. These scholars claim to be the honorary descendants of a long tradition that began centuries ago in a small place called "Glees". They already have a devoted following who have begun to copy them in style and dress, with many even going so far as to join them in their religious practices, which concern making sacrifices to a large number of gods who supposedly live on a large mountain far away called "Olympus"."
+ ZZZ_enhanced_fetishist.11.d:3 "Traveling scholars have arrived in the court of [Root.Monarch.GetName]. They spend their days arguing with everyone and anyone, oftentimes leading circling arguments that end up with the scholar's partner arguing against what he had stood for just an hour previously. These scholars claim to be the honorary descendants of a long tradition that began centuries ago in a small place called Glees. They already have a devoted following who have begun to copy them in style and dress, with many even going so far as to join them in their religious practices, which concern making sacrifices to a large number of gods who supposedly live on a large mountain far away called Olympus."
  ZZZ_enhanced_fetishist.11.a:3 "An unexamined life is not worth living."
 
  ZZZ_enhanced_fetishist.12.t:3 "The Other"
@@ -119,7 +119,7 @@
  ZZZ_enhanced_fetishist.51.d:3 "It appears that our attempts to organize the shamans into a viable hierarchy has been met with success. It appears that most shamans like the new order that has been imposed as it standardizes their practices meaning that they can go anywhere without having to worry about upsetting the local population. In addition, many find a hierarchal structure to be reassuring, as it leaves no questions as to who has greater authority in cases of dispute. Overall this has greatly increased not only the shamans' happiness, but our people's as well."
  ZZZ_enhanced_fetishist.51.a:3 "Excellent!"
  ZZZ_enhanced_fetishist.52.t:3 "Shamans Disapprove of Hierarchy"
- ZZZ_enhanced_fetishist.52.d:3 "It appears that our attempts to organize the shamans into a viable hierarchy has been met with disaster. Use to having almost total authority within their area of control, many shamans have been chafing under what they call "an overly restricting system". There have been innumerable cases of shamans simply ignoring their supposed superiors and acting as they wished. These disgruntled shamans have also used their sway over the people to slander [Root.Monarch.GetTitle] [Root.Monarch.GetName]."
+ ZZZ_enhanced_fetishist.52.d:3 "It appears that our attempts to organize the shamans into a viable hierarchy has been met with disaster. Use to having almost total authority within their area of control, many shamans have been chafing under what they call an overly restricting system. There have been innumerable cases of shamans simply ignoring their supposed superiors and acting as they wished. These disgruntled shamans have also used their sway over the people to slander [Root.Monarch.GetTitle] [Root.Monarch.GetName]."
  ZZZ_enhanced_fetishist.52.a:3 "Wasn't a hierarchy supposed to stop this nonsense?"
  ZZZ_enhanced_fetishist.53.t:3 "Veneration of the Ancestors"
  ZZZ_enhanced_fetishist.53.d:3 "Our people have always honored those who came before, and know that they watch over us still, guiding those who seek them. In order to honor our beloved ancestors, [From.Monarch.GetTitle] [From.Monarch.GetName] has conducted a large ceremony in their honor. Attended by thousands, the ceremony went better than expected. Even better, the harvest has been unusually good this year, and many attribute it to the pleasure of the ancestors."
@@ -353,7 +353,7 @@
  religious_events.19.z3:3 "Arbitration of religion is for Allah alone."
  religious_events.19.z4:3 "We will sign the Pact of the Time Custodian."
  religious_events.19.z5:3 "The Great Book of Eternity guides our way."
- religious_events.19.z6:3 "The Hajj is but a superstition."s
+ religious_events.19.z6:3 "The Hajj is but a superstition."
  religious_events.19.z7:3 "We must reconcile Allah and evil."
  religious_events.19.z8:3 "Through the Quran alone we find truth."
  religious_events.19.z9:3 "Ali's substance can be transubstantiated."

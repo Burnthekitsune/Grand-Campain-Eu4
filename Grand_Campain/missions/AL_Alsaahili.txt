@@ -373,7 +373,6 @@ Als_west = {
 			limit = {
 			culture = janubian
 			}
-			}
 			add_nationalism = -15
 			}
 			add_accepted_culture = janubian
