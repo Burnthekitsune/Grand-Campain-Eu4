@@ -33,10 +33,8 @@ The_Past = {
 		position = 4
 		required_missions = { Z_Glorious_Past }
 		trigger = {
-			AND = {
 			workshop = 10
 			weapons = 1
-			}
 		}
 		effect = {
 			add_army_tradition = 10
@@ -75,10 +73,8 @@ Silla = {
 		position = 3
 		required_missions = { Z_Levy }
 		trigger = {
-			AND = {
 			num_of_war_reparations = 4
 			share_of_starting_income = 3
-			}
 		}
 		effect = {
 			add_country_modifier = { 
@@ -92,11 +88,9 @@ Silla = {
 		position = 5
 		required_missions = { Z_Means }
 		trigger = {
-			AND = {
 			total_development = 500
 			training_fields = 10
 			regimental_camp = 5
-			}
 		}
 		effect = {
 			add_country_modifier = { 
@@ -110,7 +104,6 @@ Silla = {
 		position = 8
 		required_missions = { Z_Empire }
 		trigger = {
-			AND = {
 			owns_or_non_sovereign_subject_of = 353
 			OR = {
 			owns_or_non_sovereign_subject_of = 2453
@@ -123,7 +116,6 @@ Silla = {
 			OR = {
 			owns_or_non_sovereign_subject_of = 1115
 			owns_or_non_sovereign_subject_of = 347
-			}
 			}
 		}
 		effect = {
@@ -149,7 +141,7 @@ Z_East = {
 		position = 1
 		required_missions = {  }
 		trigger = {
-			capital = {
+			capital_scope = {
 				has_province_modifier = silla_court
 			}
 		}
@@ -249,11 +241,9 @@ Z_East = {
 		position = 7
 		required_missions = { ZA_East_2 }
 		trigger = { 
-			AND = {
 				owns_or_non_sovereign_subject_of = 2315
 				num_of_light_ship = 20
 				advisor = army_reformer
-		}
 		}
 		effect = { 
 			aussa_area = {
@@ -272,10 +262,8 @@ Z_East = {
 		position = 8
 		required_missions = { ZA_East_3 }
 		trigger = { 
-			AND = {
 				num_of_light_ship = 100
 				trade_income_percentage = 0.60
-		}
 		}
 		effect = { 
 			add_mercantilism = 10
@@ -443,10 +431,8 @@ Z_Kingdom = {
 			}
 		}
 		trigger = {
-			AND = {
 			owns_or_non_sovereign_subject_of = 354
 			owns_or_non_sovereign_subject_of = 2472
-			}
 		}
 		effect = {
 			tunisia_area = {
@@ -460,7 +446,7 @@ Z_Kingdom = {
 		position = 4
 		required_missions = { ZA_Securing_Tunis }
 		provinces_to_highlight = {
-			area = italy_region
+			region = italy_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -485,11 +471,9 @@ Z_Kingdom = {
 		position = 5
 		required_missions = { ZA_Proclaim_Kingdom }
 		trigger = {
-			AND = {
 			development_in_provinces = {
 				value = 20
 				area = fezzan_area
-			}
 			development_in_provinces = {
 				value = 25
 				area = north_saharan_area
@@ -520,11 +504,9 @@ Z_Kingdom = {
 		position = 6
 		required_missions = { ZA_Economy_1 }
 		trigger = {
-			AND = {
-			workshops = 5
+			workshop = 5
 			textile = 2
 			farm_estate = 2
-			}
 		}
 		effect = { 
 			add_country_modifier = { 
@@ -539,10 +521,8 @@ Z_Kingdom = {
 		position = 7
 		required_missions = { ZA_Economy_2 }
 		trigger = {
-			AND = {
 			university = 5
 			trade_depot = 3
-			}
 		}
 		effect = { 
 			add_country_modifier = { 
@@ -561,10 +541,8 @@ Z_Kingdom = {
 		position = 8
 		required_missions = { ZA_Economy_3 }
 		trigger = {
-			AND = {
 			counting_house = 20
 			stock_exchange = 10
-			}
 		}
 		effect = { 
 			add_country_modifier = { 
