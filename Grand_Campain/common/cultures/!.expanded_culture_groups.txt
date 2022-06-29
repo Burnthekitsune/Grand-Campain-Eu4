@@ -479,6 +479,26 @@ finno_ugric = {
 		}
 		dynasty_names = { Kokko Likhachev Mamin Minin Sibiriak  Tikhanov Zubov }
 	}
+	muraa = {
+		primary = MUR
+		male_names = {
+			Anzyl Azyren Barash Cicayka Cotkar Dergun Ecan Elyksan Ilip Izerge Izi Kavri Kystynci Kusidra
+			Kolna Laidemyr Lapkas Maska Miklai Mikpyr Mitryai Nekhot Nishkepaz Nuyat Osherge Ozanay Pinyas
+			Pokshayka Saksa Seterian Sicanjal Shindyay Shemvuy Shkay Shoksha Shumat Sokhron Surt Torkan Tunya Tylze
+			Tyushten Ucva Ucara Varaka Varash Varmanpaz Vasyuk Veckas Velmayka Vikay Viryas Yamshan
+			Yapyk Yolagay Yolga Yumpatyr
+		}
+		female_names = {
+			Anava Anka Ashava Astalce Aybi Bedasi Cecama Cenksa Cerava Ceymarina Cinsay Elika Elyuva Evika
+			Garai Kacyrii Kanyuva Kecevi Kunava Mabu Maira Mastorava Megurka Melshay Mu Nezayka Noroava Nulzyava
+			Nuyanza Nyayka Oksya Olyu Orina Oshama Pashace Pekshayka Salika Sangasa Sercay Su Shoncava
+			Shymay Tacana Uncutka Vergava Yalgava
+		}
+		dynasty_names = {
+			Okain Tesha Seres Ilven Sorkor Pra Zadey Perki Solosh Otok Luko Voja Senka
+			Olkhi Susha Voronor Rav Paas Shkai Cipaz Nishkepaz Asha Mihu Mai
+		}
+	}
 }
 south_slavic = {
 }

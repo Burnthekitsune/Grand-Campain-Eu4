@@ -89,7 +89,7 @@ leader_names = {
 	Hrabar Hede
 	Ilikid
 	Katakalon Koshkin Karenos Kophinas Kentenares Kiatamba Karaionatan
-	Muroma Muromid Monacites Manzikert Murje Mra Monokarites Murun Maurikios Meshcersky
+	Muroma Moïse Muromid Monacites Manzikert Murje Mra Monokarites Murun Maurikios Meshcersky
 	Paru Pra Petrosian Pontica Prodanic
 	Rumi Ríki
 	Sarkis Shams Sorkor Senka Salaid Sirhan Saran Salavatid
