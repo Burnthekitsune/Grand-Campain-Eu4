@@ -8,7 +8,7 @@ jab_coimbra = {
 	has_country_shield = yes
 
 	jab_coimbra = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_hanseatic_city
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -21,7 +21,7 @@ jab_coimbra = {
 		}
 	}
 	jab_rule_coimbra = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_restore_faith_in_the_throne
 		position = 2
 		required_missions = { jab_coimbra }
 		provinces_to_highlight = {
@@ -38,7 +38,7 @@ jab_coimbra = {
 		}
 	}
 	jab_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 3
 		required_missions = { jab_rule_coimbra jab_rule_albasik }
 		trigger = {
@@ -52,7 +52,7 @@ jab_coimbra = {
 		}
 	}
 	jab_iberia = {
-		icon = mission_build_up_to_force_limit
+		icon = carolingian_empire
 		position = 4
 		required_missions = { jab_empire }
 		provinces_to_highlight = {
@@ -83,7 +83,7 @@ jab_albasik = {
 	has_country_shield = yes
 
 	jab_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = alpine_fortifications
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -96,7 +96,7 @@ jab_albasik = {
 		}
 	}
 	jab_rule_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_subjugate_navarra
 		position = 2
 		required_missions = { jab_albasik }
 		provinces_to_highlight = {
@@ -124,7 +124,7 @@ jab_explore = {
 	has_country_shield = yes
 
 	jab_new_world = {
-		icon = mission_build_up_to_force_limit
+		icon = colonize_the_cape
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -142,7 +142,7 @@ jab_explore = {
 		}
 	}
 	overseas_land = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonize_the_west
 		position = 2
 		required_missions = { jab_new_world }
 		trigger = {
@@ -173,7 +173,7 @@ jab_new_world = {
 	has_country_shield = yes
 
 	jab_colony = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_the_thirteen_colonies
 		position = 3
 		required_missions = { overseas_land }
 		trigger = {
@@ -192,7 +192,7 @@ jab_new_world = {
 		}
 	}
 	jab_colonial_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_colonize_the_caribbean
 		position = 4
 		required_missions = { jab_colony }
 		trigger = {
@@ -222,7 +222,7 @@ jab_east = {
 	has_country_shield = yes
 
 	jab_africa_holdings = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_west_african_ports
 		position = 3
 		required_missions = { overseas_land }
 		trigger = {
@@ -235,7 +235,7 @@ jab_east = {
 		}
 	}
 	jab_india = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_indian_trade_company
 		position = 4
 		required_missions = { jab_africa_holdings }
 		trigger = {
@@ -251,7 +251,7 @@ jab_east = {
 		}
 	}
 	jab_lanka = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_lanka
 		position = 5
 		required_missions = { jab_india }
 		provinces_to_highlight = {

@@ -35,7 +35,7 @@ Sous_South = {
 	has_country_shield = yes
 
 	push_into_tafilalt = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_kannauj
 		position = 2
 		required_missions = { build_up_army }
 		provinces_to_highlight = {
@@ -51,7 +51,7 @@ Sous_South = {
 		}
 	}
 	bridge_the_gap = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sw_against_the_desert
 		position = 4
 		required_missions = { northern_forts push_into_tafilalt }
 		provinces_to_highlight = {
@@ -67,7 +67,7 @@ Sous_South = {
 		}
 	}
 	secure_sahara = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_traverse_the_sahara
 		position = 5
 		required_missions = { bridge_the_gap }
 		provinces_to_highlight = {
@@ -92,7 +92,7 @@ Sous_South = {
 		}
 	}
 	african_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mal_west_african_great_power
 		position = 6
 		required_missions = { secure_sahara }
 		trigger = {
@@ -132,7 +132,7 @@ Sous_North = {
 	has_country_shield = yes
 
 	take_haha = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_control_the_barbary_coast
 		position = 2
 		required_missions = { build_up_army }
 		provinces_to_highlight = {
@@ -146,7 +146,7 @@ Sous_North = {
 		}
 	}
 	northern_forts = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_imperial_cities
 		position = 3
 		required_missions = { take_haha push_into_tafilalt }
 		provinces_to_highlight = {
@@ -173,7 +173,7 @@ Sous_North = {
 		}
 	}
 	grab_macaronesia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
 		position = 4
 		required_missions = { northern_forts }
 		provinces_to_highlight = {
@@ -201,7 +201,7 @@ Sous_Infi = {
 	has_country_shield = yes
 
 	deal_with_infi = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_establish_jesuit_missions
 		position = 2
 		required_missions = { build_up_army }
 		provinces_to_highlight = {
@@ -239,7 +239,7 @@ Sous_Infi = {
 		}
 	}
 	discover_arguin = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_african_soldier
 		position = 3
 		required_missions = { deal_with_infi }
 		provinces_to_highlight = {
@@ -257,7 +257,7 @@ Sous_Infi = {
 		}
 	}
 	vassalize_saare = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_have_two_subjects
 		position = 4
 		required_missions = { discover_arguin }
 		provinces_to_highlight = {

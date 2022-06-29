@@ -24,7 +24,7 @@ Mzab_Start = {
 		}
 	}
 	take_gafsa = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_assemble_an_army
 		position = 2
 		required_missions = { mzab_army }
 		provinces_to_highlight = {
@@ -38,7 +38,7 @@ Mzab_Start = {
 		}
 	}
 	invade_tunisia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_tunisia
 		position = 4
 		required_missions = { take_gafsa fortify_north }
 		provinces_to_highlight = {
@@ -59,7 +59,7 @@ Mzab_Start = {
 		}
 	}
 	complete_our_coast = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_control_the_barbary_coast
 		position = 5
 		required_missions = { invade_tunisia }
 		provinces_to_highlight = {
@@ -85,7 +85,7 @@ Mzab_Start = {
 		}
 	}
 	proclaim_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 6
 		required_missions = { complete_our_coast mzab_push_west southern_expansion }
 		trigger = {
@@ -121,7 +121,7 @@ Mzab_North = {
 	has_country_shield = yes
 
 	claim_zab = {
-		icon = mission_build_up_to_force_limit
+		icon = son_military_expertise
 		position = 2
 		required_missions = { mzab_army }
 		provinces_to_highlight = {
@@ -137,7 +137,7 @@ Mzab_North = {
 		}
 	}
 	fortify_land = {
-		icon = mission_build_up_to_force_limit
+		icon = defend_the_city
 		position = 3
 		required_missions = { claim_zab }
 		provinces_to_highlight = {
@@ -159,7 +159,7 @@ Mzab_North = {
 		}
 	}
 	take_kaylia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 4
 		required_missions = { fortify_land }
 		provinces_to_highlight = {
@@ -183,7 +183,7 @@ Mzab_North = {
 		}
 	}
 	mzab_push_west = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_mali
 		position = 5
 		required_missions = { take_kaylia }
 		provinces_to_highlight = {
@@ -227,7 +227,7 @@ Mzab_South = {
 	has_country_shield = yes
 
 	conquer_ghadames = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_kanem_bornu
 		position = 2
 		required_missions = { mzab_army }
 		provinces_to_highlight = {
@@ -243,7 +243,7 @@ Mzab_South = {
 		}
 	}
 	push_to_fezzan = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sw_against_the_desert
 		position = 3
 		required_missions = { claim_zab take_gafsa conquer_ghadames }
 		provinces_to_highlight = {
@@ -271,7 +271,7 @@ Mzab_South = {
 		}
 	}
 	invade_south = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_algiers
 		position = 4
 		required_missions = { push_to_fezzan }
 		provinces_to_highlight = {
@@ -289,7 +289,7 @@ Mzab_South = {
 		}
 	}
 	southern_expansion = {
-		icon = mission_build_up_to_force_limit
+		icon = mal_west_african_great_power
 		position = 5
 		required_missions = { invade_south }
 		provinces_to_highlight = {

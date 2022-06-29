@@ -59,7 +59,7 @@ Sahili_Aragon = {
 	has_country_shield = yes
 
 	annex_aragon = {
-		icon = mission_build_up_to_force_limit
+		icon = king_of_aragon
 		position = 2
 		required_missions = { arm_army }
 		provinces_to_highlight = {
@@ -78,7 +78,7 @@ Sahili_Aragon = {
 		}
 	}
 	aggrandize_aragon = {
-		icon = mission_build_up_to_force_limit
+		icon = develop_our_capital
 		position = 3
 		required_missions = { annex_aragon }
 		provinces_to_highlight = {
@@ -116,7 +116,7 @@ Sahili_Catalonia = {
 	has_country_shield = yes
 
 	claim_catalonia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_secure_hajj_ports
 		position = 2
 		required_missions = { arm_army }
 		provinces_to_highlight = {
@@ -135,7 +135,7 @@ Sahili_Catalonia = {
 		}
 	}
 	reinforce_roussillon = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_oman
 		position = 3
 		required_missions = { claim_catalonia }
 		provinces_to_highlight = {
@@ -170,7 +170,7 @@ Sahili_Valencia = {
 	has_country_shield = yes
 
 	victory_in_valencia = {
-		icon = mission_build_up_to_force_limit
+		icon = capture_adriatic_ports
 		position = 2
 		required_missions = { arm_army }
 		provinces_to_highlight = {
@@ -188,7 +188,7 @@ Sahili_Valencia = {
 		}
 	}
 	powerful_port = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_nevas_port
 		position = 3
 		required_missions = { victory_in_valencia }
 		provinces_to_highlight = {
@@ -225,7 +225,7 @@ Sahili_Baleares = {
 	has_country_shield = yes
 
 	battle_for_baleares = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_mediterranean_islands
 		position = 2
 		required_missions = { arm_army }
 		provinces_to_highlight = {
@@ -244,7 +244,7 @@ Sahili_Baleares = {
 		}
 	}
 	mallorcan_merchants = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_mediterranean_authority
 		position = 3
 		required_missions = { battle_for_baleares }
 		trigger = {
@@ -276,7 +276,7 @@ Proclaim_Sahili = {
 	has_country_shield = yes
 
 	craft_crown = {
-		icon = mission_build_up_to_force_limit
+		icon = centralized_empire
 		position = 4
 		required_missions = { reinforce_roussillon mallorcan_merchants powerful_port aggrandize_aragon }
 		trigger = {
@@ -288,7 +288,7 @@ Proclaim_Sahili = {
 		}
 	}
 	reforged_realm = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 5
 		required_missions = { craft_crown }
 		trigger = {

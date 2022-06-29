@@ -8,7 +8,7 @@ jnb_faykingh = {
 	has_country_shield = yes
 
 	rightful_claims = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -24,7 +24,7 @@ jnb_faykingh = {
 		}
 	}
 	jnb_across_the_strait = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_plus_ultra
 		position = 2
 		required_missions = { rightful_claims }
 		provinces_to_highlight = {
@@ -45,7 +45,7 @@ jnb_faykingh = {
 		}
 	}
 	jnb_challenge_cordoba = {
-		icon = mission_build_up_to_force_limit
+		icon = mnd_dai_control_the_army
 		position = 3
 		required_missions = { jnb_across_the_strait }
 		provinces_to_highlight = {
@@ -75,7 +75,7 @@ jnb_faykingh = {
 		}
 	}
 	jnb_unit_faykingh = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_angevin_kingdom
 		position = 4
 		required_missions = { jnb_challenge_cordoba }
 		provinces_to_highlight = {
@@ -103,7 +103,7 @@ jnb_faykingh = {
 		}
 	}
 	jnb_new_alshamali_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 5
 		required_missions = { jnb_unite_alsaahili jnb_press_west jnb_unit_faykingh }
 		trigger = {
@@ -152,7 +152,7 @@ jnb_alsaahili = {
 	has_country_shield = yes
 
 	jnb_push_east = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_conquer_tunisia
 		position = 2
 		required_missions = { rightful_claims }
 		provinces_to_highlight = {
@@ -173,7 +173,7 @@ jnb_alsaahili = {
 		}
 	}
 	jnb_further_east = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sw_against_the_desert
 		position = 3
 		required_missions = { jnb_push_east }
 		provinces_to_highlight = {
@@ -209,7 +209,7 @@ jnb_alsaahili = {
 		}
 	}
 	jnb_unite_alsaahili = {
-		icon = mission_build_up_to_force_limit
+		icon = kingdom_of_lombardy
 		position = 4
 		required_missions = { jnb_further_east }
 		provinces_to_highlight = {
@@ -253,7 +253,7 @@ jnb_west = {
 	has_country_shield = yes
 
 	jnb_press_west = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_malacca
 		position = 4
 		required_missions = { jnb_challenge_cordoba }
 		provinces_to_highlight = {

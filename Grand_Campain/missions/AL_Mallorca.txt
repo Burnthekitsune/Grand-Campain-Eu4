@@ -8,7 +8,7 @@ Mallorcia_Navy = {
 	has_country_shield = yes
 
 	build__mallorcan_navy = {
-		icon = mission_build_up_to_force_limit
+		icon = imperial_navy
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -21,7 +21,7 @@ Mallorcia_Navy = {
 		}
 	}
 	expand_navy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_a_mighty_fleet
 		position = 3
 		required_missions = { build__mallorcan_navy }
 		trigger = {
@@ -45,7 +45,7 @@ Mallorcia_Navy = {
 		}
 	}
 	complete_navy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_aragonese_navy
 		position = 5
 		required_missions = { expand_navy }
 		trigger = {
@@ -68,7 +68,7 @@ Mallorca_Expansion = {
 	has_country_shield = yes
 
 	claim_sardinia = {
-		icon = mission_build_up_to_force_limit
+		icon = seize_sardinia
 		position = 2
 		required_missions = { build__mallorcan_navy }
 		provinces_to_highlight = {
@@ -92,7 +92,7 @@ Mallorca_Expansion = {
 		}
 	}
 	gulf_of_gabes = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_break_sicily
 		position = 3
 		required_missions = { claim_sardinia }
 		provinces_to_highlight = {
@@ -115,7 +115,7 @@ Mallorca_Expansion = {
 		}
 	}
 	claim_sicily = {
-		icon = mission_build_up_to_force_limit
+		icon = king_of_sicily
 		position = 4
 		required_missions = { gulf_of_gabes }
 		provinces_to_highlight = {
@@ -145,7 +145,7 @@ Mallorca_Expansion = {
 		}
 	}
 	expansion_into_greece = {
-		icon = mission_build_up_to_force_limit
+		icon = foothold_in_greece
 		position = 5
 		required_missions = { claim_sicily }
 		provinces_to_highlight = {
@@ -168,7 +168,7 @@ Mallorca_Expansion = {
 		}
 	}
 	krete_and_cyprus = {
-		icon = mission_build_up_to_force_limit
+		icon = kingdom_of_cyprus
 		position = 6
 		required_missions = { expansion_into_greece }
 		provinces_to_highlight = {
@@ -197,7 +197,7 @@ Mallorca_Expansion = {
 		}
 	}
 	rulers_of_the_aegean = {
-		icon = mission_build_up_to_force_limit
+		icon = reclaim_the_aegean
 		position = 7
 		required_missions = { krete_and_cyprus }
 		provinces_to_highlight = {
@@ -215,7 +215,7 @@ Mallorca_Expansion = {
 		}
 	}
 	gem_of_the_east = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_city_of_the_world's_desire
 		position = 8
 		required_missions = { rulers_of_the_aegean }
 		provinces_to_highlight = {
@@ -238,7 +238,7 @@ Mallorca_Expansion = {
 		}
 	}
 	crimean_trade = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_nevas_port
 		position = 9
 		required_missions = { gem_of_the_east }
 		provinces_to_highlight = {
@@ -265,7 +265,7 @@ Mallorcan_Trade = {
 	has_country_shield = yes
 
 	develop_capital = {
-		icon = mission_build_up_to_force_limit
+		icon = develop_our_capital
 		position = 2
 		required_missions = { build__mallorcan_navy }
 		provinces_to_highlight = {
@@ -283,7 +283,7 @@ Mallorcan_Trade = {
 		}
 	}
 	gabes_toll = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_african_gold
 		position = 4
 		required_missions = { develop_capital gulf_of_gabes }
 		provinces_to_highlight = {
@@ -304,7 +304,7 @@ Mallorcan_Trade = {
 		}
 	}
 	capture_venice = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_control_venice
 		position = 5
 		required_missions = { gabes_toll claim_sicily }
 		provinces_to_highlight = {
@@ -321,7 +321,7 @@ Mallorcan_Trade = {
 		}
 	}
 	rulers_of_the_mediterranean = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_dominate_the_mediterranean
 		position = 10
 		required_missions = { capture_venice crimean_trade }
 		trigger = {
@@ -347,7 +347,7 @@ Mallorica_Optional = {
 	has_country_shield = yes
 
 	take_genoa = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_dominate_genoa
 		position = 3
 		required_missions = { claim_sardinia }
 		provinces_to_highlight = {
@@ -361,7 +361,7 @@ Mallorica_Optional = {
 		}
 	}
 	pillars_of_hercules = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_plus_ultra
 		position = 4
 		required_missions = { expand_navy }
 		provinces_to_highlight = {
@@ -392,7 +392,7 @@ Mallorica_Optional = {
 		}
 	}
 	claim_alexandria = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_seize_alexandria
 		position = 7
 		required_missions = { krete_and_cyprus }
 		provinces_to_highlight = {

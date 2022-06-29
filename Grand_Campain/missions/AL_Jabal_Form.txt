@@ -37,7 +37,7 @@ Jabal_Start = {
 		}
 	}
 	take_leon = {
-		icon = mission_build_up_to_force_limit
+		icon = imperial_capitals
 		position = 2
 		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
@@ -53,7 +53,7 @@ Jabal_Start = {
 		}
 	}
 	develope_leon = {
-		icon = mission_build_up_to_force_limit
+		icon = develop_our_capital
 		position = 3
 		required_missions = { take_leon }
 		provinces_to_highlight = {
@@ -71,7 +71,7 @@ Jabal_Start = {
 		}
 	}
 	form_jabal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 4
 		required_missions = { castillian_cloth develope_leon asturias_port encourage_galician_explorers }
 		trigger = {
@@ -105,7 +105,7 @@ Galacia = {
 	has_country_shield = yes
 
 	take_galacia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_nevas_port
 		position = 2
 		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
@@ -121,7 +121,7 @@ Galacia = {
 		}
 	}
 	encourage_galician_explorers = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_arabian_ports
 		position = 3
 		required_missions = { take_galacia }
 		provinces_to_highlight = {
@@ -158,7 +158,7 @@ Asturias = {
 	has_country_shield = yes
 
 	take_asturias = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_oman
 		position = 2
 		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
@@ -174,7 +174,7 @@ Asturias = {
 		}
 	}
 	asturias_port = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_portuguese_malacca
 		position = 3
 		required_missions = { take_asturias }
 		provinces_to_highlight = {
@@ -214,7 +214,7 @@ Castille = {
 	has_country_shield = yes
 
 	take_castille = {
-		icon = mission_build_up_to_force_limit
+		icon = fortress_switzerland
 		position = 2
 		required_missions = { jab_build_forcelimit }
 		provinces_to_highlight = {
@@ -230,7 +230,7 @@ Castille = {
 		}
 	}
 	castillian_cloth = {
-		icon = mission_build_up_to_force_limit
+		icon = son_own_develop_clothes_and_salt
 		position = 3
 		required_missions = { take_castille }
 		provinces_to_highlight = {

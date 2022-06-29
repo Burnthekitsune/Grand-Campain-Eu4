@@ -16,7 +16,7 @@ janub_macronesia = {
 	has_country_shield = yes
 
 	take_the_islands = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_invade_island
 		position = 2
 		required_missions = { jan_build_forcelimit }
 		provinces_to_highlight = {
@@ -32,7 +32,7 @@ janub_macronesia = {
 		}
 	}
 	jan_build_navy = {
-		icon = mission_build_up_to_force_limit
+		icon = imperial_navy
 		position = 3
 		required_missions = { take_the_islands }
 		trigger = {
@@ -90,7 +90,7 @@ janub_start = {
 		}
 	}
 	take_the_core = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 2
 		required_missions = { jan_build_forcelimit }
 		provinces_to_highlight = {
@@ -112,7 +112,7 @@ janub_start = {
 		}
 	}
 	develop_fez = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_cordoba
 		position = 3
 		required_missions = { take_the_core }
 		provinces_to_highlight = {
@@ -132,7 +132,7 @@ janub_start = {
 		}
 	}
 	form_janub = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 4
 		required_missions = { develop_fez build_the_pass jan_build_navy }
 		trigger = {
@@ -167,7 +167,7 @@ janub_south = {
 	has_country_shield = yes
 
 	push_south = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sw_against_the_desert
 		position = 2
 		required_missions = { jan_build_forcelimit }
 		provinces_to_highlight = {
@@ -193,7 +193,7 @@ janub_south = {
 		}
 	}
 	build_the_pass = {
-		icon = mission_build_up_to_force_limit
+		icon = son_expand_djenne_mosque
 		position = 3
 		required_missions = { push_south }
 		trigger = {

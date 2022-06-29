@@ -8,7 +8,7 @@ shamal_minors_east = {
 	has_country_shield = yes
 
 	take_savoy = {
-		icon = mission_build_up_to_force_limit
+		icon = unite_with_sardinia
 		position = 2
 		required_missions = { prepare_northern_invasion }
 		provinces_to_highlight = {
@@ -41,7 +41,7 @@ shamal_minors_east = {
 		}
 	}
 	take_burgundy = {
-		icon = mission_build_up_to_force_limit
+		icon = conquer_burgundy
 		position = 3
 		required_missions = { capture_paris take_savoy }
 		provinces_to_highlight = {
@@ -71,7 +71,7 @@ shamal_minors_east = {
 		}
 	}
 	unite_the_east = {
-		icon = mission_build_up_to_force_limit
+		icon = rhineland_conquest
 		position = 4
 		required_missions = { take_burgundy }
 		provinces_to_highlight = {
@@ -108,7 +108,7 @@ shamal_france = {
 	has_country_shield = yes
 
 	prepare_northern_invasion = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_assemble_an_army
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -132,7 +132,7 @@ shamal_france = {
 		}
 	}
 	capture_paris = {
-		icon = mission_build_up_to_force_limit
+		icon = versailles_palace
 		position = 2
 		required_missions = { prepare_northern_invasion }
 		provinces_to_highlight = {
@@ -161,7 +161,7 @@ shamal_france = {
 		}
 	}
 	defeat_france = {
-		icon = mission_build_up_to_force_limit
+		icon = wars_of_religion
 		position = 4
 		required_missions = { capture_paris }
 		trigger = {
@@ -179,7 +179,7 @@ shamal_france = {
 		}
 	}
 	a_new_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = centralize_france
 		position = 5
 		required_missions = { defeat_france take_brittany unite_the_west unite_the_east }
 		provinces_to_highlight = {
@@ -216,7 +216,7 @@ shamal_france = {
 		}
 	}
 	a_northern_caliph = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_restore_caliphate_of_cordoba
 		position = 6
 		required_missions = { a_new_empire }
 		trigger = {
@@ -239,7 +239,7 @@ shamal_france = {
 		}
 	}
 	take_low_countries = {
-		icon = mission_build_up_to_force_limit
+		icon = bavarian_netherlands
 		position = 7
 		required_missions = { a_northern_caliph }
 		provinces_to_highlight = {
@@ -271,7 +271,7 @@ shamal_brittany = {
 	has_country_shield = yes
 
 	claim_brittany = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -285,7 +285,7 @@ shamal_brittany = {
 		}
 	}
 	take_brittany = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_conquer_brittany
 		position = 4
 		required_missions = { claim_brittany }
 		provinces_to_highlight = {
@@ -317,7 +317,7 @@ shamal_minors_west = {
 	has_country_shield = yes
 
 	claim_western_lands = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 3
 		required_missions = { capture_paris }
 		provinces_to_highlight = {
@@ -347,7 +347,7 @@ shamal_minors_west = {
 		}
 	}
 	unite_the_west = {
-		icon = mission_build_up_to_force_limit
+		icon = develop_provence
 		position = 4
 		required_missions = { claim_western_lands }
 		provinces_to_highlight = {

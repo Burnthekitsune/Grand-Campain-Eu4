@@ -7,7 +7,7 @@ sah_faykinh = {
 	}
 
 	sah_toledo = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -20,7 +20,7 @@ sah_faykinh = {
 		}
 	}
 	sah_take_toledo = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_zambezi_gold
 		position = 2
 		required_missions = { sah_toledo }
 		provinces_to_highlight = {
@@ -41,7 +41,7 @@ sah_faykinh = {
 		}
 	}
 	sah_andalucia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_develop_cordoba
 		position = 3
 		required_missions = { sah_take_toledo }
 		provinces_to_highlight = {
@@ -68,7 +68,7 @@ sah_faykinh = {
 		}
 	}
 	sah_unite_fayking = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_rb_angevin_kingdom
 		position = 4
 		required_missions = { sah_andalucia }
 		provinces_to_highlight = {
@@ -104,7 +104,7 @@ sah_jabal = {
 	}
 
 	sah_castille = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -117,7 +117,7 @@ sah_jabal = {
 		}
 	}
 	sah_take_castille = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_castillian_aggression
 		position = 2
 		required_missions = { sah_castille }
 		provinces_to_highlight = {
@@ -138,7 +138,7 @@ sah_jabal = {
 		}
 	}
 	sah_heart_of_jabal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_assemble_an_army
 		position = 3
 		required_missions = { sah_take_castille }
 		provinces_to_highlight = {
@@ -162,7 +162,7 @@ sah_jabal = {
 		}
 	}
 	sah_unite_jabal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_intervene_in_castile
 		position = 4
 		required_missions = { sah_heart_of_jabal }
 		provinces_to_highlight = {
@@ -194,7 +194,7 @@ sah_minors = {
 	}
 
 	sah_claim_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -207,7 +207,7 @@ sah_minors = {
 		}
 	}
 	sah_take_albasik = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_subjugate_navarra
 		position = 2
 		required_missions = { sah_claim_albasik }
 		provinces_to_highlight = {
@@ -223,7 +223,7 @@ sah_minors = {
 		}
 	}
 	sah_claim_beja_and_coimbra = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 5
 		required_missions = { sah_take_albasik sah_unite_fayking sah_unite_jabal }
 		trigger = {
@@ -239,7 +239,7 @@ sah_minors = {
 		}
 	}
 	sah_a_new_empire = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 6
 		required_missions = { sah_claim_beja_and_coimbra }
 		provinces_to_highlight = {

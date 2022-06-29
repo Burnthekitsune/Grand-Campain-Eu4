@@ -36,7 +36,7 @@ north_shamal_start = {
 		}
 	}
 	take_sothern_cities = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 2
 		required_missions = { north_build_forcelimit }
 		provinces_to_highlight = {
@@ -54,7 +54,7 @@ north_shamal_start = {
 		}
 	}
 	claim_the_south = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unite_home_region
 		position = 3
 		required_missions = { take_poitou take_auvergne take_sothern_cities }
 		trigger = {
@@ -86,7 +86,7 @@ north_shamal_start = {
 		}
 	}
 	grab_guyenne = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 4
 		required_missions = { claim_the_south }
 		provinces_to_highlight = {
@@ -106,7 +106,7 @@ north_shamal_start = {
 		}
 	}
 	unite_shamal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_empire
 		position = 5
 		required_missions = { take_gascony grab_the_east grab_guyenne }
 		trigger = {
@@ -139,7 +139,7 @@ Shamal_West = {
 	has_country_shield = yes
 
 	take_poitou = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 2
 		required_missions = { north_build_forcelimit }
 		provinces_to_highlight = {
@@ -155,7 +155,7 @@ Shamal_West = {
 		}
 	}
 	take_gascony = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 4
 		required_missions = { claim_the_south }
 		provinces_to_highlight = {
@@ -188,7 +188,7 @@ Shamal_East = {
 	has_country_shield = yes
 
 	take_auvergne = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 2
 		required_missions = { north_build_forcelimit }
 		provinces_to_highlight = {
@@ -204,7 +204,7 @@ Shamal_East = {
 		}
 	}
 	grab_the_east = {
-		icon = mission_build_up_to_force_limit
+		icon = the_seven_provinces
 		position = 4
 		required_missions = { claim_the_south }
 		provinces_to_highlight = {
