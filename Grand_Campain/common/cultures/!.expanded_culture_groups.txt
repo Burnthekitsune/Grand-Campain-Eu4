@@ -489,7 +489,7 @@ finno_ugric = {
 			Yapyk Yolagay Yolga Yumpatyr
 		}
 		female_names = {
-			Anava Anka Ashava Astalce Aybi Bedasi Cecama Cenksa Cerava Ceymarina Cinsay Elika Elyuva Evika
+			Anava Anka Ashava Astalce Aybi Ainu Ainur Bedasi Cecama Cenksa Cerava Ceymarina Cinsay Elika Elyuva Evika
 			Garai Kacyrii Kanyuva Kecevi Kunava Mabu Maira Mastorava Megurka Melshay Mu Nezayka Noroava Nulzyava
 			Nuyanza Nyayka Oksya Olyu Orina Oshama Pashace Pekshayka Salika Sangasa Sercay Su Shoncava
 			Shymay Tacana Uncutka Vergava Yalgava
