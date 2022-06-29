@@ -444,7 +444,7 @@ Z_Kingdom = {
 		position = 4
 		required_missions = { ZA_Securing_Tunis }
 		provinces_to_highlight = {
-			region = italy_region
+			area = tunisia_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
