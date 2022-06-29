@@ -141,9 +141,7 @@ Z_East = {
 		position = 1
 		required_missions = {  }
 		trigger = {
-			capital_scope = {
-				has_province_modifier = silla_court
-			}
+			owns_or_non_sovereign_subject_of = 352
 		}
 		effect = {
 			352 = {
