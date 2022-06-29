@@ -3049,3 +3049,8 @@
  CLL_ideas:3 "Court Sillan Ideas"
  CLL_ideas_bonus:3 "Court Sillan Ambition"
  CLL_ideas_start:3 "Court Sillan Traditions"
+ MUR:0 "Muraa"
+ MUR_ADJ:0 "Muraan"
+ MUR_ideas:0 "Great Muraan Ideas"
+ MUR_ideas_bonus:0 "Great Muraan Ambition"
+ MUR_ideas_start:0 "Great Muraan Traditions"
