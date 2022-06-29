@@ -40,6 +40,8 @@ monarch_names = {
 	"Edwin #0" = 0
 	"Harald #0" = 5
 	"Liam #0" = 15
+	"Sitric #0" = 5
+	"Orm #0" = 0
 }
 leader_names = {
 	"Wessex"
