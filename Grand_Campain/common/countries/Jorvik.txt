@@ -56,6 +56,12 @@ monarch_names = {
 	"Sigfrid #0" = 0
 	"Burgrad #0" = 5
 	"Burgfled #0" = -5
+	"Cearl #0" = 0
+	"Balthere #0" = 0
+	"Cuthbert #0" = 0
+	"Cynehelm #0" = 0
+	"Leofgifu #0" = -1
+	"Octreda #0" = -1
 }
 leader_names = {
 	"Godhelming"
