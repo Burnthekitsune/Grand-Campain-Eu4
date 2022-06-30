@@ -40,6 +40,7 @@ monarch_names = {
 	"Ealmund #0" = 20
 	"Cenwulf #0" = 20
 	"Uthrad #0" = 20
+	"Cai #0" = 20
 	"Hastein #0 Morcar" = 20
 	"Burgrad #0" = 10
 	"Morcar #0 Alfgar" = 10
@@ -87,12 +88,13 @@ monarch_names = {
 leader_names = {
 	Ari Ailreding
 	Beorming Burg Balfour Burke Borthwick Brus
-	Ciesla Cerdicing Coenwalhing Cynehelming Cinneide
+	Ciesla Cerdicing Coenwalhing Cynehelming Cinneide "Caer-Went" Caradog
 	Eorling Ebbing Elling Eadricing Ethelfrithing Eomenricing
 	Godhelming Gardske Gordan
 	Hviti Hesting Haralding Hesting Haesteining Haig
 	Jorviking
 	Lancaster Leicester Leowalding
+	Manaw
 	Norcester
 	Offing Oskyld
 	Rakki Ros
