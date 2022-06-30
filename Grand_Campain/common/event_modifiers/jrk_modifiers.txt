@@ -1,0 +1,3 @@
+jor_decentralized = {
+	diplomatic_annexation_cost = 999
+}

@@ -1,0 +1,260 @@
+namespace = jorvik_events
+
+province_event = {
+	id = jorvik_events.1
+	title = jorvik_events.1.t
+	desc = jorvik_events.1.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		owner = {
+			culture_group = alshamali
+		}
+		culture = dynamic-anglo_saxon-norse-culture-num1
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+	
+	option = {
+		name = jorvik_events.1.a
+		change_culture = anjilu_nurs
+		ai_chance = { factor = 25 }
+	}
+}
+
+province_event = {
+	id = jorvik_events.2
+	title = jorvik_events.2.t
+	desc = jorvik_events.2.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		owner = {
+			culture_group = alshamali
+		}
+		OR = {
+			culture = scottish
+			culture_group = gaelic
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+	
+	option = {
+		name = jorvik_events.2.a
+		change_culture = askulandi
+		ai_chance = { factor = 25 }
+	}
+}
+
+province_event = {
+	id = jorvik_events.3
+	title = jorvik_events.3.t
+	desc = jorvik_events.3.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		owner = {
+			culture_group = alshamali
+		}
+		NOT = {
+			culture = scottish
+		}
+		culture_group = british
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+	
+	option = {
+		name = jorvik_events.3.a
+		change_culture = askulandi
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = jorvik_events.4
+	title = jorvik_events.4.t
+	desc = jorvik_events.4.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		tag = JRK
+		overlord_of = ENG
+		is_year = 1500
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = jorvik_events.4.a
+		ENG = {
+			every_core_province = {
+				add_core = JRK
+			}
+			every_owned_province = {
+				cede_province = JRK
+			}
+		}
+		set_country_flag = jrk_eng
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = jorvik_events.5
+	title = jorvik_events.5.t
+	desc = jorvik_events.5.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		tag = JRK
+		overlord_of = WLS
+		is_year = 1530
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = jorvik_events.5.a
+		WLS = {
+			every_core_province = {
+				add_core = JRK
+			}
+			every_owned_province = {
+				cede_province = JRK
+			}
+		}
+		set_country_flag = jrk_wls
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = jorvik_events.6
+	title = jorvik_events.6.t
+	desc = jorvik_events.6.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		tag = JRK
+		overlord_of = SCO
+		is_year = 1580
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = jorvik_events.6.a
+		SCO = {
+			every_core_province = {
+				add_core = JRK
+			}
+			every_owned_province = {
+				cede_province = JRK
+			}
+		}
+		set_country_flag = jrk_sco
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = jorvik_events.7
+	title = jorvik_events.7.t
+	desc = jorvik_events.7.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		tag = JRK
+		overlord_of = IRE
+		is_year = 1600
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = jorvik_events.7.a
+		IRE = {
+			every_core_province = {
+				add_core = JRK
+			}
+			every_owned_province = {
+				cede_province = JRK
+			}
+		}
+		set_country_flag = jrk_ire
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = jorvik_events.8
+	title = jorvik_events.8.t
+	desc = jorvik_events.8.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		tag = JRK
+		has_country_modifier = jor_decentralized
+		year = 1600
+	}
+	
+	mean_time_to_happen = {
+		months = 36
+	}
+	
+	option = {
+		name = jorvik_events.8.a
+		remove_country_modifier = jor_decentralized
+		set_country_flag = jrk_central
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = jorvik_events.9
+	title = jorvik_events.9.t
+	desc = jorvik_events.9.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		tag = JRK
+		has_country_flag = jrk_eng
+		has_country_flag = jrk_wls
+		has_country_flag = jrk_sco
+		has_country_flag = jrk_ire
+		has_country_flag = jrk_central
+	}
+	
+	mean_time_to_happen = {
+		months = 8
+	}
+	
+	option = {
+		name = jorvik_events.9.a
+		change_tag = GBR
+		set_government_rank = 3
+		ai_chance = { factor = 25 }
+	}
+}

@@ -391,6 +391,25 @@
  florida_migration.2.d:0 "The settlers have found a new home, and called it Florida."
  florida_migration.2.a:0 "We shall join them!"
  florida_migration.2.b:0 "Good for them"
+ 
+ jorvik_events.4.t: "Integrating England"
+ jorvik_events.4.d: "The ruler of England has died and left us as the heirs, the kingdom is now ours."
+ jorvik_events.4.a: "Excellent"
+ jorvik_events.5.t: "Integrating Wales"
+ jorvik_events.5.d: "Wales has been a part of our empire as a seperate entitiy for long enough, now it shall join us!"
+ jorvik_events.5.a: "Excellent"
+ jorvik_events.6.t: "Integrating Scotland"
+ jorvik_events.6.d: "We must bring Scotland into the fold to properly rule our islands'
+ jorvik_events.6.a: "Excellent"
+ jorvik_events.7.t: "Integrating Ireland"
+ jorvik_events.7.d: "Ireland may be where our original Imperial capital once was, but has logn since settled its own affairs, this is no more."
+ jorvik_events.7.a: "Excellent"
+ jorvik_events.8.t: "End of Decentalization"
+ jorvik_events.8.d: "Our realm has long had issues with decentralized rule, now this is no more!"
+ jorvik_events.8.a: "Excellent"
+ jorvik_events.9.t: "Return of the Empire"
+ jorvik_events.9.d: "Our Empire has long been fractured into kingdoms nominally together, now we are once again whole!"
+ jorvik_events.9.a: "We are whole once more"
 
  #Silla Court
  z_court.1.t:0 "The Court Relocated"

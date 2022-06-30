@@ -1,4 +1,4 @@
-union =
+vassal =
 {
 	first="JRK"
 	second="WLS"
@@ -6,7 +6,7 @@ union =
 	end_date="1836.1.1"
 }
 
-union =
+vassal =
 {
 	first="JRK"
 	second="SCO"
@@ -14,7 +14,7 @@ union =
 	end_date="1836.1.1"
 }
 
-union =
+vassal =
 {
 	first="JRK"
 	second="ENG"
