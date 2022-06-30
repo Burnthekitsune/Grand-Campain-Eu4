@@ -42,6 +42,15 @@ monarch_names = {
 	"Liam #0" = 15
 	"Sitric #0" = 5
 	"Orm #0" = 0
+	"Galind #0" = 0
+	"Móenach #0" = 0
+	"Artbran #0" = 0
+	"Tigernán #0" = 0
+	"Áedán #0" = 0
+	"Seán #0" = 0
+	"Catríona #0" = -1
+	"Naomhán #0" = 0
+	"Diarmaid #0" = 1
 }
 leader_names = {
 	"Wessex"
@@ -54,6 +63,14 @@ leader_names = {
 	"Lancaster"
 	"Rakki"
 	"Alexander"
+	"Chliach-Uists"
+	"ua Dochartaigh"
+	"Airthir Chliach"
+	"Eóganacht"
+	"Dál Birn"
+	"Collanmore"
+	"Inishraher"
+	"Glencanane"
 	"Annesley"
 	"Balfour"
 	"Barry"

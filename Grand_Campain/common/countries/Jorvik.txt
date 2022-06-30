@@ -51,6 +51,11 @@ monarch_names = {
 	"Sa'd #0" = 0
 	"Hereweald #0" = 0
 	"Wiglaf #0" = 0
+	"Nasr #0" = 0
+	"Basir #0" = 0
+	"Sigfrid #0" = 0
+	"Burgrad #0" = 5
+	"Burgfled #0" = -5
 }
 leader_names = {
 	"Godhelming"
@@ -79,6 +84,11 @@ leader_names = {
 	"Hviti"
 	"Romeriking"
 	"Jorviking"
+	"Cotter"
+	"Carna"
+	"Rakki"
+	"Viss"
+	"Toki"
 }
 ship_names = {
 	"Abyssinia"
