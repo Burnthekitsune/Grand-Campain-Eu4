@@ -26,7 +26,8 @@ alshamali = {
 		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
 	}
 	bejan = {
-		primary = BJA # Bejamale_names = {
+		primary = BJA # Beja
+		male_names = {
 			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
 			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
 			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
