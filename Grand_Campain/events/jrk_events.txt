@@ -217,7 +217,7 @@ country_event = {
 	trigger = {
 		tag = JRK
 		has_country_modifier = jor_decentralized
-		is_year = 1600
+		year = 1600
 	}
 	
 	mean_time_to_happen = {
@@ -240,11 +240,16 @@ country_event = {
 	
 	trigger = {
 		tag = JRK
-		has_country_flag = jrk_eng
-		has_country_flag = jrk_wls
-		has_country_flag = jrk_sco
-		has_country_flag = jrk_ire
-		has_country_flag = jrk_central
+		OR = {
+			owns_all_provinces = british_isles_region
+			AND = {
+				has_country_flag = jrk_eng
+				has_country_flag = jrk_wls
+				has_country_flag = jrk_sco
+				has_country_flag = jrk_ire
+				has_country_flag = jrk_central
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
