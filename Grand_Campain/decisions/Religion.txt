@@ -597,8 +597,8 @@ country_decisions = {
 	adopt_vajrayana = {
 		potential = {
 			religion_group = pagan
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
 			OR = {
 				dominant_religion = vajrayana
 				AND = {
@@ -1555,8 +1555,8 @@ country_decisions = {
 	pagan_conversion_to_christianity = {
 		potential = {
 			religion_group = pagan
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
 			NOT = { religion = tengri_pagan_reformed }
 			any_owned_province = {
 				religion_group = christian
@@ -1585,9 +1585,9 @@ country_decisions = {
 		potential = {
 			religion_group = pagan
 			NOT = { religion = tengri_pagan_reformed }
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
-			NOT = converted_dynamic_faith_102
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
+			NOT = { religion = converted_dynamic_faith_102 }
 			any_owned_province = {
 				religion_group = muslim
 			}
@@ -1614,8 +1614,8 @@ country_decisions = {
 	pagan_conversion_to_buddhism = {
 		potential = {
 			religion_group = pagan
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
 			NOT = { religion = tengri_pagan_reformed }
 			any_owned_province = {
 				religion_group = eastern
@@ -1644,8 +1644,8 @@ country_decisions = {
 		potential = {
 			religion_group = pagan
 			NOT = { religion = tengri_pagan_reformed }
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
 			any_owned_province = {
 				religion_group = dharmic
 			}
@@ -1673,8 +1673,8 @@ country_decisions = {
 		potential = {
 			religion_group = pagan
 			NOT = { religion = tengri_pagan_reformed }
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
 			any_owned_province = {
 				religion_group = zoroastrian_group
 			}
@@ -1701,8 +1701,8 @@ country_decisions = {
 	pagan_conversion_to_judaism = {
 		potential = {
 			religion_group = pagan
-			NOT = converted_dynamic_faith_106
-			NOT = converted_dynamic_faith_103
+			NOT = { religion = converted_dynamic_faith_106 }
+			NOT = { religion = converted_dynamic_faith_103 }
 			NOT = { religion = tengri_pagan_reformed }
 			any_owned_province = {
 				religion = jewish
