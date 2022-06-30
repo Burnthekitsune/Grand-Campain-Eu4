@@ -31,93 +31,73 @@ historical_units = {
 	western_medieval_infantry
 }
 monarch_names = {
-	"Abdul-Hasan #0" = 0
-	"Adfuns #0" = 0
-	"Auðr #0" = -1
-	"Bergþóra #1" = -1
-	"Cecilía #0" = -1
-	"Garsiya #0" = 0
-	"Geôrgios #0" = 0
-	"Gormr #0" = 0
-	"Gríma #0" = -1
-	"Ida #0" = -1
-	"Isabeau #0" = -1
-	"Isma'il #0" = 0
-	"Maha #0" = -1
-	"Muiredach #0" = 0
-	"Muyahid #0" = 0
-	"Shahzadah #0" = -1
-	"Steinn #0" = 0
-	"Síg #0" = -1
-	"Vigfús #0" = 0
-	"Wannaqo #0" = 0
-	"Zahra #1" = -1
-	"Þorsteinn #0" = 0
-	"Þórðr #0" = 0
+	"Tiotmund #0" = 40
+	"Eormenric #0" = 40
+	"Hastein #0" = 40
+	"Rikulf #1" = 30
+	"Ragnar #0" = 30
+	"Morcar #0" = 30
+	"Ealmund #0" = 20
+	"Cenwulf #0" = 20
+	"Uthrad #0" = 20
+	"Hastein #0 Morcar" = 20
+	"Burgrad #0" = 10
+	"Morcar #0 Alfgar" = 10
+	"Morcar #0 Cuthbert" = 10
+	"Burgrad #0 Cuthbert" = 10
+	"Hastein #0 Burgrad" = 10
+	"Muhammad #0" = 5
+	"Ali #0" = 5
+	"Nasr #0" = 5
+	"Sa'd #0" = 0
+	"Basir #0" = 0
+	"Umar #0" = 0
+	"Arncytel #0" = 0
+	"Balthere #0" = 0
+	"Cearl #0" = 0
+	"Cenrad #0" = 0
+	"Harald #0" = 0
+	"Ealdmund #0 Osric" = 0
+	"Osric #0" = 0
+	"Salrad #0" = 0
+	"Ailred #0" = 0
+	"Scule #0" = 0
+	"Alfgar #0" = 0
+	"Alfgar #0 Scule" = 0
+	"Orm #0" = 0
+	"Galind #0" = 0
+
+	"Raisa #0" = -40
+	"Bergtora #1" = -30
+	"Ceolfled #0" = -30
+	"Zahra #1" = -30
+	"Aiza #0" = -30
+	"Burgfled #0" = -20
+	"Leofgifu #0" = -20
+	"Aliya #0" = -20
+	"Wulfrun #0" = -10
+	"Hungifu #0" = -10
+	"Ahu #0" = -10
+	"Isra #0" = -5
+	"Cwenburg #0" = -5
+	"Ecgwyn #0" = -5
+	"Mildrith #0" = -5
+	"Octreda #0" = -5
 }
 leader_names = {
-	"Albemarle"
-	"Amherst"
-	"Anson"
-	"Baffin"
-	"Bedford"
-	"Benbow"
-	"Beresford"
-	"Blake"
-	"Boscawen"
-	"Braddock"
-	"Brock"
-	"Buckingham"
-	"Burgoyne"
-	"Button"
-	"Byron"
-	"Cabot"
-	"Carleton"
-	"Cavendish"
-	"Churchill"
-	"Clarence"
-	"Clinton"
-	"Clive"
-	"Cook"
-	"Cornwallis"
-	"Cromwell"
-	"Cumberland"
-	"Dampier"
-	"Davis"
-	"Drake"
-	"Essex"
-	"Fairfax"
-	"Frobisher"
-	"Gilbert"
-	"Gloucester"
-	"Hastings"
-	"Hawke"
-	"Herbert"
-	"Hood"
-	"Howard"
-	"Howe"
-	"Hudson"
-	"Leicester"
-	"Middleton"
-	"Moore"
-	"Norfolk"
-	"Northumberland"
-	"Procter"
-	"Raleigh"
-	"Rodney"
-	"Rooke"
-	"Salisbury"
-	"Saunders"
-	"Smith"
-	"Somerset"
-	"Suffolk"
-	"Talbot"
-	"Tarleton"
-	"Uxbridge"
-	"Warwick"
-	"Wolfe"
-	"York"
-	"de Clifford"
+	Ari Ailreding
+	Beorming Burg Balfour Burke Borthwick Brus
+	Ciesla Cerdicing Coenwalhing Cynehelming Cinneide
+	Eorling Ebbing Elling Eadricing Ethelfrithing Eomenricing
+	Godhelming Gardske Gordan
+	Hviti Hesting Haralding Hesting Haesteining Haig
+	Jorviking
+	Lancaster Leicester Leowalding
+	Norcester
+	Offing Oskyld
+	Rakki Ros
+	Snjalli Skagen
+	Wihtgilsing
 }
 ship_names = {
 	"Abyssinia"
