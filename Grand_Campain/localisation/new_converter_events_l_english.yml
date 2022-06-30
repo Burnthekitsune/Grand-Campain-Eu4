@@ -410,6 +410,10 @@
  jorvik_events.9.t: "Return of the Empire"
  jorvik_events.9.d: "Our Empire has long been fractured into kingdoms nominally together, now we are once again whole!"
  jorvik_events.9.a: "We are whole once more"
+ 
+ iceland_events.1.t: "Rotue to Vinland"
+ iceland_events.1.d: "We have found the former route used to reach Vinland, we must build up colonies at once!"
+ iceland_events.1.a: "An excellent oppertunity!"
 
  #Silla Court
  z_court.1.t:0 "The Court Relocated"
