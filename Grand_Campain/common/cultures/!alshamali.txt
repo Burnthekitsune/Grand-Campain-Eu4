@@ -148,27 +148,20 @@ alshamali = {
 	anjilu_nurs = { # Jorvik
 		primary = JRK # Jorvik
 		male_names = {
-			"Muhammad" "Yûsuf" "'Alî" "Sa'd" "Isma'îl" "Nasr" "'Abd" "al-Karim" "Ayman" "Barakat" "Basir"
-			"Dawud" "Fahd" "Faris" "Faruq" "Haidar" "Hashim" "Husam" "Iqbal" "Jabbar" "Ja'far" "Jamal"
-			"Junayd" "Khaliq" "Malik" "Mansur" "Mustafa" "Najib" "Qasim" "Qusay" "Rashîd" "Safi" "Sakhr"
-			"Samir" "Tariq" "Umar" "Wahid" "Zahir" "Firdaus" "Fuad" "Rahim" "Ragnarr" "Sorkvir" "Rognvaldr"
-			"Abbad" "Abbas" "Abbas" "Abdallah" "Abdullah" "Abdul-Aziz" "Abdul-Hakam" "Abdul-Hasan" "Hasan"
-			"Abdul-Hazm" "Abdul-Rahman" "Abdul-Razzaq" "Abdul" "Abdul" "Abu" "Abu-Bakr" "Abu-Bakr" "Adfuns"
-			"Alphonse" "Ahmad" "Ahmad" "Ali" "Ali" "Amr" "Ayyub" "Balashk" "Vasco" "Bilal" "Fadl" "Fath"
-			"Galind" "Galindo" "Garsiya" "Garcia" "Hakam" "Hakam" "Hilal" "Ibrahim" "Abraham" "Isma'il"
-			"Ismail" "Jyad" "Lubb" "Lupo" "Ma'n" "Mubashir" "Muhammad" "Muhammad" "Mundir" "Musa" "Moses"
-			"Muyahid" "Raf" "Rashid" "Rasiq" "Sa'd" "Sanyo" "Sancho" "Siddray" "Suleyman" "Solomon" "Tariq"
-			"Tifilwit" "Umar" "Umar" "Utman" "Wannaqo" "Inigo" "Ya'far" "Yahaff" "Yahya" "John" "Yusuf"
-			"Joseph"
+			Muhammad Ali "Sa'd" Nasr Ayman Basir Faris Haidar Husam Khaliq Mansur Qasim Samir Ragnar Abbad
+			Galind Hakam "Ma'n" "Sa'd" Suleyman Umar Arncytel Balthere Beornwulf Cearl Cenrad Ceolwulf
+			Halvdan Sigfrid Harald Burgrad Styrbjarn Osrad Frode Ealdmund Osric Salrad Wiglaf Ailred
+			Eormenred Eormenric Asaph Arthwr Tiotmund Amir
 		}
 		female_names = {
-			"Aliya" "Fahima" "Haifa" "Abda" "Ahu" "Aiza" "Aliyah" "Butayna" "Daniyah" "Dima" "Fahra" "Fahriya"
-			"Fatima" "Gamila" "Ghada" "Habiba" "Huda" "Ibtisam" "Iliana" "Isra" "Karima" "Kera" "Khadija"
-			"Layla" "Maha" "Malika" "Mariam" "Maria" "Munya" "Munia" "Nadia" "Naila" "Nur" "Rafiqa" "Rahat"
-			"Raisa" "Randa" "Safiya" "Salma" "Shakira" "Skuld" "Suraya" "Tahira" "Tarifa" "Thashim" "Umm"
-			"Wahida" "Yasmin" "Zahida" "Zahra"
+			Aliya Fahima Abda Ahu Aiza Daniyah Fahra Ghada Isra Kera Khadija Layla Nadia Naila Raisa Umm
+			Burgfled Ceolfled Cwenburg Eanswith Ecgwyn Heregyth Mildrith Octreda Wulfrun Ethelgifu Ethelreda
 		}
-		dynasty_names = { "Haesteining" "Hammelburg" "Qutamid" "Snjalli" "Elfael" "Ari" }
+		dynasty_names = {
+			Leicester Hayles Skagen Holmwick Ulfreksfjord Snjalli Ari Eorling Muhammading Basiring Mansuring
+			Qasiming "Ma'ning" Cenrading Osrading Sagasdatter Osradsen Osricsen Ailredsen Tiotmundsen
+			"ibn Ceolfled" "ibn Burgrad" "ibn Osrad" "ibn Beornwulf" "ibn Salrad"
+		}
 	}
 	anjilu_saksunia = { # England
 		primary = ENG # England

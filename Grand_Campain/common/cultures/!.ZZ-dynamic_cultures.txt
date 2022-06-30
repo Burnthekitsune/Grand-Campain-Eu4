@@ -440,9 +440,27 @@ scandinavian = {
 		dynasty_names = { "Nasrid" "Ummayad" "Zirid" }
 	}
 	dynamic-anglo_saxon-norse-culture-num1 = {
-		male_names = { "Arncytel" "Balthere" "Beorhtfrith" "Beorhthelm" "Beorhtmær" "Beorhtnoth" "Beorhtric" "Beorhtsige" "Beorhtwine_Beorhtwine" "Beorn_Beorn" "Beornræd" "Beornwulf" "Burgheard" "Byrhtnoth" "Cearl" "Cenfus" "Cenræd" "Cenwulf" "Ceolwulf" "Cerdic" "Copsige" "Cuthberht" "Cuthræd" "Cynehelm" "Cynewulf" "Cytelbearn" "Eadberht" "Eadfrith" "Eadgar" "Eadmund" "Eadmær" "Eadric" "Eadræd" "Eadsige" "Eadulf" "Eadweald" "Eadweard" "Eadwig" "Eadwine" "Eadwulf" "Ealdhun" "Ealdmund" "Ealdræd" "Ealdwine" "Ealdwulf" "Eanberht" "Eanfrith" "Eanhere" "Eardwulf" "Eastmund" "Ecgberht" "Ecgfrith" "Gamall" "Godwine" "Gospatric" "Guthfrith" "Guthmund" "Gyrth" "Hacon" "Harold" "Heahberht" "Hereberht" "Hereweald" "Hereweard" "Hlothere" "Hrodberht" "Inwær" "Leofheah" "Leofhelm" "Leofric" "Leofweald" "Leofwine" "Maccus" "Morcar" "Mærleswegn" "Offa" "Onlaf" "Ordgar" "Oscytel" "Oshere" "Osmund" "Osric" "Osræd" "Osulf" "Osweald" "Oswine" "Oswulf" "Peter" "Rædwulf_Ralph" "Rægenweald" "Scule" "Sigeberht" "Sigehelm" "Sigeric" "Sigeræd" "Sighere" "Siweard" "Stigand" "Swegn" "Swithelm" "Swithræd" "Swæfræd" "Sæbert" "Sælræd" "Sæweald" "Sæxbald" "Sæxræd" "Thoræd" "Thurcytel" "Thurfrith" "Tostig" "Uhtræd" "Ulfcytel" "Waltheof" "Werestan" "Wiglaf" "Wihtræd" "Wistan" "Wulf" "Wulfgar" "Wulfgeat" "Wulfhelm" "Wulfhere" "Wulfmær" "Wulfnoth" "Wulfstan" "Ælfgar" "Ælfmær" "Ælfnoth" "Ælfric" "Ælfræd_Alfred" "Ælfsige" "Ælfstan" "Ælfwald" "Ælfweard" "Ælfwig" "Ælfwine" "Ælle" "Æthelbald" "Æthelberht" "Æthelfrith" "Æthelhere" "Æthelmær" "Æthelric" "Æthelræd_Ailred" "Æthelsige" "Æthelstan" "Æthelweald" "Æthelweard" "Æthelwine" "Æthelwold" "Æthelwulf" "Eormenred" "Eorcenberht" "Eormenric" "Eadbald" "Rædwald" }
-		female_names = { "Agatha" "Balthild" "Beorhtflæd" "Beorhtgifu" "Beorhtgyth" "Beorhtwaru" "Beorhtwynn" "Beornflæd" "Beorngyth" "Blæja" "Burgflæd" "Ceolflæd" "Cristina" "Cuthburg" "Cwenburg" "Cyneburg" "Cynegyth" "Cynehild" "Cyneswith" "Cynethryth" "Eadburg" "Eadflæd" "Eadgifu" "Eadgyth" "Eadhburh" "Eadhild" "Ealdgyth" "Ealhflæd" "Ealhswith" "Eanswith" "Ecgfrida" "Ecgwyn" "Godgifu" "Gunhilda" "Gytha" "Helga" "Heregyth" "Hereswith" "Hextilda" "Hungifu" "Judith" "Leofflæd" "Leofgifu" "Leofrun" "Leofwaru" "Leofwynn" "Margaret_Margaret" "Maud" "Matilda" "Mildrith" "Octreda" "Sifflæd" "Sigrid" "Sæthryth" "Wulfflæd" "Wulfgifu" "Wulfgyth" "Wulfhild" "Wulfrun" "Wulfthryth" "Wulfwaru" "Wulfwynn" "Wynnflæd" "Wærburg" "Æbba" "Ælfflæd" "Ælfgifu" "Ælfgyth" "Ælflæda_Ælflæda" "Ælfrida" "Ælfswith" "Ælfthryth" "Ælfwynn" "Æthelburg" "Æthelflæd" "Æthelgifu" "Æthelhild" "Æthelræda_Æthelreda" "Æthelswith" "Æthelthryth" "Æthelburh" "Seaxburh" "Wihtburh" }
-		dynasty_names = { "Godhelming" "Beorming" "Eorling" "Æbbing" "Hæsting" "Ælling" "Eadricing" "Eadwulfing" "Leodwalding" "Æthelfrithing" "Yffing" "Ingving" "Offing" "Oswalding" "Cerdicing" "Wiglafing" "Coenwalhing" "Beorning" "Iceling" "Wuffing" "Wihtgilsing" "Ross" "Ciesla" "Rowe" "Borthwick" }
+		male_names = {
+			Arncytel Balthere Beorhtfrith Beorthelm Beorthric Beorn Beornrad Beornwulf Burgheard
+			Cearl Cenfus Cenrad Cenwulf Ceolwulf Cerdic Copsige Cuthbert Cynehelm Eadfrith Eadgar
+			Eadric Eadulf Eadweard Eadwine Ealdhun Ealdmund Eanberth Eanfrith Eastmund Godwine Gospatric
+			Guthmund Haakon Harald Hereweald Leofric Morcar Offa Onlaf Ordgar Osric Scule Sigeric Stian
+			Sebert Salrad Thorad Uthrad Wiglaf Alfgar Elfwald Ethelbald Ethelfrith Ailred Eormenred
+			Eormenric
+		}
+		female_names = {
+			Balthild Beorhtgifu Beorhtwaru Beornfled Burgfled Ceolfled Cwenburg Cyneburg Cynehild Eadfled
+			Eadhild Ealdgyth Eanswith Ecgfrida Ecgwyn Godgifu Helga Heregyth Hereswith Hextilda Hungifu
+			Leoffled Leofgifu Leofrun Leofwynn Maud Mildrith Octreda Sigrid Sethryth Wulfgifu Wulfhyth
+			Wulfhild Wulfrun Wulfwynn Wynnfled Weburg Ebba Elffled Elfgifu Elfleda Ethelfled Ethelgifu
+			Ethelhild Ethelreda Ethelswith Ethelthryth Seaxburh Wihtburh
+		}
+		dynasty_names = {
+			Godhelming Beorming Eorling Ebbing Hesting Elling Eadricing Eadwulfing Leodwalding Ethelfrithing
+			Iffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing Beorning Wihtgilsing Ciesla
+			Borthwick Sigurd Ivaring Oskyld Gardske Ingering Haralding Eomenricing Cynehelming Balthering
+			Norcester Jorviking Leicester Hayles Skagen
+		}
 	}
 	dynamic-finnish-norse-culture-num1 = {
 		male_names = { "Eerikki" "Niklas" "Väinämöinen" "Aato" "Fredrik" "Jani" "Aleksanteri" "Edvard" "Jaakko" "Juha" "Aapeli" "Alpertti" "Antero" "Eino" "Erno" "Heikki" "Jooseppi" "Jyri" "Kaarle" "Kristian" "Lauri" "Mainio" "Mikael" "Onni" "Otso" "Paavo" "Petteri" "Ransu" "Samuli" "Taavi" "Tauno" "Tuomas" "Valto" "Veli" "Vieno" "Vilhelmi" "Voitto" "Reino" "Aatos" "Ahma" "Aimo" "Armas" "Arvo" "Asikko" "Ensio" "Haapa" "Hannu" "Havu" "Hintsa" "Ihanti" "Into" "Jalo" "Jurva" "Kalevi" "Kettu" "Kolli" "Lalli" "Lauri" "Laurence" "Lemetti" "Kaleva" "Mielitty" "Miemo" "Mikko" "Michael" "Oiva" "Onni" "Otso" "Pyry" "Päiviö" "Pentti" "Reko" "Sampo" "Satajalka" "Seppo" "Susi" "Tapani" "Terho" "Toivo" "Ukko" "Uoti" "Urho" "Väinö" "Satatieto" "Valta" "Valto" "Veli" "Vesa" "Voitto" "Erkki" "Erik" "Kaarle" "Charles" "Johannes" "John" "Risto" "Christopher" "Olaf" "Petri" "Peter" "Henri" "Henry" "Yrjö" "George" "Olavi" "Valteri" "Walter" "Riku" "Richard" "Matti" "Matthew" "Jaakoppi" "Jacob" "Taisto" "Paavo" "Paul" "Aatso" "Adam" "Ahvo" "Artur" "Asko" "Tuokko" "David" "Rieti" "Frederick" "Aarto" "Kauro" "Gabriel" "Kuuti" "Knut" "Pekko" "Soini" "Sven" "Tuure" "Turo" "Tommo" "Tohmas" "Thomas" }
