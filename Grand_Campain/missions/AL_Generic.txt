@@ -91,7 +91,10 @@ al_generic = {
 		position = 6
 		required_missions = {  }
 		trigger = {
-			vassal = 4
+			OR = {
+				vassal = 4
+				client_vassal = 4
+			}
 		}
 		effect = {
 			add_country_modifier = { 
