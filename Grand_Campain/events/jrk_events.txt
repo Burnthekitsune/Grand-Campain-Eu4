@@ -217,7 +217,7 @@ country_event = {
 	trigger = {
 		tag = JRK
 		has_country_modifier = jor_decentralized
-		year = 1600
+		is_year = 1600
 	}
 	
 	mean_time_to_happen = {
