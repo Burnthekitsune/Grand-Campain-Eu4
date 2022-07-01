@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture = faykinghian
+primary_culture = msir
 capital = 379
 add_accepted_culture = al_suryah_arabic
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = al_suryah_arabic
 		mil = 4
 		birth_date = 1374.3.24
 		religion = converted_dynamic_faith_102
-		culture = faykinghian
+		culture = msir
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -46,7 +46,7 @@ add_accepted_culture = al_suryah_arabic
 		female = yes
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = faykinghian
+		culture = msir
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

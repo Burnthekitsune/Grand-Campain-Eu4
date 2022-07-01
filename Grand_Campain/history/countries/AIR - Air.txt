@@ -6,7 +6,6 @@ religion = converted_dynamic_faith_102
 primary_culture = zaghawa
 add_accepted_culture = dynamic-hausa-nupe-culture-num1
 capital = 1149
-religious_school = maliki_school
 1444.1.1= {
 	monarch = {
 		name = "Yunus"
