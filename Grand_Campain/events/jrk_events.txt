@@ -69,6 +69,7 @@ province_event = {
 		}
 		NOT = {
 			culture = scottish
+			culture = dynamic-cosmopolitan_french-culture-num1
 		}
 		culture_group = british
 	}
