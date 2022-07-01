@@ -1,0 +1,589 @@
+cultural_issues = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z0H
+	}
+	has_country_shield = yes
+
+	a_cultural_question = {
+		icon = mission_dominate_home_trade_node
+		position = 1
+		required_missions = {  }
+		trigger = {
+			OR = {
+				marriage_with = SPL
+				marriage_with = NAP
+				is_year = 1480
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					marriage_with = SPL
+					NOT = {
+						marriage_with = NAP
+					}
+				}
+				set_county_flag = alsamali_way
+				vassalize = SPL
+				complete_mission = bring_in_spoleto
+				swap_non_generic_missions = yes
+			}
+			
+			else_if = {
+				limit = {
+					marriage_with = NAP
+					NOT = {
+						marriage_with = SPL
+					}
+				}
+				set_county_flag = italian_way
+				swap_non_generic_missions = yes
+				vassalize = NAP
+				change_culture = umbrian
+				set_ruler_culture = umbrian
+				set_heir_culture = umbrian
+				set_consort_culture = umbrian
+				119 = {
+					add_permanent_claim = ROOT
+				}
+				120 = {
+					add_permanent_claim = ROOT
+				}
+				4731 = {
+					add_permanent_claim = ROOT
+				}
+				complete_mission = bring_in_naples
+				}
+			
+			else = {
+				set_county_flag = balanced_way
+				swap_non_generic_missions = yes
+				if = {
+					limit = {
+						4731 = {
+							owned_by = SPL
+						}
+					}
+					4731 = {
+						cede_province = ROOT
+						add_core = ROOT
+					}
+				}
+				if = {
+					limit = {
+						4733 = {
+							owned_by = NAP
+						}
+					}
+					4733 = {
+						cede_province = ROOT
+						add_core = ROOT
+					}
+				}
+				naples_area = {
+					add_permanent_claim = ROOT
+				}
+				calabria_area = {
+					add_permanent_claim = ROOT
+				}
+				apulia_area = {
+					add_permanent_claim = ROOT
+				}
+				central_italy_area = {
+					add_permanent_claim = ROOT
+				}
+				lazio_area = {
+					add_permanent_claim = ROOT
+				}
+				complete_mission = sway_the_borders
+			}
+		}
+	}
+}
+
+ROM_Alshamali = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z0H
+		NOT = {
+		has_country_flag = italian_way
+		has_country_flag = balanced_way
+		}
+	}
+	has_country_shield = yes
+
+	bring_in_spoleto = {
+		icon = mission_unite_the_princes
+		position = 2
+		required_missions = { a_cultural_question }
+		trigger = {
+			always = no
+		}
+		effect = {
+			vassalize = SPL
+		}
+	}
+	convert_central_italy = {
+		icon = mission_unite_home_region
+		position = 3
+		required_missions = { bring_in_spoleto }
+		provinces_to_highlight = {
+			OR = {
+			area = lazio_area
+			area = central_italy_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = lazio_area
+			}
+			owns_all_provinces = {
+			area = central_italy_area
+			}
+			NOT = {
+				exists = SPL
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = lazio_area
+			area = central_italy_area
+			}
+			}
+			change_culture = rumanian
+			}
+		}
+	}
+	expand_rumanian_culture = {
+		icon = mission_expel_the_moriscos
+		position = 4
+		required_missions = { convert_central_italy }
+		provinces_to_highlight = {
+			OR = {
+			area = tuscany_area
+			area = emilia_romagna_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = emilia_romagna_area
+			}
+			owns_all_provinces = {
+			area = tuscany_area
+			}
+			dip_power = 300
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = tuscany_area
+			area = emilia_romagna_area
+			}
+			}
+			change_culture = rumanian
+			}
+			add_dip_power = -300
+			naples_area = {
+			add_permanent_claim = ROOT
+			}
+			apulia_area = {
+			add_permanent_claim = ROOT
+			}
+			calabria_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	annex_the_peninsula = {
+		icon = king_of_naples
+		position = 5
+		required_missions = { expand_rumanian_culture }
+		provinces_to_highlight = {
+			OR = {
+			area = apulia_area
+			area = calabria_area
+			area = naples_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = apulia_area
+			}
+			owns_all_provinces = {
+			area = calabria_area
+			}
+			owns_all_provinces = {
+			area = naples_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = apulia_area
+			area = calabria_area
+			area = naples_area
+			}
+			}
+			change_culture = rumanian
+			}
+			venetia_area = {
+			add_permanent_claim = ROOT
+			}
+			lombardy_area = {
+			add_permanent_claim = ROOT
+			}
+			po_valley_area = {
+			add_permanent_claim = ROOT
+			}
+			piedmont_area = {
+			add_permanent_claim = ROOT
+			}
+			liguria_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	rumanian_north_italy = {
+		icon = mission_rule_italy
+		position = 6
+		required_missions = { annex_the_peninsula }
+		trigger = {
+			owns_all_provinces = {
+			region = italy_region
+			NOT = {
+			area = corsica_sardinia_area
+			area = sicily_area
+			area = western_sicily_area
+			}
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			region = italy_region
+			NOT = {
+			area = corsica_sardinia_area
+			area = sicily_area
+			area = western_sicily_area
+			}
+			}
+			change_culture = rumanian
+			}
+			italy_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	a_rumanian_empire = {
+		icon = terra_santa
+		position = 7
+		required_missions = { rumanian_north_italy }
+		provinces_to_highlight = {
+			region = italy_region
+		}
+		trigger = {
+			owns_all_provinces = {
+			region = italy_region
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			region = italy_region
+			}
+			change_culture = rumanian
+			}
+			change_tag = ITA
+			set_government_rank = 3
+			override_country_name = "Rumania"
+		}
+	}
+}
+
+ROM_Italian = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z0H
+		NOT = {
+		has_country_flag = alsamali_way
+		has_country_flag = balanced_way
+		}
+	}
+	has_country_shield = yes
+
+	bring_in_naples = {
+		icon = union_with_naples
+		position = 2
+		required_missions = { a_cultural_question }
+		trigger = {
+			always = no
+		}
+		effect = {
+			vassalize = NAP
+			change_culture = umbrian
+			set_ruler_culture = umbrian
+			set_heir_culture = umbrian
+			set_consort_culture = umbrian
+			119 = {
+			add_permanent_claim = ROOT
+			}
+			120 = {
+			add_permanent_claim = ROOT
+			}
+			4731 = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	defend_central_italy = {
+		icon = mission_unite_home_region
+		position = 3
+		required_missions = { bring_in_naples }
+		provinces_to_highlight = {
+			OR = {
+			area = lazio_area
+			area = central_italy_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = lazio_area
+			}
+			owns_all_provinces = {
+			area = central_italy_area
+			}
+			NOT = {
+				exists = NAP
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			OR = {
+			area = lazio_area
+			area = central_italy_area
+			}
+			}
+			change_culture = umbrian
+			}
+			apulia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	march_into_apulia = {
+		icon = mission_secure_hajj_ports
+		position = 4
+		required_missions = { defend_central_italy }
+		provinces_to_highlight = {
+			OR = {
+			area = apulia_area
+			area = calabria_area
+			area = naples_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+			area = apulia_area
+			}
+			owns_all_provinces = {
+			area = calabria_area
+			}
+			owns_all_provinces = {
+			area = naples_area
+			}
+		}
+		effect = {
+			every_owned_province = {
+			limit = {
+			area = apulia_area
+			}
+			change_culture = neapolitan
+			}
+			corsica_sardinia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	present_italian_hegemony = {
+		icon = mission_rule_italy
+		position = 6
+		required_missions = { march_into_apulia }
+		provinces_to_highlight = {
+			area = corsica_sardinia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+			area =  corsica_sardinia_area
+			}
+		}
+		effect = {
+			italy_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	a_italian_empire = {
+		icon = terra_santa
+		position = 7
+		required_missions = { present_italian_hegemony }
+		provinces_to_highlight = {
+			region = italy_region
+		}
+		trigger = {
+			owns_all_provinces = {
+			region = italy_region
+			}
+		}
+		effect = {
+			change_tag = ITA
+			set_government_rank = 3
+		}
+	}
+}
+
+ROM_Balanced = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = Z0H
+		NOT = {
+		has_country_flag = alsamali_way
+		has_country_flag = italian_way
+		}
+	}
+	has_country_shield = yes
+
+	sway_the_borders = {
+		icon = mission_high_income
+		position = 2
+		required_missions = { a_cultural_question }
+		trigger = {
+			always = no
+		}
+		effect = {
+			if = {
+				limit = {
+					4731 = {
+						owned_by = SPL
+					}
+				}
+				4731 = {
+					cede_province = ROOT
+					add_core = ROOT
+				}
+			}
+			if = {
+				limit = {
+					4733 = {
+						owned_by = NAP
+					}
+				}
+				4733 = {
+					cede_province = ROOT
+					add_core = ROOT
+				}
+			}
+			naples_area = {
+			add_permanent_claim = ROOT
+			}
+			calabria_area = {
+			add_permanent_claim = ROOT
+			}
+			apulia_area = {
+			add_permanent_claim = ROOT
+			}
+			central_italy_area = {
+			add_permanent_claim = ROOT
+			}
+			lazio_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	unite_southern_italy = {
+		icon = king_of_naples
+		position = 4
+		required_missions = { sway_the_borders }
+		provinces_to_highlight = {
+			OR = {
+			area = naples_area
+			area = calabria_area
+			area = apulia_area
+			area = central_italy_area
+			area = lazio_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = naples_area
+			}
+			owns_all_provinces = {
+				area = calabria_area
+			}
+			owns_all_provinces = {
+				area = apulia_area
+			}
+			owns_all_provinces = {
+				area = central_italy_area
+			}
+			owns_all_provinces = {
+				area = lazio_area
+			}
+		}
+		effect = {
+			corsica_sardinia_area = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	take_sardinia = {
+		icon = seize_sardinia
+		position = 5
+		required_missions = { unite_southern_italy }
+		provinces_to_highlight = {
+			area = corsica_sardinia_area
+		}
+		trigger = {
+			owns_all_provinces = {
+				area = corsica_sardinia_area
+			}
+		}
+		effect = {
+			italy_region = {
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+	a_unified_peninsula = {
+		icon = terra_santa
+		position = 7
+		required_missions = { take_sardinia }
+		provinces_to_highlight = {
+			region = italy_region
+		}
+		trigger = {
+			owns_all_provinces = {
+			region = italy_region
+			}
+		}
+		effect = {
+			change_tag = ITA
+			set_government_rank = 3
+			override_country_name = "'Iitalia"
+		}
+	}
+}
+
