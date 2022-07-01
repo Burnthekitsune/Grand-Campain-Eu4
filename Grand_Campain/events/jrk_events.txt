@@ -79,7 +79,7 @@ province_event = {
 	
 	option = {
 		name = jorvik_events.3.a
-		change_culture = askulandi
+		change_culture = anjilu_saksunia
 		ai_chance = { factor = 25 }
 	}
 }
