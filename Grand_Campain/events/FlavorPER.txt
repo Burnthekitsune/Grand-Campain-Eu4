@@ -769,7 +769,7 @@ country_event = {
 	
 	option = { #
 		name = flavor_per.13.a
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 0 }
 		if = {
 			limit = {
 				NOT = { religion = shiite }
@@ -785,7 +785,7 @@ country_event = {
 	
 	option = { #
 		name = flavor_per.13.b
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 1 }
 		add_stability_or_adm_power = yes
 	}
 }
