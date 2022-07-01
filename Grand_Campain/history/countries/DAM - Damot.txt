@@ -5,7 +5,6 @@ technology_group = east_african
 religion = sunni
 primary_culture = dynamic-somali-sidamo-culture-num1
 capital = 2761
-religious_school = hanbali_school
 1444.11.11= {
 	monarch = {
 		name = "Kedafu"
