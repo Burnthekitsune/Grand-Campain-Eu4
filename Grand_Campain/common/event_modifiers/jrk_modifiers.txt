@@ -1,4 +1,5 @@
 jor_decentralized = {
 	diplomatic_annexation_cost = 999
-	diplomatic_reputation = -4
+	diplomatic_reputation = -10 # ffs AI, still trying to annex stuff
+	reduced_liberty_desire_on_same_continent = 70
 }
