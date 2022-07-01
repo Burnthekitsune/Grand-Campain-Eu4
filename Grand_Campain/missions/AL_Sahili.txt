@@ -5,6 +5,7 @@ sah_faykinh = {
 	potential = {
 		tag = SHI
 	}
+	has_country_shield = yes
 
 	sah_toledo = {
 		icon = mission_unite_home_region
@@ -102,6 +103,7 @@ sah_jabal = {
 	potential = {
 		tag = SHI
 	}
+	has_country_shield = yes
 
 	sah_castille = {
 		icon = mission_unite_home_region
@@ -192,6 +194,7 @@ sah_minors = {
 	potential = {
 		tag = SHI
 	}
+	has_country_shield = yes
 
 	sah_claim_albasik = {
 		icon = mission_unite_home_region
