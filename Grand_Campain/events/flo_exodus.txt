@@ -140,6 +140,40 @@ country_event = {
 				value = 100
 			}
 		}
+		4626 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
+		}
+		4625 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
+		}
 		southeast_america_region = {
 			discover_country = SIC
 			discover_country = FLO
@@ -218,6 +252,40 @@ country_event = {
 			}
 		}
 		926 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
+		}
+		4626 = {
+			cede_province = FLO
+			change_culture = sicilian
+			change_religion = adamites
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_core = FLO
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
+		}
+		4625 = {
 			cede_province = FLO
 			change_culture = sicilian
 			change_religion = adamites
