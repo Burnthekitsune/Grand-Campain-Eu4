@@ -1,0 +1,60 @@
+namespace = north_nuras
+
+country_event = {
+	id = north_nuras.1
+	title = north_nuras.1.t
+	desc = north_nuras.1.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns_core_province = 4123
+		4123 = {
+			religion = converted_dynamic_faith_102
+			has_missionary = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = north_nuras.1.a
+		4123 = {
+			converted_dynamic_faith_102_rebels = 18
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = north_nuras.2
+	title = north_nuras.2.t
+	desc = north_nuras.2.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		owns_core_province = 4123
+		4123 = {
+			has_rebel_faction = converted_dynamic_faith_102_rebels
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = north_nuras.2.a
+		4123 = {
+			remove_core = ROOT
+			add_core = Z6R
+			cede_province = Z6R
+		}
+		ai_chance = { factor = 25 }
+	}
+}

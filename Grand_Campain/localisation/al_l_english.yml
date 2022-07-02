@@ -905,4 +905,10 @@
  take_sardinia_desc: ""
  a_unified_peninsula_title: "A Unified Peninsula"
  a_unified_peninsula_desc: ""
-
+ 
+ north_nuras.1.t: "Nuras Rebelion"
+ north_nuras.1.d: "The Nuras population of Pirkanmaa have rebelled due to our attempts to convert them."
+ north_nuras.1.a: "We shall crush them"
+ north_nuras.2.t: "Pirkanmaa broke away"
+ north_nuras.2.d: "We have lost complete control of Pirkanmaa."
+ north_nuras.2.a: "Worrying"
