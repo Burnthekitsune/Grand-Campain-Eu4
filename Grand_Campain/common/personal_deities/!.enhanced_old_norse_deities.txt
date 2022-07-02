@@ -7,7 +7,13 @@ odin =
 	horde_unity = 0.1
 	core_creation = -0.10
 
-	allow = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+	allow = { 
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = converted_dynamic_faith_104
+		}
+	}
 	sprite = 7
 
 	ai_will_do = {
@@ -28,7 +34,13 @@ freya =
 	global_manpower_modifier = 0.1
 	global_tax_modifier = 0.1
 
-	allow = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+	allow = { 
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = converted_dynamic_faith_104
+		}
+	}
 	sprite = 8
 
 	ai_will_do = {
@@ -49,7 +61,13 @@ tor =
 	leader_land_shock = 1
 	defensiveness = 0.1
 
-	allow = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+	allow = { 
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = converted_dynamic_faith_104
+		}
+	}
 	sprite = 9
 
 	ai_will_do = {
@@ -82,7 +100,13 @@ tyr =
 	global_sailors_modifier = 0.10
 	discipline = 0.05
 
-	allow = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+	allow = { 
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = converted_dynamic_faith_104
+		}
+	}
 	sprite = 10
 
 	ai_will_do = {
@@ -103,7 +127,13 @@ njord =
 	trade_efficiency = 0.1
 	global_trade_goods_size_modifier = 0.1
 
-	allow = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+	allow = { 
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = converted_dynamic_faith_104
+		}
+	}
 	sprite = 11
 
 	ai_will_do = {
@@ -129,7 +159,13 @@ snotra =
 	technology_cost = -0.05
 	build_cost = -0.1
 
-	allow = { OR = { religion = norse_pagan religion = norse_pagan_reformed } }
+	allow = { 
+		OR = {
+			religion = norse_pagan
+			religion = norse_pagan_reformed
+			religion = converted_dynamic_faith_104
+		}
+	}
 	sprite = 12
 
 	ai_will_do = {
