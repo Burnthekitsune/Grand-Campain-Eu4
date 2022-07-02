@@ -29,6 +29,9 @@ Seville_Start = {
 			}
 			add_permanent_claim = ROOT
 			}
+			230 = {
+			add_permanent_claim = ROOT
+			}
 		}
 	}
 
