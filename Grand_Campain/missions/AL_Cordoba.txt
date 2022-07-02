@@ -267,7 +267,9 @@ Seville_Algarve = {
 			}
 		}
 		effect = {
-			center_of_trade = 2
+			230 = {
+				center_of_trade = 2
+			}
 		}
 	}
 }
