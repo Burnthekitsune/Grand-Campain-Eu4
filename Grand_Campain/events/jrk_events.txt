@@ -241,14 +241,16 @@ country_event = {
 	
 	trigger = {
 		tag = JRK
+		has_country_flag = jrk_central
 		OR = {
-			owns_all_provinces = british_isles_region
+			owns_all_provinces = {
+				region = british_isles_region
+			}
 			AND = {
 				has_country_flag = jrk_eng
 				has_country_flag = jrk_wls
 				has_country_flag = jrk_sco
 				has_country_flag = jrk_ire
-				has_country_flag = jrk_central
 			}
 		}
 	}
