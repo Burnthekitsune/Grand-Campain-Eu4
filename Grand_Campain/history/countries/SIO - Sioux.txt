@@ -1,11 +1,17 @@
 government = native
 add_government_reform = native_federation_reform
 government_rank = 1
-technology_group = north_american
-religion = totemism
 primary_culture = dakota
+religion = totemism
+technology_group = north_american
 capital = 2517
-1444.11.11= {
+
+federation = { 
+	name = "SIO_federation_name" 
+	members = { WIC LAK }
+}
+
+1444.11.11 = {
 	monarch = {
 		name = "Native Council"
 		adm = 3
