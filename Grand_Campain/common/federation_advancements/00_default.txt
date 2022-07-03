@@ -7,9 +7,6 @@ federal_constitution = {
 	}
 
 	effect = {
-		set_country_flag = federation_formed
-		change_government = republic
-		add_government_reform = federal_republic
 		# Switch Tag
 		if = { 
 			limit = { primary_culture = creek NOT = { exists = CRE } }
@@ -136,6 +133,10 @@ federal_constitution = {
 		hidden_effect = {
 			disband_federation = yes
 		}
+		
+		set_country_flag = federation_formed
+		change_government = republic
+		add_government_reform = federal_republic
 	}
 
 	ai_chance = {
