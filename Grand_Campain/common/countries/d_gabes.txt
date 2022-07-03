@@ -2,71 +2,76 @@ ck2_converter_generated = yes
 graphical_culture = muslimgfx
 color = { 25 70 209 }
 monarch_names = {
-	"Aaqila #0" = -1
-	"Abidin #0" = 0
-	"Adergazuz #0" = 0
-	"Alexandra #0" = -1
-	"Alfredo #1" = 10
-	"Amessan #0" = 0
-	"Az'regh #0" = 0
-	"Badda #0" = 0
-	"Bashira #1" = -1
-	"Bghnat #0" = -1
-	"Blaz #0" = 0
-	"Cissi #0" = 0
-	"Custanzu #1" = 10
-	"Desislava #0" = -1
-	"Doroteja #0" = -1
-	"Ecgberht #0" = 0
-	"Euphrosine #0" = -1
-	"Fath #0" = 0
-	"Gedduda #0" = -1
-	"Guðrún #0" = -1
-	"Gyða #0" = -1
-	"H'emmu #0" = 0
-	"Hinda #0" = -1
-	"Ibrahim #1" = 10
-	"Ikalay #0" = -1
-	"Ingfríðr #0" = -1
-	"Iskra #0" = -1
-	"Ixzi #0" = 0
-	"Jàpicu #0" = 0
-	"Konstantinos #1" = 10
-	"Kulla #0" = -1
-	"Kyriakos #1" = 10
-	"Liuni #2" = 10
-	"Maria #1" = -1
-	"Mariam #0" = -1
-	"Mario #2" = 10
-	"Markos #0" = 0
-	"Menna #0" = -1
+	"Ghani #0" = 20
+	"Hamad #0" = 15
+	"Abbas #0" = 15
+	"Himi #0" = 10
+	"Youssef #1" = 10
+	"Hotha #0" = 10
+	"Asad #0" = 5
+	"Nasr #0" = 5
+	"Maha #1" = 5
+	"Danyal #0" = 1
+	"Mikail #1" = 1
 	"Mennad #0" = 0
-	"Mikail #1" = 10
-	"Muhammad #1" = 10
-	"Musa #0" = 0
-	"N'Guna #0" = 0
-	"Ndoung #0" = -1
-	"Nevena #0" = -1
-	"Porin #0" = 0
-	"Rafiqa #0" = -1
-	"Sifaks #0" = 0
-	"Silvestru #3" = 10
-	"Stefania #0" = -1
-	"Tafsut #0" = -1
-	"Taljat #1" = -1
-	"Tament #0" = -1
-	"Tanefzawit #0" = -1
-	"Tanest #1" = -1
-	"Tariq #0" = 0
-	"Tariwelt #0" = -1
-	"Taszellayt #0" = -1
-	"Theophanes #0" = 0
-	"Theophano #0" = -1
-	"Torfu #0" = 0
-	"Youssef #0" = 0
+	"Nazar #0" = 0
 	"Yuba #0" = 0
-	"Zilgum #0" = -1
-	"Zunagha #0" = -1
-	"Áslaug #0" = -1
-	"Þórdís #0" = -1
+	"Immeghar #0" = 0
+	"Amin #0" = 0
+	"Asirem #0" = 0
+	"Afer #0" = 0
+	"Afaghis #0" = 0
+
+	"Menna #0" = -20
+	"Taljat #1" = -15
+	"Iskra #1" = -15
+	"Tanest #1" = -10
+	"Bashira #1" = -10
+	"Edza #0" = -5
+	"Maram #1" = -5
+	"Kahina #0" = -5
+	"Tarifa #0" = -5
+	"Jaida #0" = -5
+}
+leader_names = {
+	Taher
+	Akimi
+	Adhoum
+	Hakimi
+	Naybet
+	Bassir
+	Saber
+	Badra
+	Sassi
+	Dali
+	Hammadid
+	Taishufin
+	Hafsid
+	Aznagid
+	Madinid
+	Ladenid
+	Saidid
+	Sedkid
+	Sidiqid
+	Talalid
+	Tayebid
+	Bari
+	Isavid
+	Anwarid
+	Ghaniya
+	Jalayar
+	Naqvid
+	Abidin
+	Amirid
+	Khaldun
+	Raghraghwid
+	Tudjinid
+	Temimid
+}
+
+ship_names = {
+	Alim Fattah Razzaq Wahhab Qahhar Ghaffar
+	Musawwir Bari Khaliq Mutakabbir Jabbar
+	Aziz Muhaymin Mu'min Salam Quddus Malik
+	Rahim Rahman
 }
