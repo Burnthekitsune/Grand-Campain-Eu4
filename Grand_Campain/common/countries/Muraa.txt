@@ -51,6 +51,7 @@ monarch_names = {
 	"Hakam #0" = 0
 	"Gejopal #0" = 0
 
+	"Neapania #0" = -50
 	"Raisa #0" = -50
 	"Cinsay #2" = -40
 	"Isra #0" = -40
@@ -60,7 +61,6 @@ monarch_names = {
 	"Arcadia #0" = -30
 	"Selene #0" = -20
 	"Tamsin #0" = -20
-	"Neapania #0" = -20
 	"Aspasia #0" = -20
 	"Dasin #0" = -20
 	"Aasi #0" = -20
