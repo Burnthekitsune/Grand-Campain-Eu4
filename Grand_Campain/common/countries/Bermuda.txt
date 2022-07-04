@@ -1,7 +1,6 @@
 ck2_converter_generated = yes
 graphical_culture = westerngfx
-color = { 240 227 27 }
-revolutionary_colors = { 5 0 8 }
+color = { 227 17 2 }
 historical_idea_groups = {
 	maritime_ideas
 	trade_ideas
@@ -30,19 +29,17 @@ historical_units = {
 }
 monarch_names = {
 	"Albanu #0" = 0
-	"Alessiu #0" = 10
-	"Caiu #0" = 10
+	"Alessiu #1" = 10
+	"Caiu #4" = 10
 	"Clàudia #0" = -1
-	"Curradina #0" = -1
-	"Elpidios #0" = 10
-	"Girvais #0" = 10
-	"Khafaja #0" = 10
-	"Mario #0" = 20
-	"Luigi #0" = 20
+	"Curradina #2" = -1
+	"Elpidios #1" = 10
+	"Girvais #2" = 10
+	"Khafaja #1" = 10
 	"Ludomil #0" = 0
-	"Ubald #0" = 10
-	"Valirianu #0" = 10
-	"Viulante #0" = -1
+	"Ubald #3" = 10
+	"Valirianu #2" = 10
+	"Viulante #1" = -1
 	"Yueyi #0" = -1
 }
 leader_names = {

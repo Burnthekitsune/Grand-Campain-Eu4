@@ -391,6 +391,10 @@
  florida_migration.2.d:0 "The settlers have found a new home, and called it Florida."
  florida_migration.2.a:0 "We shall join them!"
  florida_migration.2.b:0 "Good for them"
+ florida_migration.4.t:0 "Long lost ship"
+ florida_migration.4.d:0 "We have discovered, on the island of Bermuda, people speaking our language. It turns out, they were once part of our fleet to the new world, but got lost due to a storm."
+ florida_migration.4.a:0 "Let us welcome them!"
+ florida_migration.4.b:0 "It was nice to see they are okay."
  
  jorvik_events.4.t: "Integrating England"
  jorvik_events.4.d: "The ruler of England has died and left us as the heirs, the kingdom is now ours."

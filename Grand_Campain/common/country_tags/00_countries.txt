@@ -1246,3 +1246,5 @@ AHL = "countries/Alsaahili.txt"
 ASE = "countries/Alshamali.txt"
 
 MUR = "countries/Muraa.txt"
+
+BRM = "countries/Bermuda.txt"
