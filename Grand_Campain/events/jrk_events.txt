@@ -245,6 +245,7 @@ country_event = {
 		OR = {
 			owns_all_provinces = {
 				region = british_isles_region
+				is_year = 1630
 			}
 			AND = {
 				has_country_flag = jrk_eng
