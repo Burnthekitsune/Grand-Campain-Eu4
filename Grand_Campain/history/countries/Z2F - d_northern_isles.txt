@@ -5,7 +5,6 @@ technology_group = western
 religion = converted_dynamic_faith_102
 primary_culture = alayislandia
 capital = 1978
-add_accepted_culture = icelandic
 1444.11.11= {
 	monarch = {
 		name = "Guðmundr"
