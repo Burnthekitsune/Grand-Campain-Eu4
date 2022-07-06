@@ -138,6 +138,7 @@ country_event = {
 	option = {
 		name = vinland.4.a
 		override_country_name = "Vinland"
+		change_primary_culture = waynlandic
 		add_country_modifier = {
 			name = flo_start_boost
 			duration = 10800
@@ -145,7 +146,7 @@ country_event = {
 		create_conquistador = { tradition = 50 }
 		981 = {
 			cede_province = Z2F
-			change_culture = alayislandia
+			change_culture = waynlandic
 			change_religion = converted_dynamic_faith_102
 			add_base_tax = 1
 			add_base_production = 1
@@ -154,7 +155,7 @@ country_event = {
 		}
 		2573 = {
 			cede_province = Z2F
-			change_culture = alayislandia
+			change_culture = waynlandic
 			change_religion = converted_dynamic_faith_102
 			add_base_tax = 1
 			add_base_production = 1
@@ -164,7 +165,7 @@ country_event = {
 		set_capital = 2573
 		980 = {
 			cede_province = Z2F
-			change_culture = alayislandia
+			change_culture = waynlandic
 			change_religion = converted_dynamic_faith_102
 			add_base_tax = 1
 			add_base_production = 1
@@ -247,6 +248,7 @@ country_event = {
 	
 	option = {
 		name = vinland.4.a
+		change_primary_culture = waynlandic
 		override_country_name = "Vinland"
 		add_country_modifier = {
 				name = flo_start_boost
@@ -254,19 +256,19 @@ country_event = {
 		}
 		981 = {
 			cede_province = Z2F
-			change_culture = alayislandia
+			change_culture = waynlandic
 			change_religion = converted_dynamic_faith_102
 			add_core = Z2F
 		}
 		2573 = {
 			cede_province = Z2F
-			change_culture = alayislandia
+			change_culture = waynlandic
 			change_religion = converted_dynamic_faith_102
 			add_core = Z2F
 		}
 		980 = {
 			cede_province = Z2F
-			change_culture = alayislandia
+			change_culture = waynlandic
 			change_religion = converted_dynamic_faith_102
 			add_core = Z2F
 		}

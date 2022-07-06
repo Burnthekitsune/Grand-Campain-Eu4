@@ -17,8 +17,12 @@ province_event = {
 		}
 		NOT = {
 			culture = north_american_alshamali
+			culture = waynlandic
 		}
 		continent = north_america
+		NOT = {
+			region = carribeans_region
+		}
 	}
 	
 	
@@ -200,6 +204,7 @@ province_event = {
 		}
 		NOT = {
 			culture = south_african_alshamali
+			culture = aleasifa
 		}
 		continent = africa
 		NOT = {
@@ -468,9 +473,13 @@ country_event = {
 		culture_group = alshamali
 		capital_scope  = {
 			continent = north_america
+			NOT = {
+				region = carribeans_region
+			}
 		}
 		NOT = {
 			primary_culture = north_american_alshamali
+			primary_culture = waynlandic
 		}
 		any_owned_province = {
 			same_continent = ROOT
@@ -595,6 +604,7 @@ country_event = {
 		}
 		NOT = {
 			primary_culture = south_african_alshamali
+			primary_culture = aleasifa
 		}
 		any_owned_province = {
 			same_continent = ROOT
@@ -799,6 +809,105 @@ country_event = {
 				}
 			}
 			change_culture = malaysian_alshamali
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+province_event = {
+	id = alshmali_culture.15 # alkubiu
+	title = alshmali_culture.15.t
+	desc = alshmali_culture.15.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			culture_group = alshamali
+			owner = {
+				culture_group = alshamali
+			}
+		}
+		NOT = {
+			culture = alkubiu
+		}
+		region = carribeans_region
+	}
+	
+	
+	mean_time_to_happen = {
+		months = 480
+		
+		modifier = {
+			factor = 0.125
+			owner = {
+				primary_culture = alkubiu
+			}
+			is_overseas = no
+		}
+		
+		modifier = {
+			factor = 0.25
+			any_neighbor_province = {
+				culture = alkubiu
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			NOT = {
+				culture_group = alshamali
+				any_neighbor_province = {
+					culture_group = alshamali
+				}
+			}
+		}
+		
+	}
+	
+	option = {
+		name = alshmali_culture.15.a
+		change_culture = alkubiu
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = alshmali_culture.16 # alkubiu
+	title = alshmali_culture.16.t
+	desc = alshmali_culture.16.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		culture_group = alshamali
+		capital_scope  = {
+			region = carribeans_region
+		}
+		NOT = {
+			primary_culture = alkubiu
+		}
+		any_owned_province = {
+			same_continent = ROOT
+			culture = alkubiu
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = alshmali_culture.16.a
+		change_primary_culture = alkubiu
+		every_owned_province ={
+			limit = {
+				culture_group = alshamali
+				same_continent = capital
+			}
+			change_culture = alkubiu
 		}
 		ai_chance = { factor = 25 }
 	}

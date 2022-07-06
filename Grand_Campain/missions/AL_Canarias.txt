@@ -39,10 +39,10 @@ Canarias_Start = {
 		}
 		effect = {
 			add_adm_power = -100 
-			add_accepted_culture = south_african_alshamali
+			add_accepted_culture = aleasifa
 			1096 = {
 				add_siberian_construction = 500
-				change_culture = south_african_alshamali
+				change_culture = aleasifa
 				change_religion = converted_dynamic_faith_102
 				discover_country = ROOT
 			}
@@ -82,12 +82,12 @@ Canarias_Africa = {
 		effect = {
 			1097 = {
 			add_siberian_construction = 200
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1306 = {
 			add_siberian_construction = 200
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 		}
@@ -105,7 +105,7 @@ Canarias_Africa = {
 		effect = {
 			1098 = {
 			add_siberian_construction = 200
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 		}
@@ -123,7 +123,7 @@ Canarias_Africa = {
 		effect = {
 			1177 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 		}
@@ -141,7 +141,7 @@ Canarias_Africa = {
 		effect = {
 			4020 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			4020 = {
@@ -162,7 +162,7 @@ Canarias_Africa = {
 		effect = {
 			1100 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1100 = {
@@ -188,12 +188,12 @@ Canarias_Africa = {
 		effect = {
 			1102 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1103 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1103 = {
@@ -353,12 +353,12 @@ Cape_Colony = {
 			add_treasury = -100
 			1175 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1179 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 		}
@@ -388,12 +388,12 @@ Cape_Colony = {
 			add_treasury = -100
 			833 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1180 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 		}
@@ -423,12 +423,12 @@ Cape_Colony = {
 			add_treasury = -100
 			1176 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 			1178 = {
 			add_siberian_construction = 100
-			change_culture = south_african_alshamali
+			change_culture = aleasifa
 			change_religion = converted_dynamic_faith_102
 			}
 		}
@@ -473,7 +473,7 @@ Cape_Colony = {
 		effect = {
 			add_dip_power = -100
 			set_capital = 1177
-			change_primary_culture = south_african_alshamali
+			change_primary_culture = aleasifa
 			add_accepted_culture = janubian
 			override_country_name = "Cape"
 			set_government_rank = 2
