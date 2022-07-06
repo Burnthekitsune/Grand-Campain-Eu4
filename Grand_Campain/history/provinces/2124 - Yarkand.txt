@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = GUG
+controller = GUG
 capital = "Yarkant"
 is_city = yes
 culture = dynamic-saka-zhangzhung-culture-num1
@@ -10,7 +10,7 @@ base_production = 2
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
-add_core = DLH
+add_core = GUG
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

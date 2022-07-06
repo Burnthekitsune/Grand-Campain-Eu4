@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = MAD
+controller = MAD
 capital = "Tiruchirapalli"
 is_city = yes
 culture = dynamic-sinhala-culture-num1
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = DEC
+add_core = MAD
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = Z0D
+controller = Z0D
 capital = "Feyzabad"
 is_city = yes
 culture = dynamic-avadhi-nepali-culture-num1
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = DLH
+add_core = Z0D
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

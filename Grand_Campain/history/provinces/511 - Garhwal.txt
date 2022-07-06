@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = NPL
+controller = NPL
 capital = "Devalgarh"
 is_city = yes
 culture = dynamic-tibetan-nepali-culture-num1
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = DLH
+add_core = NPL
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

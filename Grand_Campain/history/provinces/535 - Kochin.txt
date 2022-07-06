@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = VND
+controller = VND
 capital = "Kochin"
 is_city = yes
 culture = malayalam
@@ -8,7 +8,6 @@ trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = DEC
 add_core = VND
 discovered_by = eastern
 discovered_by = indian

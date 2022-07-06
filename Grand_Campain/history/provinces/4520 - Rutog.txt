@@ -1,5 +1,5 @@
-owner = DLH
-controller = DLH
+owner = GUG
+controller = GUG
 capital = "Rutog"
 is_city = yes
 culture = zhangzhung
@@ -8,7 +8,6 @@ trade_goods = wool
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = DLH
 add_core = GUG
 discovered_by = eastern
 discovered_by = indian

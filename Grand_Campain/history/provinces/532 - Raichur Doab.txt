@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = GOC
+controller = GOC
 capital = "Raichur"
 is_city = yes
 culture = telegu
@@ -8,7 +8,6 @@ trade_goods = cloth
 base_tax = 5
 base_production = 5
 base_manpower = 3
-add_core = DEC
 add_core = GOC
 discovered_by = eastern
 discovered_by = indian

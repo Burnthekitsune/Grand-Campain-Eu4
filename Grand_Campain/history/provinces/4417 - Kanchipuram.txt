@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = MAD
+controller = MAD
 capital = "Kanchipuram"
 is_city = yes
 culture = tamil
@@ -8,7 +8,6 @@ trade_goods = cloth
 base_tax = 4
 base_production = 4
 base_manpower = 1
-add_core = DEC
 add_core = MAD
 discovered_by = eastern
 discovered_by = indian

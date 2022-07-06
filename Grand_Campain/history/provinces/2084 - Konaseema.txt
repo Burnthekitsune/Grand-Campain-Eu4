@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = GOC
+controller = GOC
 capital = "Rajahmundry"
 is_city = yes
 culture = telegu
@@ -9,7 +9,6 @@ base_tax = 3
 base_production = 5
 base_manpower = 3
 extra_cost = 10
-add_core = DEC
 add_core = GOC
 discovered_by = eastern
 discovered_by = indian

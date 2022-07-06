@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = CEY
+controller = CEY
 capital = "Malé"
 is_city = yes
 culture = sinhala
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = CEY
-add_core = DEC
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

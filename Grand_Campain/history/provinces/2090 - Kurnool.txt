@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = GOC
+controller = GOC
 capital = "Srisailam"
 is_city = yes
 culture = dynamic-oriya-telegu-culture-num1
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 2
 base_production = 2
 base_manpower = 1
-add_core = DEC
+add_core = GOC
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

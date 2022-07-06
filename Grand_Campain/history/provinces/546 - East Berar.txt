@@ -1,5 +1,5 @@
-owner = DEC
-controller = DEC
+owner = GDW
+controller = GDW
 capital = "Wairagarh"
 is_city = yes
 culture = gondi
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 3
-add_core = DEC
+add_core = GDW
 discovered_by = eastern
 discovered_by = indian
 discovered_by = muslim

@@ -1,9 +1,9 @@
-government = tribal
-add_government_reform = tribal_kingdom
+government = monarchy
+add_government_reform = mandala_reform
 government_rank = 1
 technology_group = chinese
 religion = vajrayana
-primary_culture = tibetan
+primary_culture = zhangzhung
 capital = 2128
 fixed_capital = 2128
 1396.1.1= {
