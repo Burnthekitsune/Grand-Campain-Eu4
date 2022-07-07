@@ -893,4 +893,10 @@
  adaoran_school_desc:0 "Based on the teaching of Adaora, who brought the beliefs of Nuras to us."
  adaoran_scholar_modifier:0 "Adaoran Scholars"
  desc_adaoran_scholar_modifier:0 "We are currently entertaining Adaoran Scholars to further the theological discussion in our country."
+ asia_scholar_modifier:0 "Sinaan Scholars"
+ desc_asia_scholar_modifier:0 "We are currently entertaining Sinaan Scholars to further the theological discussion in our country."
+ na_scholar_modifier:0 "Mustawtin Scholars"
+ desc_na_scholar_modifier:0 "We are currently entertaining Mustawtin Scholars to further the theological discussion in our country."
+ sa_scholar_modifier:0 "Almustaemir Scholars"
+ desc_sa_scholar_modifier:0 "We are currently entertaining Almustaemir Scholars to further the theological discussion in our country."
  

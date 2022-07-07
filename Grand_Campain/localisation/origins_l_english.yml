@@ -2519,7 +2519,6 @@
  allows_every_time_invite_of_ragnarrite_school:0 "Allows to invite a Scholar from the §YRagnarrite School§! without diplomatic relations."
  ragnarrite_school_bonus_tt:0 "Global Colonial Growth: §G10.0%§!"
  allows_every_time_invite_of_ismail_school:0 "Allows to invite a Scholar from the §YIsma'il School§! without diplomatic relations."
- 
  ismail_school_bonus_tt:0 "Global Trade Power: §G10.0%§!"
  allows_every_time_invite_of_Rikulfrian_school:0 "Allows to invite a Scholar from the §YRikulfrian School§! without diplomatic relations."
  rikulfrian_school_bonus_tt:0 "Land Morale: §G10.0%§!"
@@ -2529,3 +2528,9 @@
  nurrite_school_bonus_tt:0 "National Unrest: §G-1§!"
  allows_every_time_invite_of_adaoran_school:0 "Allows to invite a Scholar from the §YAdaoran School§! without diplomatic relations."
  adaoran_school_bonus_tt:0 "Infantry Power: §G10.0%§!"
+ allows_every_time_invite_of_na_school:0 "Allows to invite a Scholar from the §YMustawtin School§! without diplomatic relations."
+ na_school_bonus_tt:0 "Accepted Cultures: §G+1§!"
+ allows_every_time_invite_of_sa_school:0 "Allows to invite a Scholar from the §YAlmustaemir School§! without diplomatic relations."
+ sa_school_bonus_tt:0 "Gold Depletion Chance: §G-20.0%§!"
+ allows_every_time_invite_of_asia_school:0 "Allows to invite a Scholar from the §YSinaa School§! without diplomatic relations."
+ asia_school_bonus_tt:0 "Trade Steering: §G+20.0%§!"

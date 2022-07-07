@@ -25,4 +25,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/icon_muslim_school_adaoran.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_icon_muslim_school_na"
+		texturefile = "gfx/interface/icon_muslim_school_na.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_sa"
+		texturefile = "gfx/interface/icon_muslim_school_sa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_asia"
+		texturefile = "gfx/interface/icon_muslim_school_asia.dds"
+	}
+	
 }

@@ -144,6 +144,10 @@ country_event = {
 			duration = 10800
 		}
 		create_conquistador = { tradition = 50 }
+		set_religious_school = {
+			group = muslim
+			school = na_school
+		}
 		981 = {
 			cede_province = Z2F
 			change_culture = waynlandic
@@ -253,6 +257,10 @@ country_event = {
 		add_country_modifier = {
 				name = flo_start_boost
 				duration = 5400
+		}
+		set_religious_school = {
+			group = muslim
+			school = na_school
 		}
 		981 = {
 			cede_province = Z2F

@@ -3329,7 +3329,6 @@ country_event = {
 		}
 		else_if = { #Ragnarrite
 			limit = {
-				religion = shiite
 				capital_scope = {
 					region = iberia_region
 				}
@@ -3337,6 +3336,46 @@ country_event = {
 			set_religious_school = {
 				group = muslim
 				school = ragnarrite_school
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					continent = north_america
+				}
+				set_religious_school = {
+				group = muslim
+				school = na_school
+			}
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					continent = south_america
+				}
+				set_religious_school = {
+				group = muslim
+				school = sa_school
+			}
+			}
+		}
+		else_if = {
+			limit = {
+				capital_scope = {
+					continent = asia
+					NOT = {
+						OR = {
+						region = arabia_region
+						region = mashriq_region
+						region = anatolia_region
+					}
+					}
+				}
+				set_religious_school = {
+				group = muslim
+				school = asia_school
+			}
 			}
 		}
 		else = { #Remaining Shiites get this:
