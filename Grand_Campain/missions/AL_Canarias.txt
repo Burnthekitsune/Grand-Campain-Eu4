@@ -475,7 +475,7 @@ Cape_Colony = {
 			set_capital = 1177
 			change_primary_culture = aleasifa
 			add_accepted_culture = janubian
-			override_country_name = "Cape"
+			override_country_name = CAPE_KINGDOM
 			set_government_rank = 2
 		}
 	}

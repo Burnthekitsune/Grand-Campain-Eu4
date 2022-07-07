@@ -304,7 +304,7 @@ ROM_Alshamali = {
 			}
 			change_tag = ITA
 			set_government_rank = 3
-			override_country_name = "Rumania"
+			override_country_name = RUMANIA
 		}
 	}
 }
@@ -582,7 +582,7 @@ ROM_Balanced = {
 		effect = {
 			change_tag = ITA
 			set_government_rank = 3
-			override_country_name = "'Iitalia"
+			override_country_name = IITALIA
 		}
 	}
 }

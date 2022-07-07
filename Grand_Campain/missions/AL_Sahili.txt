@@ -260,7 +260,7 @@ sah_minors = {
 			set_government_rank = 3
 			country_event = { id = ideagroups.1 }
 			swap_non_generic_missions = yes
-			override_country_name = "Sahilian Empire"
+			override_country_name = SAHILIAN_EMPIRE
 			provence_area = {
 			add_permanent_claim = ROOT
 			}

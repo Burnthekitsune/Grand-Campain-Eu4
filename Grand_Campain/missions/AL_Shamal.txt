@@ -211,7 +211,7 @@ shamal_france = {
 			change_culture = faransan
 			}
 			set_government_rank = 3
-			override_country_name = "Faransa"
+			override_country_name = FARANSA
 			set_capital = 183
 		}
 	}

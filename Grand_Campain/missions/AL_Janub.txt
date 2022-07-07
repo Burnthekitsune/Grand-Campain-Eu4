@@ -116,7 +116,7 @@ jnb_faykingh = {
 			set_government_rank = 3
 			country_event = { id = ideagroups.1 }
 			swap_non_generic_missions = yes
-			override_country_name = "Janubian Empire"
+			override_country_name = JANUBIAN_EMPIRE
 			iberia_region = {
 			add_permanent_claim = ROOT
 			}

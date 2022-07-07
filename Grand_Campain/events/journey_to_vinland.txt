@@ -137,7 +137,7 @@ country_event = {
 	
 	option = {
 		name = vinland.4.a
-		override_country_name = "Vinland"
+		override_country_name = NEW_VINLAND
 		change_primary_culture = waynlandic
 		add_country_modifier = {
 			name = flo_start_boost

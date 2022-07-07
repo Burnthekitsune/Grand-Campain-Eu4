@@ -58,7 +58,7 @@ Als_Start = {
 		}
 		effect = {
 			set_government_rank = 3
-			override_country_name = "Alsaahilian Empire"
+			override_country_name = ALSAAHILIAN_EMPIRE
 		}
 	}
 	als_claim_egypt = {
