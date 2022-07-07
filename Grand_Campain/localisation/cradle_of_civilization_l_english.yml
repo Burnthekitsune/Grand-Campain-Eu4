@@ -899,4 +899,10 @@
  desc_na_scholar_modifier:0 "We are currently entertaining Mustawtin Scholars to further the theological discussion in our country."
  sa_scholar_modifier:0 "Almustaemir Scholars"
  desc_sa_scholar_modifier:0 "We are currently entertaining Almustaemir Scholars to further the theological discussion in our country."
+ na_school:0 "Mustawtin"
+ na_school_desc:0 "Developed in the new world, with new beleifs."
+ sa_school:0 "Almustaemir"
+ sa_school_desc:0 "Developed in the new world, with new beleifs."
+ asia_school:0 "Sinaan"
+ asia_school_desc:0 "Developed in Asia, with new beleifs."
  
