@@ -178,6 +178,9 @@ clear_religious_scholar_modifiers_effect = {
 	remove_country_modifier = rasiqite_scholar_modifier
 	remove_country_modifier = nurrite_scholar_modifier
 	remove_country_modifier = adaoran_scholar_modifier
+	remove_country_modifier = na_scholar_modifier
+	remove_country_modifier = sa_scholar_modifier
+	remove_country_modifier = asia_scholar_modifier
 }
 
 #Move capital along with all that also needs to be done. Used in capital decisions.

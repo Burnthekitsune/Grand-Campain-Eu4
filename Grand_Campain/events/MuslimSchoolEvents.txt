@@ -3343,10 +3343,10 @@ country_event = {
 				capital_scope = {
 					continent = north_america
 				}
-				set_religious_school = {
+			}
+			set_religious_school = {
 				group = muslim
 				school = na_school
-			}
 			}
 		}
 		else_if = {
@@ -3354,16 +3354,19 @@ country_event = {
 				capital_scope = {
 					continent = south_america
 				}
-				set_religious_school = {
+			}
+			set_religious_school = {
 				group = muslim
 				school = sa_school
-			}
 			}
 		}
 		else_if = {
 			limit = {
 				capital_scope = {
-					continent = asia
+					OR = {
+						continent = asia
+						continent = oceania
+					}
 					NOT = {
 						OR = {
 						region = arabia_region
@@ -3372,13 +3375,13 @@ country_event = {
 					}
 					}
 				}
-				set_religious_school = {
+			}
+			set_religious_school = {
 				group = muslim
 				school = asia_school
 			}
-			}
 		}
-		else = { #Remaining Shiites get this:
+		else = { #Remaining get this:
 			set_religious_school = {
 				group = muslim
 				school = ragnarrite_school

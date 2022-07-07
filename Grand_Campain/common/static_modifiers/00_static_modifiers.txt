@@ -1737,6 +1737,30 @@ adaoran_scholar_modifier = {
 	infantry_power = 0.10
 }
 
+na_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	num_accepted_cultures = 1
+}
+
+sa_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	gold_depletion_chance_modifier = -0.2
+}
+
+asia_scholar_modifier = {
+	religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	religion = yes
+	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	trade_steering = 0.2
+}
+
 ########################################
 # Regiment Types Modifiers
 ########################################
