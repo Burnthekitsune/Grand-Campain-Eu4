@@ -2873,11 +2873,13 @@ stpeters_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
 		province_is_or_accepts_religion = {
-			OR = {
-				religion = catholic
-				religion = converted_dynamic_faith_102
-			}
+			religion = catholic
+		}
+		province_is_or_accepts_religion = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -2893,21 +2895,25 @@ stpeters_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
 		province_is_or_accepts_religion = {
-			OR = {
-				religion = catholic
-				religion = converted_dynamic_faith_102
-			}
+			religion = catholic
+		}
+		province_is_or_accepts_religion = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
 		province_is_or_accepts_religion = {
-			OR = {
-				religion = catholic
-				religion = converted_dynamic_faith_102
-			}
+			religion = catholic
+		}
+		province_is_or_accepts_religion = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -3585,11 +3591,13 @@ notre_dame_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -3605,21 +3613,25 @@ notre_dame_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -8780,11 +8792,13 @@ heddal_stave_church = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -8800,21 +8814,25 @@ heddal_stave_church = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -11411,11 +11429,13 @@ duomo_milano = {
 	type = monument
 
 	build_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -11426,20 +11446,24 @@ duomo_milano = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -14774,11 +14798,13 @@ santa_maria_del_fiore = {
 	type = monument
 
 	build_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
@@ -14789,20 +14815,24 @@ santa_maria_del_fiore = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
 		province_is_or_accepts_religion_group = {
-			OR = {
-				religion_group = christian
-				religion = converted_dynamic_faith_102
-			}
+			religion_group = christian
+		}
+		province_is_or_accepts_religion_group = {
+			religion = converted_dynamic_faith_102
+		}
 		}
 	}
 
