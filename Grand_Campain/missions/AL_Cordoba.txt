@@ -311,6 +311,9 @@ Seville_North_Morocco = {
 			}
 			add_nationalism = -10
 			}
+			343 = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	core_north_morocco = {
