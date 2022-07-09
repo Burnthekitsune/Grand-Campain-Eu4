@@ -951,7 +951,7 @@
  
  # New Names
  NEW_VINLAND:0 "Vinland"
- NEW_VINLAND:0 "Vinlandish"
+ NEW_VINLAND_ADJ:0 "Vinlandish"
  CAPE_KINGDOM:0 "Cape"
  CAPE_KINGDOM_ADJ:0 "Capish"
  JANUBIAN_EMPIRE:0 "Janubian Empire"
