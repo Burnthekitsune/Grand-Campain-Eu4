@@ -17,13 +17,14 @@ country_event = {
 	
 	option = {
 		name = iceland_events.1.a
+		add_accepted_culture = north_american_alshamali
 		1104 = {
 			discover_country = ICE
 			if = {
 				limit = {
 					is_empty = yes
 				}
-				change_culture = alayislandia
+				change_culture = north_american_alshamali
 				change_religion = converted_dynamic_faith_102
 				add_siberian_construction = 200 
 			}
@@ -37,7 +38,7 @@ country_event = {
 				limit = {
 					is_empty = yes
 				}
-				change_culture = alayislandia
+				change_culture = north_american_alshamali
 				change_religion = converted_dynamic_faith_102
 				add_siberian_construction = 200 
 			}
