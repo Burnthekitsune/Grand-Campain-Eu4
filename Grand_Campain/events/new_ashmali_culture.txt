@@ -23,6 +23,7 @@ province_event = {
 		NOT = {
 			region = carribeans_region
 		}
+		has_owner_religion = yes
 	}
 	
 	
@@ -83,6 +84,7 @@ province_event = {
 			culture = south_american_alshamali
 		}
 		continent = south_america
+		has_owner_religion = yes
 	}
 	
 	
@@ -146,6 +148,7 @@ province_event = {
 		NOT = {
 			region = moluccas_region
 		}
+		has_owner_religion = yes
 	}
 	
 	
@@ -212,6 +215,7 @@ province_event = {
 			region = egypt_region
 			region = horn_of_africa_region
 		}
+		has_owner_religion = yes
 	}
 	
 	
@@ -280,6 +284,7 @@ province_event = {
 			region = bengal_region
 			region = burma_region
 		}
+		has_owner_religion = yes
 	}
 	
 	
@@ -357,6 +362,7 @@ province_event = {
 			region = caucasia_region
 		}
 		continent = asia
+		has_owner_religion = yes
 	}
 	
 	
@@ -422,6 +428,7 @@ province_event = {
 			region = indonesia_region
 			region = moluccas_region
 		}
+		has_owner_religion = yes
 	}
 	
 	
@@ -834,6 +841,7 @@ province_event = {
 		NOT = {
 			culture = alkubiu
 		}
+		has_owner_religion = yes
 		region = carribeans_region
 	}
 	
@@ -912,5 +920,45 @@ country_event = {
 			change_culture = alkubiu
 		}
 		ai_chance = { factor = 25 }
+	}
+}
+
+
+province_event = {
+	id = alshmali_culture.17 # trade region convert
+	title = alshmali_culture.17.t
+	desc = alshmali_culture.17.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_owned_by_trade_company = yes
+		owner = {
+			religion = converted_dynamic_faith_102
+		}
+		NOT = {
+			religion = converted_dynamic_faith_102
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+		
+		modifier = {
+			factor = 0.125
+			owner = {
+				religion = converted_dynamic_faith_102
+			}
+			is_overseas = no
+		}
+		
+		modifier = {
+			factor = 0.25
+			any_neighbor_province = {
+				religion = converted_dynamic_faith_102
+			}
+		}
+		
 	}
 }
