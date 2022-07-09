@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 2
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture = berber
+primary_culture = alyunania
 capital = 4702
 add_accepted_culture = dynamic-bulgarian-greek-culture-num1
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = dynamic-bulgarian-greek-culture-num1
 		mil = 6
 		birth_date = 1371.3.23
 		religion = converted_dynamic_faith_102
-		culture = berber
+		culture = alyunania
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -45,7 +45,7 @@ add_accepted_culture = dynamic-bulgarian-greek-culture-num1
 		death_date = 1462.2.7
 		claim = 89
 		religion = converted_dynamic_faith_106
-		culture = berber
+		culture = alyunania
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

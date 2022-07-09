@@ -3258,6 +3258,10 @@ country_event = {
 						region = sahel_region
 						region = niger_region
 						region = guinea_region
+						region = kongo_region
+						region = central_africa_region
+						region = east_africa_region
+						region = south_africa_region
 					}
 				}
 			}

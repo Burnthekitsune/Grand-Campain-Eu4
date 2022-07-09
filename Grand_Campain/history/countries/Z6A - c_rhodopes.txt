@@ -3,7 +3,8 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = converted_dynamic_faith_102
-primary_culture = dynamic-greek-culture-num3
+primary_culture = alyunania
+add_accepted_culture = dynamic-greek-culture-num3
 capital = 4703
 fixed_capital = 4703
 1444.11.11= {
@@ -15,7 +16,7 @@ fixed_capital = 4703
 		mil = 1
 		birth_date = 1383.6.24
 		religion = converted_dynamic_faith_102
-		culture = dynamic-greek-culture-num3
+		culture = alyunania
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -30,7 +31,7 @@ fixed_capital = 4703
 		death_date = 1447.8.29
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = dynamic-greek-culture-num3
+		culture = alyunania
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality
@@ -46,7 +47,7 @@ fixed_capital = 4703
 		female = yes
 		claim = 89
 		religion = converted_dynamic_faith_102
-		culture = dynamic-greek-culture-num3
+		culture = alyunania
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

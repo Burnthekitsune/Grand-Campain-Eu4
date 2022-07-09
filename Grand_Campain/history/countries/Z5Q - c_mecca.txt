@@ -2,7 +2,8 @@ government = republic
 government_rank = 1
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture = al_suryah_arabic
+primary_culture =msir
+add_accepted_culture = al_suryah_arabic
 capital = 385
 fixed_capital = 385
 1444.11.11= {
@@ -14,7 +15,7 @@ fixed_capital = 385
 		mil = 5
 		birth_date = 1401.7.3
 		religion = converted_dynamic_faith_102
-		culture = al_suryah_arabic
+		culture = msir
 	}
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = zealot_personality
@@ -29,7 +30,7 @@ fixed_capital = 385
 		death_date = 1467.7.11
 		female = yes
 		religion = converted_dynamic_faith_102
-		culture = faykinghian
+		culture = msir
 	}
 	add_queen_personality = well_connected_personality
 	add_queen_personality = zealot_personality
