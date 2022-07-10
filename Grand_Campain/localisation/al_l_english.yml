@@ -972,3 +972,11 @@
  # CB
  cb_nur_sword_of_islam:0 "Sword of Islam"
  cb_nur_sword_of_islam_desc:0 "These heathens have wandered far from the path of Allah. We will show them the way."
+ 
+ # Decsion
+ proclaim_caliphate:0 "Proclaim Caliphate"
+ proclaim_caliphate_desc:0 "We are the rightful caliph of the Nuras Faith, it is time we assert our authority."
+ 
+ # Opinion
+ caliph_to_caliph:0 "Rival Caliphate"
+ normal_to_caliph:0 "Caliphate"

@@ -1,0 +1,74 @@
+country_decisions = {
+	
+	proclaim_caliphate = {
+		major = yes
+		
+		potential = {
+			NOT = {
+				has_country_flag = caliph
+				has_country_flag = caliph_lost
+			}
+			religion = converted_dynamic_faith_102
+			is_subject = no
+		}
+		
+		allow = {
+			OR = {
+			government_rank = 3
+				AND = {
+					owns_core_province = 225
+					owns_core_province = 343
+					government_rank = 2
+				}
+				AND = {
+					government_rank = 2
+					owns_core_province = 385
+					owns_core_province = 384
+					owns_core_province = 379
+				}
+			}
+			OR = {
+				dynasty = "Haesteining"
+				total_development = 600
+			}
+		}
+		
+		effect = {
+			set_country_flag = caliph
+			add_country_modifier = { 
+				name = nur_caliph
+				duration = -1
+			}
+			every_country = {
+				limit = {
+					has_country_flag = caliph
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = caliph_to_caliph
+				}
+				reverse_add_opinion = {
+					who = ROOT
+					modifier = caliph_to_caliph
+				}
+				reverse_remove_opinion = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_country_flag = caliph
+					}
+					religion = converted_dynamic_faith_102
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
+			}
+		}
+	}
+	
+}

@@ -224,13 +224,44 @@ shamal_france = {
 		}
 		effect = {
 			if = {
+				limit = {
 				NOT = {
 					has_country_flag = caliph_lost
+				}
 				}
 				set_country_flag = caliph
 				add_country_modifier = { 
 					name = nur_caliph
 					duration = -1
+				}
+				every_country = {
+				limit = {
+					has_country_flag = caliph
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = caliph_to_caliph
+				}
+				reverse_add_opinion = {
+					who = ROOT
+					modifier = caliph_to_caliph
+				}
+				reverse_remove_opinion = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
+				}
+				every_country = {
+				limit = {
+					NOT = {
+						has_country_flag = caliph
+					}
+					religion = converted_dynamic_faith_102
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
 				}
 			}
 			low_countries_region = {
