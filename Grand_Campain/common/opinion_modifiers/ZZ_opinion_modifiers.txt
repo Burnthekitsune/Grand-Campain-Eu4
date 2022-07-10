@@ -3,5 +3,5 @@ normal_to_caliph = {
 }
 
 caliph_to_caliph = {
-	opinion = -100
+	opinion = -200
 }
