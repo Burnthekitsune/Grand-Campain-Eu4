@@ -85,6 +85,7 @@
  zun_pagan_rebels_demand: "Convert $COUNTRYNAME$"
  zun_pagan_reformed_rebels_demand: "Convert $COUNTRYNAME$"
  zurvanism_rebels_demand: "Convert $COUNTRYNAME$"
+ convert_rebels_demand: "Convert $COUNTRYNAME$"
 # Rebels' demand desc
  adamites_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  alawite_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
@@ -169,6 +170,7 @@
  zun_pagan_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  zun_pagan_reformed_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
  zurvanism_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ convert_rebels_demand_desc: "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
 # Rebels' title
  adamites_rebels_title: "Religious"
  alawite_rebels_title: "Religious"
