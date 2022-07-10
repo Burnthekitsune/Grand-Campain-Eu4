@@ -1,0 +1,152 @@
+namespace = nur_caliph
+
+country_event = { # Remove Caliph
+	id = nur_caliph.1
+	title = nur_caliph.1.t
+	desc = nur_caliph.1.d
+	picture = CULTURE_eventPicture
+	
+	trigger = {
+		has_country_flag = caliph
+		OR = {
+			NOT = {
+				total_development = 200
+			}
+			NOT = {
+				religion = converted_dynamic_faith_102
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = nur_caliph.1.a
+		remove_country_modifier = nur_caliph
+		clr_country_flag = caliph
+		set_country_flag = caliph_lost
+		every_owned_province = {
+			limit = {
+				religion = converted_dynamic_faith_102
+			}
+			add_unrest = 10
+		}
+		every_country = {
+			limit = {
+				has_country_flag = caliph
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = caliph_to_caliph
+			}
+			reverse_remove_opinion = {
+				who = ROOT
+				modifier = caliph_to_caliph
+			}
+		}
+		every_country = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = normal_to_caliph
+			}
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = { # Add caliph opinion
+	id = nur_caliph.2
+	title = nur_caliph.2.t
+	desc = nur_caliph.2.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		has_country_flag = caliph
+		any_country = {
+			religion = converted_dynamic_faith_102
+			NOT = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
+				has_country_flag = caliph
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = nur_caliph.2.a
+		every_country = {
+			limit = {
+				NOT = {
+					has_country_flag = caliph
+				}
+				religion = converted_dynamic_faith_102
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = normal_to_caliph
+			}
+		}
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = { # Remove caliph opinion
+	id = nur_caliph.3
+	title = nur_caliph.3.t
+	desc = nur_caliph.3.d
+	picture = CULTURE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		any_country = {
+			NOT = {
+				religion = converted_dynamic_faith_102
+			}
+			has_opinion_modifier = {
+				who = ROOT
+				modifier = normal_to_caliph
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = nur_caliph.3.a
+		every_country = {
+			limit = {
+				NOT = {
+					religion = converted_dynamic_faith_102
+				}
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = normal_to_caliph
+				}
+			}
+			remove_opinion = {
+				who = ROOT
+				modifier = normal_to_caliph
+			}
+		}
+		ai_chance = { factor = 25 }
+	}
+}
