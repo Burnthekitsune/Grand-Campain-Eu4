@@ -1519,7 +1519,6 @@ cb_nur_sword_of_islam = {
 	valid_for_subject = no
 
 	prerequisites = {
-		mission_completed = al_convert
 		religion = converted_dynamic_faith_102
 		has_country_flag = caliph
 		dip_tech = 23
