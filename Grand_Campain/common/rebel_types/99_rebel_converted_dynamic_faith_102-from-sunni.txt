@@ -133,7 +133,10 @@ converted_dynamic_faith_102_rebels = {
 	}
 
 	can_negotiate_trigger = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			dominant_religion = converted_dynamic_faith_102
+		}
 	}
 
 	can_enforce_trigger = {
@@ -144,7 +147,12 @@ converted_dynamic_faith_102_rebels = {
 
 	demands_enforced_effect = {
 		if = {
-			limit = { NOT = { religion_group = muslim } }
+			limit = {
+				NOT = {
+					religion_group = muslim
+					dominant_religion = converted_dynamic_faith_102
+				}
+			}
 			add_prestige = -50
 			every_owned_province = {
 				limit = { has_rebel_faction = REB }
@@ -164,7 +172,7 @@ converted_dynamic_faith_102_rebels = {
 		}
 		if = {
 			limit = {
-				religion_group = muslim
+				dominant_religion = converted_dynamic_faith_102
 				NOT = { religion = converted_dynamic_faith_102 }
 			}
 			change_religion = converted_dynamic_faith_102
