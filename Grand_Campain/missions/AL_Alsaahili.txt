@@ -35,6 +35,7 @@ Als_Start = {
 		}
 		trigger = {
 			owns_core_province = 343
+			total_development = 200
 		}
 		effect = {
 			if = {

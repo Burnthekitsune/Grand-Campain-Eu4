@@ -980,3 +980,8 @@
  # Opinion
  caliph_to_caliph:0 "Rival Caliphate"
  normal_to_caliph:0 "Caliphate"
+ 
+ # Events
+ nur_caliph.1.t: "Caliphate Lost"
+ nur_caliph.1.d: "We can no longer claim to be a Caliph of Nurasism."
+ nur_caliph.1.a: "Unfortunate"

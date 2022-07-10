@@ -28,7 +28,10 @@ country_decisions = {
 				}
 			}
 			OR = {
-				dynasty = "Haesteining"
+				AND = {
+					dynasty = "Haesteining"
+					total_development = 200
+				}
 				total_development = 600
 			}
 		}

@@ -221,6 +221,7 @@ shamal_france = {
 		required_missions = { a_new_empire }
 		trigger = {
 			religious_unity = 0.99
+			total_development = 200
 		}
 		effect = {
 			if = {

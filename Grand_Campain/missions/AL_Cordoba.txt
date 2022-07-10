@@ -374,6 +374,7 @@ Caliphate = {
 		position = 5
 		required_missions = { take_fez }
 		trigger = {
+			total_development = 200
 			OR = {
 				legitimacy = 100
 				has_country_flag = caliph_lost
