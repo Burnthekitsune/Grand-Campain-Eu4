@@ -133,7 +133,10 @@ converted_dynamic_faith_106_rebels = {
 	}
 
 	can_negotiate_trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			dominant_religion = converted_dynamic_faith_106
+		}
 	}
 
 	can_enforce_trigger = {
@@ -143,6 +146,17 @@ converted_dynamic_faith_106_rebels = {
 	demands_description = "generic_rebels_demand"
 
 	demands_enforced_effect = {
+		if = {
+			limit = {
+				OR = {
+					religion_group = pagan
+					dominant_religion = converted_dynamic_faith_106
+				}
+				NOT = { religion = converted_dynamic_faith_106 }
+			}
+			change_religion = converted_dynamic_faith_106
+			force_converted = yes
+		}
 		if = {
 			limit = { NOT = { religion_group = pagan } }
 			add_prestige = -50
@@ -162,13 +176,6 @@ converted_dynamic_faith_106_rebels = {
 				duration = 3650
 			}
 		}
-		if = {
-			limit = {
-				religion_group = pagan
-				NOT = { religion = converted_dynamic_faith_106 }
-			}
-			change_religion = converted_dynamic_faith_106
-			force_converted = yes
-		}
+		
 	}
 }
