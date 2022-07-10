@@ -1,9 +1,10 @@
 government = republic
+add_government_reform = oligarchy_reform
 government_rank = 1
 technology_group = muslim
 religion = converted_dynamic_faith_102
-primary_culture =msir
-add_accepted_culture = al_suryah_arabic
+primary_culture = msir
+add_accepted_culture = dynamic-bedouin_arabic-culture-num2
 capital = 385
 fixed_capital = 385
 1444.11.11= {
