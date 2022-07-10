@@ -49,6 +49,7 @@ province_event = {
 		province_id = 4702
 		owner = {
 			tag = Z0L
+			ai = yes
 		}
 	}
 	
