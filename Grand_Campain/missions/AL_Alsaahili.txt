@@ -96,7 +96,7 @@ Als_Start = {
 	als_claim_egypt = {
 		icon = mission_egyptian_mamluk_soldier
 		position = 5
-		required_missions = { als_ruler_of_janub proclaim_empire als_fezzan }
+		required_missions = { als_ruler_of_janub als_proclaim_empire als_fezzan }
 		trigger = {
 			always = yes
 		}
@@ -302,10 +302,9 @@ Als_east = {
 		effect = {
 			every_owned_province = {
 			limit = {
-				maghreb_region = {
+				region = maghreb_region
 			}
 			change_religion = converted_dynamic_faith_102
-			}
 			}
 		}
 	}
@@ -411,4 +410,3 @@ Als_west = {
 		}
 	}
 }
-
