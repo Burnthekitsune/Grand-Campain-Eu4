@@ -106,3 +106,56 @@ country_event = {
 		ai_chance = { factor = 25 }
 	}
 }
+
+country_event = {
+	id = brute_force.3
+	title = brute_force.3.t
+	desc = brute_force.3.d
+	picture = DEFENESTRATION_PRAGUE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		NOT = {
+			religion_group = christian 
+		}
+		is_part_of_hre = yes 
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = brute_force.3.a
+		set_in_empire = no
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = brute_force.4
+	title = brute_force.4.t
+	desc = brute_force.4.d
+	picture = DEFENESTRATION_PRAGUE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		religion_group = christian 
+		is_part_of_hre = no
+		capital_scope = {
+			continent = europe 
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = brute_force.4.a
+		set_in_empire = yes
+		ai_chance = { factor = 25 }
+	}
+}
