@@ -93,7 +93,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		ai = yes
+		is_emperor = yes 
 	}
 	
 	mean_time_to_happen = {
@@ -103,6 +103,7 @@ country_event = {
 	option = {
 		name = brute_force.2.a
 		set_hre_religion_treaty = yes
+		add_imperial_influence = 100 # One time Boost
 		ai_chance = { factor = 25 }
 	}
 }
