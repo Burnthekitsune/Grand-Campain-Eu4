@@ -23,3 +23,16 @@ AL_Birtani_Subject = {
 	
 	diplomatic_upkeep = 1
 }
+
+AL_Faransan_Subjugation = {
+	potential = {
+		tag = FRA
+		is_subject = yes
+	}
+	
+	trigger = {
+		is_subject_of = ASE
+	}
+	
+	liberty_desire = -100
+}

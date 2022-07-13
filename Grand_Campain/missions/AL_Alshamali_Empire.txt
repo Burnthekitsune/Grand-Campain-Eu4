@@ -292,7 +292,7 @@ ASE_Unite_Empire = {
 			}
 		}
 	}
-	SML_Janub = {
+	ASE_Janub = {
 		icon = mission_monarch_in_throne_room
 		position = 8
 		required_missions = {  }
@@ -520,6 +520,7 @@ ASE_France = {
 					area = picardy_area
 					area = lorraine_area
 					area = west_burgundy_area
+					area = bourgogne_area
 					area = normandy_area
 				}
 				}
@@ -912,10 +913,10 @@ ASE_India = {
 			has_discovered = 1340
 		}
 		effect = {
-			lanka_area = {
+			south_lanka_area = {
 			add_permanent_claim = ROOT
 			}
-			north_lanka_area = {
+			lanka_area = {
 			add_permanent_claim = ROOT
 			}
 			1248 = {
@@ -1238,7 +1239,7 @@ ASE_Japan_and_Korea = {
 			value = 10
 			OR = {
 			region = korea_region
-			region = japan
+			region = japan_region
 			}
 			}
 		}
