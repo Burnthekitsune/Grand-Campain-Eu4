@@ -29,26 +29,26 @@ historical_units = {
 	western_men_at_arms
 }
 monarch_names = {
-	"Bagge #1" = 10
-	"Biejan #1" = 10
-	"Elisabet #1" = -1
-	"Grim #0" = 0
-	"Gunnhildr #1" = -1
-	"Guðfríðr #1" = 10
-	"Guðmundr #1" = 10
-	"Henrik #0" = 0
-	"Hrafn #1" = 10
-	"Ingiríðr #0" = -1
-	"Ingjerðr #0" = -1
-	"Kolbjörn #0" = 0
-	"Najib #0" = 0
-	"Skjaldvör #1" = -1
-	"Styrbjörn #1" = 10
-	"Thomas #0" = 0
-	"Tuul #0" = 0
-	"Tuure #1" = 10
+	"Harald #0" = 10
+	"Eirik #0" = 10
+	"Olav #0" = 10
+	"Knut #0" = 5
+	"Svein #0" = 5
+	"Sigurd #0" = 5
+	"Sverre #0" = 5
+	"Hans #0" = 5
+	"Guttorm #0" = 1
+	"Inge #0" = 1
+	"Erling #0" = 1
+	"Karl #0" = 1
+
+	"Margrete #0" = -10
+	"Elisabet #1" = -10
+	"Ingveig #0" = -10
+	"Else #0" = -5
 }
 leader_names = {
+	"Hede"
 	"Amundsen"
 	"Arnesson"
 	"Bjelke"
