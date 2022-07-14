@@ -383,9 +383,11 @@ Z_West = {
 		}
 		effect = { 
 			add_years_of_income = 4
-			add_base_tax = 2
-			add_base_production = 2
-			add_base_manpower = 2
+			capital_scope = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
 			add_country_modifier = { 
 			    name = z_horizon
 			    duration = -1
@@ -548,9 +550,11 @@ Z_Kingdom = {
 			    duration = -1
 			}
 			add_years_of_income = 4
-			add_base_tax = 3
-			add_base_production = 4
-			add_base_manpower = 3
+			capital_scope = {
+				add_base_tax = 3
+				add_base_production = 4
+				add_base_manpower = 3
+			}
 		}
 	}
 }
