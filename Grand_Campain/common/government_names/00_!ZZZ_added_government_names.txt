@@ -160,3 +160,52 @@ fara = {
 		government = monarchy
 	}
 }
+muraa_monarchy = {
+	rank = {
+		1 = IKSIIDATE
+		2 = SHADOM
+		3 = MIATATE
+	}
+
+	ruler_male = {
+		1 = IKSIID
+		2 = SHA
+		3 = MIAT
+	}
+
+	ruler_female = {
+		1 = IKSIID
+		2 = BANBISHN
+		3 = MIA
+	}
+
+	heir_male = {
+		1 = CHANYU
+		2 = CHANYUKAI
+		3 = CELEBI
+	}
+
+	heir_female = {
+		1 = TEISTI
+		2 = TEISTI
+		3 = MIRMIRA
+	}
+
+	consort_male  = {
+		1 = SIDI
+		2 = SIDI
+		3 = SMSIDI
+	}
+	consort_female = {
+		1 = LALLA
+		2 = LALLA
+		3 = LALLA
+	}
+	trigger = {
+		religion = converted_dynamic_faith_106
+		OR = {
+			tag = MUR
+			tag = ALB
+		}
+	}
+}
