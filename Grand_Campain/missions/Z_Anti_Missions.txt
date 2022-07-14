@@ -188,16 +188,19 @@ Z_East = {
 		required_missions = { ZA_Proclaim_Kingdom }
 		trigger = {
 			OR = {
-			ROOT = {
-			is_enemy = EGY
+				ROOT = {
+					is_enemy = EGY
+				}
+				ROOT = {
+					has_won_war_against = {
+						who = EGY
+						max_years_since = 20
+					}
+				}
+				EGY = {
+					exists = no
+				}
 			}
-			ROOT = {
-			has_won_war_against = {
-				who = EGY
-				max_years_since = 20
-			}
-			}
-		}
 		}
 		effect = {
 			cyrenaica_area = {
