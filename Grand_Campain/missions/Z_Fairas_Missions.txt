@@ -172,7 +172,9 @@ Coups = {
 				name = zf_burger
 				duration = 7300
 			}
-			remove_heir = yes
+			kill_heir = {
+				allow_new_heir = no
+			}
 			define_heir = {
 				male = yes
 				age = 18
@@ -180,9 +182,9 @@ Coups = {
 				name = "Apostolos"
 				claim = 100
 				no_consort_with_heir = yes
-				adm = 2
-				mil = 2
-				dip = 2
+				adm = 3
+				mil = 3
+				dip = 3
 			}
 		}
 	}
@@ -242,7 +244,9 @@ Coups = {
 			}
 		}
 		effect = {
-			remove_heir = yes
+			kill_heir = {
+				allow_new_heir = no
+			}
 			kill_ruler = yes
 			define_ruler = {
 				name = "Surt"
