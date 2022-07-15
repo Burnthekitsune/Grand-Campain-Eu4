@@ -124,7 +124,7 @@ Coups = {
 			}
 		}
 		effect = {
-			army_tradition = 40
+			add_army_tradition = 40
 		}
 	}
 	Pathway = {
