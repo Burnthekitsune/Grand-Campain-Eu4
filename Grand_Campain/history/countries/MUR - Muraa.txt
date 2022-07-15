@@ -3,6 +3,6 @@ add_government_reform = autocracy_reform
 government_rank = 3
 technology_group = eastern
 religion = converted_dynamic_faith_106
-primary_culture = dynamic-greek-culture-num4
+primary_culture = muraa
 capital = 1754 #Murom
 fixed_capital = 1754 #Murom

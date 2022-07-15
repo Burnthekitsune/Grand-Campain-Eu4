@@ -148,8 +148,8 @@ Coups = {
 			}
 			NOT = {
 			estate_influence = {
-			estate = estate_church
-			influence = 80
+			estate = estate_burghers
+			influence = 30
 			}
 			}
 		}
@@ -173,10 +173,21 @@ Coups = {
 		trigger = {
 			development_in_provinces = {
 				value = 60
-				region = suzdal_area
+				area = suzdal_area
 			}
 		}
-		effect = { }
+		effect = {
+			change_tag = MUR
+			change_primary_culture = muraa
+			add_accepted_culture = dynamic-greek-culture-num4
+			1754 = {
+				change_culture = muraa
+			}
+			set_government_rank = 3
+			ural_region = {
+				add_permanent_claim = MUR
+			}
+		}
 	}
 }
 
