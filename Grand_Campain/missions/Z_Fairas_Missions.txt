@@ -18,7 +18,7 @@ HRE = {
 		effect = {
 			add_army_tradition = 10
 			add_yearly_manpower = 2
-			dalmatia_area = {
+			east_adriatic_coast_area = {
 				add_permanent_claim = ALB
 			}
 			croatia_area = {
@@ -142,7 +142,7 @@ Coups = {
 			}
 		}
 		effect = {
-			moldova_area = {
+			moldavia_area = {
 				add_permanent_claim = ALB
 			}
 			yedisan_area = {
