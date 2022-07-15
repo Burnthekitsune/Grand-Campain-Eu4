@@ -41,7 +41,11 @@ HRE = {
 		trigger = {
 			owns_all_provinces = {
 			area = croatia_area
+			}
+			owns_all_provinces = {
 			area = serbia_area
+			}
+			owns_all_provinces = {
 			area = wallachia_area
 			}
 		}
@@ -76,8 +80,14 @@ Coups = {
 		trigger = {
 			owns_all_provinces = {
 			area = thrace_area
+			}
+			owns_all_provinces = {
 			area = bulgaria_area
+			}
+			owns_all_provinces = {
 			area = serbia_area
+			}
+			owns_all_provinces = {
 			area =  bosnia_area
 			}
 		}
@@ -88,9 +98,11 @@ Coups = {
 		position = 2
 		required_missions = { Contention }
 		trigger = {
-			owns_all_provinces = {
 			OR = {
+			owns_all_provinces = {
 			area = silistria_area
+			}
+			owns_all_provinces = {
 			area = wallachia_area
 			}
 			}
@@ -148,7 +160,7 @@ Coups = {
 		position = 6
 		required_missions = { Countercoup }
 		trigger = {
-			owns_or_non_sovereign_subject_of = 321
+			owns_or_non_sovereign_subject_of = 1754
 			stability = 3
 			adm_tech = 18
 		}
