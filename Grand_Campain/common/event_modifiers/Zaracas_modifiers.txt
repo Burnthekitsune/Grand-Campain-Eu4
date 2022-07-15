@@ -65,3 +65,21 @@ silla_court_shadow = {
 	legitimacy = 0.5
 	prestige = -0.5
 }
+
+zf_confraternity = {
+	trade_efficiency = 0.1
+	manpower_recovery_speed = 0.10
+	diplomatic_reputation = 2
+}
+
+zf_scour = {
+	navy_tradition_decay = -0.01
+	galley_power = 0.2
+	global_ship_trade_power = 0.1
+	ship_power_propagation = 0.1
+}
+
+zf_burger = {
+	global_trade_goods_size_modifier = 0.2
+	trade_efficiency = 0.1
+}

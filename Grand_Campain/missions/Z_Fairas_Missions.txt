@@ -15,7 +15,16 @@ HRE = {
 			army_size_percentage = 1
 			manpower_percentage = 0.6
 		}
-		effect = { }
+		effect = {
+			add_army_tradition = 10
+			add_yearly_manpower = 2
+			dalmatia_area = {
+				add_permanent_claim = ALB
+			}
+			croatia_area = {
+				add_permanent_claim = ALB
+			}
+		}
 	}
 	Confraternety = {
 		icon = mission_build_up_to_force_limit
@@ -32,7 +41,12 @@ HRE = {
 			amount = 3
 			}
 		}
-		effect = { }
+		effect = {
+			add_country_modifier = {
+				name = zf_confraternity
+				duration = 7300
+			}
+		}
 	}
 	Morass = {
 		icon = mission_build_up_to_force_limit
@@ -49,7 +63,23 @@ HRE = {
 			area = wallachia_area
 			}
 		}
-		effect = { }
+		effect = {
+		slavonia_area = {
+				add_permanent_claim = ALB
+			}
+		transdanubia_area = {
+				add_permanent_claim = ALB
+			}
+		alfold_area = {
+				add_permanent_claim = ALB
+			}
+		transylvania_area = {
+				add_permanent_claim = ALB
+			}
+		southern_transylvania_area = {
+				add_permanent_claim = ALB
+			}
+		}
 	}
 	Gordian = {
 		icon = mission_build_up_to_force_limit
@@ -60,7 +90,9 @@ HRE = {
 			area = moravia_area
 			}
 		}
-		effect = { }
+		effect = {
+		add_stability = 2
+		}
 	}
 }
 
@@ -208,7 +240,15 @@ Navy = {
 		trigger = {
 			has_flagship = yes
 		}
-		effect = { }
+		effect = {
+			321 = {
+				add_permanent_claim = ALB
+			}
+			163 = {
+				add_permanent_claim = ALB
+			}
+			add_navy_tradition = 30
+		}
 	}
 	Amass = {
 		icon = mission_build_up_to_force_limit
@@ -218,7 +258,12 @@ Navy = {
 			navy_size_percentage = 1
 			navy_tradition = 20
 		}
-		effect = { }
+		effect = {
+			add_navy_tradition = 10
+			aegean_archipelago_area = {
+				add_permanent_claim = ALB
+			}
+		}
 	}
 	Delta = {
 		icon = mission_build_up_to_force_limit
@@ -237,7 +282,12 @@ Navy = {
 			}
 			}
 		}
-		effect = { }
+		effect = {
+			add_country_modifier = {
+				name = zf_scour
+				duration = 7300
+			}
+		}
 	}
 	Scourge = {
 		icon = mission_build_up_to_force_limit
@@ -248,7 +298,11 @@ Navy = {
 			owns_or_non_sovereign_subject_of = 163
 			num_of_heavy_ship = 10
 		}
-		effect = { }
+		effect = {
+			add_navy_tradition = 10
+			add_legitimacy = 10
+			add_prestige = 20
+		}
 	}
 }
 
