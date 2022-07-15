@@ -124,7 +124,7 @@ Coups = {
 			}
 		}
 		effect = {
-			add_army_tradition = 40
+			army_tradition = 40
 		}
 	}
 	Pathway = {
@@ -171,9 +171,6 @@ Coups = {
 			add_country_modifier = {
 				name = zf_burger
 				duration = 7300
-			}
-			kill_heir = {
-				allow_new_heir = no
 			}
 			define_heir = {
 				male = yes
@@ -247,7 +244,6 @@ Coups = {
 			kill_heir = {
 				allow_new_heir = no
 			}
-			kill_ruler = yes
 			define_ruler = {
 				name = "Surt"
 				dynasty = "Asha"
