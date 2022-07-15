@@ -1,0 +1,358 @@
+HRE = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = ALB
+	}
+	has_country_shield = yes
+
+	Dissolution = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			army_size_percentage = 1
+			manpower_percentage = 0.6
+		}
+		effect = { }
+	}
+	Confraternety = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { Dissolution }
+		trigger = {
+			calc_true_if = {
+			all_ally = {
+			OR = {
+			religion = converted_dynamic_faith_106
+			religion = converted_dynamic_faith_103
+			}
+			}
+			amount = 3
+			}
+		}
+		effect = { }
+	}
+	Morass = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { Merchants }
+		trigger = {
+			owns_all_provinces = {
+			area = croatia_area
+			area = serbia_area
+			area = wallachia_area
+			}
+		}
+		effect = { }
+	}
+	Gordian = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { Morass }
+		trigger = {
+			owns_all_provinces = {
+			area = moravia_area
+			}
+		}
+		effect = { }
+	}
+}
+
+Coups = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = ALB
+	}
+	has_country_shield = yes
+
+	Contention = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			owns_all_provinces = {
+			area = thrace_area
+			area = bulgaria_area
+			area = serbia_area
+			area =  bosnia_area
+			}
+		}
+		effect = { }
+	}
+	Pathway = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { Contention }
+		trigger = {
+			owns_all_provinces = {
+			OR = {
+			area = silistria_area
+			area = wallachia_area
+			}
+			}
+		}
+		effect = { }
+	}
+	Merchants = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { Confraternety Pathway }
+		trigger = {
+			estate_influence = {
+			estate = estate_burghers
+			influence = 50
+			}
+			OR = {
+			has_heir = no
+			heir_has_ruler_dynasty = yes
+			}
+		}
+		effect = { }
+	}
+	Homeland = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { Merchants }
+		trigger = {
+			owns_all_provinces = {
+			area = albania_area
+			}
+			num_of_war_reparations = 3
+			power_projection = 70
+		}
+		effect = { }
+	}
+	Countercoup = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { Homeland }
+		trigger = {
+			owns_all_provinces = {
+			area = sloboda_ukraine_area
+			}
+			NOT = {
+			estate_influence = {
+			estate = estate_church
+			influence = 80
+			}
+			}
+		}
+		effect = { }
+	}
+	Newhome = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { Countercoup }
+		trigger = {
+			owns_or_non_sovereign_subject_of = 321
+			stability = 3
+			adm_tech = 18
+		}
+		effect = { }
+	}
+	Miatate = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { Newhome }
+		trigger = {
+			development_in_provinces = {
+				value = 60
+				region = suzdal_area
+			}
+		}
+		effect = { }
+	}
+}
+
+Navy = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = ALB
+	}
+	has_country_shield = yes
+
+	Flagship = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			has_flagship = yes
+		}
+		effect = { }
+	}
+	Amass = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { Flagship }
+		trigger = {
+			navy_size_percentage = 1
+			navy_tradition = 20
+		}
+		effect = { }
+	}
+	Delta = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { Amass }
+		trigger = {
+			OR = {
+			ROOT = {
+			has_won_war_against = {
+			who = EHY
+			max_years_since = 20
+			}
+			}
+			EGY = {
+			exists = no
+			}
+			}
+		}
+		effect = { }
+	}
+	Scourge = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { Delta Merchants }
+		trigger = {
+			owns_or_non_sovereign_subject_of = 321
+			owns_or_non_sovereign_subject_of = 163
+			num_of_heavy_ship = 10
+		}
+		effect = { }
+	}
+}
+
+The_Past = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = ALB
+	}
+
+	Z_Glorious_Past = {
+		icon = mission_alliances
+		position = 1
+		required_missions = {  }
+		trigger = {
+			prestige = 50
+		}
+		effect = {
+			define_advisor = {
+			    type = philosopher
+			    name = "Skaaruhan Alexander Agapimeni tou Roog"
+			    skill = 3
+			    culture = dynamic-greek-culture-num4
+			    religion = converted_dynamic_faith_103
+				cost_multiplier = 0.50
+			}
+			add_country_modifier = { 
+			    name = our_glorious_past
+			    duration = 3600  
+			}
+		}
+	}
+	Z_Glorious_Future = {
+		icon = mission_assemble_an_army
+		position = 4
+		required_missions = { Z_Glorious_Past }
+		trigger = {
+			workshop = 10
+			weapons = 1
+		}
+		effect = {
+			add_army_tradition = 10
+			add_country_modifier = { 
+			    name = our_glorious_future
+			    duration = 3600
+			}
+		}
+	}
+}
+
+Silla = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = ALB
+	}
+
+	Z_Levy = {
+		icon = mission_guilds_of_barcelona
+		position = 1
+		required_missions = {  }
+		trigger = {
+			barracks = 5
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = z_levy
+			    duration = 8900
+			}
+		}
+	}
+	Z_Means = {
+		icon = mission_african_gold
+		position = 3
+		required_missions = { Z_Levy }
+		trigger = {
+			num_of_war_reparations = 4
+			share_of_starting_income = 3
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = z_means
+			    duration = 8900
+			}
+		}
+	}
+	Z_Empire = {
+		icon = mission_rb_mediterranean_authority
+		position = 5
+		required_missions = { Z_Means }
+		trigger = {
+			total_development = 500
+			training_fields = 10
+			regimental_camp = 5
+		}
+		effect = {
+			add_country_modifier = { 
+			    name = zz_empire
+			    duration = 3600  
+			}
+		}
+	}
+	Z_Ends = {
+		icon = mission_dhr_metropolis_of_the_deccan
+		position = 8
+		required_missions = { Z_Empire }
+		trigger = {
+			owns_or_non_sovereign_subject_of = 353
+			OR = {
+			owns_or_non_sovereign_subject_of = 2453
+			owns_or_non_sovereign_subject_of = 4175
+			}
+			OR = {
+			owns_or_non_sovereign_subject_of = 2451
+			owns_or_non_sovereign_subject_of = 286
+			}
+			OR = {
+			owns_or_non_sovereign_subject_of = 1115
+			owns_or_non_sovereign_subject_of = 347
+			}
+		}
+		effect = {
+			country_event = {
+			id = zaracas_empire.1
+			}
+			set_government_rank = 3
+		}
+	}
+}
