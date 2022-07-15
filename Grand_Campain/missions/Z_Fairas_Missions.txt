@@ -123,7 +123,9 @@ Coups = {
 			area =  bosnia_area
 			}
 		}
-		effect = { }
+		effect = {
+			army_tradition = 40
+		}
 	}
 	Pathway = {
 		icon = mission_build_up_to_force_limit
@@ -139,7 +141,17 @@ Coups = {
 			}
 			}
 		}
-		effect = { }
+		effect = {
+			moldova_area = {
+				add_permanent_claim = ALB
+			}
+			yedisan_area = {
+				add_permanent_claim = ALB
+			}
+			crimea_area = {
+				add_permanent_claim = ALB
+			}
+		}
 	}
 	Merchants = {
 		icon = mission_build_up_to_force_limit
@@ -155,7 +167,24 @@ Coups = {
 			heir_has_ruler_dynasty = yes
 			}
 		}
-		effect = { }
+		effect = {
+			add_country_modifier = {
+				name = zf_burger
+				duration = 7300
+			}
+			remove_heir = yes
+			define_heir = {
+				male = yes
+				age = 18
+				dynasty = "Chrysos"
+				name = "Apostolos"
+				claim = 100
+				no_consort_with_heir = yes
+				adm = 2
+				mil = 2
+				dip = 2
+			}
+		}
 	}
 	Homeland = {
 		icon = mission_build_up_to_force_limit
@@ -168,7 +197,34 @@ Coups = {
 			num_of_war_reparations = 3
 			power_projection = 70
 		}
-		effect = { }
+		effect = {
+			albania_area = {
+				add_province_modifier = {
+					name = z_buildcost
+					duration = 18250
+				}
+			}
+			143 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			4174 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			4175 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			4750 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
 	}
 	Countercoup = {
 		icon = mission_build_up_to_force_limit
@@ -185,7 +241,23 @@ Coups = {
 			}
 			}
 		}
-		effect = { }
+		effect = {
+			remove_heir = yes
+			kill_ruler = yes
+			define_ruler = {
+				name = "Surt"
+				dynasty = "Asha"
+				min_age = 18
+				max_age = 30
+				culture = muraa
+				religion = ROOT
+				adm = 3
+				max_random_dip = 3
+				mil = 3
+				claim = 80
+			}
+			stability = 1
+		}
 	}
 	Newhome = {
 		icon = mission_build_up_to_force_limit
@@ -196,7 +268,29 @@ Coups = {
 			stability = 3
 			adm_tech = 18
 		}
-		effect = { }
+		effect = {
+			set_capital = 1754
+			1754 = {
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
+			}
+			ryazan_area = {
+				add_permanent_claim = ALB
+			}
+			samara_area = {
+				add_permanent_claim = ALB
+			}
+			vladimir_area = {
+				add_permanent_claim = ALB
+			}
+			yaroslavl_area = {
+				add_permanent_claim = ALB
+			}
+			galich_area = {
+				add_permanent_claim = ALB
+			}
+		}
 	}
 	Miatate = {
 		icon = mission_build_up_to_force_limit
@@ -220,6 +314,7 @@ Coups = {
 			ural_region = {
 				add_permanent_claim = MUR
 			}
+			set_ruler_culture = muraa
 		}
 	}
 }
