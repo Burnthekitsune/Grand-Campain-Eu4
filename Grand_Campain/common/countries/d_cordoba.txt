@@ -17,6 +17,7 @@ monarch_names = {
 	"Boso #0" = 0
 	"Buðli #1" = 10
 	"Böðvar #0" = 0
+	"Ragnarr #0" = 10
 	"Caracosa #0" = -1
 	"Carlo #0" = 0
 	"Constanza #0" = -1
